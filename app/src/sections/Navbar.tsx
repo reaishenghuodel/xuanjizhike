@@ -20,8 +20,8 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-gray-600 hover:text-primary transition-colors">核心功能</a>
-            <a href="#how-it-works" className="text-gray-600 hover:text-primary transition-colors">工作原理</a>
-            <a href="#dashboard" className="text-gray-600 hover:text-primary transition-colors">数据看板</a>
+            <a href="#ai-platform" className="text-gray-600 hover:text-primary transition-colors">AI平台</a>
+            <a href="#news" className="text-gray-600 hover:text-primary transition-colors">资讯中心</a>
             <a href="#pricing" className="text-gray-600 hover:text-primary transition-colors">价格方案</a>
             <a href="#about" className="text-gray-600 hover:text-primary transition-colors">关于我们</a>
             <a href="#contact" className="btn-primary text-sm !px-6 !py-2">联系我们</a>
@@ -47,8 +47,8 @@ export default function Navbar() {
           <div className="md:hidden py-4 border-t border-gray-100">
             <div className="flex flex-col space-y-4">
               <a href="#features" className="text-gray-600 hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>核心功能</a>
-              <a href="#how-it-works" className="text-gray-600 hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>工作原理</a>
-              <a href="#dashboard" className="text-gray-600 hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>数据看板</a>
+              <a href="#ai-platform" className="text-gray-600 hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>AI平台</a>
+              <a href="#news" className="text-gray-600 hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>资讯中心</a>
               <a href="#pricing" className="text-gray-600 hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>价格方案</a>
               <a href="#about" className="text-gray-600 hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>关于我们</a>
               <a href="#contact" className="btn-primary text-center text-sm">联系我们</a>
