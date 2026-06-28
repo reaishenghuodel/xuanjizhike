@@ -7,6 +7,7 @@ import AIPlatform from './sections/AIPlatform'
 import News from './sections/News'
 import About from './sections/About'
 import Footer from './sections/Footer'
+import WeChatService from './sections/WeChatService'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <News />
       <About />
       <Footer />
+      <WeChatService />
     </div>
   )
 }
