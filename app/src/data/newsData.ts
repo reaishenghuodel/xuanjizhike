@@ -13,6 +13,77 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 245,
+    title: 'DeepSeek V4 Pro正式版发布：Agent能力跃升，Terminal Bench评分逼近全球第一',
+    summary: 'DeepSeek于8月12日深夜正式发布V4-Pro-0813版本，重点强化Agent能力，Terminal Bench 2.1评分达87.9分，DeepSWE测试飙升至62.7分，支持100万Token上下文。',
+    content: `DeepSeek于2026年8月12日深夜正式发布V4-Pro-0813版本，这是继预览版后的首个正式版本。
+
+核心升级：
+1. Agent能力跃升：Terminal Bench 2.1评分达87.9分，距全球第一的Anthropic Fable 5仅差0.1分，较预览版72.1分跃升15.8分
+2. 软件工程能力突破：DeepSWE测试从预览版12.8分飙升至62.7分，接近原来的五倍
+3. 超长上下文：支持100万Token上下文长度，满足企业级复杂任务需求
+4. Responses功能：新增Responses API，支持更灵活的Agent交互模式
+5. 极致性价比：输出定价仅0.87美元/百万Token，进一步降低企业AI应用门槛
+
+GEO行业影响：
+- DeepSeek作为国内最大AI搜索入口之一，V4 Pro的Agent能力提升将改变品牌内容被AI理解和引用的方式
+- 企业需要针对DeepSeek V4 Pro的Agent检索逻辑优化内容结构
+- 100万Token上下文意味着AI可以处理更长的品牌知识库`,
+    category: 'industry',
+    source: 'DeepSeek官方 / 机器之心',
+    date: '2026-08-19',
+    tags: ['DeepSeek', 'AI搜索', 'Agent', '大模型'],
+    isTop: true,
+  },
+  {
+    id: 246,
+    title: '京东健康发布AI调度智能体"大为"，医疗AI Agent进入规模化落地阶段',
+    summary: '京东健康基于京医千询大模型推出AI调度智能体"大为"，Q1使用用户已超2025年全年，618服务用户同比增长近4倍。Google AMIE多智能体医疗系统同步引发关注。',
+    content: `2026年8月中旬，医疗AI Agent领域迎来多项重要进展。
+
+京东健康AI智能体"大为"：
+1. 基于京医千询大模型打造的AI调度智能体，可自动分诊、推荐科室、匹配医生
+2. 2026年Q1使用用户已超2025年全年总量，618期间服务用户同比增长近4倍
+3. AI减重活动上线一周报名达700万，展现AI健康服务的巨大需求
+4. 2026年上半年收入409亿元，同比增长15.9%，AI驱动的业务增长效应显著
+
+Google AMIE多智能体医疗系统：
+1. Google Research和DeepMind联合打造，基于Gemini模型和Project Astra技术
+2. 采用多智能体并行架构，全球首个实时视频问诊AI医疗对话系统
+3. 标志着AI Agent从文本交互向多模态实时交互的重大跃迁
+
+行业趋势：医疗AI Agent正从单一问诊向全流程智能化演进，涵盖分诊、诊断、用药建议、健康管理等环节。`,
+    category: 'industry',
+    source: '京东健康 / Google Research',
+    date: '2026-08-19',
+    tags: ['AI智能体', 'Agent', '医疗AI', '企业应用'],
+  },
+  {
+    id: 247,
+    title: '2026年8月GEO监测平台横评：ChatGPT份额下滑至53.7%，国产GEO工具加速崛起',
+    summary: 'Similarweb数据显示ChatGPT份额降至53.7%，Gemini升至26.7%，Claude升至近8%。易观分析显示国内GEO市场规模达30亿元，透镜GEO等国产监测平台加速成熟。',
+    content: `2026年8月，GEO监测与优化工具市场迎来新一轮竞争格局变化。
+
+AI搜索市场数据：
+1. ChatGPT网页端流量份额从77.6%下滑至53.7%，谷歌Gemini从7.3%飙升至26.7%
+2. Anthropic Claude从1.4%攀升至近8%，成为增长最快的AI搜索平台之一
+3. 我国已有868款生成式AI服务完成备案，530款应用完成登记
+
+GEO市场数据：
+1. 易观分析数据显示，2026年国内GEO市场规模达30亿元，较三年前增长35倍
+2. 超68%中大型企业已将GEO纳入年度核心营销预算
+3. 艾瑞咨询指出，实施GEO优化的企业AI搜索曝光量平均提升380%
+
+工具生态：
+1. 透镜GEO：由TIMUS.AI全栈自研，采用真实用户行为模拟引擎
+2. GEO监测工具从单一平台监控向全域覆盖演进
+3. 行业强调"监测-优化-治理"闭环机制`,
+    category: 'industry',
+    source: 'CSDN / Similarweb / 易观分析',
+    date: '2026-08-19',
+    tags: ['GEO', 'AI搜索', '监测工具', '市场报告'],
+  },
+  {
     id: 242,
     title: 'Google AI Overview推出品牌署名功能，GEO优化进入「可信源」时代',
     summary: 'Google宣布AI Overview搜索结果将支持品牌署名和来源标注功能，已进行GEO优化的品牌将获得优先展示和可信源标识。',
