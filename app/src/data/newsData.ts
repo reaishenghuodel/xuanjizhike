@@ -13,6 +13,57 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 248,
+    title: 'GEO优化成为企业AI营销新标配：生成式引擎优化技术深度解析',
+    summary: '随着AI搜索工具的普及，GEO生成式引擎优化正在重塑SEO行业。企业开始关注如何优化内容以获得AI搜索引擎的青睐，传统SEO向AI优化转型成为趋势。',
+    content: `GEO生成式引擎优化正在成为2026年数字营销领域的重要趋势。与传统SEO关注关键词排名不同，GEO专注于优化内容结构和信息密度，使其更容易被AI搜索引擎如Perplexity、Google AI Overview等引用和推荐。
+
+核心趋势：
+1. 内容权威性：GEO优化需要关注内容的权威性和信息完整性
+2. 结构化数据：企业网站需增加结构化数据标记
+3. 专业团队：越来越多企业建立专门的GEO优化团队
+4. 全域覆盖：优化策略需覆盖ChatGPT、Gemini、Claude、Perplexity等多个AI平台
+5. 效果量化：GEO优化效果评估体系逐步建立`,
+    category: 'industry',
+    source: '中国经营报',
+    date: '2026-08-20',
+    tags: ['GEO', 'AI搜索优化', 'SEO转型', '生成式引擎'],
+  },
+  {
+    id: 249,
+    title: 'Perplexity AI推出企业知识库产品：挑战传统企业搜索市场',
+    summary: 'Perplexity AI正式发布企业知识库解决方案，整合内部文档、数据库和API，提供统一的AI搜索界面。直指微软SharePoint、谷歌Workspace等传统企业搜索工具市场。',
+    content: `AI搜索公司Perplexity AI正式推出企业级知识库产品Perplexity Enterprise。
+
+产品特点：
+1. 统一搜索：将内部文档、数据库、API等多种数据源整合到一个AI搜索界面
+2. 意图理解：能够理解查询意图，综合多个数据源提供综合性答案
+3. 自然语言：员工可以通过自然语言查询快速获取所需信息
+4. 企业安全：支持企业级安全控制和权限管理
+5. 市场影响：直接挑战微软SharePoint、谷歌Workspace等传统工具，已有数十家财富1000强企业试用`,
+    category: 'industry',
+    source: 'TechCrunch',
+    date: '2026-08-20',
+    tags: ['Perplexity', '企业知识库', 'AI搜索', '企业应用'],
+  },
+  {
+    id: 250,
+    title: '微软Copilot智能体生态扩展：第三方开发者可创建定制化Agent',
+    summary: '微软宣布开放Copilot智能体开发框架，允许第三方开发者创建、发布和商业化定制化AI智能体，构建类似应用商店的智能体生态系统。',
+    content: `微软全面开放Copilot智能体开发框架。
+
+生态要点：
+1. 开放框架：允许第三方开发者创建、发布和商业化定制化AI智能体
+2. 应用商店：通过Copilot商店进行分发和销售
+3. 行业覆盖：首批上架智能体覆盖项目管理、客户服务、财务分析等领域
+4. 企业定制：企业用户可根据需求选择和定制专属智能体
+5. 生态效应：标志着Copilot从单一产品转变为开放的智能体生态系统`,
+    category: 'industry',
+    source: 'VentureBeat',
+    date: '2026-08-19',
+    tags: ['微软', 'Copilot', 'AI智能体', '开发者生态'],
+  },
+  {
     id: 245,
     title: 'DeepSeek V4 Pro正式版发布：Agent能力跃升，Terminal Bench评分逼近全球第一',
     summary: 'DeepSeek于8月12日深夜正式发布V4-Pro-0813版本，重点强化Agent能力，Terminal Bench 2.1评分达87.9分，DeepSWE测试飙升至62.7分，支持100万Token上下文。',
