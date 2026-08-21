@@ -13,6 +13,72 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 251,
+    title: 'Sensor Tower报告：ChatGPT全球市场份额跌破50%，AI搜索进入多强并存时代',
+    summary: 'Sensor Tower《2026年AI现状报告》显示ChatGPT市场份额降至46.4%，三年半来首次跌破50%。Gemini升至27.7%，Claude达10.3%，AI助手市场竞争格局发生根本性变化。',
+    content: `Sensor Tower于2026年6月发布《2026年AI现状报告》，揭示全球AI助手市场格局重大变化。
+
+核心数据：
+1. ChatGPT：市场份额46.4%，月活超11亿，仍是全球最受欢迎AI助手
+2. Google Gemini：27.7%，月活6.62亿，增长最快
+3. Anthropic Claude：10.3%，月活2.45亿，一年增长五倍
+4. 其他平台：Grok、Perplexity、DeepSeek、Meta AI各低于5%
+
+行业影响：
+- AI搜索流量从单一平台分散至多平台，品牌GEO优化策略需全面升级
+- 多平台并存格局下，企业AI可见度管理复杂度显著提升
+- Gemini凭借Google生态快速崛起，成为GEO优化不可忽视的平台`,
+    category: 'industry',
+    source: 'Sensor Tower / TechCrunch',
+    date: '2026-08-21',
+    tags: ['ChatGPT', 'Gemini', 'Claude', 'AI搜索', '市场份额', 'GEO'],
+  },
+  {
+    id: 252,
+    title: '2026年上半年GEO市场规模突破80亿元，超67%企业已纳入数字营销预算',
+    summary: '第三方行业监测数据显示，2026年上半年国内企业级GEO服务市场规模已突破80亿元，同比增长超210%，超67%的B2B企业已将GEO纳入年度数字营销预算。',
+    content: `据第三方行业监测机构数据，2026年上半年国内GEO服务市场呈现爆发式增长。
+
+核心数据：
+1. 市场规模：2026年上半年突破80亿元，同比增长超210%
+2. 企业渗透：超67%的B2B企业已将GEO纳入年度数字营销预算
+3. 服务商格局：头部服务商在技术系统、AI平台覆盖、效果验证方面形成竞争壁垒
+4. 技术升级：从简单的内容优化向全链路GEO解决方案演进
+5. 标准化进程：行业标准和效果评估体系逐步建立
+
+趋势判断：
+- GEO已从"可选"变为"必选"，成为企业数字获客核心基建
+- 技术驱动取代营销驱动，成为GEO赛道下一阶段竞争核心
+- 企业级GEO解决方案需求旺盛，专业服务商迎来发展机遇`,
+    category: 'industry',
+    source: '凤凰网科技',
+    date: '2026-08-21',
+    tags: ['GEO', '市场规模', '数字营销', 'AI搜索优化', '企业应用'],
+  },
+  {
+    id: 253,
+    title: 'Cloudflare Agents Week 2026发布智能体云平台全线产品，AI Agent基础设施加速标准化',
+    summary: 'Cloudflare在Agents Week 2026集中发布智能体计算、安全防护、工具箱、编排平台等全套产品，支持MCP和A2A协议，推动AI Agent从实验走向规模化部署。',
+    content: `Cloudflare于2026年4月举办Agents Week 2026，发布智能体云平台全线产品。
+
+核心发布：
+1. 智能体计算：专用计算环境，支持长时间运行和状态管理
+2. 安全防护：防prompt注入、权限控制、审计日志
+3. 工具箱：标准化工具调用接口，支持MCP/A2A协议
+4. 编排平台：多智能体协作、监控、调试工具链
+5. 智能体Web：面向AI Agent的新型Web交互范式
+
+企业应用价值：
+- 降低AI Agent部署门槛，从自建走向平台化
+- 标准化协议推动智能体互操作性
+- 企业可快速构建和部署专业领域AI Agent`,
+    category: 'industry',
+    source: 'Cloudflare Blog',
+    date: '2026-08-21',
+    tags: ['AI智能体', 'Cloudflare', 'Agent平台', 'MCP协议', '企业应用'],
+  },
+
+  {
     id: 248,
     title: 'GEO优化成为企业AI营销新标配：生成式引擎优化技术深度解析',
     summary: '随着AI搜索工具的普及，GEO生成式引擎优化正在重塑SEO行业。企业开始关注如何优化内容以获得AI搜索引擎的青睐，传统SEO向AI优化转型成为趋势。',
