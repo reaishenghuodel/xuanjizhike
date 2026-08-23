@@ -12,6 +12,72 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 257,
+    title: 'Search Engine Journal发布GEO优化15大策略权威指南，品牌需加速SEO向GEO转型',
+    summary: 'Search Engine Journal发布全面GEO优化指南，系统梳理15大生成式引擎优化策略。GEO已从学术概念演进为主流SEO实践，品牌需建立专门GEO优化能力。',
+    content: `Search Engine Journal发布GEO（生成式引擎优化）权威指南，系统梳理15大优化策略。
+
+核心要点：
+1. GEO定义：优化内容使其成为AI生成回答的首选引用源
+2. 权威写作：AI引擎偏好引用权威、结构化、有数据支撑的内容
+3. 统计数据：添加具体数据和统计信息可显著提升AI引用率
+4. 来源引用：引用可信来源和行业报告增强内容可信度
+5. 多平台覆盖：需同时优化ChatGPT、Perplexity、Gemini等多AI搜索平台
+
+行业趋势：
+- GEO从2024年学术论文演进为2026年主流SEO实践
+- Shopify等电商平台已提供GEO优化指南
+- 品牌方需建立专门GEO优化团队`,
+    category: 'industry',
+    source: 'Search Engine Journal',
+    date: '2026-08-23',
+    tags: ['GEO', '生成式引擎优化', 'AI搜索', 'SEO转型', '品牌优化'],
+  },
+  {
+    id: 258,
+    title: "ChatGPT Search成为Google有力竞争者，AI搜索引荐流量持续增长",
+    summary: "Barron's分析显示ChatGPT已成为特定搜索品类的合法Google替代方案。Similarweb数据显示AI搜索引荐流量持续增长，搜索市场格局正在发生根本性变化。",
+    content: `Barron's最新分析显示，ChatGPT Search已成为Google搜索的有力竞争者。
+
+市场变化：
+1. 搜索替代：ChatGPT在信息查询、产品研究等品类成为Google合法替代
+2. 流量转移：Similarweb数据显示AI搜索引荐流量持续增长
+3. 品牌机遇：品牌可通过GEO优化在ChatGPT回答中获得高曝光
+4. 电商短板：AI搜索在电商产品搜索方面仍存在明显不足
+5. 竞争格局：ChatGPT、Perplexity、Gemini形成AI搜索三强
+
+品牌行动建议：
+- 立即监测品牌在ChatGPT搜索结果中的出现情况
+- 针对ChatGPT的引用偏好优化品牌内容
+- 建立跨AI搜索平台的品牌可见度监测体系`,
+    category: 'industry',
+    source: "Barron's / Similarweb",
+    date: '2026-08-23',
+    tags: ['ChatGPT', 'Google', 'AI搜索', '搜索竞争', 'GEO'],
+  },
+  {
+    id: 259,
+    title: 'McKinsey报告：AI Agent是生成式AI下一个前沿，企业需提前布局智能体战略',
+    summary: 'McKinsey发布报告指出AI Agent具备自主规划、推理和任务执行能力，是超越聊天机器人的下一次重大进化。Salesforce Agentforce和Microsoft Copilot引领企业Agent部署。',
+    content: `McKinsey最新报告将AI Agent定位为生成式AI的下一个重大前沿。
+
+核心观点：
+1. 能力跃升：AI Agent超越聊天机器人，具备自主规划、推理和任务执行能力
+2. 企业价值：可应用于销售、客服、营销、运营等多个业务职能
+3. 部署策略：企业应从小规模试点开始，逐步扩展Agent应用场景
+4. 技术挑战：可靠性、安全性、与现有系统集成仍是主要障碍
+5. 市场前景：Agent-to-Agent通信和多Agent系统将成为下一波浪潮
+
+企业行动指南：
+- 评估业务流程中适合Agent自动化的环节
+- 选择合适的Agent平台
+- 建立Agent治理框架和安全合规机制`,
+    category: 'industry',
+    source: 'McKinsey & Company',
+    date: '2026-08-23',
+    tags: ['AI Agent', '智能体', 'McKinsey', '企业应用', 'Agent战略'],
+  },
+  {
     id: 254,
     title: 'Google AI Mode全球上线，GEO生成式引擎优化迎来历史性拐点',
     summary: 'Google于2026年8月正式向全球推出AI Mode搜索功能，将Gemini深度整合至搜索结果页。传统SEO向GEO转型加速，2026年全球GEO市场规模预计突破50亿美元。',
