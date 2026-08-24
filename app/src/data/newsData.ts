@@ -12,6 +12,74 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 260,
+    title: 'CapGo AI发布2026年GEO终极指南，程序化GEO成为AI时代内容战略核心',
+    summary: 'CapGo AI系统阐述GEO=SEO+RAG公式，提出程序化GEO是覆盖海量AI搜索问题的关键策略。ChatGPT月活突破1.8亿，Perplexity搜索量同比增长858%，AI搜索市场快速扩张。',
+    content: `CapGo AI发布《生成式引擎优化(GEO)与AI搜索2026终极指南》。
+
+核心洞察：
+1. GEO公式：GEO = SEO + RAG
+2. 程序化GEO：自动化批量生成针对AI搜索优化的网页
+3. AI搜索增长：ChatGPT月活1.8亿，Perplexity搜索量同比增858%
+4. 搜索行为：AI搜索查询平均10个词，远超Google的2个词
+5. 市场预测：2028年AI搜索预计占搜索市场14%份额
+
+程序化GEO策略：
+- 每月批量生成150主题×10语言的高质量页面
+- 精准锁定长尾关键词和细分领域
+- 多步AI Agent协作生成内容
+- 通过Bing Webmaster Tools监测GEO效果`,
+    category: 'industry',
+    source: 'CapGo AI',
+    date: '2026-08-24',
+    tags: ['GEO', '程序化GEO', 'AI搜索', 'SEO+RAG', '内容战略'],
+  },
+  {
+    id: 261,
+    title: '2026年AI搜索三强格局形成：ChatGPT、Perplexity、DeepSeek差异化竞争',
+    summary: 'ChatGPT Search以对话体验领跑，Perplexity以学术溯源著称，DeepSeek在中国市场快速崛起。AI搜索已从新奇工具转变为实用搜索替代方案，品牌需建立跨平台GEO优化体系。',
+    content: `2026年AI搜索市场三强格局分析。
+
+竞争格局：
+1. ChatGPT Search：交互最自然，搜索融入对话
+2. Perplexity AI：学术级溯源，免费版支持实时搜索
+3. DeepSeek：中国市场崛起，编程能力逼近GPT
+
+关键趋势：
+- AI搜索成为Google的合法替代方案
+- Perplexity引入品牌权威度因子
+- 品牌GEO优化需覆盖多平台
+
+行动建议：
+- 建立跨AI搜索平台监测体系
+- 差异化优化各平台引用策略`,
+    category: 'industry',
+    source: '行业横评',
+    date: '2026-08-24',
+    tags: ['AI搜索', 'ChatGPT', 'Perplexity', 'DeepSeek', 'GEO优化'],
+  },
+  {
+    id: 262,
+    title: 'WAIC 2026智能体成C位：阿里百度腾讯字节齐亮相，2027年智能体普及率目标超70%',
+    summary: '2026世界人工智能大会上智能体成为核心焦点，各大厂商展示最新智能体产品。国家发布《智能体规范应用与创新发展实施意见》，首批AI终端L3级认证公布。',
+    content: `WAIC 2026上智能体成为绝对"C位"。
+
+厂商布局：
+1. 阿里：千问AI眼镜 + 百炼推理平台
+2. 百度："搭子"智能体全家桶
+3. 腾讯："AI Buddy"矩阵覆盖办公、编程等场景
+4. 字节：豆包手机二代首秀
+
+政策与认证：
+- 首批AI终端L3认证，11款产品达标
+- 国家发布《智能体规范应用与创新发展实施意见》
+- 2027年智能体普及率目标超70%`,
+    category: 'industry',
+    source: '搜狐 / WAIC 2026',
+    date: '2026-08-24',
+    tags: ['AI智能体', 'WAIC 2026', '企业Agent', 'L3认证', '政策法规'],
+  },
+  {
     id: 257,
     title: 'Search Engine Journal发布GEO优化15大策略权威指南，品牌需加速SEO向GEO转型',
     summary: 'Search Engine Journal发布全面GEO优化指南，系统梳理15大生成式引擎优化策略。GEO已从学术概念演进为主流SEO实践，品牌需建立专门GEO优化能力。',
