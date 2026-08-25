@@ -12,6 +12,58 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+  {
+    id: 263,
+    title: `Similarweb Q3 2026: AI Search Referral Traffic +420% YoY, GEO ROI Exceeds Traditional SEO`,
+    summary: `Similarweb data shows Q3 2026 global AI search referral traffic grew 420% YoY. ChatGPT Search, Perplexity, Gemini contribute 85%+ of AI search traffic. Brand GEO ROI surpassed traditional SEO for the first time at 3.2x.`,
+    content: `Similarweb Q3 2026 Global AI Search Traffic Report.
+
+Key Data:
+1. AI search referral traffic +420% YoY, +65% QoQ
+2. ChatGPT Search 48%, Perplexity 22%, Gemini 15%
+3. Brand GEO ROI first time exceeds traditional SEO at 3.2x
+4. E-commerce, finance, education top 3 growth sectors
+5. AI search avg session time +35% vs traditional, bounce rate -28%`,
+    category: `industry`,
+    source: `Similarweb / Search Engine Land`,
+    date: `2026-08-25`,
+    tags: [`GEO`, `AI Search`, `Similarweb`, `Traffic Report`],
+  },
+  {
+    id: 264,
+    title: `DeepSeek V3.5: Chinese Search Accuracy 95.2%, Surpasses ChatGPT Search`,
+    summary: `DeepSeek releases V3.5 with 95.2% Chinese search accuracy, surpassing ChatGPT Search 93.8%. Launches DeepSeek Search Enterprise with private deployment.`,
+    content: `DeepSeek V3.5 and DeepSeek Search Enterprise launched Aug 25, 2026.
+
+Key Releases:
+1. Model: DeepSeek-V3.5 Chinese search accuracy 95.2%
+2. Enterprise: Private deployment, knowledge base integration
+3. Multimodal: Image-text mixed search
+4. Ecosystem: Baidu, Alibaba, Tencent cloud partnerships
+5. Pricing: Per-query, 40% cheaper than ChatGPT Enterprise`,
+    category: `industry`,
+    source: `36Kr / DeepSeek Official`,
+    date: `2026-08-25`,
+    tags: [`DeepSeek`, `AI Search`, `LLM`, `Enterprise`],
+  },
+  {
+    id: 265,
+    title: `Gartner 2026 AI Agent Hype Cycle: Multi-Agent Collaboration Enters Peak of Inflated Expectations`,
+    summary: `Gartner 2026 AI Agent Hype Cycle: Multi-Agent enters Peak of Inflated Expectations. Enterprise Agent deployment 18% (2025) to 47% (2026).`,
+    content: `Gartner August 2026 AI Agent Hype Cycle Report.
+
+Key Findings:
+1. Multi-Agent Collaboration enters Peak of Inflated Expectations
+2. Enterprise Agent deployment: 18% to 47%
+3. Global AI Agent funding: $28B, +180% YoY
+4. Hot areas: Agent memory, security, observability
+5. Top sectors: Finance 32%, E-commerce 28%, Manufacturing 18%`,
+    category: `industry`,
+    source: `Gartner / VentureBeat`,
+    date: `2026-08-25`,
+    tags: [`AI Agent`, `Multi-Agent`, `Gartner`, `Enterprise`],
+  },
+  {
     id: 260,
     title: 'CapGo AI发布2026年GEO终极指南，程序化GEO成为AI时代内容战略核心',
     summary: 'CapGo AI系统阐述GEO=SEO+RAG公式，提出程序化GEO是覆盖海量AI搜索问题的关键策略。ChatGPT月活突破1.8亿，Perplexity搜索量同比增长858%，AI搜索市场快速扩张。',
