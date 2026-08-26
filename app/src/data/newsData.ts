@@ -12,6 +12,75 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 266,
+    title: `iResearch Releases 2026 GEO Strategy Report: AI Search Becomes Core Consumer Decision Channel`,
+    summary: `iResearch August 2026 report reveals generative AI has become a critical channel for consumer decision-making. GEO optimization emerges as the new battleground for brand marketing across 8 key industries.`,
+    content: `iResearch published the "2026 Key Industry GEO Differentiation Strategy Research Report" in August 2026.
+
+Key Findings:
+1. Generative AI has become a vital information channel for consumer purchase decisions
+2. GEO optimization is emerging as the new frontier for omnichannel brand marketing
+3. Report covers 8 industries: mobile, automotive, beauty, healthcare, travel, local services, professional services, education
+4. Significant behavioral differences exist across industries in AI search usage
+5. B2C and B2B GEO strategies require fundamentally different approaches
+
+Industry Implications:
+- Brands must develop industry-specific GEO optimization strategies
+- AI search penetration rates vary significantly across consumer scenarios
+- B2B companies need to focus on professional depth and supplier evaluation in GEO`,
+    category: `industry`,
+    source: `iResearch / 艾瑞咨询`,
+    date: `2026-08-26`,
+    tags: [`GEO`, `AI Search`, `Consumer Behavior`, `Industry Report`],
+  },
+  {
+    id: 267,
+    title: `Gartner 2026: 40% of Enterprise Apps Will Embed Task-Oriented AI Agents, China Market Hits ¥48B`,
+    summary: `Gartner predicts 40% of enterprise applications will embed task-oriented AI agents by 2026. China enterprise AI agent market surpassed ¥48 billion. Multi-agent collaboration enters Peak of Inflated Expectations.`,
+    content: `Gartner 2026 AI Agent technology maturity curve report reveals significant enterprise adoption trends.
+
+Key Data:
+1. 40% of enterprise applications will embed task-oriented AI agents by end of 2026
+2. China enterprise AI agent market surpassed ¥48 billion
+3. Multi-agent collaboration entered Peak of Inflated Expectations
+4. Enterprise Agent deployment: 18% (2025) to 47% (2026)
+5. Hot areas: Agent memory, security, observability
+
+Market Dynamics:
+- Finance (32%), E-commerce (28%), Manufacturing (18%) lead Agent adoption
+- iResearch released 72-page report on China enterprise AI Agent market lifecycle
+- Market evolving through 3 phases: Exploration (2022-2026), Agile Practice (2027-2030), Scale (2031-2040)`,
+    category: `industry`,
+    source: `Gartner / iResearch / VentureBeat`,
+    date: `2026-08-26`,
+    tags: [`AI Agent`, `Enterprise`, `Gartner`, `Multi-Agent`, `China Market`],
+  },
+  {
+    id: 268,
+    title: `Cloudflare Agents Week 2026: Building the Agent Cloud — Full Infrastructure Stack for AI Agents`,
+    summary: `Cloudflare concluded Agents Week 2026, unveiling Sandboxes, Agent Memory, Browser Run, AI Search, and Mesh networking for AI agents. Positions as building Cloud 2.0 — the Agent Cloud.`,
+    content: `Cloudflare concluded its first Agents Week in April 2026, announcing a full stack of agent-ready infrastructure.
+
+Key Announcements:
+1. Sandboxes: Persistent isolated environments — a real computer for AI agents
+2. Agent Memory: Managed service for persistent agent memory
+3. Browser Run: Upgraded rendering with real-time view, 4x concurrency
+4. AI Search: Hybrid retrieval primitive for agents
+5. Cloudflare Mesh: Secure private network for users, nodes, and autonomous agents
+
+Infrastructure:
+- Artifacts: Git-compatible versioned storage
+- Workflows: 50,000 concurrent executions support
+- Managed OAuth: Agents authenticate on behalf of users
+- Agent Readiness Score: Measures website agent-friendliness
+
+Vision: Cloud 2.0 — the Agent Cloud, designed for agents as primary workload.`,
+    category: `industry`,
+    source: `Cloudflare Blog`,
+    date: `2026-04-20`,
+    tags: [`Cloudflare`, `AI Agent`, `Infrastructure`, `Sandbox`, `Agent Cloud`],
+  },
+  {
   {
     id: 263,
     title: `Similarweb Q3 2026: AI Search Referral Traffic +420% YoY, GEO ROI Exceeds Traditional SEO`,
