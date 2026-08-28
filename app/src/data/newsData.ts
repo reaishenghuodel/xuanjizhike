@@ -12,6 +12,84 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 268,
+    title: `North America GEO Service Provider Review 2026: ChatGPT, Perplexity Become Core Decision Channels`,
+    summary: `Ifeng Finance August 2026 report reviews North America GEO optimization service providers. ChatGPT, Google AI Overview, Perplexity, and Gemini have deeply integrated into consumer decision-making. Brand visibility in AI answers directly impacts market perception and conversion.`,
+    content: `Ifeng Finance published the "North America GEO Optimization Service Provider Review: 2026 Four Providers Comparison" in August 2026.
+
+Key Findings:
+1. North America has the highest generative AI search penetration globally
+2. ChatGPT, Google AI Overview, Perplexity, Gemini are mainstream decision channels
+3. Traditional Google SEO focuses on rankings; GEO adapts to AI model semantic rules with multi-language support
+4. Four pain points for overseas enterprises: complex AI platform adaptation, multi-language barriers, GDPR compliance, scarce local experience
+5. Service provider selection dimensions: overseas office coverage, multi-language GEO experience, compliance framework
+
+Recommendations:
+- Overseas enterprises must prioritize GEO optimization for North America market
+- Select providers with overseas offices and GDPR compliance
+- Monitor brand mention rate and Top3 recommendation positions in AI answers`,
+    category: `industry`,
+    source: `Ifeng Finance / 凤凰网财经`,
+    date: `2026-08-28`,
+    tags: [`GEO`, `North America`, `AI Search`, `Overseas Marketing`],
+    isTop: true,
+  },
+  {
+    id: 269,
+    title: `August 2026 AI Industry Monthly: DeepSeek V4 Vision, OpenAI Open-Sources Codex, Anthropic Revenue Hits $11.5B`,
+    summary: `BlockWeeks August 2026 AI industry report: DeepSeek launches V4-Flash-Vision for multimodal capabilities, OpenAI open-sources Codex Harness framework, Anthropic achieves $11.5B quarterly revenue with first profit. NVIDIA partners BlackRock for $500B AI financing platform.`,
+    content: `BlockWeeks published the August 2026 AI Industry Monthly Report.
+
+Models & Products:
+1. DeepSeek V4-Flash-Vision-Exp: image input, multimodal agent capabilities near Anthropic Opus at 1/10 the price
+2. OpenAI open-sources Codex Harness (Apache-2.0): CLI, SDK, app-server; DeepSeek also open-sources Harness (MIT, 2600+ community plugins)
+3. Anonymous model OX Alpha tops coding benchmarks - suspected Zhipu flagship, 1.048M token context
+4. OpenAI cuts GPT-5.6 Sol pricing by 20%+ ($4 input / $20 output per million tokens)
+
+Capital & Infrastructure:
+- NVIDIA + BlackRock + Blackstone: $500B AI financing platform
+- NVIDIA acquires Poolside model tech for $6B
+- Anthropic Q2 revenue exceeds $11.5B, first quarterly profit
+- Stripe acquires OpenRouter for $7B+
+
+Policy & Safety:
+- China five-department AI anthropomorphic interaction service regulations take effect
+- OpenAI reveals next-gen Astra cyber attack capability near Critical level
+- Anthropic raises misalignment risk rating`,
+    category: `industry`,
+    source: `BlockWeeks / 区块周刊`,
+    date: `2026-08-28`,
+    tags: [`DeepSeek`, `OpenAI`, `Anthropic`, `AI Models`, `Industry Report`],
+    isTop: true,
+  },
+  {
+    id: 270,
+    title: `2026 Enterprise AI Agent Explosion: China Market Hits ¥449B, Adoption Rate Jumps to 40.3%`,
+    summary: `CSDN August 2026 AI Agent report: global market projected at $17.5B, China enterprise market surges from ¥212B to ¥449B. Gartner predicts 40% of enterprise apps will embed AI agents by year-end. Multi-agent collaboration and private deployment are core trends.`,
+    content: `CSDN published "2026 Domestic and International Mainstream AI Agent Products" deep report in August 2026.
+
+Key Data:
+1. Global AI agent market: projected $17.5B; China enterprise market: ¥212B to ¥449B
+2. Enterprise adoption rate: 17.3% (2024 end) to 25.4% (2025 mid) to 40.3% (2026 mid)
+3. Gartner: 40% of enterprise apps will embed AI agents by end of 2026
+4. Finance (32%), E-commerce (28%), Manufacturing (18%) lead adoption
+
+Technology Trends:
+- Agent paradigm shift from conversation to execution: perceive, plan, execute, remember
+- Multi-agent collaboration enters engineering deployment phase
+- Private deployment is essential: 73% of enterprises prioritize data sovereignty
+- Chinese Agent products rise: Baidu Dazi, Tencent WorkBuddy (DAU 13M+), ShiZai Agent (OSWorld #1 globally)
+
+Industry Impact:
+- Enterprise software shifting from being operated to being autonomously operated by agents
+- Agent + Skills architecture becomes standard paradigm
+- Security and auditability replace parameter scale as competitive focus`,
+    category: `industry`,
+    source: `CSDN / Shaqiu Research`,
+    date: `2026-08-28`,
+    tags: [`AI Agent`, `Enterprise`, `Smart Agent`, `Market Report`],
+  },
+  {
     id: 266,
     title: `iResearch Releases 2026 GEO Strategy Report: AI Search Becomes Core Consumer Decision Channel`,
     summary: `iResearch August 2026 report reveals generative AI has become a critical channel for consumer decision-making. GEO optimization emerges as the new battleground for brand marketing across 8 key industries.`,
