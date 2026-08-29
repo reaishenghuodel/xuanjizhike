@@ -12,6 +12,71 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 271,
+    title: `DeepSeek Releases V4-Flash-Vision-Exp Multimodal Vision Model, Agent Capabilities Approach Opus-4.8`,
+    summary: `DeepSeek released experimental multimodal vision model V4-Flash-Vision-Exp on August 21, scoring 83.9 on Terminal Bench 2.1 and 57.7 on NL2Repo. Text capabilities match V4-Flash while vision agent capabilities show significant leap, approaching Opus-4.8.`,
+    content: `DeepSeek released experimental multimodal vision understanding model DeepSeek-V4-Flash-Vision-Exp on August 21, 2026.
+
+Key Highlights:
+1. Terminal Bench 2.1: 83.9, NL2Repo: 57.7, DeepSWE: 59.3
+2. Pure text capabilities match official V4-Flash
+3. Vision agent benchmarks show significant leap, approaching Opus-4.8
+4. Available via model='deepseek-v4-flash-vision-exp'
+5. Chartography: 64.3, ZeroBench: 35.0
+
+Industry Impact:
+- DeepSeek fills multimodal gap, upgrading to full-modality agent platform
+- Combined with V4-Pro GA (Aug 13) with native Responses API support, complete agent ecosystem built`,
+    category: `industry`,
+    source: `DeepSeek Official Docs`,
+    date: `2026-08-29`,
+    tags: [`DeepSeek`, `Multimodal`, `AI Agent`, `Vision Model`],
+    isTop: true,
+  },
+  {
+    id: 272,
+    title: `GEO Market Enters Engineering Phase: 68%+ Enterprises Include GEO in Annual Digital Budget`,
+    summary: `Ifeng Tech August 2026 report reveals GEO market shifted from trial to engineering phase. Over 68% of large enterprises include GEO in annual digital budgets. Five service provider selection dimensions proposed.`,
+    content: `Ifeng Tech published GEO industry deep-dive in August 2026.
+
+Core Findings:
+1. Over 68% of large enterprises included GEO in annual digital budgets
+2. Pure volume-based operations phased out by AI engine algorithm iterations
+3. Market entering "engineering phase" — enterprises value structured survival in AI models
+
+Five Selection Dimensions:
+- Technology R&D depth and proprietary model capabilities
+- Brand source authority and compliance endorsement
+- Knowledge graph and cognitive architecture
+- AI-Agent engineering capabilities
+- Cross-platform adaptation and global vision`,
+    category: `industry`,
+    source: `Ifeng Tech`,
+    date: `2026-08-29`,
+    tags: [`GEO`, `AI Search`, `Brand Visibility`, `Digital Marketing`],
+  },
+  {
+    id: 273,
+    title: `AI Agent Market Stratified: Full-Stack, Cloud, Lightweight, Vertical Four Tiers Formed`,
+    summary: `CSDN reports AI Agent market shifted to enterprise digital transformation core in 2026, differentiating into four tiers. Selection logic shifts from feature comparison to architecture matching.`,
+    content: `CSDN published AI Agent market analysis July 2026.
+
+Four Market Tiers:
+1. Full-Stack: Complete agent platforms
+2. General Cloud: Cloud provider agent platforms
+3. Lightweight Tools: Scenario-specific tools
+4. Vertical Industry: Industry-specific solutions
+
+Key Trends:
+- Enterprise agent apps concentrated in 2026-2028
+- Agent-native ecosystem needs 3-5 more years
+- Focus on task completion rate, ROI, stability, data security`,
+    category: `industry`,
+    source: `CSDN`,
+    date: `2026-08-29`,
+    tags: [`AI Agent`, `Enterprise`, `Market Analysis`],
+  },
+  {
     id: 268,
     title: `North America GEO Service Provider Review 2026: ChatGPT, Perplexity Become Core Decision Channels`,
     summary: `Ifeng Finance August 2026 report reviews North America GEO optimization service providers. ChatGPT, Google AI Overview, Perplexity, and Gemini have deeply integrated into consumer decision-making. Brand visibility in AI answers directly impacts market perception and conversion.`,
