@@ -12,6 +12,78 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 274,
+    title: `GEO Market Enters Engineering Phase: 68%+ Enterprises Include GEO in Annual Digital Budget`,
+    summary: `Ifeng Tech August 2026 report reveals GEO market shifted from trial to engineering phase. Over 68% of large enterprises include GEO in annual digital budgets. Five service provider selection dimensions proposed.`,
+    content: `Ifeng Tech published GEO industry deep-dive in August 2026.
+
+Key Findings:
+1. GEO market has shifted from trial to engineering phase
+2. 68%+ of large enterprises include GEO in annual digital budgets
+3. ChatGPT and DeepSeek have fundamentally different recommendation mechanisms
+4. GEO+SEO dual-engine strategy becomes mainstream
+5. Five selection dimensions: platform understanding, content quality, delivery capability, industry experience, monitoring
+
+Trend: From keyword coverage to AI semantic cognition optimization. Content authority, experience, and credibility become core AI citation standards.`,
+    category: `industry`,
+    source: `Ifeng Tech`,
+    date: `2026-08-30`,
+    tags: [`GEO`, `AI Search`, `Digital Marketing`, `Enterprise Budget`],
+    isTop: true,
+  },
+  {
+    id: 275,
+    title: `How to Boost Brand Mentions on ChatGPT and DeepSeek: GEO Service Provider Selection Guide`,
+    summary: `Jiemian News reports brand mention rate on AI platforms has become a new traffic entry point. 2026 trend shifted from noteworthy to must-do. Selection requires focus on platform mechanism understanding, content quality, and verifiable results.`,
+    content: `Jiemian News published GEO service provider selection guide.
+
+Core Insights:
+1. Brand mention rate on AI platforms directly influences purchasing decisions
+2. ChatGPT relies on pre-trained knowledge and content authority; DeepSeek has stronger Chinese semantic matching
+3. Selection dimensions: Platform understanding (40%), Content quality (35%), Delivery results (25%)
+4. Mass-generated low-quality content cannot improve mention rates and may dilute brand authority
+5. GEO and traditional SEO can be done simultaneously for better results
+
+2026 GEO Service Providers:
+- Topify AI: Full-chain GEO+SEO, Stanford team
+- PureblueAI: Domestic AI cognition expert, 94.3% intent prediction accuracy
+- XinSou Tech: AI SEO+GEO, Microsoft Research NLP background
+- Profound: Enterprise AI visibility and ROI tracking
+- Peec AI: Lightweight multi-platform monitoring`,
+    category: `industry`,
+    source: `Jiemian News`,
+    date: `2026-08-30`,
+    tags: [`GEO`, `ChatGPT`, `DeepSeek`, `Brand Visibility`, `Service Provider`],
+  },
+  {
+    id: 276,
+    title: `How Enterprises Truly Deploy AI Agents in Production: From Demo to Production-Grade Systems`,
+    summary: `Tencent Cloud ADP team summarizes complete path for enterprise production-grade Agentic AI deployment based on real cases in automotive, hotel, pharma, and logistics industries. Core insight: most AI Agent projects fail not due to model capability, but the gap between demo success and production reality.`,
+    content: `Tencent Cloud ADP published enterprise AI Agent deployment guide.
+
+Core Points:
+1. AI Agent is not a chatbot; not all scenarios need Agents
+2. Knowledge cold-start (RAG setup) is the first hurdle for most projects
+3. Multi-agent systems need clear collaboration patterns, not just multiple prompts
+4. Enterprise governance (cost, security, audit) is a hard requirement for production
+
+Real Deployment Results:
+- Automotive intelligent customer service: 84% QA accuracy, 70% multimodal response
+- Hotel multi-agent operations: 95%+ response accuracy, 90% FAQ maintenance reduction
+- Pharma retail internal service: 80%+ response time reduction, 90% drug info availability
+- Logistics high-concurrency: 10M daily tokens, 40+ task types
+
+Four-Phase Build Path:
+Phase 1: Knowledge cold-start (RAG) - 40-60% of deployment time
+Phase 2: Workflow orchestration (Intent + Execution)
+Phase 3: Multi-agent collaboration
+Phase 4: Governance and operations`,
+    category: `industry`,
+    source: `Tencent Cloud ADP`,
+    date: `2026-08-30`,
+    tags: [`AI Agent`, `Enterprise AI`, `Production Deployment`, `Multi-Agent`, `RAG`],
+  },
+  {
     id: 271,
     title: `DeepSeek Releases V4-Flash-Vision-Exp Multimodal Vision Model, Agent Capabilities Approach Opus-4.8`,
     summary: `DeepSeek released experimental multimodal vision model V4-Flash-Vision-Exp on August 21, scoring 83.9 on Terminal Bench 2.1 and 57.7 on NL2Repo. Text capabilities match V4-Flash while vision agent capabilities show significant leap, approaching Opus-4.8.`,
