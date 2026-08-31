@@ -12,6 +12,63 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 276,
+    title: `Baidu AI Search Upgrades: GEO Optimization Becomes Core Digital Marketing Strategy`,
+    summary: `Baidu AI search continues major upgrades with generative search coverage expanding significantly. Enterprises are making GEO optimization a core digital marketing strategy, with demand for AI search content optimization surging.`,
+    content: `Baidu AI search completed a major feature upgrade in late August 2026.
+
+Key Changes:
+1. AI search result coverage rate exceeds 85%, significantly improving user experience
+2. Mechanisms for content citation by AI are more transparent, with structured data weight increased
+3. GEO optimization shifts from optional to essential for enterprise digital marketing
+4. Multiple marketing tech companies launched one-stop GEO optimization platforms
+5. Enterprises should establish AI search content monitoring systems ASAP
+
+Industry Impact: GEO optimization officially becomes the second-largest search engine marketing strategy after SEO.`,
+    category: `industry`,
+    source: `36Kr`,
+    date: `2026-08-31`,
+    tags: [`GEO`, `AI Search`, `Digital Marketing`, `Baidu`],
+  },
+  {
+    id: 277,
+    title: `DeepSeek vs ChatGPT Recommendation Mechanism Study: Brands Need Differentiated GEO Strategies`,
+    summary: `Latest industry research reveals fundamental differences between DeepSeek and ChatGPT content recommendation mechanisms, indicating brands must develop platform-specific GEO strategies.`,
+    content: `Huxiu published AI search platform comparison research report in August 2026.
+
+Key Findings:
+1. DeepSeek focuses more on Chinese semantic understanding and localized content
+2. ChatGPT tends to cite English authoritative sources and international media
+3. Significant differences in content freshness, authority, and structure weighting
+4. Brands need multi-platform GEO optimization matrix with tailored strategies
+5. Professional GEO monitoring tools recommended for tracking brand mentions
+
+Practical Advice: Maintain core content consistency while adjusting structure and citation sources per platform.`,
+    category: `industry`,
+    source: `Huxiu`,
+    date: `2026-08-31`,
+    tags: [`DeepSeek`, `ChatGPT`, `GEO`, `AI Search`],
+  },
+  {
+    id: 278,
+    title: `Baidu Launches Enterprise AI Agent Platform, Accelerating Industrial Intelligence`,
+    summary: `Baidu released a new enterprise-grade AI Agent development platform enabling rapid construction, deployment and management of custom AI Agents. The platform integrates LLM capabilities with enterprise knowledge bases.`,
+    content: `Baidu launched a new enterprise AI Agent development platform in August 2026.
+
+Platform Features:
+1. Low-code development model for rapid custom AI Agent building
+2. Deep integration of Wenxin LLM with enterprise knowledge bases
+3. Multi-agent collaboration for complex business process automation
+4. Benchmark cases in finance, manufacturing, and healthcare sectors
+5. Complete agent lifecycle management capabilities
+
+Industry Trend: AI Agents are moving from concept validation to large-scale enterprise application, becoming key infrastructure for digital transformation.`,
+    category: `industry`,
+    source: `36Kr`,
+    date: `2026-08-31`,
+    tags: [`AI Agent`, `Enterprise`, `Baidu`, `Digital Transformation`],
+  },
+  {
     id: 274,
     title: `GEO Market Enters Engineering Phase: 68%+ Enterprises Include GEO in Annual Digital Budget`,
     summary: `Ifeng Tech August 2026 report reveals GEO market shifted from trial to engineering phase. Over 68% of large enterprises include GEO in annual digital budgets. Five service provider selection dimensions proposed.`,
