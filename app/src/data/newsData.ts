@@ -12,6 +12,73 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 281,
+    title: `Perplexity Launches Enterprise Brand Monitoring for Chinese Overseas Companies`,
+    summary: `AI search engine Perplexity has launched an enterprise brand monitoring solution, helping businesses track brand presence in AI-generated answers. The feature specifically targets Chinese overseas enterprises with bilingual Chinese-English support.`,
+    content: `Perplexity officially launched its enterprise brand monitoring feature in September 2026.
+
+Key Capabilities:
+1. Real-time tracking of brand mentions in Perplexity AI-generated answers
+2. Bilingual Chinese-English brand monitoring, optimized for Chinese overseas enterprises
+3. Brand authority scoring and competitive analysis
+4. Integration with mainstream CRM and marketing automation platforms
+
+Market Significance:
+This feature marks AI search engines beginning to commercialize brand visibility monitoring. For overseas enterprises, brand management in the AI search environment has become a strategic imperative.`,
+    category: `industry`,
+    source: `TechWeb`,
+    date: `2026-09-02`,
+    tags: [`AI Search`, `Brand Monitoring`, `Perplexity`, `Enterprise`],
+    isTop: true,
+  },
+  {
+    id: 282,
+    title: `Alibaba Cloud Releases Tongyi Qianwen Agent Platform 2.0`,
+    summary: `Alibaba Cloud unveiled the Tongyi Qianwen Agent Platform 2.0 at Apsara Conference 2026, offering a low-code enterprise AI agent development environment. The platform serves over 10,000 enterprise customers with 30%+ efficiency improvements.`,
+    content: `Alibaba Cloud officially released Tongyi Qianwen Agent Platform 2.0 at Apsara Conference 2026.
+
+Core Capabilities:
+1. Low-code Agent development environment for non-technical users
+2. 100+ industry templates covering marketing, customer service, supply chain
+3. Multi-modal interaction support (text, voice, image)
+4. Enterprise-grade security controls and permission management
+
+Market Data:
+- Serving 10,000+ enterprise customers
+- Average 30%+ operational efficiency improvement
+- Daily Agent calls exceeding 1 billion
+- Coverage across finance, retail, manufacturing, healthcare
+
+Industry Impact: The maturation of Agent platforms signals AI's transition from tool-based to intelligence-based, marking the dawn of the Agent-native enterprise era.`,
+    category: `industry`,
+    source: `36Kr`,
+    date: `2026-09-02`,
+    tags: [`AI Agent`, `Enterprise`, `Alibaba Cloud`, `Platform`],
+  },
+  {
+    id: 283,
+    title: `ByteDance Tests Doubao Search GEO Optimization Tools for Content Creators`,
+    summary: `ByteDance's Doubao search engine has begun internal testing of GEO optimization tools for content creators. The tool automatically analyzes content visibility in AI-generated answers, showing 3x improvement in citation probability for optimized content.`,
+    content: `ByteDance's Doubao search engine began internal testing of GEO optimization tools in September 2026.
+
+Feature Highlights:
+1. Content Visibility Analysis: Auto-detect citation probability in Doubao AI answers
+2. Optimization Recommendation Engine: AI-powered structured optimization suggestions
+3. Effect Tracking Dashboard: Real-time traffic monitoring before/after GEO optimization
+4. Competitive Analysis: Analyze competing content performance in AI search
+
+Test Data:
+- GEO-optimized content sees 3x improvement in citation probability
+- Content creators average 180% growth in AI search traffic
+- 500+ top creators invited to internal testing
+
+Industry Significance: Major domestic search engines are beginning to productize GEO tools. AI search optimization for content creators will become standard practice.`,
+    category: `industry`,
+    source: `36Kr`,
+    date: `2026-09-01`,
+    tags: [`GEO`, `ByteDance`, `Doubao`, `Content Optimization`],
+  },
+  {
     id: 279,
     title: `China GEO Market Surpasses 3 Billion Yuan, AI Search User Penetration Reaches 62%`,
     summary: `As of August 2026, global AI search user penetration exceeded 62%, with China's GEO market reaching 3 billion yuan - a 35x increase over three years. Generative Engine Optimization has moved from concept validation to large-scale commercial deployment.`,
