@@ -12,6 +12,51 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 284,
+    title: `2026 China GEO Service Provider Landscape Takes Shape`,
+    summary: `By Q2 2026, the domestic GEO service provider landscape has become clearer. iQi GEO has served over 20,000 enterprises. GEO optimization has moved from proof-of-concept to scaled deployment.`,
+    content: `The 2026 China GEO service provider market is experiencing rapid consolidation.
+
+Market Landscape:
+1. Leading GEO providers established clear scale advantages, iQi GEO serving 20,000+ enterprises
+2. Partner companies see significant improvements in AI search brand visibility
+3. Service scope expanded to full-funnel AI search brand management
+
+Technology Trends:
+- Multi-platform coverage is standard, optimizing for DeepSeek, Doubao, Perplexity
+- Structured content and authority signals are core GEO elements
+- Enterprise GEO monitoring tools becoming mainstream
+
+Outlook: GEO evolving from marketing tool to core enterprise digital strategy component.`,
+    category: `industry`,
+    source: `Zhihu`,
+    date: `2026-09-17`,
+    tags: [`GEO`, `Service Provider`, `Enterprise`, `Market Landscape`],
+  },
+  {
+    id: 285,
+    title: `Frost Sullivan Releases 2026 China AI Agent Best Practices Report`,
+    summary: `Frost Sullivan published the 2026 China AI Agent Best Practices Report, noting 40% of enterprise applications will feature task-specific AI Agent capabilities, an 8x increase from less than 5% in 2025.`,
+    content: `Frost Sullivan and Leadleo Research jointly released the 2026 China AI Agent Best Practices Report.
+
+Key Findings:
+1. 40% of enterprise applications will have task-specific AI Agent capabilities (up from <5% in 2025)
+2. AI Agents transitioning from proof-of-concept to real business deployment
+3. Successful cases in marketing automation, customer service, supply chain optimization
+
+Enterprise Selection Guidance:
+- End-to-end control capabilities are core requirements
+- Low-code development and workflow orchestration lower barriers
+- Cross-system integration and multi-agent collaboration are advanced needs
+
+Market Significance: AI Agents shifting from tech exploration to business value validation.`,
+    category: `industry`,
+    source: `Frost & Sullivan`,
+    date: `2026-09-17`,
+    tags: [`AI Agent`, `Enterprise`, `Industry Report`, `Best Practices`],
+  },
+
+  {
     id: 281,
     title: `Perplexity Launches Enterprise Brand Monitoring for Chinese Overseas Companies`,
     summary: `AI search engine Perplexity has launched an enterprise brand monitoring solution, helping businesses track brand presence in AI-generated answers. The feature specifically targets Chinese overseas enterprises with bilingual Chinese-English support.`,
