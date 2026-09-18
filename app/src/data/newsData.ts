@@ -12,6 +12,79 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 287,
+    title: `GEO Generative Engine Optimization: New Path for Brand AI Exposure in 2026`,
+    summary: `Global generative AI active users exceed 2 billion in 2026. GEO has evolved from optional to essential, with 72%+ of enterprises including GEO in annual strategic budgets. Market scale exceeds hundreds of billions.`,
+    content: `In 2026, with the full proliferation of AIGC products, global generative AI active users have exceeded 2 billion. User behavior is shifting from traditional search engines to AI-assisted decision-making, making GEO (Generative Engine Optimization) the core battleground for brand marketing.
+
+Key Trends:
+1. GEO market scale exceeds hundreds of billions, covering industries from consumer goods to automotive
+2. Three technical pillars: semantic calibration, scenario association, weight reinforcement
+3. Case studies: liquor brands achieving 100% AI mention rate, personal care brands seeing 47x mention growth
+
+Technical Architecture:
+- Semantic Calibration: Unifying brand parameters into machine-readable structured knowledge bases
+- Scenario Association: Keyword matrix around real user queries across decision layers
+- Weight Reinforcement: Authority signal enhancement through EEAT and content distribution
+
+Industry Consensus: Brands must shift from "getting users to see" to "getting AI to recommend". Structured semantic systems are the new content moat.`,
+    category: 'industry' as const,
+    source: 'ifeng.com',
+    date: '2026-09-18',
+    tags: ['GEO', 'AI搜索优化', '品牌营销'],
+  },
+  {
+    id: 286,
+    title: `Agent AI in 2026: From General Dialogue to Trusted Productivity`,
+    summary: `Enterprise AI enters the trusted agent era. AI agent service providers exceed 300 in China. IDC predicts enterprise AI agent market will surpass 80 billion yuan in 2026. AgentOps becomes essential for enterprise AI deployment.`,
+    content: `2026 marks the paradigm shift from "general dialogue" to "trusted productivity" in enterprise AI applications. Three core pain points persist: high-frequency hallucinations, opaque processes, and lack of industry knowledge.
+
+Key Developments:
+1. Trusted Agents replace general-purpose LLMs as enterprise core requirement
+2. CAICT data shows AI has entered Agent (L3) era with 300+ domestic service providers
+3. IDC predicts China enterprise AI agent market to exceed 80 billion yuan in 2026
+
+Benchmark Highlights:
+- DeepMiner: 98.9% single-step accuracy, 90.5% overall operation success rate
+- Connects 80+ enterprise data sources across e-commerce, advertising, social media
+- Navigates 300,000+ action spaces for precise business decision-making
+
+Market Trends:
+- AgentOps (agent operations) becomes new essential for enterprise AI deployment
+- Global AI agent market exceeded 8.5 trillion yuan in 2025, China growing at 72.7%
+- Enterprise digital employees entering mass deployment phase`,
+    category: 'industry' as const,
+    source: 'Tencent Cloud',
+    date: '2026-09-18',
+    tags: ['AI Agent', '企业智能体', '可信生产力'],
+  },
+  {
+    id: 285,
+    title: `GEO Full Analysis 2026: How Brands Capture AI Search Recommendation New Entry Points`,
+    summary: `GEO market exceeds hundreds of billions. Full-chain GEO service system maturing from semantic calibration to performance quantification. Multi-modal GEO emerging as next frontier.`,
+    content: `GEO (Generative Engine Optimization) is the technical practice of systematically designing content and calibrating semantics to achieve priority recommendation and stable citation in LLM-generated responses.
+
+Core Methodology:
+1. Information Infrastructure: Unified brand positioning, product parameters, structured knowledge base
+2. Keyword Matrix: Awareness layer, comparison layer, purchase decision layer
+3. Content Production: Q&A format, scenario-based, structured content distributed through authority platforms
+4. Data Monitoring: Real-time tracking of brand AI mention rate, ranking, sentiment
+
+Practical Cases:
+- Liquor industry: Brand AI mention rate at 100%, overtaking competitors in comparison scenarios
+- Chain restaurants: Over 100M impressions, 40% online order growth through GEO
+- Personal care: 47x AI mention growth, 94% positive sentiment ratio
+
+Future Trends:
+- Multi-modal GEO: expanding from text to images, video, voice interactions
+- Enterprise GEO monitoring tools becoming mainstream
+- GEO evolving from marketing tool to core enterprise digital strategy component`,
+    category: 'industry' as const,
+    source: '163.com',
+    date: '2026-09-18',
+    tags: ['GEO', 'AI搜索', '品牌可见性'],
+  },
+  {
     id: 284,
     title: `2026 China GEO Service Provider Landscape Takes Shape`,
     summary: `By Q2 2026, the domestic GEO service provider landscape has become clearer. iQi GEO has served over 20,000 enterprises. GEO optimization has moved from proof-of-concept to scaled deployment.`,
