@@ -12,6 +12,69 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 290,
+    title: `AI Agents Accelerate Enterprise Adoption Across Finance, E-commerce, and Customer Service`,
+    summary: `AI Agent technology is rapidly penetrating enterprise applications. Finance, e-commerce, and customer service industries are deploying autonomous decision-making agent systems capable of understanding complex instructions, calling external tools, and completing multi-step tasks.`,
+    content: `AI Agent technology is rapidly penetrating enterprise-level applications, with finance, e-commerce, and customer service industries deploying autonomous decision-making agent systems.
+
+Industry Application Status:
+1. Finance: Intelligent risk control agents achieve 24/7 real-time monitoring with 99.2% anomaly detection accuracy
+2. E-commerce: Smart customer service agents handle 80%+ routine inquiries with average response time under 3 seconds
+3. Manufacturing: Supply chain optimization agents enable inventory prediction and automated replenishment, improving turnover rates by 35%
+
+Technology Trends:
+- Multi-agent collaboration becomes mainstream architecture, evolving from single agents to Agent Swarms
+- AgentOps systems maturing with significantly improved observability and controllability
+- Enterprise agents transitioning from "assistance tools" to "autonomous decision-making" with quantifiable ROI
+- Security compliance becomes critical threshold for agent deployment, driving demand for trusted agent frameworks`,
+    category: 'industry' as const,
+    source: 'qbitai.com',
+    date: '2026-09-20',
+    tags: ['AI智能体', 'Agent', '企业应用', 'AgentOps'],
+  },
+  {
+    id: 289,
+    title: `ChatGPT Launches Enterprise Customization with Internal Knowledge Base Integration`,
+    summary: `OpenAI introduces new customization features for ChatGPT enterprise users, allowing companies to upload internal knowledge bases for more precise AI-powered search and Q&A. This is considered a critical tool for enterprise-level GEO optimization.`,
+    content: `OpenAI has launched new customization features for ChatGPT enterprise users, allowing companies to upload internal knowledge bases so AI can provide more precise search and Q&A services based on company-specific data.
+
+Feature Highlights:
+1. Enterprises can upload internal knowledge bases, product documentation, FAQs, and other structured data
+2. AI provides precise search and Q&A based on enterprise-specific data, reducing hallucination rates
+3. Supports multi-turn conversational retrieval, improving information access efficiency for employees and customers
+
+Significance for GEO:
+- Enterprise AI search customization becomes a key lever for GEO optimization
+- Structured knowledge base construction becomes foundational for brand AI visibility
+- Companies need to simultaneously optimize "external GEO" and "internal knowledge base" systems
+- AI search moves from general-purpose to vertical, highlighting the value of enterprise data assets`,
+    category: 'industry' as const,
+    source: 'techweb.com',
+    date: '2026-09-20',
+    tags: ['ChatGPT', '企业AI', '知识库', 'GEO优化'],
+  },
+  {
+    id: 288,
+    title: `Perplexity AI Partners with Chinese Media to Optimize Chinese Search Results`,
+    summary: `AI search engine Perplexity has established partnerships with multiple Chinese media institutions to improve Chinese search quality through authoritative sources. New content ranking mechanism prioritizes verified high-quality content, opening new GEO optimization opportunities.`,
+    content: `AI search engine Perplexity recently established cooperative relationships with multiple Chinese media institutions to enhance the quality of Chinese-language search results by introducing authoritative information sources.
+
+Key Developments:
+1. Perplexity is testing a new content ranking mechanism that prioritizes verified high-quality content
+2. Chinese search result accuracy and credibility significantly improved after introducing authoritative media sources
+3. This opens new GEO optimization directions for Chinese content creators — distributing content through authoritative channels can increase AI citation rates
+
+Implications for GEO:
+- AI search engines are shifting from "crawl everything" to "authoritative sources first" strategy
+- Brand content must be distributed through high-authority media channels to gain AI search engine favor
+- GEO weight reinforcement strategies will increasingly depend on EEAT signals and authoritative endorsements
+- Chinese GEO market enters a window period — early adopters will capture AI search traffic dividends`,
+    category: 'industry' as const,
+    source: 'geekpark.net',
+    date: '2026-09-20',
+    tags: ['GEO', 'AI搜索优化', 'Perplexity', '媒体合作'],
+  },
+  {
     id: 287,
     title: `GEO Generative Engine Optimization: New Path for Brand AI Exposure in 2026`,
     summary: `Global generative AI active users exceed 2 billion in 2026. GEO has evolved from optional to essential, with 72%+ of enterprises including GEO in annual strategic budgets. Market scale exceeds hundreds of billions.`,
