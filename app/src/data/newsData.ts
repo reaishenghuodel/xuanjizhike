@@ -12,6 +12,83 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 293,
+    title: `Google AI Overview Launches Brand Visibility Dashboard for GEO Measurement`,
+    summary: `Google officially launched a Brand Visibility Dashboard for AI Overview, enabling enterprises to track brand mention frequency, citation placement, and sentiment in AI-generated summaries. This marks the beginning of quantifiable GEO performance evaluation.`,
+    content: `Google officially launched a Brand Visibility Dashboard for its AI Overview feature in late September 2026.
+
+Core Capabilities:
+1. Brand Mention Frequency Tracking: Real-time monitoring of brand mentions in AI Overview summaries
+2. Citation Placement Analysis: Distinguishing positive citations, neutral mentions, and competitive comparisons
+3. Sentiment Scoring: AI-powered sentiment polarity assessment for brand mentions
+4. Industry Benchmark Comparison: Cross-comparison of AI visibility rates within the same industry
+
+Industry Significance:
+- GEO performance achieves quantifiable metrics similar to traditional SEO
+- Data-driven continuous GEO optimization becomes possible
+- Brand AI visibility management officially becomes a standard digital marketing KPI
+- Over 70% of large enterprises expected to establish GEO monitoring systems by 2027`,
+    category: 'industry',
+    source: 'TechWeb',
+    date: '2026-09-21',
+    tags: ['GEO', 'Google', 'Brand Monitoring', 'AI Search'],
+    isTop: true,
+  },
+  {
+    id: 292,
+    title: `DeepSeek Launches Enterprise Agent Platform V2 with Multimodal Autonomous Decision-Making`,
+    summary: `DeepSeek officially released Enterprise Agent Platform V2 with new capabilities including multimodal perception, autonomous decision chains, and enterprise knowledge graph integration.`,
+    content: `DeepSeek officially released Enterprise Agent Platform V2 in September 2026.
+
+Core Upgrades:
+1. Multimodal Perception Engine: Supports text, image, voice, and video input understanding
+2. Autonomous Decision Chain: Agents can independently plan and execute multi-step tasks
+3. Enterprise Knowledge Graph Integration: One-click connection to internal knowledge bases
+4. Agent Orchestration Workflow: Low-code multi-agent collaboration system building
+
+Market Data:
+- 3,000+ enterprises connected during beta testing
+- Average task completion rate of 92.5%
+- Customer service human intervention rate reduced to below 15%
+- Financial risk response speed improved by 300%
+
+Industry Impact:
+- DeepSeek transitions from model provider to Agent platform service provider
+- Enterprise Agent market landscape accelerates consolidation
+- Agent-native application development costs significantly reduced`,
+    category: 'industry',
+    source: '36Kr',
+    date: '2026-09-21',
+    tags: ['DeepSeek', 'AI Agent', 'Enterprise', 'Platform'],
+  },
+  {
+    id: 291,
+    title: `Perplexity Publishes First Chinese Brand AI Search Optimization Whitepaper`,
+    summary: `Perplexity released the first Chinese Brand AI Search Optimization Whitepaper, systematically outlining brand optimization methodologies for AI search engines.`,
+    content: `Perplexity published its first Chinese Brand AI Search Optimization Whitepaper in September 2026.
+
+Key Highlights:
+1. Content Structuring Standards: Recommends Schema.org markup and structured data for improved AI comprehension
+2. Authority Signal Enhancement: High-quality backlinks, industry certifications, and expert endorsements boost brand credibility
+3. Entity Association Optimization: Building knowledge graph connections between brand entities and industry concepts
+4. Multilingual Strategy: Best practices for Chinese-English content co-optimization
+
+Key Data:
+- Brands following the optimization guide see 215% average improvement in AI citation rates
+- Structured content achieves 78% higher AI comprehension accuracy than unstructured content
+- Brand entity association strength shows strong positive correlation with AI recommendation probability
+
+Industry Significance:
+- GEO formally transitions from experience-driven to standards-driven phase
+- Chinese GEO methodology system initially established, industry training demand surges
+- Brand-side and GEO service provider collaboration models trend toward standardization`,
+    category: 'industry',
+    source: 'GeekPark',
+    date: '2026-09-21',
+    tags: ['GEO', 'Perplexity', 'AI Search', 'Whitepaper'],
+    isTop: true,
+  },
+  {
     id: 290,
     title: `AI Agents Accelerate Enterprise Adoption Across Finance, E-commerce, and Customer Service`,
     summary: `AI Agent technology is rapidly penetrating enterprise applications. Finance, e-commerce, and customer service industries are deploying autonomous decision-making agent systems capable of understanding complex instructions, calling external tools, and completing multi-step tasks.`,
