@@ -12,6 +12,78 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 294,
+    title: `Gartner: 40% of Enterprise Applications Will Embed AI Agents by End of 2026`,
+    summary: `Gartner predicts that by the end of 2026, 40% of enterprise applications will embed AI agents, marking the transition from AI as an "assistant tool" to "digital employee" in business operations.`,
+    content: `According to Gartner's latest forecast reported by iFeng Tech in June 2026, AI agents are rapidly moving from concept to enterprise-scale deployment.
+
+Key Statistics:
+1. 40% of global enterprise applications expected to embed AI agents by end of 2026
+2. AI Agent domestic market revenue reached 20.5 billion yuan in H1 2026, with 107% YoY growth
+3. Supply chain management, customer service, and financial approval are top adoption scenarios
+4. ByteDance, Alibaba, and Tencent lead the domestic AI Agent market
+
+Industry Transformation:
+- AI is evolving from "assistant tool" to "digital employee" in enterprise workflows
+- Customer service, document generation, procurement, risk control, and financial approval are key automation areas
+- Multi-agent collaboration systems are replacing single-point AI solutions
+- Enterprise AI spending on Agent platforms increased 150% compared to 2025`,
+    category: 'industry',
+    source: 'iFeng Tech',
+    date: '2026-09-22',
+    tags: ['AI Agent', 'Enterprise', 'Gartner', 'Digital Transformation'],
+  },
+  {
+    id: 295,
+    title: `Outbound Brands Rush to Adopt GEO Services for ChatGPT, DeepSeek and Perplexity Visibility`,
+    summary: `A growing number of outbound brands and global enterprises are seeking professional GEO services to systematically boost their exposure frequency and citation quality on ChatGPT, DeepSeek, and Perplexity platforms.`,
+    content: `As reported by Jiemian News in June 2026, the brand GEO services market is experiencing explosive growth.
+
+Market Trends:
+1. Outbound brand GEO demand grew 300% YoY, becoming a new growth driver in digital marketing
+2. ChatGPT, DeepSeek, and Perplexity collectively account for over 85% of brand AI search visibility
+3. Brand "mention rate" on AI platforms is emerging as a new marketing KPI
+4. GEO service provider competitive landscape is taking shape with clear tier-1 leaders
+
+Enterprise Actions:
+- FMCG, 3C electronics, and automotive industries are leading GEO adoption
+- Brands are building AI search monitoring and reputation tracking systems
+- Content structuring and knowledge graph construction are becoming GEO infrastructure
+- Cross-platform consistency management is the new challenge for brand GEO strategies
+- Average GEO budget allocation increased from 10% to 18% of digital marketing spend`,
+    category: 'industry',
+    source: 'Jiemian News',
+    date: '2026-09-22',
+    tags: ['GEO', 'Brand Marketing', 'AI Search', 'Outbound'],
+  },
+  {
+    id: 296,
+    title: `2026 Enterprise AI Agent Selection Guide: Market Landscape and Deployment Decisions`,
+    summary: `The enterprise AI Agent market entered large-scale deployment in 2026, with domestic AI Agent market revenue reaching approximately 20.5 billion yuan in H1, representing 107% year-over-year growth.`,
+    content: `Sina Tech published a comprehensive enterprise AI Agent selection guide in September 2026, analyzing the rapidly evolving market landscape.
+
+Market Overview:
+1. Domestic AI Agent market H1 2026 revenue: ~20.5 billion yuan (107% YoY growth)
+2. Deben Consulting's "2025 AI Agent Service Provider TOP100" list highlights industry leaders
+3. Market segments: customer service agents, workflow automation agents, decision-support agents
+4. Enterprise adoption rate tripled compared to 2025
+
+Selection Framework:
+- Step 1: Define business scenarios (customer service, content, operations, decision-making)
+- Step 2: Evaluate technical capabilities (multimodal, knowledge graph, decision chain)
+- Step 3: Assess integration requirements (existing IT infrastructure compatibility)
+- Step 4: Calculate TCO including training, maintenance, and scaling costs
+
+Key Recommendations:
+- Start with high-ROI scenarios like customer service and document processing
+- Prioritize platforms with enterprise knowledge graph integration
+- Ensure data security and compliance capabilities for regulated industries`,
+    category: 'industry',
+    source: 'Sina Tech',
+    date: '2026-09-22',
+    tags: ['AI Agent', 'Enterprise', 'Selection Guide', 'Market Analysis'],
+  },
+  {
     id: 293,
     title: `Google AI Overview Launches Brand Visibility Dashboard for GEO Measurement`,
     summary: `Google officially launched a Brand Visibility Dashboard for AI Overview, enabling enterprises to track brand mention frequency, citation placement, and sentiment in AI-generated summaries. This marks the beginning of quantifiable GEO performance evaluation.`,
