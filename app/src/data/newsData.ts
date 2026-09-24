@@ -12,6 +12,73 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 297,
+    title: `September AI Platform Upgrades Rewrite the Rules of Being Cited: Brand Competition Shifts from Being Searched to Being Quoted`,
+    summary: `Doubao, DeepSeek, Qwen, Yuanbao and ChatGPT all shipped major updates within one week in September 2026, making source retrieval, hallucination reduction and citation-first behavior the shared theme. A brand's citability is now the lifeline in AI search.`,
+    content: `As reported by NetEase's SuproAI column on September 23, 2026, the traffic入口 is migrating from the search box to the chat box, and brands now compete on being trusted and quoted by AI rather than on ad spend.
+
+Key Data:
+1. China's generative AI user base reached 602 million, a penetration rate of 42.8%
+2. The GEO market is projected to exceed 100 billion yuan by 2028
+3. Third-party tests show ERNIE Bot cites Baidu-ecosystem content at a rate of 81.7%, revealing a strong ecosystem loop
+
+September Platform Upgrades:
+- Doubao 2.1 Pro (9/15): authoritative source retrieval and evidence tracing, positioning low hallucination as a core selling point
+- DeepSeek V4.1-Flash (9/10): 552B MoE with native multimodality and lower API pricing
+- Qwen-Image-2.1 (open-sourced 9/20): 7B image generation and editing with tighter commercial licensing
+- ChatGPT: Deep Research enters Work and Codex, GPT-6 Astra becomes more agentic
+- Yuanbao and Doubao extend AI into office and in-car scenarios
+
+Implications: the smarter the models, the more they bypass brands with messy semantics, weak sources and unstructured data, creating an invisible-to-AI state. The fix is a four-step source matrix plus structuring: diagnosis, content restructuring, source placement and continuous tracking, building verifiable digital trust assets.`,
+    category: 'industry',
+    source: 'NetEase - SuproAI',
+    date: '2026-09-24',
+    tags: ['AI Search', 'GEO', 'Citation', 'LLM'],
+  },
+  {
+    id: 298,
+    title: `2026 Enterprise AI Agent Playbook: From Silicon-Based Employees to Deployment Pitfalls`,
+    summary: `A CSDN guide maps the full path of enterprise AI Agent adoption in 2026, covering the definition of silicon-based employees, a brain-hand-memory operating model, and three competing camps of agent vendors as adoption moves from pilots to scaled deployment.`,
+    content: `A CSDN analysis published in September 2026 systematically reviews the full-chain practice of enterprise AI Agents moving from concept to production.
+
+Core Framework:
+1. Silicon-based employees: AI agents taking over bounded job roles rather than acting as assistant tools
+2. Operating logic: a brain-hand-memory collaboration model for planning, tool execution and state retention
+3. Three competing camps: platform-based suites, vertical specialists and open-source framework stacks
+
+Adoption Context:
+- Gartner forecasts 40% of enterprise applications will embed AI agents by the end of 2026
+- Domestic AI Agent market revenue reached 20.5 billion yuan in H1 2026, up 107% year over year
+- Customer service, document generation, procurement, risk control and financial approval lead adoption
+
+Common Pitfalls to Avoid:
+- Treating agents as chatbot add-ons instead of workflow redesign
+- Lack of evaluation and audit trails for agent decisions
+- Underestimating integration and permission management costs`,
+    category: 'industry',
+    source: 'CSDN',
+    date: '2026-09-24',
+    tags: ['AI Agent', 'Enterprise', 'Digital Employee', 'Best Practice'],
+  },
+  {
+    id: 299,
+    title: `2026 China AI Search Optimization Platform Roundup: Four Platform Categories Compared`,
+    summary: `iFeng Tech's 2026 roundup benchmarks China's GEO platform landscape across source credibility, technology stack, content standards and delivery capability, concluding that source authority and E-E-A-T are the two core levers of generative engine optimization.`,
+    content: `iFeng Tech published a 2026 roundup of domestic AI search optimization (GEO) platforms as AI search reshapes how brands acquire traffic.
+
+Core Insights:
+1. Large models such as Doubao, DeepSeek, ERNIE Bot, Kimi and Qwen are becoming the main information channels, extending enterprise presence from search engines into AI Q&A scenarios
+2. Two core GEO evaluation dimensions: source authority (credibility of the publishing carrier) and E-E-A-T (experience, expertise, authoritativeness, trustworthiness)
+3. Three enterprise pain points: low or missing brand mentions in AI answers; scattered brand knowledge that models cannot retrieve, plus hallucination interference; no unified monitoring of brand voice across platforms
+4. Four platform categories: full-stack integrated services, measurement and audit tools, source distribution and PR publishing, and global managed operations
+
+Selection Advice: match platform category to business scale, core need and budget; GEO has evolved from content outsourcing into a systematic brand digital asset engineering covering monitoring, creation, restructuring, distribution and continuous iteration.`,
+    category: 'industry',
+    source: 'iFeng Tech',
+    date: '2026-09-24',
+    tags: ['GEO', 'AI Search', 'Platform Review', 'E-E-A-T'],
+  },
+  {
     id: 294,
     title: `Gartner: 40% of Enterprise Applications Will Embed AI Agents by End of 2026`,
     summary: `Gartner predicts that by the end of 2026, 40% of enterprise applications will embed AI agents, marking the transition from AI as an "assistant tool" to "digital employee" in business operations.`,
