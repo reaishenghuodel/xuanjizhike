@@ -12,6 +12,64 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 300,
+    title: `Four Major AI Platforms Reveal Distinct Brand Citation Preferences: Doubao, DeepSeek, Kimi and Qwen Compared`,
+    summary: `ChinaZ compares how Doubao, DeepSeek, Kimi and Qwen select brand sources to cite, concluding that differing retrieval pools and generation logic cause one brand to be recommended by one platform and ignored by another, and proposes a "one set of facts, many packagings" playbook.`,
+    content: `As reported by ChinaZ on September 22, 2026, the generative engines behind AI search are not a single rival but a group with very different tastes: the same company may be generously recommended by Doubao, completely ignored by DeepSeek, and quoted with outdated information by Kimi. The root cause is each platform's distinct retrieval sources and generation logic.
+
+Platform profiles:
+1. Doubao (the "life commitee member" of mass consumer scenarios): prefers compliant, authoritative public information and timely hot topics; answers most actively on lifestyle services and consumer categories
+2. DeepSeek (the "science top student" for professional reasoning): favors academic literature, professional databases and official technical documents; highly receptive to hard facts like technical specs
+3. Kimi (the "archivist" for long text and provenance): prioritizes the latest original sources, multi-source synthesis and source tracing; whitepapers and deep case studies are worth the most here
+4. Qwen (the "business backbone" for enterprise and e-commerce): quotes official platforms and authoritative industry sites; naturally receptive to B2B official narratives and e-commerce ecosystem content
+
+Wenxin Yiyan remains tightly bound to Baidu search data (favoring high-authority sites, Baike and official announcements), while Tencent Yuanbao favors the Tencent ecosystem and official compliant data sources.
+
+Three strategies for enterprises:
+- One set of facts, many packagings: keep parameters, cases and qualifications unique, but package per platform (FAQ for Doubao, tech docs for DeepSeek, original long-form for Kimi, official narratives for Qwen)
+- Monitor per platform, never on averages: average scores hide weaknesses, and B2B weaknesses typically appear on the highest-weight professional Q&A platforms
+- Let customer usage set priorities: consumer brands favor Doubao and Yuanbao, B2B and tech firms favor DeepSeek and Qwen, long-decision content chains favor Kimi — review platform priorities every quarter`,
+    category: 'industry',
+    source: 'ChinaZ',
+    date: '2026-09-25',
+    tags: ['AI Search', 'GEO', 'Citation', 'LLM'],
+  },
+  {
+    id: 301,
+    title: `Alibaba Cloud's Wanxiaozhi 3.0 Brings GEO to SMEs: From Search Rankings to AI Citations`,
+    summary: `Alibaba Cloud released Wanxiaozhi 3.0 at the QiYun Conference, upgrading it from an AI site builder into an AI site-building and business platform for SMEs with GEO/SEO diagnostics, multi-platform content distribution, AI customer service and ChatBI.`,
+    content: `As reported by ChinaZ on September 24, 2026, the rise of AI assistants has pushed brand visibility inside AI answers to the top of the business agenda, bringing GEO (Generative Engine Optimization) into the mainstream. Alibaba Cloud released Wanxiaozhi 3.0 at its QiYun (Apsara) Conference, upgrading it from an AI site builder into an AI site-building and business platform for small and medium enterprises.
+
+Core capabilities:
+1. GEO/SEO diagnostics: a "check, compare, guide" approach to improving the probability that brands get cited in AI answers
+2. Content generation and multi-platform distribution: structured content production tuned to AI citation preferences
+3. AI customer service, mobile steward and ChatBI: connecting the full chain of being discovered, content reach, customer reception and business analytics
+4. Data-source consistency and continuous content operation: website business data and AI optimization data share one source
+
+Industry significance: following Baidu and Tencent, Alibaba Cloud is productizing GEO and bringing it down to the SME market, marking the shift of GEO from custom agency delivery to platform-based, SaaS-level accessibility. For SMEs, the migration from search rankings to AI citations is now a practical business question.`,
+    category: 'industry',
+    source: 'ChinaZ',
+    date: '2026-09-25',
+    tags: ['GEO', 'AI Search', 'Alibaba Cloud', 'SME'],
+  },
+  {
+    id: 302,
+    title: `Alibaba Cloud QiYun Conference: Seven Tongyi Releases, Qwen Intelligence and the Enterprise Agent Push`,
+    summary: `At the 2026 QiYun Conference Alibaba Cloud unveiled seven Tongyi model releases, a 128-supernode AI server and Qwen Intelligence for AI phones, while chairman Wu Yongming declared that machine thinking will scale to 1,000x that of humans.`,
+    content: `As reported around the 2026 Alibaba Cloud QiYun (Apsara) Conference on September 22-23, 2026, Alibaba Cloud delivered a full-stack upgrade spanning models, chips, servers and agent applications.
+
+Highlights:
+1. Wu Yongming's keynote: the "machine intelligence" era turns thinking into a scalable commodity, with total machine thinking set to exceed 1,000x that of humans; AI Coding is like early light bulbs — it replaces existing work, but the defining products are yet to appear; the three cornerstones of the future are AI models, chips and cloud; Qwen is advancing from RSI toward ASI; the Zhenwu V900 chip was unveiled; Alibaba Cloud's global data centers will exceed 20GW by 2032
+2. Seven Tongyi model releases in one wave, plus a 128-supernode AI server, targeting agents and complex retrieval agent applications with a stable, enterprise-grade, flexibly deployed high-code development mode
+3. Qwen Intelligence: a full-stack AI phone solution built on Qwen models covering task planning, cross-app execution and image creation, with three model-and-agent solutions (planning, operation, creation) claimed to reach industry SOTA
+
+Industry significance: enterprise agents are moving from lightweight demos to high-code, production-grade deployment, and the competition is now about full-stack integration of models, compute and agent infrastructure rather than single-model benchmarks.`,
+    category: 'industry',
+    source: 'ChinaZ',
+    date: '2026-09-25',
+    tags: ['AI Agent', 'Enterprise', 'Alibaba Cloud', 'Qwen'],
+  },
+  {
     id: 297,
     title: `September AI Platform Upgrades Rewrite the Rules of Being Cited: Brand Competition Shifts from Being Searched to Being Quoted`,
     summary: `Doubao, DeepSeek, Qwen, Yuanbao and ChatGPT all shipped major updates within one week in September 2026, making source retrieval, hallucination reduction and citation-first behavior the shared theme. A brand's citability is now the lifeline in AI search.`,
