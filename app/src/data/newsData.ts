@@ -12,6 +12,74 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 303,
+    title: `Search Engine Land Publishes Free AI Visibility Audit Framework: 9 Checks to Gauge Your Brand's Real Standing in AI Search`,
+    summary: `In a September 24, 2026 article, Search Engine Land lays out nine no-cost checks for auditing AI visibility along a four-step funnel: can AI crawl you, can AI understand you, do your facts hold up, and what does AI actually say about you. Promptwatch data shows ChatGPT's citation share of Reddit once plunged from 3.8% to 0.5%, making visibility audits a recurring ritual rather than a one-off task.`,
+    content: `As reported by Search Engine Land on September 24, 2026 (author Donna Rougeau), ranking well on Google does not mean your brand gets mentioned when customers ask ChatGPT: AI systems blend dozens to hundreds of sources and then actively narrow the candidate list, so a small visibility gap can drop your company entirely.
+
+The underlying logic: AI is not searching but filtering — a three-stage process of whether the information can be crawled, whether it can be understood, and whether an AI would dare to cite it.
+
+The nine checks map to four steps:
+1. Make sure AI can get in: check whether robots.txt blocks GPTBot, ClaudeBot, PerplexityBot or Google-Extended, and remove cookie walls or regional redirects that stop crawlers
+2. Make sure AI understands you: list every entity (branches, product lines, key people, after-sales policies) as written facts, fill in JSON-LD structured data, and replace hollow claims like industry-leading with specific, verifiable descriptions
+3. Make sure facts line up: unify name, address, phone and hours across the website, map platforms and industry directories, and connect the brand to authoritative knowledge sources such as knowledge panels
+4. Ask the AI directly: in incognito mode, quiz ChatGPT, Claude, Perplexity, Google AI plus Kimi, Doubao, DeepSeek, Yuanbao and Qwen, and compare the answers with reality
+
+Key data point: per Promptwatch (August 14, 2026), ChatGPT's citation share of Reddit content once fell from a steady 3.8% to 0.5% — proof that AI source preferences keep shifting and audits should become a quarterly habit rather than a one-time project.
+
+Suggested cadence: same day — robots.txt check, channel consistency review and an AI question test; within a week — clean up vague claims and add structured data; within a month — publish first-party original content and build authoritative knowledge-source associations.`,
+    category: 'industry',
+    source: 'Search Engine Land',
+    date: '2026-09-25',
+    tags: ['GEO', 'AI Visibility', 'Brand Search', 'Audit'],
+  },
+  {
+    id: 304,
+    title: `2026 Enterprise AI Agent Platform Panorama: Competition Shifts from Feature Checklists to Production-Grade Delivery`,
+    summary: `A CSDN roundup published September 18, 2026 maps the enterprise AI agent platform landscape, concluding that agents have crossed from proof-of-concept into scaled production, with competition moving to runtime stability, industry fit, security compliance and proven business value across three routes: zero-code builders, cloud-native integrated suites and vertical specialists.`,
+    content: `As reported by CSDN on September 18, 2026, enterprise AI agents officially crossed from proof-of-concept into scaled production in 2026, and competition moved from feature richness to a combined contest of runtime stability, industry adaptability, security compliance and value realization.
+
+The landscape follows three routes:
+1. Internet cloud ecosystems: ByteDance Coze (zero-code external bots) and Volcano Engine HiAgent (private enterprise agent workstations), Alibaba Cloud Bailian (MaaS+Agent integration with DingTalk as the front door), Tencent Cloud ADP (wired into WeCom, WeChat and Tencent Meeting), Baidu Qianfan (enterprise orchestration plus Wenxin agent platform), Huawei Cloud AgentArts (government/SOE and Xinchuang markets on Ascend)
+2. Vertical specialists: 360 Zhiyu (party, government, military and SOE clients with dev-ops-user three-state separation), Ant Digital Agentar (financial-grade trusted agents, top-level-5 rating in the CAICT assessment), iFlytek StarAgent (voice and digital-human scenarios), Zhipu Qingliu (model and platform from one team), Bizfocus AgentCore (RPA fused with agent reasoning)
+3. Open source and tooling: Dify Enterprise (self-hosted LLMOps), FastGPT (knowledge-base Q&A), LangGraph (multi-agent orchestration), CrewAI (multi-role collaboration)
+
+Overseas anchors: Microsoft Azure AI Foundry Agent Service, IBM watsonx Orchestrate (multi-agent central governance) and AWS Bedrock AgentCore.
+
+Proof points from the field: a 1+2+N intelligent review system in finance cut per-case credit review time by roughly 60-70%; power-line inspection defect recognition accuracy reached 90%+ with over 70% of image-review labor released; one leading vendor booked 242 million RMB in AI and compute revenue in H1 2026, up 36.86% year over year.
+
+Selection logic: zero-code platforms suit lightweight fast validation, cloud vendors leverage ecosystem reach, vertical players build moats in their lanes, and open source serves technical teams — production-grade operations and deep industry sediment are becoming the decisive edge.`,
+    category: 'industry',
+    source: 'CSDN',
+    date: '2026-09-18',
+    tags: ['AI Agent', 'Enterprise', 'Platform', 'LLM'],
+  },
+  {
+    id: 305,
+    title: `Digitas Hong Kong GEO Playbook: SEO Is the Foundation, GEO Extends It into the AI Search Era`,
+    summary: `Digitas HK published a practical GEO guide for Hong Kong enterprises, noting that more users now ask ChatGPT, Gemini and Copilot directly, so the exposure challenge has shifted from do you rank for keywords to does the AI mention your brand — and lays out seven core elements from AI visibility research and technical hygiene to evidence-based content and entity consistency.`,
+    content: `Digitas HK's Practical Guide to GEO (Generative Engine Optimization) for Hong Kong Enterprises observes that more users now pose questions directly to ChatGPT, Gemini, Copilot and other AI search tools and read AI-summarized answers, so the enterprise exposure challenge has shifted from whether the website ranks near the top for keywords to whether the AI mentions your brand when it answers the customer question.
+
+Core positioning: GEO is not a replacement for SEO but its natural evolution in the AI search era — SEO helps search engines find your website; GEO helps AI find your expertise. SEO is the infrastructure, GEO is the AI-era extension.
+
+Seven core elements of a GEO strategy:
+1. AI visibility research: know what customers ask, how AI describes your brand, whether misinformation exists, and how you perform across languages
+2. Technical foundation: robots.txt, XML sitemaps, structured data, page speed, hreflang and multilingual architecture
+3. Clear, useful content: key pages should directly answer what is included, who it suits, pricing, limits and how you differ from competitors
+4. Evidence-based content: original research, local market data, real cases and whitepapers that AI cannot replicate elsewhere
+5. Entity consistency: keep company name, address, phone, management and service scope uniform across the website, LinkedIn, Google Business Profile and beyond
+6. Third-party authority: trade media, associations, expert interviews and academic research outweigh masses of low-quality links
+7. Measurement: track AI referral traffic, AI mentions, citation counts, share of voice, leads and revenue — judge GEO by business outcomes, not citation counts
+
+How to start: pilot on one most-important product or service, list the questions customers ask most, run those queries on Google, ChatGPT and Gemini while logging competitors and cited sources, and progress through four stages — Discovery, Prioritisation, Implementation, Measurement. Enterprises should avoid any promise of guaranteed AI citations.
+
+Hong Kong specifics: users search across English, Traditional Chinese, Cantonese colloquial phrasing and mixed code; first brand encounters increasingly happen inside AI answers; and high-consideration sectors such as finance, insurance, healthcare and property fit AI search especially well — making GEO as much a brand-management play as a traffic play.`,
+    category: 'industry',
+    source: 'Digitas HK',
+    date: '2026-09-24',
+    tags: ['GEO', 'AI Search', 'Brand Strategy', 'Hong Kong'],
+  },
+  {
     id: 300,
     title: `Four Major AI Platforms Reveal Distinct Brand Citation Preferences: Doubao, DeepSeek, Kimi and Qwen Compared`,
     summary: `ChinaZ compares how Doubao, DeepSeek, Kimi and Qwen select brand sources to cite, concluding that differing retrieval pools and generation logic cause one brand to be recommended by one platform and ignored by another, and proposes a "one set of facts, many packagings" playbook.`,
