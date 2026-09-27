@@ -12,6 +12,73 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 306,
+    title: `Geowise Publishes Full-Stack GEO System Capability List: Visibility Monitoring Across Six AI Platforms plus 10,000-Question T+1 Tracking`,
+    summary: `A CSDN article from September 26, 2026 details the full capability stack of Geowise, a GEO optimization system for mid-to-large brands covering visibility monitoring on Doubao, Yuanbao, DeepSeek, Kimi, Baidu AI and Qwen, with T+1 daily tracking of 10,000+ questions, one-click publishing to 14 content platforms, and four service tiers from free trial to group-level customization.`,
+    content: `As reported by CSDN on September 26, 2026, Geowise (新榜智汇) released a full capability list for its GEO optimization system aimed at mid-to-large brands. It spans six AI platforms — Doubao, Yuanbao, DeepSeek, Kimi, Baidu AI and Qwen — with the goal of getting brand information cited, mentioned and recommended inside AI answers.
+
+Five core modules:
+1. GEO scene quick scan: one lookup of brand visibility, AI reputation and ranking position on key questions, establishing the visibility baseline
+2. Question mining: builds an audience x scenario x intent question system from real multi-platform search behavior, with automatic dropdown-word harvesting and cleaning
+3. Subscription tracking: monitors 10,000+ questions across platforms at T+1 daily frequency with fuzzy brand-name variant matching, so every effect change can be traced to a specific question
+4. Content production: parses high-citation source structures and batch-generates articles, published to 14 content platforms in one click
+5. AI citation tracking: single or batch upload parsing, with citation rate, platform distribution and spread paths verifiable article by article
+
+Four service tiers: a 7-day free trial with full feature access and exportable data; a self-serve tool tier (up to 150 collaborators at no extra cost, custom workflows); a managed service tier (expert-led question systems and source placement); and a group-custom tier (multi-brand data isolation and cross-region monitoring).
+
+Industry data: as of August 2025, China's AI search engine track reached 672 million monthly active users; CNNIC data shows 62.2% of generative AI usage is "answering questions". Case studies cited include +60% AI recommendation rate for a beauty brand, +70% for a home-furnishing brand and +80% for a B2B equipment maker.
+
+Industry takeaway: monitoring alone gives up half the GEO payoff — monitoring shows where you stand, but content placement is what converts it. "If you only look and never change anything, a brand's position in GEO will not materially move."`,
+    category: 'industry',
+    source: 'CSDN',
+    date: '2026-09-27',
+    tags: ['GEO', 'AI Search', 'Visibility Monitoring', 'Content Strategy'],
+  },
+  {
+    id: 307,
+    title: `Brand AI Competitiveness Index Goes Mainstream: AI Visibility x Mention Ranking x Content Credibility, with Professional-Community Content Cited 29.9% of the Time`,
+    summary: `SheepGeo's September 26, 2026 analysis breaks down the Brand AI Competitiveness Index jointly released by Zhihu and CAICT — a multiplicative model of AI visibility, composite mention ranking and content credibility where any zero dimension collapses the whole score. Professional-community content enjoys a 29.9% AI citation rate, and structured rewrites can lift citation rates from 5% to 35%.`,
+    content: `As reported by SheepGeo on September 26, 2026, Zhihu and the China Academy of Information and Communications Technology (CAICT) released the "Brand AI Competitiveness Index", the first framework to turn the black box of AI recommendation into measurable metrics. The core formula: Brand AI Competitiveness Index = AI Visibility x Composite Mention Ranking x Content Credibility — a multiplicative model where any dimension hitting zero wipes out the whole score.
+
+The three-layer framework:
+1. AI visibility (can you get a seat at the table): whether the brand exists in the AI's reasoning at all, hinging on scenario coverage across six core scenes such as general recommendations, price/budget questions and feature comparisons
+2. Composite mention ranking (are you prominent): AI performs "digital deliberation" via dynamic filtering, cross-verification and iterative reflection; your position and weight in the suggestion list decides who the user ultimately sees
+3. Content credibility (can you be trusted): composed of source credibility and cited-content quality; "hollow brands" with high exposure get demoted by AI for lacking an evidence chain
+
+Key data points:
+- Content from professional communities like Zhihu is cited by AI assistants up to 29.9% of the time, far above ordinary content platforms
+- Structured markup shows a "60% threshold effect": gains crawl below 60% Schema completeness and flatten past 80%
+- One client's rewrite using a three-part module (knowledge point + application scenario + user value) lifted AI citation rate from 5% to 35%
+- Pure-text content is cited only 12% of the time; multi-modal content blending text, images and data tables can raise recommendation rate by 210% to 41%
+- Princeton research: adding citation sources raises credibility 34.4%, adding statistics raises it 32.1%
+
+Practical tactics: content structuring with weighted layers (title 35%, first 100 characters 30%, H2 headings 20%); multi-modal and authoritative endorsement; and shifting optimization from "brand keywords" to "scenario keywords" — one legal-consulting platform focusing on the labor-arbitration process quadrupled AI citation counts in three months. Monitoring should track weekly citation-rate trends rather than daily noise, distinguishing direct citation, textual mention and link-source appearances.`,
+    category: 'industry',
+    source: 'SheepGeo',
+    date: '2026-09-27',
+    tags: ['Brand Search', 'AI Visibility', 'GEO', 'Citation Rate'],
+  },
+  {
+    id: 308,
+    title: `Meta's Muse Personal AI Agent Tops US iOS Free Chart with 2.5M Downloads in 13 Days as Agent Access Becomes a New Brand Battleneck`,
+    summary: `CNBC reported on September 21, 2026 that Meta's Muse personal AI agent topped the US iOS free app chart within two weeks of launch, passing ChatGPT with over 2.5 million cumulative downloads. The agent traffic scramble has begun: Amazon blocked Muse over privacy and security concerns while Shopify partnered to open agentic checkout.`,
+    content: `As reported by CNBC on September 21, 2026, Meta's Muse personal AI agent topped the US iOS free app chart less than two weeks after launch, passing ChatGPT, Polymarket, Claude and Grok. Sensor Tower data shows Muse logged 730,000 downloads in roughly the five days after its September 8 release and over 2.5 million cumulative downloads by September 21 (about 1.5M on iOS and 1.1M on Android); Claude and Grok recorded 400,000 and 200,000 downloads in comparable 13-day post-launch windows, and ChatGPT 3.1 million.
+
+Positioning: powered by Meta's Muse Spark model family, the app manages "supercharged digital assistants" that perform cross-web tasks like filling out forms and organizing email inboxes — Mark Zuckerberg's signature push into the AI agent market. Bernstein analyst Stacy Rasgon noted: "Up to this point most agentic use cases have not really been for normal people. Now Meta's Muse and other agents are starting to get more potential for broad-based adoption." Meta shares surged over 11% on the day and Wells Fargo raised its price target to $796.
+
+Monetization: Muse is free, with $20 and $100 monthly subscription tiers opening a revenue path beyond advertising.
+
+Ecosystem jockeying (the agent traffic-entry battle):
+1. Amazon blocked Muse from its shopping site over privacy and security risks, saying the agent bypasses built-in shopping personalization, captures and stores customer credentials and scrapes account data, all without advance notice
+2. Shopify partnered with Meta to open agentic checkout in its online stores
+
+Industry impact: AI agents are becoming a new entry point through which users encounter brands — "will the agent mention or visit your brand" is the next brand-visibility battlefield after AI search — though Muse still faces ongoing AI safety and privacy scrutiny.`,
+    category: 'industry',
+    source: 'CNBC',
+    date: '2026-09-27',
+    tags: ['AI Agent', 'Meta', 'Brand Search', 'Agentic Commerce'],
+  },
+  {
     id: 303,
     title: `Search Engine Land Publishes Free AI Visibility Audit Framework: 9 Checks to Gauge Your Brand's Real Standing in AI Search`,
     summary: `In a September 24, 2026 article, Search Engine Land lays out nine no-cost checks for auditing AI visibility along a four-step funnel: can AI crawl you, can AI understand you, do your facts hold up, and what does AI actually say about you. Promptwatch data shows ChatGPT's citation share of Reddit once plunged from 3.8% to 0.5%, making visibility audits a recurring ritual rather than a one-off task.`,
