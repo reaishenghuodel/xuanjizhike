@@ -12,6 +12,75 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 309,
+    title: `Digitas Publishes Practical GEO Guide for Hong Kong Companies: GEO Does Not Replace SEO — It Lets AI Find Your Expertise`,
+    summary: `Digitas Hong Kong's September 24, 2026 practical guide to Generative Engine Optimization lays out seven core GEO elements and a four-stage implementation path, framing GEO as the natural evolution of SEO in the AI search era — "SEO helps search engines find your website; GEO helps AI find your expertise" — while warning brands against any promise of guaranteed AI citations.`,
+    content: `As published by Digitas Hong Kong on September 24, 2026, more and more users now ask ChatGPT, Gemini, Copilot and other AI search tools directly, and a customer's first encounter with a brand is shifting from search results to AI answers. The question companies must answer moves from "does our website rank high for target keywords" to "does the AI mention our brand when it answers the customer's question".
+
+Core positioning: GEO is not a replacement for SEO but its natural evolution in the AI search era — "SEO helps search engines find your website; GEO helps AI find your expertise". If a site is not indexed in the first place, AI can hardly cite it, so "SEO is the infrastructure and GEO is its extension for the AI era".
+
+The seven core elements of a GEO strategy:
+1. AI visibility research: which questions customers ask, how AI describes your brand, whether wrong information exists, and how performance differs across languages
+2. Technical foundations: robots.txt, XML sitemaps, canonical tags, structured data and hreflang multilingual architecture remain critical in the AI search era
+3. Clear, practical content: key pages should answer customer questions directly (services, fit, pricing, limitations, differences from competitors) instead of burying them after long introductions
+4. Evidence-based content: original research, local market data, real cases, expert analysis, first-party data and whitepapers — "write for customers, structure it for AI, back it with evidence"
+5. Entity consistency: company name, address, management and service scope kept consistent across the website, LinkedIn, Google Business Profile and industry directories
+6. Third-party authority: high-quality endorsements from industry media, chambers and associations, academic research, customer cases and major media coverage outweigh large volumes of low-quality links
+7. Measurement: track organic impressions, AI referral traffic, AI mentions, citation counts, share of voice, leads and revenue — the key question is "did GEO deliver real business results", not "was the brand cited by AI today".
+
+Four implementation stages: Discovery (analyse current SEO performance and AI visibility), Prioritisation (lock down the most important topics, pages and markets), Implementation (technical optimisation, content optimisation, authority building), Measurement (track exposure, citations, traffic, leads and revenue).
+
+Hong Kong specifics: users search across English, traditional Chinese, Cantonese colloquial phrasing and mixed-language queries, so translation alone is not enough — content must be built for the local market; high-consideration industries such as finance, insurance, healthcare and property are especially suited to AI search scenarios.
+
+Risk warning: brands should avoid believing any promise of "guaranteed AI citations" — GEO improves the odds but cannot guarantee outcomes, AI platforms ultimately decide what to cite, and no schema today can guarantee being cited.`,
+    category: 'industry',
+    source: 'Digitas HK',
+    date: '2026-09-28',
+    tags: ['GEO', 'AI Search', 'Brand Strategy', 'SEO'],
+  },
+  {
+    id: 310,
+    title: `AI Agents Go Mainstream in 2026: OpenAI Agents API Enters Public Beta, Meta Muse Tops 3 Million Installs, MCP Downloads Exceed 100 Million a Month`,
+    summary: `A September 23, 2026 industry roundup charts AI agents' leap from "answering questions" to "executing tasks": OpenAI opened the Agents API public beta in early September, Meta's Muse topped the iOS free chart within two weeks with 3M+ installs, Qualcomm's Snapdragon 8 Elite Gen6 natively supports on-device agent inference, and MCP developer kits surpassed 100 million monthly downloads with 10,000+ public MCP servers.`,
+    content: `As reported by NetEase on September 23, 2026, AI agents are penetrating industries at an unexpected pace, achieving the leap from "information Q&A" to "task execution".
+
+Platformisation: in early September OpenAI officially opened the public beta of its Agents API to developers, marking the platform era of agent development — AI can now run continuously in the cloud, calling tools autonomously, coordinating sub-tasks, managing long-term context and resuming execution after interruptions. Reasoning-model techniques mean agents no longer need fine-grained prompt engineering: given a clear goal they can decompose steps, choose tools, execute and self-correct.
+
+Personal agents break out: Meta's consumer agent Muse topped the US iOS free chart and Google Play within two weeks of launch with installs exceeding 3 million; Alibaba's Qwen announced at the Apsara Conference that it is accelerating its Personal Agent with progress in health, finance and ecosystem scenarios. The personal agent era has officially arrived.
+
+On-device hardware: at the September Snapdragon Summit, Qualcomm released the Snapdragon 8 Elite Gen6 2nm flagship chip with double the Hexagon NPU compute, natively supporting on-device AI agent inference so phones and PCs can run agents independently with privacy, low latency and low cost advantages; Intel convened its 2026 Technology Innovation and Industry Ecosystem Conference in Suzhou under the theme "Same Core, Far Intelligence" to discuss agent trends with hundreds of industry leaders.
+
+Infrastructure: since Anthropic introduced the MCP protocol in late 2024, the open standard connecting models to external systems has gained support from nearly every major AI platform; as of Q3 2026, MCP developer kits surpassed 100 million monthly downloads and more than 10,000 public MCP servers are available. At AICC2026, Jin Lei of MIIT's Department of Electronic Information noted that as agents enter production, research and social services, AI demands computing power that is larger-scale, more efficient and more diverse.
+
+Industry deployment: JAKA Robotics combined its robotics expertise with Intel's edge computing platform to integrate real-time motion control, perception, autonomous planning and execution into a unified edge architecture; software partners such as Baidu Dazi, Qwen Office and TRAE leverage model routing, inference-framework optimisation and local skill integration to fully unlock on-device AI strengths.
+
+Three trends ahead: cloud-edge collaboration as the mainstream architecture (edge for real-time response, cloud for heavy compute); multi-agent collaboration as the norm; and deep fusion of agents with the physical world as embodied intelligence accelerates.`,
+    category: 'industry',
+    source: 'NetEase',
+    date: '2026-09-28',
+    tags: ['AI Agent', 'OpenAI', 'MCP', 'On-device AI'],
+  },
+  {
+    id: 311,
+    title: `AI Search Reshapes Brand Acquisition: ChatGPT Tops 1 Billion MAU, Google AI Overviews Reach 2.5 Billion Users Monthly`,
+    summary: `Taiwan's Economic Daily reported on September 9, 2026 from the "AI x GEO New Traffic Era" seminar: ChatGPT has passed 1 billion monthly active users, Google AI Overviews touches roughly 2.5 billion users monthly, Adobe finds 77% of US ChatGPT users treat it as a search engine and 36% discovered new brands through it, and Semrush projects AI search to overtake organic search traffic by early 2028.`,
+    content: `As reported by Taiwan's Economic Daily on September 9, 2026, Taiwan's MicroAd joined Omnichat and the Digital Convergence Group to host the "AI x GEO New Traffic Era" seminar, examining how AI reshapes brand acquisition across AI search exposure, LINE customer operations and AI advertising.
+
+Global data: ChatGPT has surpassed 1 billion monthly active users, Google AI Overviews touches roughly 2.5 billion users per month, and AI Mode has passed 1 billion MAU. Similarweb's January 2026 study found 35% of US consumers consider AI tools most useful in the "exploring needs and early ideation" stage versus just 13.6% for traditional search engines; Adobe found 77% of US ChatGPT users use it as a search engine and 36% have discovered new brands or products through it; Semrush's study of 500+ high-value topics projects AI search could bring websites more visitors than traditional organic search by early 2028 — a critical "golden crossover".
+
+Taiwan data: TWNIC's 2025 Taiwan Internet Report shows 43.19% of respondents used generative AI in the past three months, rising to 79.33% among 18-29 year-olds.
+
+Core view (MicroAd VP Hsieh Chia-Chia): "In the search era brands competed for positions in search results; in the AI era they must compete for a place inside AI's answers." GEO is not simply swapping SEO for another playbook but re-inventorying the information a brand leaves across websites, media coverage, product information and organic word-of-mouth so AI can build a complete picture of the brand — "GEO is not about ranking for one keyword, it is about giving AI enough information to understand who you are, what you offer and why you deserve recommendation".
+
+Four GEO steps: (1) a free GEO audit report to find content gaps that hinder AI understanding; (2) GEO-friendly press releases with 15 media outlets to accumulate external signals; (3) GEO-friendly organic word-of-mouth so AI sees real usage scenarios and consumer discussion; (4) a GEO-friendly answer landing page consolidating it all into AI-readable brand assets.
+
+Industry verdict: 2026 is the pivotal year for GEO — as consumers shift from "Google search" to "asking AI first", the competition is not about who uses AI tools better, but who lets AI "get to know" their brand first.`,
+    category: 'industry',
+    source: 'Economic Daily (Taiwan)',
+    date: '2026-09-28',
+    tags: ['AI Search', 'GEO', 'Brand Acquisition', 'LLM Platforms'],
+  },
+  {
     id: 306,
     title: `Geowise Publishes Full-Stack GEO System Capability List: Visibility Monitoring Across Six AI Platforms plus 10,000-Question T+1 Tracking`,
     summary: `A CSDN article from September 26, 2026 details the full capability stack of Geowise, a GEO optimization system for mid-to-large brands covering visibility monitoring on Doubao, Yuanbao, DeepSeek, Kimi, Baidu AI and Qwen, with T+1 daily tracking of 10,000+ questions, one-click publishing to 14 content platforms, and four service tiers from free trial to group-level customization.`,
