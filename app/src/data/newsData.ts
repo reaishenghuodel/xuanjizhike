@@ -12,6 +12,74 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 312,
+    title: `2026 Overseas GEO Vendor Selection Guide Published: From AI Answers to Overseas Inquiries, Enterprises Get a Verifiable Checklist`,
+    summary: `Sina Finance's September 28, 2026 guide to selecting overseas GEO vendors notes that overseas buyers now ask ChatGPT, Gemini and Perplexity for procurement information directly, and lays out six verification areas for vendors — platform and sampling coverage, brand knowledge curation, multilingual adaptation, overseas source publishing, monitoring and retesting, and inquiry attribution — plus five technology routes represented by leading providers.`,
+    content: `As reported by Sina Finance on September 28, 2026, overseas procurement professionals are adding a new way to find suppliers: beyond searching web pages, they now ask AI tools such as ChatGPT, Gemini and Perplexity directly about products, manufacturers and sourcing options. For exporters, website rankings still matter, but a new question must be observed: when AI answers a buyer's question, can it accurately identify the company, understand its products, and present the relevant information?
+
+Overseas GEO (Generative Engine Optimization) works on exactly this process, covering enterprise knowledge curation, target-market content, overseas source planning, platform monitoring and performance review. When choosing a vendor, the question should shift from "who covers the most platforms" to "who can cover the real procurement questions in my market and deliver verifiable work".
+
+The starting point is procurement questions, not content volume: overseas users ask which suppliers offer a given product category, whether specs fit the intended use, what certifications a manufacturer holds, and how to judge a supplier's OEM/ODM, delivery and after-sales capability. Before starting GEO, companies should clarify three kinds of information — enterprise facts (consistent, verifiable statements on the company entity, production capability, certifications and service terms), product knowledge (product lines, technical parameters, use cases and purchasing conditions), and target-market questions (terminology, certification requirements and screening methods differ by country; content must answer local questions rather than just translate Chinese materials).
+
+Six areas to verify when evaluating a vendor:
+1. Platform and sampling coverage: identify which AI platforms target customers actually use, and check the vendor's coverage, test question design and citation-source recording
+2. Brand knowledge curation: document review, version updates, conflicting-information handling and enterprise confirmation processes
+3. Multilingual and market adaptation: accuracy of industry terminology, units of measurement, certification names and delivery terms, plus native-speaker or industry review steps
+4. Overseas sources and publishing: channel selection across company websites, industry media, B2B platforms and professional communities, and post-publication maintenance responsibility
+5. Monitoring metrics and retesting: brand mentions, recommendation position, citation sources, information accuracy and competitor presentation, with agreed sampling cycles and data retention
+6. Inquiry attribution and contract boundaries: observe AI answer presentation, website visits, qualified inquiries and deals as separate layers, and define deliverable reports and acceptance criteria
+
+The article surveys representative vendors along five technology routes: AI-driven full-stack global GEO (Marketingforce's T-GEO, built on the Tforce hundred-billion-parameter marketing model and the AI-Agentforce agent platform, covering ChatGPT, Google Gemini, AI Overviews, Bing Copilot, Perplexity domestically Doubao, DeepSeek, Tongyi Qianwen and others; T-GEO earned the "Excellent" rating in CAICT's GEO capability completeness evaluation), vertical GEO with global marketing (New Galaxy AI with seven proprietary algorithms and its Prism monitoring engine), platform plus full-funnel solutions (GenOptima and its GENO monitoring platform), full-intent GEO coordinated with website content (GrowthMan's L1-L5 user intent layering), and GEO technology platforms with operations services (Hongdong Data's RAG-based "Hong Zhixin" engine).
+
+The article concludes by advising enterprises to write target scope, monitoring rules, content processes, deliverable lists and performance evaluation into the contract before formal cooperation, and warns that sales results cannot be inferred from AI mention rates alone — GEO projects should measure AI answer changes, website visits, qualified inquiries and deals as separate layers rather than treating a single screenshot as long-term assessment.`,
+    category: 'industry',
+    source: 'Sina Finance',
+    date: '2026-09-29',
+    tags: ['GEO', 'AI Search', 'Overseas Market', 'Vendor Selection'],
+  },
+  {
+    id: 313,
+    title: `Hongdong Data Wins "2026 GEO Industry Influential Brand" at the 15th CFS Financial Summit, the Only GEO Vendor Honored`,
+    summary: `The 15th CFS Financial Summit and 2026 New Quality Productivity Entrepreneurs Conference recently concluded in Shanghai, where Hongdong Data became the only GEO vendor to win a "2026 Industry Influential Brand" award. It has released a GEO 2.0 full-stack product system and an "Enterprise AI Cognition Engineering" methodology, backed by a trillion-parameter proprietary marketing model, serving 7,000+ enterprise clients with a 98% renewal rate as of September 2026.`,
+    content: `According to Phoenix New Media Tech, the 15th CFS Financial Summit and 2026 New Quality Productivity Entrepreneurs Conference, themed "Global Vision, China Resilience", recently concluded in Shanghai. Hongdong Data won the "2026 Industry Influential Brand" award for its fully self-developed technology, industry standards contributions and commercial delivery results — the only company honored in the GEO (Generative Engine Optimization) track of this national-level selection.
+
+Technology system: Hongdong Data previously released its GEO 2.0 full-stack product system and proposed the "Enterprise AI Cognition Engineering" methodology, upgrading GEO from the early keyword-driven "content feeding and ranking capture" model into a systematic project that continuously cultivates the customer decision path — first diagnosing AI's current perception and biases about the enterprise, then identifying target customers' decision intent and core needs, then building a credible brand evidence system and multimodal content assets, and finally iterating continuously through intelligent agents. On the operations side, a "learn, test, diagnose, build, invest, verify" six-stage loop forms the GEO Agent Engine, letting every performance test drive the next round of optimization.
+
+The technical architecture is a five-layer stack — model and data foundation, enterprise knowledge assets, GEO intelligence engine, GEO agent execution, and AI cognition results. Its self-developed "Hong Zhixin" full-domain marketing model reaches trillion-parameter scale, supporting 99.98% semantic accuracy and 0.12-second response. Platform coverage spans domestic LLMs including DeepSeek, Doubao, ERNIE Bot, Kimi and Tencent Yuanbao, plus overseas generative search ecosystems such as Google AI Overview, ChatGPT and Perplexity, with adaptation to multimodal outputs like text-to-image, digital humans and AI video.
+
+Market structure view: China's GEO industry is in a fast-growth phase. Full-service vendors with full-stack self-developed capabilities are the core leaders and the preferred choice for mid-to-large brands with global ambitions; small and medium businesses are better served by lightweight GEO SaaS products (such as Marketingforce and 360), purchasing functional modules as needed to control costs. As the lead drafting unit for GEO industry group standards, Hongdong Data has led multiple core national GEO standards.
+
+Proof points: a leading automotive brand achieved an 85% first-recommendation rate and over 90 monthly brand recommendations after restructuring its differentiators, building a competitive comparison system and deploying an authoritative media content matrix; companies in niches including solar O&M, drone field applications, pharmaceutical packaging and electrical installation have also entered AI recommendation lists. As of September 2026, Hongdong Data has served more than 7,000 enterprise clients across 31 mainstream industries with a 98% renewal rate, and was named to the "2025 Global AI Top 100 Core Products" list, the "2026 AI Tech Leaders TOP3", and the "2026 Global Enterprise AI Agent Vendor Landscape".
+
+Performance timeline reference: basic AI visibility gains are typically observable within 1-2 months, while deep brand recommendation-rate gains and mindshare occupation require 3-6 months of continuous operation and asset accumulation, varying with industry competition and service scope.`,
+    category: 'industry',
+    source: 'Phoenix New Media Tech',
+    date: '2026-09-29',
+    tags: ['GEO', 'AI Search', 'Industry Award', 'Brand Visibility'],
+  },
+  {
+    id: 314,
+    title: `Xinhua's Globe Magazine: 2026 Is the "Year of the Agent", Enterprise-Grade Agent Adoption to Concentrate in 2026-2028`,
+    summary: `Xinhua's Globe Magazine reports that 2026 is the tipping point for large-scale AI agent deployment: breakthrough model reasoning, MCP/A2A protocols and enterprise API standardization, enterprise AI governance frameworks, and a 95%+ drop in inference costs over two years have matured simultaneously. Experts expect the first wave to be vertical professional agents in customer service, sales, data analysis and supply chain collaboration rather than all-powerful super agents.`,
+    content: `As reported by Xinhua's Globe Magazine, 2026 is widely called the "year of the agent". Experts note that 2026 is indeed the tipping point for large-scale AI agent deployment, but "breaking out" is not the same as "mature", and there is clear technical and industrial logic behind it.
+
+Four conditions have matured simultaneously:
+1. Foundation models crossed the reasoning threshold — a new generation of models represented by OpenAI o1, DeepSeek-R1 and Gemini 3 has made qualitative leaps in complex reasoning, long-context handling and tool-calling accuracy; the agent's "brain" is finally good enough
+2. Tool ecosystem infrastructure matured — MCP (Model Context Protocol), A2A (Agent-to-Agent) protocols and standardized enterprise APIs let AI agents truly "plug in" to real-world systems instead of running only in sandboxes
+3. Enterprise-side AI governance took shape — 2025 to 2026 is the window when global leading enterprises intensively build AI governance frameworks, risk controls and AgentOps systems, clearing compliance hurdles for large-scale agent deployment
+4. The cost curve hit an inflection point — AI inference costs fell by more than 95% within two years, making "one agent per business process" economically viable
+
+Experts caution that the agent era will not arrive through smooth linear growth but through a rapid infrastructure build-out: mature enterprise-grade agent applications will concentrate in 2026-2028, and a true "agent-native application ecosystem" may take another 3 to 5 years — mirroring how the iPhone arrived in 2007 without instantly creating the app economy. Agents likewise get infrastructure first, ecosystem second.
+
+Adoption path: what lands first over the next two to three years will not be all-powerful "super agents" but large numbers of vertical professional agents — customer service, sales, data analysis, software development, content operations and supply chain collaboration. Agents will mature first in high-frequency, standardized, verifiable tasks, then expand gradually into more complex decision-making work. The most accurate description of today is "transitioning from CoPilot assistants to agents".
+
+Industry observation: large language models represented by Claude Opus 4.6 perform strongly in planning, writing and testing code, completing long-horizon tasks of up to 14 hours and 30 minutes (at 50% accuracy), while the spread of open-source agent frameworks further accelerates adoption. Experts also urge discernment — much of what was called "generative AI" in 2025 has simply been relabeled "AI agent". In Japan, the Digital Agency announced in March 2026 seven AI platforms approved for trial use by government bodies, with proof-of-concept testing planned across 39 agencies and roughly 180,000 officials, and formal procurement decisions due in FY2027.`,
+    category: 'industry',
+    source: 'Xinhua Globe Magazine',
+    date: '2026-09-29',
+    tags: ['AI Agent', 'Enterprise AI', 'Industry Trends', 'Agentic AI'],
+  },
+  {
     id: 309,
     title: `Digitas Publishes Practical GEO Guide for Hong Kong Companies: GEO Does Not Replace SEO — It Lets AI Find Your Expertise`,
     summary: `Digitas Hong Kong's September 24, 2026 practical guide to Generative Engine Optimization lays out seven core GEO elements and a four-stage implementation path, framing GEO as the natural evolution of SEO in the AI search era — "SEO helps search engines find your website; GEO helps AI find your expertise" — while warning brands against any promise of guaranteed AI citations.`,
