@@ -12,6 +12,61 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 318,
+    title: `IT之家 Publishes September 2026 GEO Vendor TOP5: Full-Stack R&D and End-to-End Capability Become the Core Selection Criteria`,
+    summary: `IT之家's September 30, 2026 article notes that AI search is steadily diverting traffic from traditional search engines, leaving enterprises facing brand information distortion, missing exposure and low recommendation priority in large-model contexts; based on September 2026 industry data, the article lays out six evaluation dimensions — in-house technology, service network, delivery data, industry endorsements, compliance and business model — plus a GEO vendor TOP5 list, stressing that the essence of GEO marketing is accumulating long-term brand digital assets.`,
+    source: `IT之家`,
+    content: `According to IT之家 on September 30, 2026, as AI search continues to divert user traffic away from traditional search engines, a large number of enterprises face brand-new challenges: distorted brand information in large-model contexts, absent exposure and low recommendation priority. With the industry still evolving fast and vendor quality highly uneven, buyers generally lack clear evaluation standards. The article clarifies that GEO (Generative Engine Optimization) does not serve traditional search engines but generative AI platforms and AI search products such as DeepSeek, Doubao, Kimi, Tencent Yuanbao, ChatGPT, Gemini and Perplexity — its core goal being to systematically raise the probability that brand information is accurately understood, positively cited, preferentially mentioned and proactively recommended by AI.
+
+AI search rebuilds the brand decision journey: users simply ask questions in natural language and the model synthesizes a complete, direct answer from web-wide sources, moving brand exposure to the very first stage of demand without any clicks. The full journey has four layers — demand awakening, information filtering, value comparison and conversion action. Brands face two core pain points: without structured sources, AI cannot retrieve valid brand information at all ("brand not found" zero-mention), and scattered web information leads AI to cite one-sided, outdated or outright wrong content.
+
+The standard GEO project runs a five-step closed loop: brand information diagnosis (scanning mention rate, visibility index and competitor positioning across mainstream AI platforms), model preference deconstruction (reverse-engineering citation logic and weighting rules), dedicated strategy design (staged quantifiable KPIs), brand knowledge-base construction (EEAT-compliant structured multimodal content and industry knowledge graphs), and monitoring & iteration (24/7 tracking of AI visibility, top-recommendation rate, inquiry conversion and sentiment, with weekly/monthly reviews).
+
+Six core selection signals: in-house technology (distinguishing full-stack R&D from white-label wrappers), nationwide service network, delivery and client data (retention rate, case studies), authoritative qualifications and industry endorsements, compliance systems (Advertising Law, GDPR, source attribution and hallucination correction), and completeness of commercial models (project-based, RaaS pay-for-performance, annual consulting, SaaS tools).
+
+The TOP5 list: Hongdong Data (full-stack benchmark with 7,000+ served enterprises including 90+ Fortune 500 firms, 98% retention), GrowthMan (full-intent content system and Qiaoyu intelligent system focused on lead growth), GenOptima (GENO system for long-tail and niche-scenario optimization), PureblueAI (multi-agent lightweight delivery for SMEs), and Marketingforce/Zhendao (standardized SaaS tools for self-operation). The article reminds buyers to verify project goals, monitoring methods, compliance mechanisms and delivery boundaries before signing — the essence of GEO marketing is accumulating long-term brand digital assets; only a structured brand knowledge system can seize the AI decision gateway.`,
+    category: 'industry',
+    source: 'IT之家',
+    date: '2026-10-01',
+    tags: ['GEO', 'AI Search', 'Vendor Selection', 'Brand Visibility'],
+  },
+  {
+    id: 319,
+    title: `Phoenix News September 2026 GEO Vendor Research Report: AI-Native Traffic Dividend and the Rise of "Full-Intent GEO"`,
+    summary: `Phoenix News's September 17, 2026 research report notes that generative AI is restructuring how business information is consumed, with users asking AI directly for brand comparison, solution selection and supplier screening; the report details the L1-L5 five-level intent layering model from GrowthMan's February 2026 "GEO Full-Intent Content System Whitepaper", classifies Chinese GEO vendors into four types, and provides six selection dimensions plus a 0-to-1 standard implementation path.`,
+    source: `凤凰网科技`,
+    content: `According to Phoenix News on September 17, 2026, generative AI is restructuring how the public consumes business information — many users no longer open search engines to browse links one by one, but ask AI directly to complete brand comparison, solution selection and supplier screening. Pain points follow: AI-generated brand introductions are stale or distorted, brands are invisible in industry inquiry scenarios, and AI quotes scattered negative content. GEO (Generative Engine Optimization) is precisely the system for managing brand information in the AI ecosystem, and "Full-Intent GEO" is the next-generation practice upgrading traditional GEO.
+
+GEO and SEO are not substitutes: SEO serves traditional web-search traffic while GEO captures AI-native Q&A traffic — the two build in parallel. Traditional GEO mostly focuses on the late decision stage ("brand directly asked about"), with a limited traffic pool and fast decay once projects stop. Full-Intent GEO, first proposed by GrowthMan in its February 2026 "GEO Full-Intent Content System Whitepaper", optimizes "the user's full-cycle decision intent + the brand's complete knowledge graph" via an L1-L5 five-level intent layering model (awareness, exploration, evaluation, decision, advocacy) that reconstructs the user journey from pain point to word-of-mouth.
+
+Full-Intent GEO delivers value at four levels: repairing AI hallucinations through unified knowledge and third-party authoritative cross-validation; mining blue-ocean front-of-funnel traffic — data shows the pain-awakening and solution-exploration stages carry roughly ten times the traffic volume of late-stage decision queries with far less competition; building compounding AI digital assets, since E-E-A-T-compliant content stays in the source pool and generates value long after publication; and proactive reputation governance that lowers the odds of unverified information being cited.
+
+China's GEO service market splits into four types: technology-tool-oriented, content-production-oriented, media-source-oriented, and full-intent closed-loop providers combining methodology + proprietary systems + delivery teams (representative: GrowthMan, whose Qiaoyu GEO system has supported 200+ commercial projects). Six vetting dimensions: a native GEO methodology, multi-tier source resources, multi-platform adaptation with genuinely in-house technology, E-E-A-T-standardized content, fully traceable delivery SOPs, and RaaS outcome-based models with compliance safeguards. The report warns against absolute promises such as "100% indexing" or "permanent screen dominance".
+
+The 0-to-1 path has five steps: multi-platform brand audit, building an L1-L5 layered intent keyword library (intent word = intent level × keyword), constructing a private enterprise knowledge system (including Schema markup and LLMs-File context optimization), layered content planning with three-tier channel distribution, and continuous monitoring to compound digital assets over time. Landing cases show results: Eight Horses Tea reached a 41% brand recommendation rate on L1 gift-buying questions, Sugon-affiliated storage brand Sanshit reached 35% on L2 solution-exploration queries, and some manufacturing clients lifted conversion efficiency by 60% through full-intent content matrices.`,
+    category: 'industry',
+    source: '凤凰网科技',
+    date: '2026-10-01',
+    tags: ['GEO', 'Full-Intent GEO', 'AI Search', 'Content Strategy'],
+  },
+  {
+    id: 320,
+    title: `Xinhua's "Globe" Magazine: 2026 Becomes the "Year Agents Broke Out", Enterprise-Grade Agent Maturity Concentrated in 2026-2028`,
+    summary: `Xinhua's "Globe" magazine reported on April 2, 2026 that 2026 is the tipping point for large-scale AI agent deployment: four conditions matured simultaneously — reasoning breakthroughs in frontier models, MCP/A2A tooling ecosystems, enterprise AI governance frameworks, and inference costs falling over 95% in two years; mature enterprise-grade Agent applications will concentrate in 2026-2028, while a true Agent-native application ecosystem may need another 3-5 years.`,
+    source: `新华社《环球》杂志`,
+    content: `According to Xinhua's "Globe" magazine on April 2, 2026, 2026 has been called the "year agents broke out" as the AI industry accelerates into the agent era. Practitioners note that 2026 is indeed the tipping point for large-scale AI agent deployment — but "breaking out" does not mean "mature". Four underlying conditions have matured at once:
+
+First, foundation models crossed the reasoning threshold. New-generation models represented by OpenAI o1, DeepSeek-R1 and Gemini 3 achieved qualitative leaps in complex reasoning, long-context handling and tool-calling accuracy — the agent "brain" is finally good enough. Second, tooling infrastructure matured. MCP (Model Context Protocol), A2A (Agent-to-Agent) protocols and standardized enterprise APIs let agents truly "plug into" real-world systems rather than run in sandboxes. Third, enterprise AI governance took shape. 2025-2026 is the window when global leading enterprises intensively built AI governance frameworks, risk controls and AgentOps systems, clearing compliance hurdles for mass deployment. Fourth, the cost curve inflected. Model inference costs fell more than 95% within two years, making "one agent per business process" economically viable.
+
+On rollout timing, experts judge that mature enterprise-grade Agent applications will concentrate in 2026-2028, and a true "Agent-native application ecosystem" may need another 3-5 years — the same rhythm as the iPhone in 2007, which did not instantly produce the app economy. Agents follow the same pattern: infrastructure first, ecosystem explodes later. We are in the prologue of this paradigm revolution, not its climax.
+
+Overseas experts urge caution about the hype: large language models such as Claude Opus 4.6 now plan, write and test code with strong capability while staying coherent over long horizons, and reliably task-executing models are spreading widely. But the buzzword carries marketing weight — much of what was called "generative AI" in 2025 has simply been relabeled "AI agent". For enterprises, the 2026 imperative is shifting from "can we use it" to "business outcomes": validating real agent ROI in concrete scenarios like customer service, operations, analytics and software delivery, while establishing permission, memory and audit policies in parallel.`,
+    category: 'industry',
+    source: '新华社《环球》杂志',
+    date: '2026-10-01',
+    tags: ['AI Agent', 'Enterprise AI', 'AgentOps', 'Industry Trends'],
+  },
+  {
     id: 315,
     title: `Yicai Investigates the GEO Black-Market Chain: A Booming Market Colludes with "Poisoning" Tactics as Regulators Step In`,
     summary: `Yicai's September 29, 2026 in-depth investigation reveals the two faces of the GEO track: Analysys estimates China's GEO market surging from about 250 million yuan in 2025 to roughly 3 billion yuan in 2026 (about 1,100% growth), with 68%+ of mid-to-large enterprises putting GEO into annual marketing budgets — while "black-hat GEO" operators poison AI models with fabricated data, fake authoritative bodies and mismatched credentials; over 2,000 GEO agencies nationwide are 95%+ traditional SEO converts, and Beijing issued the sector's first administrative penalty in June 2026.`,
