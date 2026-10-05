@@ -12,6 +12,48 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 327,
+    title: `AI Answer Platforms in China Top 700M Monthly Users as 55% of Brand Decision Queries Migrate to AI, Making Dual-Engine Optimization a Must`,
+    summary: `CNNIC's "Statistical Report on China's Internet Development" shows traditional search engines reach about 680 million monthly active users while AI answer platforms have surpassed 700 million, with 55% of brand decision queries already migrating to AI platforms; enterprises buying GEO services face three flawed models — "traditional only", "AI only", and "splitting between two vendors" — so an integrated "traditional search + AI answer" dual-engine approach has become the only way for brands to cover the full user decision journey.`,
+    content: `According to a Sohu Business analysis, as of August 2026 the usage landscape of China's search engines and AI answer platforms has shifted structurally: CNNIC's "Statistical Report on China's Internet Development" shows traditional search engines at about 680 million monthly active users while AI answer platforms have surpassed 700 million, and 55% of brand decision queries have already migrated to AI platforms. Brand information discovery is moving from "users actively searching" to "AI proactively answering", so a traditional-search-only strategy can no longer cover the complete user decision path.
+
+The article maps three common models for buying GEO optimization services and their pain points. The first is "traditional only", covering Baidu and Douyin search scenarios but missing AI answer traffic entirely. The second is "AI only", betting on AI platforms while ignoring traditional search, which still carries substantial traffic. The third is "splitting between two vendors", hiring an SEO agency and a GEO agency separately, which leads to fragmented strategy, scattered data and blurred accountability. An integrated dual-engine model coordinates both ecosystems through a unified technology stack and data platform, delivering significantly better budget efficiency than splitting spend, with data integration as the core differentiator.
+
+On vendor selection, the article argues that in-house R&D capability and official certification are the two hard criteria, with evaluation spanning technology stack, source authority, E-E-A-T, performance data, service responsiveness and reputation management. Industry observers conclude that running both tracks is not optional but a necessity for brands to cover the full decision journey, and the coexistence of traditional search and AI answers will be the norm in brand marketing for the foreseeable future.`,
+    category: 'industry',
+    source: 'Sohu Business (Zhihui Hudong)',
+    date: '2026-10-05',
+    tags: ['GEO', 'AI Search', 'Dual-Engine', 'CNNIC'],
+  },
+  {
+    id: 328,
+    title: `ChatGPT + Perplexity Dual-Engine GEO Strategy Gains Traction: BAICI Index Adds Four Evaluation Dimensions, Authoritative Citations Lift AI Visibility up to 40%`,
+    summary: `A "ChatGPT + Perplexity" dual-engine strategy is emerging in GEO: Perplexity's "real-time retrieval + authoritative citation" model governs brand exposure and endorsement with an indexation cycle of just 7-14 days, while ChatGPT's "semantic understanding + knowledge internalization" governs mindshare and conversion — brands completing dual-engine optimization report AI-channel organic traffic growth of 150%-200%; the industry is also rolling out the Brand AI Competitiveness Index (BAICI) built on AI mention rate, citation rate, semantic accuracy and agent-driven conversion.`,
+    content: `According to SheepGeo's blog, digital marketing in 2026 is undergoing a paradigm shift from SEO to GEO/AIO: competition is no longer about ranking on search result pages but about visibility, citation rate and interaction depth inside AI answers. SparkToro data shows more than 20% of US internet users use AI chatbots or AI search engines for information every month, and the share is even higher among Gen Z.
+
+Against this backdrop the "ChatGPT + Perplexity" dual-engine strategy has emerged as a complementary pairing rather than a simple tool stack. Perplexity, built on "real-time retrieval + authoritative citation", solves the problems of stale model data and missing sources; its indexation cycle for brand content is only 7-14 days, far faster than traditional SEO, and it governs a brand's exposure and endorsement power. ChatGPT, built on "semantic understanding, logical reasoning and knowledge internalization", excels at creative generation and structured dialogue and governs deep mindshare and conversion. Together they form a closed loop: brands that complete dual-engine optimization report average AI-channel organic traffic growth of 150%-200% and conversion rates more than 30% above traditional search.
+
+The industry is formalizing a new evaluation system — the Brand AI Competitiveness Index (BAICI) — around four core dimensions: AI mention rate (how often the brand is proactively cited in prompt testing), AI citation rate (how often it is linked as a reference source by engines like Perplexity), semantic accuracy (how faithfully AI describes the brand's selling points, i.e. the absence of hallucination), and agent-driven conversion (retention and conversion of the brand's dedicated GPTs agents). Google's E-E-A-T principles apply to AI engine ranking as well; IIT Delhi's empirical study finds that adding authoritative citations, statistics and domain terminology lifts AI visibility by up to 40%, and pages carrying authoritative data, structured charts and third-party endorsements are over 40% more likely to be cited by Perplexity than plain text pages.`,
+    category: 'industry',
+    source: 'SheepGeo Blog',
+    date: '2026-10-05',
+    tags: ['GEO', 'ChatGPT', 'Perplexity', 'AI Visibility'],
+  },
+  {
+    id: 329,
+    title: `Enterprise AI Agent Adoption Enters the "Business Results" Phase: 2026 Global Market Set to Top USD 10 Billion, Gartner Expects 40% of Enterprise Apps to Embed Agents within Three Years`,
+    summary: `Surveys show 81% of organizations plan to move from simple task automation to more complex AI projects in 2026 (87% of enterprises, 78% of SMEs); the global AI agent market is projected to surpass USD 10 billion in 2026 with over 40% year-on-year growth, and Gartner expects about 40% of enterprise applications to embed task-oriented AI agents within three years; the focus is shifting from "can we use it" to "what business results did it produce", with experts recommending high-frequency, low-risk, cross-tool auxiliary scenarios first and ROI validation within 6-12 months before touching core business.`,
+    content: `According to First New Voice's "2026 Q2 Global Enterprise AI Agent Vendor Landscape" and related industry research, the global AI agent market is projected to surpass USD 10 billion in 2026 with year-on growth above 40%, and Gartner expects roughly 40% of enterprise applications to embed task-oriented AI agents within three years. A Silicon Valley survey cited by iEdumedia shows most organizations (81%) plan to move from simple task automation to more complex AI projects in 2026, with enterprises leading the shift at 87% versus 78% for SMEs.
+
+Enterprise thinking about AI agents is turning pragmatic. An analysis on NetEase Zhiqi notes that companies widely accept AI can help, but still need concrete scenarios and delivery methods — one enterprise had 800 staff author over a thousand Skills of which only a few dozen saw broad usage, showing that quantity does not equal organizational value, and the metric is shifting from "how many agents did we deploy" to "what business results did they produce". Experts recommend deploying agents first in high-frequency, low-risk, cross-tool auxiliary scenarios such as inbound sales follow-up, internal knowledge Q&A and automated report generation, validating ROI within 6-12 months before extending toward core business.
+
+The supply side is consolidating fast. AI Daily News reports that US AI infrastructure company Baseten announced enterprise users can call Kimi K3 inside OpenAI's coding tool Codex, with usage billed against existing OpenAI procurement commitments and no new vendor onboarding required — agent capabilities are entering enterprise workflows through procurement channels companies already have. Analysts note that as Qwen's "Task Assistant", Doubao's phone assistant and Tencent's mini-program growth program land in succession, how deeply agents penetrate vertical scenarios will determine the real maturity of enterprise AI.`,
+    category: 'industry',
+    source: 'First New Voice / NetEase Zhiqi',
+    date: '2026-10-05',
+    tags: ['AI Agent', 'Enterprise AI', 'Market Report', 'ROI'],
+  },
+  {
     id: 324,
     title: `China's GEO Industry Enters a "Verification Phase": White Paper Shows 83% of Consumers Now Use AI for Purchase Information`,
     summary: `Bowen Research's "2026 China GEO Industry Practice White Paper" shows 83% of consumers now turn to AI for purchase information and 35% consult AI multiple times a day, compressing purchase decision cycles from 3.2 days in the traditional search era to 2.1 hours; on the supply side GEO service providers have surged from fewer than 40 to over 100, 65% of brands have launched or plan GEO programs, and the 2026 market is projected at RMB 2.1 billion — with five GEO group standards issued in September 2026, the industry is shifting from concept competition to a verification phase where systematic delivery capability is the dividing line.`,
