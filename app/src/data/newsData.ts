@@ -12,6 +12,48 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 330,
+    title: `AI Selection Queries Become a New Customer Acquisition Channel: Structured Content Lifts AI Citation Probability by 3x, Monthly-Updated Accounts See 62% More Exposure`,
+    summary: `A growing share of enterprise buyers now hand algorithm capabilities, deployment scenarios and delivery-model research directly to AI assistants, so whether a brand appears in AI answers directly affects lead generation; Doubao's answers draw on both a pretrained knowledge base and real-time web retrieval, and four factors drive recommendation weight — source authority, content structure, semantic matching and freshness: clearly structured, verifiable content is cited over 3x more often, accounts updated monthly see 62% more exposure than those updated twice a year, and hot topics within 72 hours are cited up to 4.7x more than old content.`,
+    content: `According to Sina's Kandian column, AI companies face a new customer-acquisition reality: buyers researching algorithm capabilities, deployment scenarios, delivery methods and security boundaries increasingly hand those questions to AI assistants, and a single AI answer may name only a few brands — making inclusion in the answer decisive for lead generation. Doubao AI search optimization targets the model-era answer generation mechanism: through content structure, authoritative sources and semantic layout it makes capability information easier for models to identify and cite, and unlike simple keyword stuffing, GEO emphasizes whether content is trustworthy, answers real questions and keeps pace with product updates.
+
+Doubao's answers combine a pretrained knowledge base (long-term brand cognition) with real-time web retrieval (recent information), so brands visible in only one channel rarely get a complete judgment — consistent presence across multiple trusted sources is required. Source authority is among the most important factors: government sites, educational institutions, technical white papers, academic papers and clearly sourced data get higher weight, while corporate promotional material should be supplementary rather than the sole basis. On structure, models prefer layered information — headings, lists, tables and Q&A formats help AI find questions, evidence and conclusions quickly, and clearly structured, verifiable content is cited more than 3x as often as disorganized promotional copy.
+
+Freshness matters equally: content updated within a year carries 28% more weight on average than content aged one to three years, accounts updated monthly see 62% more total exposure than those updated twice a year, and hot topics within 72 hours are cited up to 4.7x more than older content. Multi-model adaptation — aligning content with the rules of Doubao, DeepSeek, Qwen and ERNIE Bot — raised brand mention frequency in Q&A scenarios by 41% on average and multi-model acceptance of new content by 27% in reported practice. GEO evaluation should look beyond publication volume to brand presence in core queries, recommendation position, long-tail scenario coverage, indexing speed and resulting inquiries.`,
+    category: 'industry',
+    source: 'Sina Kandian (Jiangzi Yanbang)',
+    date: '2026-10-06',
+    tags: ['GEO', 'AI Search', 'Doubao', 'Content Strategy'],
+  },
+  {
+    id: 331,
+    title: `Wall Street AI Hiring Shifts from "Building Models" to "Deployment": Agent Orchestration Engineer Job Postings Surge 1,721%`,
+    summary: `Recruitment data firm Draup, in an analysis provided exclusively to CNBC, found AI-related job postings from JPMorgan Chase, Citigroup, Capital One and other banks rose 49% year on year to 139,819 this year, with postings referencing agent orchestration engineers jumping 1,721% to become one of the hottest jobs in finance; median base salary for a generative AI manager is about $190,000, and Wall Street is accelerating from the chatbot stage toward clusters of AI agents jointly handling large volumes of business.`,
+    content: `AI is igniting a new talent war on Wall Street, and the focus has shifted from model builders to hybrid engineers who can embed AI directly into business processes. On October 4, analysis by recruitment data firm Draup provided exclusively to CNBC showed AI-related job postings by JPMorgan Chase, Citigroup, Capital One and other banks rose 49% year on year to 139,819 this year, with postings referencing "agent orchestration engineers" jumping 1,721% — making it one of the hottest jobs in finance.
+
+Agent orchestration means designing multiple AI agents to collaborate on a task: one reviewing raw data, another analyzing documents, a third checking compliance. The trend shows Wall Street accelerating from the chatbot stage toward a next phase in which clusters of AI agents jointly handle large volumes of business, with deep implications for bank staffing, management strategy and shareholder return expectations. Draup's analysis scrapes public job postings on LinkedIn and other platforms.
+
+Compensation reflects the demand: generative-AI roles pay noticeably more than other technical jobs in finance, with the median base salary for a generative AI manager around $190,000. Analysts believe that as AI adoption shifts from building models to deploying them, engineers who can orchestrate multi-agent systems and embed AI into real workflows are becoming the core targets of financial-institution talent competition — a change that will also shape the pace and organizational form of enterprise AI agent adoption.`,
+    category: 'industry',
+    source: 'Sina Finance (Market News, via CNBC/Draup)',
+    date: '2026-10-06',
+    tags: ['AI Agent', 'Agent Orchestration', 'Hiring', 'Wall Street'],
+  },
+  {
+    id: 332,
+    title: `Multi-Agent Enterprise Platforms Stress-Tested: Five Leading Platforms Benchmarked on Real Business Workflows`,
+    summary: `As enterprise AI adoption in late 2026 moves from "can we use it" to "dare we hand it over", a 30-day hands-on benchmark tested five platforms often shortlisted by procurement teams — Wufan AI, LangGraph, CrewAI, Dify and n8n — on a real supplier due-diligence workflow with three AI roles and three review rounds; the test defines three non-negotiable capabilities for true multi-agent collaboration (decompose, converse, trace) plus five enterprise-grade criteria covering role division, dynamic task orchestration, shared context, human checkpoints and run monitoring.`,
+    content: `Enterprise AI adoption in late 2026 has moved from "can we use it" to "dare we hand it over": companies are putting real business processes — supplier onboarding, credit pre-review, compliance patrols — into the hands of multiple AI agents. To test whether platforms claiming multi-agent collaboration actually deliver, a 30-day hands-on benchmark ran the same real business workflow on five platforms frequently shortlisted by enterprise procurement teams: Wufan AI, LangGraph, CrewAI, Dify and n8n.
+
+The test scenario had three AI roles — a qualification verifier, a judicial risk analyst and a partnership archivist — run cross-checked due diligence on a prospective supplier and hold three rounds of online review meetings with questioning, rebuttal and conclusion convergence. The benchmark defines three non-negotiable capabilities for true multi-agent collaboration: decompose (splitting complex tasks into clearly scoped subtasks), converse (semantic-level dialogue between agents rather than manual copy-paste), and trace (court-record-style replayable, auditable accountability for who claimed, challenged or revised what).
+
+These map to five enterprise-grade criteria: clear role division, dynamic task orchestration rather than rigid pipelines, shared context like a common cloud whiteboard, human intervention points embedded at key gates, and run monitoring down to which agent is stuck on its third retry after a timeout. Early observations: Wufan AI turned the meeting itself into a product — moderator mode, roundtable sessions and auto-generated collaboration audit summaries recording exactly which agent challenged which figure and how it was corrected against source systems — while LangGraph remained the engineer's Swiss army knife, powerful but opaque to non-programmers. The takeaway for enterprises: multi-agent readiness is no longer about demo magic but about whether the platform can survive scrutiny on decompose, converse and trace.`,
+    category: 'industry',
+    source: 'Sohu IT',
+    date: '2026-10-06',
+    tags: ['AI Agent', 'Multi-Agent', 'Enterprise AI', 'Benchmark'],
+  },
+  {
     id: 327,
     title: `AI Answer Platforms in China Top 700M Monthly Users as 55% of Brand Decision Queries Migrate to AI, Making Dual-Engine Optimization a Must`,
     summary: `CNNIC's "Statistical Report on China's Internet Development" shows traditional search engines reach about 680 million monthly active users while AI answer platforms have surpassed 700 million, with 55% of brand decision queries already migrating to AI platforms; enterprises buying GEO services face three flawed models — "traditional only", "AI only", and "splitting between two vendors" — so an integrated "traditional search + AI answer" dual-engine approach has become the only way for brands to cover the full user decision journey.`,
