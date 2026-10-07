@@ -12,6 +12,48 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 333,
+    title: `a16z Publishes 7th Edition of Top 100 Gen AI Apps List: Real Consumer Spending Data Enters the Ranking for the First Time`,
+    summary: `Andreessen Horowitz released the 7th edition of its Top 100 Gen AI Apps list in October 2026; unlike the previous six editions that ranked products by traffic alone, this edition supplements usage metrics with YipitData US consumer real-spending data including paid subscriber numbers, and AI search and assistant products such as DeepSeek and Perplexity remain focal points in both traffic and paid-subscriber discussions as the generative AI market shifts from user acquisition to monetization.`,
+    content: `According to Taiwan business magazine BNext (Number), Andreessen Horowitz (a16z) published the 7th edition of its Top 100 Gen AI Apps list in October 2026. The biggest change from the previous six editions, which ranked products purely by traffic, is that this edition supplements usage metrics with YipitData US consumer real-spending data, including paid subscriber numbers, so the ranking can evaluate not only how many people use an AI product but also how many are willing to pay for it.
+
+The report highlights AI search and assistant products as focal points: DeepSeek and Perplexity appear throughout both the traffic and the paid-subscriber discussions, and AI-native apps such as Perplexity and Photoroom stand out in specific segments. The addition of spending data marks a broader shift in the generative AI market from user acquisition toward monetization validation, with willingness to pay becoming a new yardstick for AI product value.
+
+For brands, the takeaway is that AI entry points, meaning AI search engines and AI assistants, are accumulating both scale and paying users. Information discovery is migrating from traditional search results to generated answers, so brand visibility inside the answers of DeepSeek, Perplexity and ChatGPT increasingly reaches user segments with a demonstrated willingness to pay.`,
+    category: 'industry',
+    source: 'BNext (Number Magazine)',
+    date: '2026-10-06',
+    tags: ['a16z', 'GenAI', 'AI Search', 'DeepSeek', 'Perplexity'],
+  },
+  {
+    id: 334,
+    title: `Enterprise AI Agent Platforms Consolidate Around Governance: 300+ Vendors in China While 60% of Enterprises Stay in Pilot Stage`,
+    summary: `IDC's market report on China's agent development platforms values the private-deployment segment at about RMB 1.75 billion and frames agent platforms as enterprise infrastructure rather than developer tools; China now has more than 300 AI agent vendors while roughly 60% of enterprises remain in evaluation and pilots, and competition has shifted toward full-lifecycle governance, multi-agent orchestration and deployment flexibility.`,
+    content: `According to CSDN DevPress, enterprise adoption of AI agents has moved from "can it hold a conversation" to hard procurement questions: can the agent run inside the corporate intranet, which data does it touch, who is accountable when it errs, and where are the audit logs stored. IDC's market share report on China's agent development platforms values the private-deployment segment at about RMB 1.75 billion and confirms that agent platforms are shifting from developer tools to enterprise infrastructure, with competition moving to full-lifecycle governance, multi-agent orchestration and continuous iteration loops.
+
+China now has more than 300 AI agent vendors, yet about 60% of enterprises remain stuck in evaluation and pilot stages. The analysis argues the real selection challenge is not feature count but matching a technical route to the system environment, across four dimensions: system integration approach, depth of industry deployment, deployment flexibility, and engineering capability.
+
+Representative platforms illustrate the range. Shizai Agent combines API calls with screen-level GUI automation, letting agents operate legacy software without APIs through screen-semantic understanding; it ranked first on the OSWorld global benchmark with a 90.2% task success rate in July 2026, and reported more than 340 automation scenarios at manufacturer Sanhua Holdings, saving over 200,000 working hours. Alibaba Cloud's Model Studio packages 150+ large models with knowledge bases and agent development as an integrated MaaS platform. Across the market, private deployment, auditability and localization support, including domestic chips, operating systems and databases, are becoming standard requirements in manufacturing, energy, healthcare and cross-border e-commerce.`,
+    category: 'industry',
+    source: 'CSDN DevPress',
+    date: '2026-09-13',
+    tags: ['AI Agent', 'Enterprise', 'Governance', 'Multi-Agent'],
+  },
+  {
+    id: 335,
+    title: `2026 GEO Tool Guide Updated: AI Search Traffic Grew 527% Year over Year as Brand Visibility Management Becomes Platformized`,
+    summary: `Dageno AI updated its 2026 GEO and AEO tool comparison guide covering Profound, Semrush AIO, BrightEdge, Otterly AI, Writesonic and AthenaHQ; citing PresenceAI's 2026 GEO Benchmark Report that AI search traffic grew 527% year over year between January and May 2025 and Gartner's forecast of a 25% drop in traditional search volume by 2026, the guide argues GEO tooling is shifting from content generation toward a monitor-optimize-verify loop built on citation share and hallucination monitoring.`,
+    content: `Dageno AI updated its comparison guide to the best generative engine optimization (GEO) tools of 2026, systematically reviewing platforms such as Dageno AI, Profound, Semrush AIO, BrightEdge, Otterly AI, Writesonic and AthenaHQ for features, ideal users and limitations.
+
+The guide's central data point is how fast AI search is taking share from traditional search. According to PresenceAI's 2026 GEO Benchmark Report, AI search traffic grew 527% year over year between January and May 2025, and Gartner has predicted that traditional search engine volume will drop 25% by 2026 as users migrate to AI answer interfaces. Ranking first on Google is no longer enough for discoverability: if ChatGPT, Perplexity, Google AI Overviews or Gemini do not cite a brand in their answers, the brand is effectively invisible to a fast-growing buyer segment.
+
+The review draws a sharp line between GEO tools and classic SEO platforms: while tools like Ahrefs, Moz and Screaming Frog measure keyword rankings, backlink authority and crawl errors, GEO tools answer whether AI systems understand, trust, cite and recommend a brand. Core metrics include share of citations versus competitors, content gap analysis, and hallucination monitoring for false product claims. The guide recommends organizing tool selection around a monitor-optimize-verify loop rather than content generation capability alone.`,
+    category: 'industry',
+    source: 'Dageno AI',
+    date: '2026-09-29',
+    tags: ['GEO', 'AEO', 'AI Search', 'LLM Visibility'],
+  },
+  {
     id: 330,
     title: `AI Selection Queries Become a New Customer Acquisition Channel: Structured Content Lifts AI Citation Probability by 3x, Monthly-Updated Accounts See 62% More Exposure`,
     summary: `A growing share of enterprise buyers now hand algorithm capabilities, deployment scenarios and delivery-model research directly to AI assistants, so whether a brand appears in AI answers directly affects lead generation; Doubao's answers draw on both a pretrained knowledge base and real-time web retrieval, and four factors drive recommendation weight — source authority, content structure, semantic matching and freshness: clearly structured, verifiable content is cited over 3x more often, accounts updated monthly see 62% more exposure than those updated twice a year, and hot topics within 72 hours are cited up to 4.7x more than old content.`,
