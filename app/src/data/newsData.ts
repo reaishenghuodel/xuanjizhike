@@ -12,6 +12,50 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 336,
+    title: `China AI Agent Population Projected to Reach 2.2 Billion by 2030 as Enterprise Deployment Scales Up`,
+    summary: `A 2026 China AI Agent enterprise application market forecast projects the country's intelligent agent population to grow from 28.6 million in 2025 to 2.216 billion by 2030 at a 139% CAGR, while global AI infrastructure investment is expected to total roughly 7.6 trillion US dollars between 2026 and 2031; enterprise AI agents have moved from pilot demos to scaled deployment, with governance, workflow integration and measurable task completion becoming the decisive competitive factors.`,
+    content: `According to the "2026 China AI Agent Enterprise Application Market Forecast Report" summarized by NetEase News, China's intelligent agent population is projected to grow from 28.6 million in 2025 to about 2.216 billion by 2030, a compound annual growth rate of 139%. The same body of research (Tianyi Think Tank, 2026) estimates cumulative global AI infrastructure investment of roughly 7.6 trillion US dollars between 2026 and 2031.
+
+Separately, IDC data cited in industry reviews shows that the number of active enterprise agents in China approached 2 million in 2025 and is expected to reach 350 million by 2031. Enterprise AI agent platforms have therefore shifted from a "demo stage" to a "deployment stage": the differentiator is no longer raw model capability but whether AI can be wired into business processes, can act proactively on workflows, and can operate under governance and audit controls.
+
+For enterprise buyers, the practical guidance converges on three points: start agents in high-frequency, low-risk, cross-tool scenarios such as inbound sales follow-up, internal knowledge Q&A and automated reporting; require transparent execution traces so humans can inspect, intervene and take over at any step; and evaluate platforms on integration depth and governance rather than benchmark scores.`,
+    category: 'industry',
+    source: 'NetEase News / Tianyi Think Tank',
+    date: '2026-10-08',
+    tags: ['AI Agent', 'Enterprise AI', 'Market Forecast', 'China'],
+  },
+  {
+    id: 337,
+    title: `Token Replaces License as the Pricing Unit of the AI Economy, Analysis of Ten Agent Companies Shows`,
+    summary: `An October 2026 industry analysis of ten AI agent companies argues that competition has shifted from model benchmarks to real task completion: tokens are becoming the meterable, priceable unit of the AI economy, with Kunlun Tech's Tiangong AI reaching 800 million US dollars in ARR, Qihoo 360 consuming 350 trillion tokens across 100,000+ agents in 150 days, and Hygon unveiling an "Agent to Token" computing architecture.`,
+    content: `An industry analysis published on October 7, 2026 surveys ten companies building AI agents and distills three structural shifts in the market.
+
+First, the pricing unit is changing. Software used to be sold as one-time licenses; agents are sold as completed tasks measured in tokens. Hygon Information presented its "Agent to Token" open computing architecture at the 2026 Digital Expo, reframing chip value in terms of cost per million tokens, while usage metrics such as token volume and ARR are replacing DAU as the yardsticks of AI business scale.
+
+Second, deployment data is becoming auditable. Kunlun Tech's Tiangong AI business passed 800 million US dollars in ARR with its Skywork Super Agents architecture of five specialist agents plus one generalist orchestrator; Qihoo 360 put 100,000+ agents into real business workflows, covering 630 job roles in 150 days and consuming 350 trillion tokens, and launched its 360 ZhiJian GEO service with 300+ partner agencies; and State Grid Information & Telecommunication's enterprise super agent obtained the first top-level security certification for enterprise-grade agents from the China Academy of Information and Communications Technology, cutting line-loss analysis from about three hours to under five minutes.
+
+Third, competition is shifting from capability to position. Winners hold a defensible spot in the stack, whether compute supply, OS-level adaptation, industry delivery know-how or user distribution, and grind through concrete scenarios. No successful case in the analysis comes from a "general-purpose agent" narrative; enterprises pay for agents that actually get a specific job done.`,
+    category: 'industry',
+    source: 'Eastmoney Fortune Column',
+    date: '2026-10-08',
+    tags: ['AI Agent', 'Token Economy', 'Enterprise AI', 'GEO'],
+  },
+  {
+    id: 338,
+    title: `China AI Search User Base Hits 820 Million as Enterprise Lead Generation Shifts from SEO to GEO`,
+    summary: `A 2026 review of generative engine optimization service providers finds that China's generative AI user base reached 820 million this year and over 60% of B2B buyers now shortlist vendors inside AI chat answers; IDC estimates AI-search-related marketing spend will reach 31 billion yuan in 2026, and enterprises adopting GEO services report average organic lead cost reductions of about 37%.`,
+    content: `A horizontal review of seven GEO (generative engine optimization) service providers published in early October 2026 captures how quickly enterprise acquisition is migrating to AI answers. According to CNNIC statistics cited in the review, China's generative AI user base reached 820 million in 2026, up roughly 20% year over year, and iResearch finds that more than 60% of enterprise buyers complete the first round of vendor shortlisting inside AI chat answers from assistants such as Doubao, DeepSeek, Kimi, Yuanbao and Wenxin Yiyan rather than traditional search result pages.
+
+The spending numbers follow the users. IDC projects that AI-search-related marketing investment by Chinese enterprises will reach 31 billion yuan in 2026, about 4.6 times the 2021 level, while Analysys data shows enterprises using GEO services see average organic lead costs fall by about 37%. Gartner research cited in the same review expects more than half of B2B procurement to be pre-screened through AI assistants by the end of 2026.
+
+The review proposes a six-dimension evaluation framework for GEO vendors: proprietary semantic technology, AI-friendly structured content production, data traceability, industry case coverage, compliance credentials and client renewal performance. Its practical advice for brands: treat GEO as a continuous content engineering program measured over quarters, establish a visibility baseline before optimizing, and keep GEO and traditional SEO running in parallel rather than choosing one.`,
+    category: 'industry',
+    source: 'AtomGit AI Community',
+    date: '2026-10-08',
+    tags: ['GEO', 'AI Search', 'Brand Visibility', 'Generative Engine Optimization'],
+  },
+  {
     id: 333,
     title: `a16z Publishes 7th Edition of Top 100 Gen AI Apps List: Real Consumer Spending Data Enters the Ranking for the First Time`,
     summary: `Andreessen Horowitz released the 7th edition of its Top 100 Gen AI Apps list in October 2026; unlike the previous six editions that ranked products by traffic alone, this edition supplements usage metrics with YipitData US consumer real-spending data including paid subscriber numbers, and AI search and assistant products such as DeepSeek and Perplexity remain focal points in both traffic and paid-subscriber discussions as the generative AI market shifts from user acquisition to monetization.`,
