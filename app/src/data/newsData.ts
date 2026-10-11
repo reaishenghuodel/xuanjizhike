@@ -12,6 +12,56 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 339,
+    title: `China GEO Market Analysis: 41% of Users Have Fully Switched to AI Search as Market Grows Over 110% Annually`,
+    summary: `A 2026 industry analysis of China GEO (generative engine optimization) market finds that 41% of users have fully switched to AI search and over 80% of consumers consult AI before purchasing; China GEO market is sized at 4-6 billion yuan growing over 110% annually, AI search marketing spend reached 32 billion yuan in 2026 (up 150% year over year), and traditional SEO service revenue fell 42% while GEO service revenue rose 320%.`,
+    content: `An industry analysis published on October 9, 2026 by Xingsha Times via Sina outlines the full landscape of the China GEO market.
+
+User behavior has migrated decisively. iResearch data cited in the analysis shows 41% of users have fully switched to AI search, and more than 80% of consumers ask AI before making a purchase, so brand presence inside AI answers directly affects conversion. By December 2025 the China generative AI user base reached 602 million with a 42.8% penetration rate, and the GEO service provider market reached about 1.9 billion yuan in Q2 2026, marking the first time GEO has moved from a concept-validation market to a sustainable commercial operating stage.
+
+The spending numbers confirm the shift. China AI search marketing market reached 32 billion yuan in 2026, up 150% year over year; traditional SEO service revenue fell 42% while GEO service revenue rose 320% against the trend. Aggregating multiple institutional forecasts, the China GEO market is expected to reach 4-6 billion yuan in 2026, exceed 9 billion yuan by the end of 2027 at a compound annual growth rate above 110%, and surpass 50 billion yuan by 2030.
+
+Competition remains fragmented and is being cleaned up. The top 10 GEO vendors held less than 10% combined market share in Q1 2026 (CR10 under 10%), a typical early warring-states pattern. The 2026 CCTV 315 gala exposed black-hat GEO practices including AI poisoning, fabricated content and low-price competition, accelerating industry consolidation, while the China Association of Commercial Advertising has started drafting a GEO group standard, moving the industry from wild growth into a compliance- and standards-driven era.
+
+The forward outlook runs in three phases: 2026-2027 is a growth and shakeout period with growth slowing to about 81% and competition shifting to quality; 2027-2028 sees GEO evolve into brand-wide cognitive management systems with SaaS delivery as the mainstream; 2028-2030 brings AI assistants that complete bookings and purchases on behalf of users, creating agent-commission business models. For brands, building systematic AI trust assets early is no longer optional.`,
+    category: 'industry',
+    source: 'Xingsha Times / Sina',
+    date: '2026-10-11',
+    tags: ['GEO', 'AI Search', 'Market Size', 'China'],
+  },
+  {
+    id: 340,
+    title: `CNNIC Data: AI Q&A Platforms Top 700 Million Monthly Active Users as 55% of Brand Decision Queries Shift to AI`,
+    summary: `CNNIC China Internet Development Statistics Report shows traditional search engines retain about 680 million monthly active users while AI Q&A platforms surpassed 700 million, and 55% of brand decision queries have already migrated to AI platforms; dual-ecosystem optimization across traditional search and AI answers has become a necessity for brands, with CAICT GEO trustworthy-service certification emerging as a hard selection criterion.`,
+    content: `According to the CNNIC China Internet Development Statistics Report, by August 2026 traditional search engines retained about 680 million monthly active users while AI Q&A platforms surpassed 700 million monthly active users, and 55% of brand decision queries have migrated to AI platforms. Enterprise brand discovery is shifting from users actively searching to AI proactively answering, and brands that only optimize traditional search can no longer cover the full user decision journey.
+
+The report frames the service-model dilemma facing buyers. Three flawed patterns dominate procurement: optimizing only traditional search and missing AI answer traffic; optimizing only AI platforms and abandoning traditional search volume; or hiring two separate agencies, which fragments strategy and data. A unified dual-engine model uses one technical foundation and data platform to optimize both ecosystems in parallel, delivering measurably better budget efficiency than splitting contracts, with data integration as the core differentiator.
+
+Five hard screening dimensions are proposed: technical foundation (proprietary systems versus stitched-together third-party tools), source authority matrix (tiered coverage of authoritative media, industry media and owned platforms), effect data transparency (original answer screenshots and traceable statistics rather than summary percentages), compliance risk control (official endorsements such as the CAICT GEO trustworthy-service evaluation certification), and service responsiveness (dedicated technology, content, customer success and data monitoring teams). Vendors that score well on all five are rare: fewer than 10% of the market can deliver true integrated dual-ecosystem service with proprietary technology and authoritative certification.
+
+On timelines, traditional search optimization typically shows results within 3-6 months, while AI answer optimization reveals improvements in brand mention rates and first-screen occupancy within 2-4 months of technical integration. The report advises enterprises to evaluate on a six-month cycle and to write explicit effect KPIs, data reporting granularity, mid-term review checkpoints and black-hat-prohibition clauses into contracts.`,
+    category: 'industry',
+    source: 'Sohu Business Channel',
+    date: '2026-10-11',
+    tags: ['AI Search', 'CNNIC', 'GEO', 'Brand Visibility'],
+  },
+  {
+    id: 341,
+    title: `Gartner: 40% of Enterprise Applications to Embed AI Agents by End of 2026 as Supply Chain Sector Delivers First Deployment Benchmarks`,
+    summary: `Gartner predicts that by the end of 2026, 40% of enterprise applications worldwide will embed task-executing AI agents, up from under 5% in 2025; meanwhile the WorkMate enterprise agent framework, jointly built by Central University of Finance and Economics and Zhaoqi Supply Chain and now open-sourced, cut quote response times from 20 minutes to 30 seconds, report writing from 4 hours to 15 minutes, and contract approval from one day to 20 minutes in the plastics industry.`,
+    content: `With large-model capabilities continuing to iterate, enterprise-grade AI agents are becoming the new focus of industrial digital transformation. Gartner predicts that by the end of 2026, 40% of enterprise applications worldwide will embed AI agents with task-execution ability, up from under 5% in 2025. AI is moving from customer-service Q&A and document generation into complex process automation such as procurement, risk control and financial approval, evolving from assistant tool to digital worker.
+
+The supply chain sector has produced one of the first hard deployment benchmarks. WorkMate, an enterprise AI agent framework jointly developed by the Central University of Finance and Economics and Zhaoqi Supply Chain, was officially open-sourced. Positioned for supply chain service scenarios and validated first in the plastics industry, it has run inside Zhaoqi for nearly two years across WeChat quote recognition, automatic contract generation, customer profiling and risk alerts. Reported results: quote response time fell from 20 minutes to 30 seconds, market analysis report writing dropped from 4 hours to 15 minutes, and contract approval shrank from one day to 20 minutes.
+
+Scale deployment still faces real challenges. Most general large models lack industry knowledge accumulation; conversational ability alone is far from enough, as agents must understand procurement rules, financial systems, approval flows and industry logic. Sensitive roles in finance and risk control demand strict permission management and audit trails, and large state-owned and traditional manufacturing enterprises must re-engineer processes, rebuild collaboration models and establish new lines of responsibility before agents can truly integrate.
+
+Competition is entering a scenario-is-king era. The general large-model race has largely settled, and the bigger opportunity lies in the application layer: industries with long supply chains, complex processes and data-intensive operations such as energy, steel, non-ferrous metals and manufacturing are expected to be the next wave of agent deployment. Different industries will form their own agent ecosystems, and the yardstick is no longer parameter scale but whether the agent genuinely creates business value. Industry observers note that enterprise AI agent competition ultimately tests industry understanding rather than model capability.`,
+    category: 'industry',
+    source: 'CLS / ifeng Tech',
+    date: '2026-10-11',
+    tags: ['AI Agent', 'Enterprise AI', 'Gartner', 'Supply Chain'],
+  },
+  {
     id: 336,
     title: `China AI Agent Population Projected to Reach 2.2 Billion by 2030 as Enterprise Deployment Scales Up`,
     summary: `A 2026 China AI Agent enterprise application market forecast projects the country's intelligent agent population to grow from 28.6 million in 2025 to 2.216 billion by 2030 at a 139% CAGR, while global AI infrastructure investment is expected to total roughly 7.6 trillion US dollars between 2026 and 2031; enterprise AI agents have moved from pilot demos to scaled deployment, with governance, workflow integration and measurable task completion becoming the decisive competitive factors.`,
