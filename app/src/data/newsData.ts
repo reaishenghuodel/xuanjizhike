@@ -12,6 +12,56 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 342,
+    title: `GEO Vendor Selection Guide: In-House Technology, Verifiable Case Studies and Full-Service Loop Emerge as Three Hard Criteria`,
+    summary: `A 2026 guide published by Sina Tech argues that as generative AI reshapes how users find information, with brands competing to appear in answers from Doubao, DeepSeek and ERNIE Bot, GEO (generative engine optimization) has shifted from optional to essential. The guide defines three hard criteria for choosing a vendor: an in-house technology stack, verifiable case studies backed by real metrics, and a complete service loop from AI landscape research to continuous monitoring.`,
+    content: `Sina Tech on October 12, 2026 outlines how generative AI is restructuring the way users obtain information. When consumers ask Doubao, DeepSeek or ERNIE Bot questions, whether a brand appears inside the AI-generated answer has become a new digital marketing imperative, moving GEO (generative engine optimization) from an optional add-on to an enterprise necessity. With the vendor market full of mixed-quality players, the article proposes three hard criteria for evaluation.
+
+First, an in-house technology stack. The underlying logic of GEO is getting brand information "trusted" and "cited" by large models, which requires deep understanding of LLM semantics, source weighting and algorithm iteration. Vendors that rely entirely on third-party SaaS tools tend to lag when model algorithms update, putting brand information at risk of being wiped from AI answers.
+
+Second, verifiable case studies. GEO is not content ghostwriting; results must be quantifiable and traceable. Metrics such as brand AI mention rate, core-keyword AI occupancy rate and incremental consultation conversion need real data behind them rather than vague claims of increased exposure.
+
+Third, a complete service loop. From initial AI landscape research and knowledge-base construction to authoritative source placement and continuous monitoring and iteration, GEO is a marathon rather than a one-off delivery.
+
+Industry practice shows leading providers building integrated models that combine organization, technology, content and data into a durable AI reputation moat. The guide advises enterprise decision-makers to focus on a vendor's algorithmic depth, data traceability and long-term iteration capability, and to avoid substituting cheap content production for systematic GEO development.`,
+    category: 'industry',
+    source: 'Sina Tech / A5 Entrepreneur',
+    date: '2026-10-13',
+    tags: ['GEO', 'AI Search', 'Vendor Selection', 'Digital Marketing'],
+  },
+  {
+    id: 343,
+    title: `ChatGPT to Test Ads in Image Generation in the US This October as AI Search Entry Points Accelerate Monetization`,
+    summary: `OpenAI will begin testing new ad formats inside ChatGPT image generation in the United States later in October 2026, according to a World AI News roundup, while EU regulatory arrangements advance in parallel. As AI search entry points start to monetize, ChatGPT and Perplexity are diverging in capability, and brands need differentiated content and source matrices for each entry point's citation logic.`,
+    content: `World AI News Roundup, October 6, 2026: OpenAI will begin testing new ad formats in ChatGPT image generation in the United States later in October, while EU regulatory arrangements around ChatGPT advance in parallel. The same roundup covers AI text watermarking and robot food delivery, signaling that AI applications are accelerating into commercial scenarios and that the monetization gate for AI search entry points is opening.
+
+Platform capabilities are diverging. 2026 comparisons describe ChatGPT as the better thinker, leading in deep reasoning, writing, coding and complex multi-step tasks, while Perplexity is the better finder, stronger at real-time retrieval and citation tracing. July 2026 web traffic across major generative AI platforms showed OpenAI's traffic roughly equal to all other platforms combined, Claude up about fivefold year over year, and Perplexity under growth pressure.
+
+For brand search the divergence matters because citation logic differs across entry points. AEOContent's breakdown of Perplexity Agent mode source preferences found structural shifts in citation logic between Default Mode and Agent Mode, meaning GEO strategies must design content and source matrices for each entry point's specific preferences rather than reusing one content set everywhere.
+
+As AI entry points monetize, brand presence in AI answers becomes both an acquisition question and an advertising one. The analysis recommends building AI trust assets early and continuously monitoring brand mentions and placement across every major entry point.`,
+    category: 'industry',
+    source: 'World AI News Roundup',
+    date: '2026-10-13',
+    tags: ['ChatGPT', 'Perplexity', 'AI Search', 'Monetization'],
+  },
+  {
+    id: 344,
+    title: `AI Agents Enter Scaled Enterprise Deployment: Gartner Forecasts 40% of Enterprise Applications Will Embed Agentic Capabilities by End of 2026`,
+    summary: `The AI agent market exceeded 42 billion dollars in 2026 growing over 110% year over year, and Gartner forecasts that 40% of enterprise applications will embed agentic capabilities by the end of 2026. Agents are evolving from chat assistants into digital employees that work independently across customer service, procurement, risk control and finance approval, while enterprise selection criteria shift from whether to use agents to who can actually deliver a runnable system.`,
+    content: `The AI agent market exceeded 42 billion dollars in 2026, growing over 110% year over year, according to Tencent Cloud Developer Community analysis, while Gartner forecasts that 40% of enterprise applications will embed agentic capabilities by the end of 2026, with supply chain domains already producing deployment samples.
+
+Application is evolving from answering questions to doing the work for enterprises: coding, operations, customer service, research and process collaboration are all being penetrated, and agents are turning from chat companions into digital employees that can work independently. At the 2026 World Artificial Intelligence Conference, almost every major exhibitor showcased agent products, with digital employees already handling ride-hailing, ordering, procurement and even design tasks.
+
+The bottleneck is shifting. Enterprise-grade AI agents entered scaled deployment in 2026, and selection criteria moved from whether to use one to who can actually deliver a runnable system. Agent autonomy creates new security blind spots, so the precondition for scaled deployment has changed from is the model good enough to do we dare grant authorization, making security gateways, runtime protection and confidential computing baseline requirements.
+
+Gartner predicts that by 2028, 33% of enterprise software will embed agentic AI and at least 15% of daily work decisions will be made autonomously by AI. A digital-employee plus human-employee collaboration model is set to become the enterprise default, and organizations need matching process and governance frameworks to keep up.`,
+    category: 'industry',
+    source: 'Tencent Cloud Developer Community / Phoenix Tech',
+    date: '2026-10-13',
+    tags: ['AI Agent', 'Enterprise', 'Digital Workers', 'Gartner'],
+  },
+  {
     id: 339,
     title: `China GEO Market Analysis: 41% of Users Have Fully Switched to AI Search as Market Grows Over 110% Annually`,
     summary: `A 2026 industry analysis of China GEO (generative engine optimization) market finds that 41% of users have fully switched to AI search and over 80% of consumers consult AI before purchasing; China GEO market is sized at 4-6 billion yuan growing over 110% annually, AI search marketing spend reached 32 billion yuan in 2026 (up 150% year over year), and traditional SEO service revenue fell 42% while GEO service revenue rose 320%.`,
