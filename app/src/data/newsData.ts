@@ -12,6 +12,62 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 345,
+    title: `Perplexity October 2026: Revenue Triples to $750M+ and Searches Top 1 Billion, but Market Share Keeps Sliding`,
+    summary: `fatjoe's October 2026 statistics roundup shows Perplexity's annualized revenue passing $750 million and monthly searches exceeding 1 billion, with Nvidia reportedly in talks to invest at a $30 billion-plus valuation. Yet its share of global generative AI web traffic has fallen to 0.9% and its chatbot referral share to 4.31%, pushing the company toward embedded distribution in Microsoft 365 and Samsung's Galaxy S26.`,
+    content: `As of October 2026, Perplexity is a small platform with a big business, according to fatjoe's latest statistics roundup published on October 7.
+
+Revenue and valuation. Annualized revenue passed $750 million in August 2026, up from $450 million in March and under $250 million at the start of the year, meaning the company has grown revenue roughly 7.5x in 17 months. Nvidia is reportedly in talks to invest in a round valuing Perplexity above $30 billion, following a January 2026 round at about $22.6 billion. CEO Aravind Srinivas has said the company plans to IPO in 2028 regardless of what OpenAI and Anthropic do.
+
+Users and queries. The core answer engine has about 45 million monthly active users, with more than 100 million across all products including the Comet browser and API-embedded usage. Monthly search queries exceed 1 billion, up from 780 million in mid-2025, and 85-90% of users return within 30 days.
+
+Market share tells the opposite story. Similarweb's August 2026 update puts Perplexity at 0.9% of global generative AI web traffic, down from 2.0% a year earlier and now the smallest of seven tracked platforms behind ChatGPT (55.5%), Gemini (25.6%), Claude (9.3%), DeepSeek (3.4%), Grok and Copilot. Statcounter data shows its share of AI chatbot referral traffic falling to 4.31% in August 2026 from a 12.07% peak in April 2025, while Gemini has become the clear number two referrer behind ChatGPT at 10.9%. US mobile daily active user share dropped from about 6% in October 2025 to roughly 2% by March 2026.
+
+Distribution is the counter-strategy. Perplexity Computer now runs inside Microsoft 365 across Word, Excel, PowerPoint, Outlook and Teams, and Perplexity powers Bixby on Samsung's Galaxy S26, making it the first non-Google company with OS-level assistant access on a Samsung flagship. The Comet browser reached roughly 18 million monthly users by the end of Q1 2026, and the publisher program covers more than 2,400 outlets including CNN, Conde Nast and The Washington Press.
+
+For brands and publishers the takeaway is that AI visibility can no longer be measured by web traffic alone. Referral flows are shifting toward Gemini and embedded surfaces, so GEO strategies need per-entry-point source matrices and monitoring that covers assistant, browser and productivity-suite placements rather than a single content set.`,
+    category: 'industry',
+    source: 'fatjoe',
+    date: '2026-10-14',
+    tags: ['Perplexity', 'AI Search', 'Market Share', 'GEO'],
+  },
+  {
+    id: 346,
+    title: `Tencent Shuts Down Yuanqi and QClaw AI Agent Products as Industry Shifts from Expansion to Focus`,
+    summary: `Tencent announced that its agent-building platform Yuanqi will stop serving on November 9, 2026, following the shutdown notice for QClaw, which ends operations on December 24. Alibaba, ByteDance and Baidu are consolidating their own agent product lines, while Gartner finds that 60% of organizations plan to deploy agents but only 17% have actually done so.`,
+    content: `Tencent has moved to retire two AI agent products in the span of two weeks, OFweek reported on October 13.
+
+On October 8 the Yuanqi website posted a service termination notice. Creation of new agents and API key distribution stopped on October 29, and on November 9 application access, data read-write, API calls and the console will all be closed. Agents deployed through Yuanqi to official accounts, service accounts and WeChat customer service will no longer respond to user conversations. Users can export agent configurations, workflows and chat records before shutdown, with data deleted by January 9, 2027 except where retention is legally required. Yuanqi launched in May 2024 as a no-code agent creation and distribution platform and reached v1.0 in August 2025.
+
+Earlier, on September 24, Tencent QClaw announced it will cease operations at midnight on December 24, 2026. Built by the Tencent PC Manager team on the open-source OpenClaw framework and launched in March 2026, QClaw let users control their PC remotely from WeChat. Its Chinese release passed one million users within ten days, but overseas traffic fell 99.19% month over month in April, and monthly active users stood at 2.26 million at shutdown. QClaw users are being guided to migrate to WorkBuddy, Tencent's self-developed desktop workstation agent, which led China's AI-native office agent category with 20.97 million monthly PC visits in June 2026.
+
+The retreat is industry-wide. Alibaba folded QoderWork, MuleRun and Wukong into Qwen Office under the DingTalk team in August. ByteDance merged TRAE and Coze into the Doubao system and launched Doubao Work at the end of August. Baidu's GenFlow adopted the Chinese name Kuku AI. Between June and July, Tencent Yuanbao, Doubao and Qwen also removed or tightened user-built agent features.
+
+The economics explain the pullback: always-on agents that operate local computers carry far higher compute costs than chat interfaces, consumers are reluctant to pay recurring subscriptions, and the high system permissions required create trust risks around file deletion and privacy. Gartner surveys show 60% of organizations expect to deploy agents within two years while only 17% have actually landed them. AI agent funding reached 83 deals in the first half of 2026, up 131% year over year, before capital rotated toward embodied intelligence and AI for science. More than 20 office agents launched or received major overhauls in China this year, and retention across even the leading products remains at an early stage.`,
+    category: 'industry',
+    source: 'OFweek',
+    date: '2026-10-14',
+    tags: ['AI Agent', 'Tencent', 'Enterprise', 'Industry Consolidation'],
+  },
+  {
+    id: 347,
+    title: `CNNIC: China's Generative AI Users Top 700 Million as GEO Industry Self-Discipline Pact Takes Effect`,
+    summary: `The CNNIC's Generative AI Application Development Report (2026) says China's generative AI user base exceeded 700 million in the first half of 2026, with a penetration rate above 50% and answering questions the top use case at 76%. Combined with the GEO Industry Self-Discipline Convention signed in March and forthcoming CAICT trust requirements, the GEO market is shifting toward E-E-A-T standards and verifiable sourcing.`,
+    content: `China's generative AI adoption has reached mass-market scale, reshaping how brands approach AI search visibility.
+
+User base. The China Internet Network Information Center's Generative AI Application Development Report (2026), released on September 29, 2026, records more than 700 million generative AI users as of the first half of 2026, a penetration rate above 50%. Answering questions is the dominant use case at 76.0% of users, followed by image and video processing at 47.8%, document writing at 37.6%, and summary and meeting-note drafting at 32.5%. AI assistants, AI search engines and AI lifestyle assistants are the three most frequently used application categories.
+
+Behavioral shift. When answering becomes the primary mode of human-AI interaction, the AI response simultaneously plays the roles of the old search results page, the review article and the first sales conversation. A brand that is merely mentioned earns exposure; a brand that is accurately understood and placed into the recommendation list earns candidacy. That distinction is the core objective of GEO (generative engine optimization).
+
+Compliance framework. The GEO Industry Self-Discipline Convention was signed in Beijing on March 14, 2026, requiring services to follow E-E-A-T (experience, expertise, authoritativeness, trustworthiness) standards and setting out four principles: shared value, positive optimization, truthfulness and open collaboration, plus a proposed industry notification mechanism for violations. The CAICT is advancing technical specifications for trustworthy GEO services, and the Shanghai Advertising Association and Shanghai AI Industry Association have jointly issued a self-regulation initiative.
+
+Implications. High-volume low-quality content tactics are being squeezed by both algorithmic risk controls and regulatory pressure. Vendors with source grading, compliance verification and traceability mechanisms are earning more durable trust. For brands, the practical guidance is to anchor GEO work in official knowledge bases and verifiable sources, structure content for model citation, and measure results with quantifiable, traceable metrics rather than one-off ranking checks.`,
+    category: 'industry',
+    source: 'CNNIC / Sina Star Sha Times',
+    date: '2026-10-14',
+    tags: ['GEO', 'CNNIC', 'AI Search', 'Compliance'],
+  },
+  {
     id: 342,
     title: `GEO Vendor Selection Guide: In-House Technology, Verifiable Case Studies and Full-Service Loop Emerge as Three Hard Criteria`,
     summary: `A 2026 guide published by Sina Tech argues that as generative AI reshapes how users find information, with brands competing to appear in answers from Doubao, DeepSeek and ERNIE Bot, GEO (generative engine optimization) has shifted from optional to essential. The guide defines three hard criteria for choosing a vendor: an in-house technology stack, verifiable case studies backed by real metrics, and a complete service loop from AI landscape research to continuous monitoring.`,
