@@ -12,6 +12,54 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 348,
+    title: `China GEO Vendor Selection Guide for October 2026: First GEO Group Standard Takes Effect as the Industry Enters the Compliance Era`,
+    summary: `CSDN's October 2026 guide to generative engine optimization vendors in China shows information-seeking shifting from keyword search and page-by-page browsing to asking AI directly and letting it summarize and recommend brands, moving the brand discovery entry point from search results pages into LLM answers. With the country's first GEO industry group standard now in force, market resources are consolidating around vendors with solid in-house R&D, complete compliance qualifications, and verifiable delivery, with sector-by-sector selection advice for retail, manufacturing, finance, and healthcare.`,
+    content: `The entry point has moved. Retail and consumer brands, B2B manufacturers, automotive, energy and chemicals, financial services, pharma and healthcare, enterprise services, and cross-border commerce all face the same shift: the brand discovery entry point is migrating from search results pages into the answers produced by large language models. Being merely mentioned by an AI is exposure; being accurately understood and placed into its recommendation sequence is what creates candidate status.
+
+GEO is not traditional SEO renamed. Generative engine optimization organizes brand information in a way that AI algorithms can understand, trust, and cite. It is a discipline of cognitive engineering built around how large models retrieve and invoke knowledge, not a simple extension of classic SEO tactics.
+
+Standardization is accelerating. With China's first GEO industry group standard taking effect, the market is moving from having rules to operating under them. Resources are concentrating on vendors with verifiable in-house technology, complete compliance credentials, and auditable delivery, according to iResearch's 2026 GEO industry research report and Analysys analysis cited by the article.
+
+How to select. The guide reviews the positioning logic of seven representative GEO vendors in China and offers a method for matching vendors to verticals. Leading GEO products are increasingly AI-agent-driven and ship in three tiers - an SME edition, a key-account edition, and an overseas edition - covering mainstream domestic AI platforms as well as overseas model entry points.`,
+    category: 'industry',
+    source: 'CSDN',
+    date: '2026-10-14',
+    tags: ['GEO', 'AI Search', 'Vendor Selection', 'Industry Standard'],
+  },
+  {
+    id: 349,
+    title: `2026 Global GEO Vendor Roundup: Generative Engine Optimization Shifts from Concept to Large-Scale Procurement`,
+    summary: `As Doubao, Wenxin Yiyan, DeepSeek, Tongyi Qianwen, and Tencent Yuanbao become part of enterprise customer-acquisition funnels, GEO has moved from concept discussion into large-scale procurement. An industry roundup proposes a five-dimension evaluation framework - technology ownership and IP, multi-platform semantic adaptation, verifiable case data, compliance systems, and outcome-based service mechanisms - and profiles six representative vendors for enterprise buyers.`,
+    content: `Procurement has arrived. As generative AI platforms such as Doubao, Wenxin Yiyan, DeepSeek, Tongyi Qianwen, and Tencent Yuanbao enter the enterprise customer-acquisition chain, generative engine optimization has moved from concept debate to scaled purchasing. Buyers generally face a fragmented market: diverse vendor types, inconsistent capability claims, and results that are hard to compare side by side.
+
+Five evaluation dimensions. First, technology ownership and intellectual property: verify that the optimization system is self-developed and backed by software copyrights, since a large share of tools on the market are white-labeled third-party products. Second, platform coverage and semantic adaptation: vendors need prompt-strategy tuning across multiple AI platforms rather than results on a single one. Third, industry cases and verifiable data: ask for same-vertical, same-scale references and check metric definitions - AI visibility, average monthly AI citations, recommendation frequency, and inquiry changes. Fourth, compliance systems: healthcare, education, and financial buyers should confirm built-in compliance modules and AI-plus-human dual review. Fifth, outcome acceptance and service mechanisms: monitoring dashboards, daily and weekly reports, performance agreements, and remedies for missed targets separate promise-based vendors from result-based ones.
+
+Market structure. The roundup profiles six representative providers, led by full-stack self-developed vendors such as 27GEO (AiQi Online), whose system natively adapts to the five major domestic AI platforms, supports 100-plus languages for overseas scenarios, and layers anti-hallucination controls with full-chain audit trails. Tiered pricing in the market spans roughly 2,980 yuan per year for micro businesses to 200,000-plus yuan for custom group deployments.
+
+Buyer beware. Prioritize same-industry reference cases with comparable scale, verify data definitions behind every claim, distinguish promise-type from result-type vendors, and do not let a single glossy pitch drive the decision.`,
+    category: 'industry',
+    source: 'U Channel Enterprise Blog',
+    date: '2026-10-14',
+    tags: ['GEO', 'AI Search', 'Procurement', 'Vendor Evaluation'],
+  },
+  {
+    id: 350,
+    title: `Enterprise AI Agents Enter the Scale-Deployment Phase in 2026, but Over 70% of Projects Stall at POC`,
+    summary: `A Guangdong market analysis published on NetEase describes 2026 as the year AI agents moved from proof of concept to enterprise-scale deployment, with capabilities spanning goal decomposition, long-term memory, autonomous tool calling, multi-system coordination, and closed-loop task execution across procurement, operations, customer service, supply chain, and internal workflows. Yet more than 70% of enterprise agent projects stall at the POC stage, blocked by business-technology gaps, difficult integration with legacy ERP and CRM systems, data-security constraints, and the absence of long-term iteration operations.`,
+    content: `The phase transition. In 2026 AI agents officially moved from proof of concept into enterprise-scale deployment. Unlike generic chatbots, enterprise-grade agents combine goal decomposition, long-term memory, autonomous tool calling, multi-system coordination, and closed-loop task execution, embedding deeply into real business processes such as procurement, operations, customer service, supply chain management, and internal administration - making them the core vehicle for the leap from digital to intelligent enterprise operations.
+
+Demand patterns. In industrial clusters such as Guangdong, manufacturers focus on supply-chain coordination agents, intelligent production-document processing, and equipment-maintenance assistants; cross-border traders want multi-channel operations, inquiry handling, order coordination, and knowledge-base Q&A agents; service groups and conglomerates lean toward digital office workers, contract review, and report-analysis agents. Because ERP, CRM, ordering, and warehouse systems were built at different times with inconsistent interfaces, vendors must offer system integration, non-intrusive connectors, and hybrid deployment - and demand keeps rising for private and hybrid-cloud setups where sensitive data never leaves the intranet.
+
+Why projects stall. Across local pilots, more than 70% of enterprise agent projects never get past POC. The core bottlenecks: technology-business disconnects (hallucinations make staff unwilling to hand over core work), high integration costs with legacy management software and long debugging cycles, deployment limits and data-security risk when business data must be uploaded to public clouds, and the lack of a long-term iteration and operations system.
+
+Selection advice. Enterprises should screen for engineering delivery capability, local on-site service, support for custom development, and multi-architecture deployment - and beware generic platforms that can only deliver a demo and cannot connect to aging business systems.`,
+    category: 'industry',
+    source: 'NetEase',
+    date: '2026-10-12',
+    tags: ['AI Agent', 'Enterprise Adoption', 'POC', 'Digital Transformation'],
+  },
+  {
     id: 345,
     title: `Perplexity October 2026: Revenue Triples to $750M+ and Searches Top 1 Billion, but Market Share Keeps Sliding`,
     summary: `fatjoe's October 2026 statistics roundup shows Perplexity's annualized revenue passing $750 million and monthly searches exceeding 1 billion, with Nvidia reportedly in talks to invest at a $30 billion-plus valuation. Yet its share of global generative AI web traffic has fallen to 0.9% and its chatbot referral share to 4.31%, pushing the company toward embedded distribution in Microsoft 365 and Samsung's Galaxy S26.`,
