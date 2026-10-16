@@ -12,6 +12,52 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 351,
+    title: `AI Search and Deep Research Tools Compared 2026: Six Engines Battle for the Answer Layer`,
+    summary: `An October 2026 comparison of Perplexity, ChatGPT, Gemini, Claude, Grok, and Google AI Overviews maps how each tool searches, how deep research runs, how many sources it touches, and which use case it wins - a reference map for brands deciding where their AI search visibility actually matters.`,
+    content: `The answer layer has consolidated. In 2026 every major AI tool ships its own version of search, deep research, or both, and the gap between asking a question and commissioning a research assistant has collapsed into a single click, according to Fello AI's comparison guide updated on October 14, 2026.
+
+How the leaders differ. A single Perplexity Deep Research query now runs dozens of searches, reads hundreds of sources, and delivers a cited report in 2 to 4 minutes with transparent citations on every claim. ChatGPT Deep Research can browse the web for up to 30 minutes and produces the longest, most structured reports, though OpenAI now grades usage as limited, expanded, or maximum by plan instead of publishing run counts. Gemini Deep Research Max targets long asynchronous research workflows on Google's top-tier models, and the new flagship Gemini 4 Argon has been available to AI Pro and Ultra subscribers and on the paid API since October 13, 2026.
+
+Model churn accelerates. xAI's API flagship is now Grok 4.7, released September 21, 2026, while Anthropic shipped Claude Opus 5.5 on September 22, 2026 and moved Opus 5 to its legacy list. Claude web search is free on the Claude.ai apps across current models.
+
+Why it matters for brands. These six engines are the surfaces where buyers now form shortlists. Each engine's retrieval logic, citation preferences, and source thresholds differ, so visibility in one does not transfer to another - exactly the multi-engine adaptation problem generative engine optimization is built to solve. Content structured for quick citation, such as definitions, data points, comparison tables, and FAQs, consistently earns more references in deep research outputs.`,
+    category: 'industry',
+    source: 'Fello AI',
+    date: '2026-10-16',
+    tags: ['AI Search', 'Deep Research', 'Perplexity', 'ChatGPT'],
+  },
+  {
+    id: 352,
+    title: `Tencent WorkBuddy Enterprise Ships a One-Stop Agent Observability Platform`,
+    summary: `Tencent WorkBuddy's enterprise admin console launched an Observability Center on October 13, now in open beta, giving companies real-time monitoring, session tracking, and trajectory details to manage AI agent usage, efficiency, and cost as enterprise agent deployments scale.`,
+    content: `Observability becomes table stakes. On October 13 Tencent launched the Observability Center in the WorkBuddy enterprise admin console and opened public beta shortly after. The feature targets enterprise AI agent operations management, helping companies track agent usage, running efficiency, and cost consumption as agents move from pilots into office and business workflows, Shanghai Securities News reported on October 15.
+
+Three core capabilities. Real-time monitoring presents overall agent performance across four dimensions - user traffic, cost consumption, latency, and quality status - including session counts, active users, resource consumption, and response times. Session tracking lets administrators break down resource consumption by department and by model. Trajectory details pinpoint specific failures in an agent's run so teams can tune prompts, models, and tool configurations to optimize efficiency and cost.
+
+Platform momentum. WorkBuddy recently completed an office-suite upgrade with Tencent Docs, Tencent Lexiang, Tencent Weiyun, the security and engineering-efficiency operations platform, and Tencent's AI design agent Ardot among the first integrations. Since its launch in March 2026, WorkBuddy has shipped more than 50 version iterations and now covers over 50 industries including government, education, retail, media, finance, and mobility.
+
+Industry signal. As AI agents enter enterprise office and operations scenarios, managing runtime cost, evaluating usage impact, and locating anomalies have become prerequisites for scaled deployment - pushing agent observability from optional tooling into core enterprise agent infrastructure.`,
+    category: 'industry',
+    source: 'Shanghai Securities News',
+    date: '2026-10-15',
+    tags: ['AI Agents', 'Enterprise', 'Observability', 'Tencent'],
+  },
+  {
+    id: 353,
+    title: `China's MIIT Targets 2,000-Plus AI Application Service Providers by End of 2026`,
+    summary: `China's Ministry of Industry and Information Technology issued a special action notice on cultivating AI application service providers, aiming to exceed 2,000 providers by the end of 2026 and exploring first-purchase, first-use and risk-compensation models to accelerate large-model adoption as enterprise AI agent commercialization speeds up.`,
+    content: `Policy tailwind. China's Ministry of Industry and Information Technology issued the Notice on Launching the Special Action for Cultivating AI Application Service Providers, setting a target of more than 2,000 AI application service providers by the end of 2026. The notice also explores mechanisms such as first-purchase, first-use programs and risk compensation to expand large-model application adoption, according to a report on October 15.
+
+Market response. With domestic and overseas catalysts converging, AI application sentiment has warmed and enterprise-grade AI agent commercialization in China is accelerating from proof-of-concept spending toward real revenue. Enterprise agents are increasingly embedded in office work, operations, customer service, and supply chain workflows.
+
+What it means. The policy push directly expands procurement demand for new-generation application services, including AI search optimization and brand visibility monitoring. For service providers, verifiable delivery and compliance credentials are becoming the core threshold for government and enterprise purchasing. Enterprise buyers are advised to build structured brand corpora across mainstream AI platforms early and treat generative engine optimization as a planning item rather than an experiment.`,
+    category: 'industry',
+    source: 'NetEase Technology',
+    date: '2026-10-15',
+    tags: ['AI Industry', 'Policy', 'Enterprise AI', 'China'],
+  },
+  {
     id: 348,
     title: `China GEO Vendor Selection Guide for October 2026: First GEO Group Standard Takes Effect as the Industry Enters the Compliance Era`,
     summary: `CSDN's October 2026 guide to generative engine optimization vendors in China shows information-seeking shifting from keyword search and page-by-page browsing to asking AI directly and letting it summarize and recommend brands, moving the brand discovery entry point from search results pages into LLM answers. With the country's first GEO industry group standard now in force, market resources are consolidating around vendors with solid in-house R&D, complete compliance qualifications, and verifiable delivery, with sector-by-sector selection advice for retail, manufacturing, finance, and healthcare.`,
