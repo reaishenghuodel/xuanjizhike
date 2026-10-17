@@ -12,6 +12,54 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 354,
+    title: `Perplexity October 2026: Revenue Triples to $750M+ as Nvidia Talks $30B Round, but AI Web Traffic Share Falls to 0.9%`,
+    summary: `fatjoe's October 2026 data roundup shows Perplexity passing $750 million in annualised revenue in August 2026 and crossing 1 billion monthly searches, while Nvidia reportedly talks up a $30 billion-plus valuation - yet Similarweb puts its share of global generative AI web traffic at just 0.9% and Statcounter shows its chatbot referral share sliding to 4.31%, pushing brands to optimise for being cited in answers rather than for clicks.`,
+    content: `The numbers point in two directions at once for Perplexity. According to fatjoe's October 2026 stats roundup (Oct 07, 2026), annualised revenue passed $750 million in August 2026, up from $450 million in March and under $250 million at the start of the year. The company now processes over 1 billion searches a month, serves roughly 45 million monthly active users on its core answer engine and over 100 million across all products, and Nvidia is reportedly in talks to invest at a valuation above $30 billion, with CEO Aravind Srinivas reiterating a 2028 IPO plan.
+
+Market share tells the opposite story. Similarweb's August 2026 update puts Perplexity at 0.9% of global generative AI web traffic, down from 2.0% a year earlier and behind ChatGPT (55.5%), Gemini (25.6%), Claude (9.3%), DeepSeek (3.4%), Grok and Copilot. Statcounter data shows its share of AI chatbot referral traffic - clicks actually sent to other websites - fell to 4.31% in August 2026 from a 12.07% peak in April 2025, while Gemini holds 10.9%.
+
+Distribution is the counter-move. Perplexity Computer is now built into Microsoft 365 across Word, Excel, PowerPoint, Outlook and Teams, Perplexity powers Bixby on Samsung's Galaxy S26, and the Comet browser reached roughly 18 million monthly users by the end of Q1 2026. The Perplexity Publisher Program now covers 2,400-plus publishers including CNN, Conde Nast and The Washington Post.
+
+Why it matters for brands: with referral traffic shrinking across AI answer engines, the click economy of AI search is drying up. Being cited inside the answer - across embedded surfaces like office suites, phone assistants and browsers - is now the visibility that counts, which is exactly the problem generative engine optimization is built to solve.`,
+    category: 'industry',
+    source: 'fatjoe / Reuters / Similarweb',
+    date: '2026-10-17',
+    tags: ['Perplexity', 'AI Search', 'Market Share', 'GEO'],
+  },
+  {
+    id: 355,
+    title: `GEO Enters the Engineering Phase in 2026: 65% of Consumers Ask AI Before Buying, Missing Structured Data Cuts Citation Weight 47%`,
+    summary: `Gartner data cited by ifeng Finance shows over 65% of consumers now consult AI tools before purchase decisions while traditional search usage drops 25% year over year, and Tencent Cloud's 2026 GEO technical guide finds content without structured markup loses about 47% of its citation weight in AI answers - shifting generative engine optimization from concept to measurable engineering.`,
+    content: `The market signal is unambiguous. According to Gartner data cited in ifeng Finance's 2026 GEO platform selection guide, more than 65% of consumers worldwide now consult AI tools for advice before making purchase decisions, while traditional search engine usage has fallen 25% year over year. In China, generative search already accounts for more than 38.7% of total query volume in 2026.
+
+Tencent Cloud's 2026 GEO technical guide lays out three engineering pillars. First, structured knowledge markup: FAQ, HowTo, Article and Organization schema types, with Google AI Overviews and ChatGPT Browsing now extracting content based on Schema.org 3.0 - content without structured markup loses about 47% of its citation weight in AI answers, per BrightEdge's Q1 2026 GEO report. Second, semantic optimization around query intent, building a three-layer semantic net of core entities, related concepts and associated questions. Third, trust engineering: citing authoritative sources, keeping content fresh within six months, and building author and organization authority.
+
+The guide also documents a 12-week enterprise implementation for a Kubernetes container platform: schema refactoring in weeks 1-3, semantic restructuring in weeks 4-8, and trust reinforcement in weeks 9-12. The result was a 280% lift in citation rate across ChatGPT and Perplexity technical queries, Google AI Overviews appearances rising from 12 to 89 per month, and a 65% increase in trial signups from AI search traffic.
+
+Looking ahead, the guide flags multimodal GEO (charts, code and video keyframes cited directly), real-time data APIs feeding knowledge graphs, and defensive GEO against citation-farm manipulation as the next frontiers - with Forrester projecting AI search will capture over 40% of traffic entry points within three years.`,
+    category: 'industry',
+    source: 'Tencent Cloud Developer / ifeng Finance',
+    date: '2026-10-17',
+    tags: ['GEO', 'Structured Data', 'AI Search', 'Citation'],
+  },
+  {
+    id: 356,
+    title: `Enterprise AI Agent Platforms Shift to AgentOps: Build, Connect, Distribute, Govern - and Start Calling AI Search Directly`,
+    summary: `2026 enterprise AI agent platform reviews show the category maturing from development tooling into AgentOps platforms with connectors, distribution and governance, while Silicon Valley field research says agent deployments now pay off in shorter software delivery cycles and restructured support costs - and procurement research agents increasingly shortlist vendors through AI search citations.`,
+    content: `The enterprise agent platform market is consolidating around a new operating model. 2026 selection guides and platform reviews describe a shift from pure agent development tooling toward enterprise AgentOps platforms that connect internal and external systems through connectors and cover the full lifecycle of building, distributing and governing agents. Evaluation criteria have moved past "can we build one" to knowledge recall accuracy, multi-tenant management, runtime observability and compliance governance.
+
+Silicon Valley field research on the 2026 agent wave reports the story has moved from concept to industrial outcomes: shorter software delivery cycles, restructured customer service and operations cost bases, and rewritten workflows for data analysis and reporting. AI agents have crossed from labs into enterprise production environments and now sit inside real business processes, with document processing, customer support and analytics as the first scenarios to scale.
+
+Deployment splits into two families: lightweight local single-machine agent tools and cloud enterprise SaaS platforms, with engineering delivery and localization capability becoming the competitive moat.
+
+Why it matters for GEO: when enterprise agents run procurement research, vendor comparisons and industry roundups, they increasingly call AI search and deep research tools directly. Whether a brand is cited in those answers - and how positively it is framed - now determines whether it even makes the agent-generated shortlist, which raises the commercial stakes of generative engine optimization for every B2B brand.`,
+    category: 'industry',
+    source: 'CSDN DevPress / 36Kr',
+    date: '2026-10-17',
+    tags: ['AI Agents', 'AgentOps', 'Enterprise', 'GEO'],
+  },
+  {
     id: 351,
     title: `AI Search and Deep Research Tools Compared 2026: Six Engines Battle for the Answer Layer`,
     summary: `An October 2026 comparison of Perplexity, ChatGPT, Gemini, Claude, Grok, and Google AI Overviews maps how each tool searches, how deep research runs, how many sources it touches, and which use case it wins - a reference map for brands deciding where their AI search visibility actually matters.`,
