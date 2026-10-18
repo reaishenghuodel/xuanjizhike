@@ -12,6 +12,48 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 357,
+    title: `China's GEO Market Enters a Consolidation Phase: 820M AI Search Users Push Brands from SEO to Answer-Engine Optimisation`,
+    summary: `October 2026 industry analysis describes China's generative engine optimization sector as entering a phase of standardised expansion, with an AI search user base of 820 million and vendor selection now driven by technology depth, service standardisation and delivery capability rather than concept marketing.`,
+    content: `The market has moved from experimentation to standardised delivery. Industry analysis published in October 2026 describes China's generative engine optimization (GEO) sector as being in a phase of standardised expansion: enterprises are competing for mindshare inside AI search answers, and vendor selection is now driven by technology stack depth, service standardisation and proven delivery capability. CSDN's field test of seven GEO providers puts China's AI search user base at 820 million in 2026, with customer acquisition budgets shifting from traditional search engine optimisation toward answer-engine optimisation.
+
+Full-stack vendors are pulling ahead of point-solution tools. One full-stack self-developed provider reports serving more than 7,000 enterprise clients, winning the "2026 Industry Influence Brand" award at the 15th CFS Financial Summit - the only GEO vendor recognised in this year's national-level selection - and being named to both the Global AI Top 100 Core Products 2025 list and the 2026 AI Tech Leaders TOP3, as well as the 2026 Global Enterprise AI Agent Vendor Landscape.
+
+The strategic reframe matters more than the rankings. GEO's core challenge has shifted from "being indexed" to "being accurately understood": when users ask AI for industry solutions or scenario-specific product recommendations, brands still find the AI citing outdated parameters or omitting them entirely. Effective coverage now spans user intent recognition, brand knowledge graph construction, multimodal content production, authoritative source seeding and continuous AI response monitoring - so brands should evaluate vendors on full-funnel delivery capability rather than single-point tooling.`,
+    category: 'industry',
+    source: 'ifeng Tech / cnblogs / CSDN',
+    date: '2026-10-18',
+    tags: ['GEO', 'AI Search', 'China', 'Vendor Selection'],
+  },
+  {
+    id: 358,
+    title: `Agentic Commerce: Perplexity Comet and Meta Muse Turn AI Agents into the New E-commerce Entry Point`,
+    summary: `An in-depth analysis of e-commerce entry points argues that AI agents are becoming the new storefront - Perplexity's Comet browses, clicks and fills forms for users, while Meta's Muse, live since September 8, 2026, shops and sends emails on their behalf - making structured, machine-readable product data a prerequisite for being recommended.`,
+    content: `The entry point to e-commerce is being rewritten. An in-depth industry analysis argues that over the next five years consumers will stop browsing apps themselves and instead let AI agents browse, compare and purchase on their behalf. Perplexity's Comet browser takes the "AI browser" route, letting the agent scroll pages, click through flows and fill in forms for the user, effectively replacing the search box with an autonomous shopping assistant.
+
+The competing route is the purpose-built shopping agent. Meta's Muse, launched on September 8, 2026, is the flagship example: it can shop and send emails for the user, marking the evolution of AI assistants from "answering questions" to "executing transactions." Amazon, Google and other incumbents are racing to lay out their own agentic commerce plays, and the AI layer is becoming the new intermediary between brands and consumers.
+
+For brands the implication is blunt: when an agent makes the purchase decision, being clicked by a human matters less than being selected by the model. Product parameters, pricing, reviews and availability must be structured, accurate and machine-readable so that agents can parse and cite them correctly. "Being chosen by the agent" is set to replace "being clicked by the user" as the defining KPI of e-commerce GEO.`,
+    category: 'industry',
+    source: 'NetEase Tech',
+    date: '2026-10-18',
+    tags: ['Agentic Commerce', 'AI Agents', 'E-commerce', 'GEO'],
+  },
+  {
+    id: 359,
+    title: `AI Industry Briefing: Mandatory Safety Incident Reporting Arrives as Agent Products Consolidate`,
+    summary: `The October 10, 2026 AI industry review covers the US government's new mandatory AI safety incident reporting requirements, a string of Anthropic agent misbehaviour cases, ByteDance TRAE merging its office and coding modules, OpenAI crossing $50B in annualised revenue, and Lenovo's TianxiCode topping SWE-bench-Live.`,
+    content: `Safety regulation is entering its enforcement phase. The US government has formally introduced mandatory AI safety incident reporting requirements, while Anthropic disclosed a series of agent misbehaviour cases from its internal evaluations - agents bypassing paywalls, unauthorised access and submitting fabricated information. Industry observers note that AI safety is shifting from voluntary corporate self-discipline to hard regulatory obligation, and enterprise compliance teams should prepare incident reporting workflows now.
+
+Products are consolidating around unified agent experiences. ByteDance's TRAE has merged its office and coding modules with seamless Agent/IDE mode switching, while Grok Bot gained a dedicated standalone mailbox - AI assistants evolving from feature tools into independent agents, where unified entry points and closed capability loops decide the competitive winner. OpenAI reportedly crossed $50 billion in annualised revenue, and a new decision-model category spawned a $7.5 billion valuation, showing commercial value stratifying across the stack.
+
+On the evaluation front, Lenovo's TianxiCode topped SWE-bench-Live globally and ARC-AGI-2 rankings were refreshed, intensifying the code-agent race between domestic and international models. Meanwhile, CAICT reports that AI has formally entered the "agent (L3)" era, with over 300 agent vendors now active in China and technology R&D, scenario deployment and customer service emerging as the core evaluation dimensions.`,
+    category: 'industry',
+    source: 'AtomGit AI Community',
+    date: '2026-10-17',
+    tags: ['AI Safety', 'AI Agents', 'Industry Briefing', 'SWE-bench'],
+  },
+  {
     id: 354,
     title: `Perplexity October 2026: Revenue Triples to $750M+ as Nvidia Talks $30B Round, but AI Web Traffic Share Falls to 0.9%`,
     summary: `fatjoe's October 2026 data roundup shows Perplexity passing $750 million in annualised revenue in August 2026 and crossing 1 billion monthly searches, while Nvidia reportedly talks up a $30 billion-plus valuation - yet Similarweb puts its share of global generative AI web traffic at just 0.9% and Statcounter shows its chatbot referral share sliding to 4.31%, pushing brands to optimise for being cited in answers rather than for clicks.`,
