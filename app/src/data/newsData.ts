@@ -12,6 +12,51 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 360,
+    title: `GEO Vendor Selection Matures: China's Brands Shift Budgets from Media Volume to "AI Citation Cost"`,
+    summary: `An October 2026 industry playbook for generative engine optimization publishing argues that the KPI for brand visibility has changed - from search-engine indexing to being retrieved, trusted and cited by large language models - and proposes a four-step vendor screening method centred on a single metric: cost per effective AI citation.`,
+    content: `The yardstick for online marketing has moved. Industry analysis published on October 16, 2026 notes that the global generative engine optimization (GEO) market keeps expanding and that generative search products such as Baidu AI Search are seeing rapid adoption. Brand visibility is no longer judged by search-engine rankings alone: whether brand information can be retrieved, trusted and cited by large language models is now the dividing line for online exposure.
+
+How models choose what to cite. Large language models apply their own trust rules: they prefer content cross-validated by multiple high-authority media outlets, with state media and top industry outlets carrying far more weight; semantic relevance has replaced keyword stuffing, and copy that stuffs keywords is classified as low quality and loses any chance of citation; and structured, verifiable statements are far easier for models to extract than unstructured press-release prose.
+
+A four-step screening method. First, verify real media density - the share of directly signed outlets, a mix of authoritative, vertical and regional sources to satisfy multi-source cross-validation, and an effective publication ratio of at least 65% based on 30-day activation data. Second, assess GEO technology: AI pre-review of copy, semantic optimisation, and monitoring of citation frequency in engines such as Doubao, DeepSeek and ERNIE Bot. Third, calculate the true all-in cost - the report argues the core metric is now cost per effective AI citation rather than price per placement. Fourth, confirm data ownership and API integration so brands keep their full publication and citation history.
+
+Why it matters. GEO competition is no longer about channel volume but about continuously producing content that models recognise as trustworthy, and building a defensible brand source library that compounds over time.`,
+    category: 'industry',
+    source: 'Sohu Business / 178 Softwen',
+    date: '2026-10-16',
+    tags: ['GEO', 'AI Search', 'Brand Visibility', 'Vendor Selection'],
+  },
+  {
+    id: 361,
+    title: `Deep Research Becomes the 2026 Battleground for AI Search: Six Tools Compared, Citation Surfaces Diversify`,
+    summary: `Fello AI's updated comparison of the six leading AI search and deep research tools finds Perplexity Deep Research fastest at 2-4 minutes, ChatGPT Deep Research longest at up to 30 minutes with MCP support, Gemini Deep Research Max reaching SEC filings via MCP, and Grok DeepSearch uniquely tapping live X data - meaning brand mentions must now be earned across several answer engines at once.`,
+    content: `Every major AI tool now ships search and deep research modes. A comparison updated on October 14, 2026 covering Perplexity, ChatGPT, Gemini, Claude, Grok and Google AI Overviews finds that the gap between "asking a question" and "commissioning a research assistant" has collapsed into a single click, with deep research runs spanning 2 to 30 minutes and touching hundreds of sources.
+
+The field at a glance. Perplexity Deep Research is the fastest end-to-end research agent at 2-4 minutes per cited report, with a free tier of five deep research queries per day and a $20/month Pro plan. ChatGPT Deep Research browses autonomously for up to 30 minutes and produces reports past 5,000 words; since February 2026 it can connect to MCP servers and restrict searches to whitelisted trusted sites. Gemini Deep Research Max, launched April 21, 2026, can consult proprietary sources over MCP including SEC filings and peer-reviewed journals. Claude pairs free web search with careful reasoning across its current model line. Grok DeepSearch mixes web results with live X posts and completes in 1-5 minutes, making it the sharpest tool for breaking news. Google AI Overviews remains the default AI layer most people encounter.
+
+Why it matters for brands. Citations inside AI answers have become a genuine discovery channel, and each engine applies different selection rules. Brands that want to be quoted need content that is verifiable, structured and retrievable across several answer engines at once - the core premise of generative engine optimization - rather than ranking on a single search results page.`,
+    category: 'industry',
+    source: 'Fello AI',
+    date: '2026-10-14',
+    tags: ['AI Search', 'Deep Research', 'Perplexity', 'ChatGPT', 'GEO'],
+  },
+  {
+    id: 362,
+    title: `Enterprise AI Agents Enter Scale Deployment: Policy Maps 19 Scenarios, Buyers Shift from "Chat" to "Execution"`,
+    summary: `A synthesis of 2026 industry signals shows China's AI agent market on track to exceed 3.3 trillion yuan by 2028, a national policy opinion defining 19 typical agent scenarios across five domains, and enterprise platform selection pivoting toward data security, knowledge retention and system integration as agents move from answering questions to running business processes.`,
+    content: `The market has a policy tailwind. Research cited by China's Science and Technology Daily projects the domestic AI agent market surpassing 3.3 trillion yuan by 2028, with enterprise adoption rising quickly. A policy opinion published in May 2026 by the national development authority formalises the field, carving agent applications into five directions - scientific research, industrial development, consumption, public welfare and social governance - covering 19 typical scenarios that span everything from heavy industry to everyday life.
+
+Platform competition is consolidating into four routes: full-stack offerings from major cloud vendors, collaboration-suite agents, vertical industry platforms and open-source frameworks. Reviews published through 2026 note that lighter platforms such as Coze and Tencent Yuanqi suit fast experiments in customer service and private-domain retail, full-stack clouds fit e-commerce workloads, knowledge-engine platforms serve legal, manufacturing and government use cases, and open-source options like Dify remain popular with engineering teams, while finance-grade and industrial agents are served by compliance-focused vendors.
+
+The selection criteria have changed. Enterprises no longer want AI that merely answers questions; they want agents that execute processes, call internal systems and coordinate across departments. Data security, enterprise knowledge retention, system connectivity and multi-team collaboration now outweigh conversational polish - and analysts argue knowledge bases have become the decisive asset, since what an agent can retrieve is what it can act on.
+
+Why it matters. As agents become the interface to enterprise workflows, structured and authoritative brand content is what gets retrieved and acted upon - making generative engine optimization a procurement-adjacent concern, not just a marketing one.`,
+    category: 'industry',
+    source: 'Science and Technology Daily / NDRC / cnblogs',
+    date: '2026-10-19',
+    tags: ['AI Agent', 'Enterprise', 'Policy', 'Platform Selection'],
+  },  {
     id: 357,
     title: `China's GEO Market Enters a Consolidation Phase: 820M AI Search Users Push Brands from SEO to Answer-Engine Optimisation`,
     summary: `October 2026 industry analysis describes China's generative engine optimization sector as entering a phase of standardised expansion, with an AI search user base of 820 million and vendor selection now driven by technology depth, service standardisation and delivery capability rather than concept marketing.`,
