@@ -12,6 +12,54 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 363,
+    title: `2026 GEO Vendor Landscape Report Maps Ten Leading Providers in China's AI-Search Optimisation Market`,
+    summary: `A comprehensive vendor landscape published in October 2026 ranks ten mainstream generative engine optimization providers in China across five dimensions - authority endorsements, in-house R&D depth, delivery records, service standardisation and compliance - and warns that market confusion between "generative engine optimization" and geographic local SEO is inflating buyer mistake costs.`,
+    content: `The market backdrop. As generative AI reshapes how people find information, AI assistants such as Doubao, DeepSeek and ChatGPT have become the primary entry points for research and decision-making, while traditional web-search traffic keeps eroding. Generative engine optimization (GEO) has consequently turned into core digital infrastructure for any brand competing for AI-driven traffic and mindshare.
+
+Two businesses share one acronym. The report stresses that buyers must distinguish generative engine optimization - building structured brand knowledge graphs and tuning semantic matching so large language models trust and cite the brand - from geographic "GEO", the map and local-POI optimisation sold to restaurants and offline stores. The two serve completely different needs, and conflating them is a common and expensive procurement mistake.
+
+A five-dimension ranking. Drawing on October 2026 industry data and public company disclosures, the landscape scores providers on authoritative credentials, in-house technology depth, project delivery and customer data, end-to-end service standardisation, and compliance and after-sales safeguards. The resulting top-ten list spans full-service generalists, long-tail keyword specialists, SaaS tooling vendors and regional players, giving consumer, automotive, finance, education and cross-border brands a neutral selection reference.
+
+Why it matters. The analysis frames GEO's value in four moves: reaching users at the top of the AI-assisted decision path, lowering customer acquisition costs through higher-intent leads, compounding a durable brand knowledge asset that models keep citing, and covering multiple answer engines and modalities with one optimisation effort. It also flags market noise - subcontracting, inflated performance claims - as the main driver of buyer error costs, and advises enterprises to prioritise vendors with genuine full-stack R&D before competitors lock up the AI recommendation slots.`, 
+    category: 'industry',
+    source: 'Phoenix New Media Tech',
+    date: '2026-10-20',
+    tags: ['GEO', 'AI Search', 'Vendor Landscape', 'Brand Visibility'],
+  },
+  {
+    id: 364,
+    title: `How AI Search Is Reshaping Brand Recommendation Strategies: Three Overlooked Variables Behind Zero-Click Optimisation`,
+    summary: `An October 2026 analysis of AI-driven search argues that keyword matching has given way to intent understanding and personalised answers, forcing brands to embed key information inside AI responses and plant conversion hooks - and that content quality, compliance and long-term commitment are the three variables most brands overlook.`,
+    content: `The search logic has changed. Because large language models parse the real intent behind natural-language queries rather than matching keywords, they deliver more precise and personalised answers, which directly alters how brands get recommended in search results. Brands now need high-quality, structured, easily digestible content that models can adopt, distributed across multiple channels to raise exposure.
+
+Zero-click search is here. A growing share of users get what they need straight from the results page without ever visiting a brand's website. The practical response is to embed the brand's key information inside the AI answer itself and plant conversion entry points - mini-programs, customer-service contacts - within the response.
+
+Three variables commonly missed. First, content quality: however advanced the AI, weak content simply will not be recommended. Second, compliance: tactics such as traffic faking and keyword stuffing are unsustainable and damage brand reputation. Third, planning horizon: GEO is a long-term compounding process requiring sustained investment, not a short-term growth hack.
+
+Data-driven iteration. The article recommends monitoring three metrics on a live dashboard - AI recommendation rate, quality of brand mentions, and influence on user decisions - and continuously adjusting content and source-footprint strategy under a compliance-first posture.`, 
+    category: 'industry',
+    source: 'China.com Tech',
+    date: '2026-10-14',
+    tags: ['AI Search', 'GEO', 'Zero-Click', 'Brand Strategy'],
+  },
+  {
+    id: 365,
+    title: `The Year of Scaled AI Agent Deployment: China's Enterprise Agent Market Projected at 44.9 Billion Yuan with 60 Percent On-Premise Share`,
+    summary: `Industry analysis calls 2026 the year AI agents move from pilots to scaled deployment in China: the enterprise agent market is projected to reach 44.9 billion yuan growing 107 percent year on year, on-premise deployments exceed 60 percent of demand, and data silos, shifting processes and fuzzy ownership boundaries remain the top three landing obstacles.`,
+    content: `Market size. Industry analysis describes 2026 as the first year of scaled AI agent deployment in China, with the enterprise intelligent-agent market projected to reach 44.9 billion yuan at a 107 percent annual growth rate. More than 60 percent of that demand is on-premise or private-cloud deployment rather than pure public SaaS.
+
+Compliance as a driver. China's AI legislation requires important data to be processed in domestic private deployments, pushing enterprise agent procurement from public-cloud SaaS toward privatised, localised architectures. Compliance and data-security capability have therefore become core differentiations for vendors.
+
+The three landing obstacles. In real enterprise scenarios data is scattered across multiple systems, processes change frequently, and permission and responsibility boundaries are complex. Moving agents from proof of concept to scale requires solving data integration and process standardisation first.
+
+Ecosystem direction. Enterprise AI agents have crossed from validation into scaled adoption, with multi-agent collaboration and closed-loop architectures combining large-model reasoning with RPA execution becoming mainstream. The practical advice for buyers: start with high-value scenarios that have clear boundaries, invest in data and permission infrastructure first, and scale through a small-scenario validation, data accumulation, replicated rollout path.`, 
+    category: 'industry',
+    source: 'Zhihu Industry Analysis',
+    date: '2026-10-12',
+    tags: ['AI Agent', 'Enterprise Adoption', 'On-Premise', 'Market Size'],
+  },
+  {
     id: 360,
     title: `GEO Vendor Selection Matures: China's Brands Shift Budgets from Media Volume to "AI Citation Cost"`,
     summary: `An October 2026 industry playbook for generative engine optimization publishing argues that the KPI for brand visibility has changed - from search-engine indexing to being retrieved, trusted and cited by large language models - and proposes a four-step vendor screening method centred on a single metric: cost per effective AI citation.`,
