@@ -12,6 +12,58 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 366,
+    title: `China's GEO Market Enters Standards-Driven Phase as the Battle for AI Answers Intensifies`,
+    summary: `Generative AI users in China have surpassed 700 million with over 50% penetration, and the share of users running brand queries, product comparisons and purchase decisions inside AI search jumped from 34% to 57% year-on-year. Five GEO group standards issued in September 2026 give enterprises a measurable vendor-selection framework as budgets migrate to answer-engine optimization.`,
+    content: `The migration of user attention. CNNIC data show that China's generative AI user base has surpassed 700 million, with penetration exceeding 50% in the first half of 2026. Analysys research shows the share of users running brand queries, product comparisons and purchase decisions inside AI search climbed from 34% in 2025 to 57% in 2026, while Gartner forecasts traditional search engine traffic falling 25% in 2026. The new battleground is no longer whether a brand can be found, but whether AI mentions it.
+
+The migration of budgets. The China Academy of Information and Communications Technology estimates the domestic GEO market exceeded RMB 28.6 billion in 2026, growing 125% year-on-year, and iResearch's 2026 GEO industry white paper puts sector penetration at 71%, up from 38% in 2025. Harvard Business Review China found that 64.8% of B2B procurement decision-makers use AI-search brand recommendations to shortlist suppliers.
+
+Standards arrive. On 14 September 2026 the China Commerce Association of Advertising and Communication issued five group standards for generative engine optimization (T/CAACCHINA 001-005-2026), covering terminology, provider assessment, pricing measurement, trustworthy corpora, and compliance and security. Providers are classified into six capability types, giving enterprises a measurable selection framework - GEO selection now has a yardstick.
+
+What mature GEO work looks like. Building brand entities and knowledge graphs; producing trustworthy Q&A-style corpora rated on a one-to-five-star credibility scale; placing content on authoritative, high-weight sources; adapting strategies per engine (DeepSeek, Doubao, ERNIE Bot, Kimi and others); measuring visibility, citation frequency and sentiment; and compliance governance. Black-hat tactics such as fabricated citations, falsified data and prompt attacks are explicitly defined as violations with zero tolerance.
+
+The takeaway. Brand competition in the AI era is fundamentally competition over source assets. Enterprises should turn their brand into an answer that AI knowledge bases can cite, are willing to cite, and keep citing - and require providers to disclose reproducible measurement methodology (engines sampled, cities, sample size, sampling windows) while rejecting promises such as "100% answer monopoly" that no provider can legally guarantee.`,
+    category: 'industry',
+    source: 'NetEase News',
+    date: '2026-10-20',
+    tags: ['GEO', 'AI Search', 'Group Standards', 'Market Data'],
+  },
+  {
+    id: 367,
+    title: `Microsoft Launches Guardian Agents, Shifting Enterprise AI Security from Content Review to Action Control`,
+    summary: `On 19 October Microsoft introduced Guardian Agents, a supervisory layer where a second AI reviews every agent action before it executes, bundled into the Microsoft 365 E7 suite. The same release expanded local agent discovery from 25 to 60 types, covering third-party tools such as Claude Code and OpenAI Codex, moving enterprise agent security from post-hoc auditing to pre-action gatekeeping.`,
+    content: `What Microsoft shipped. On 19 October Microsoft introduced Guardian Agents, a supervisory layer in which a second AI reviews every action before it executes - shifting enterprise agent security from post-hoc auditing to pre-action gatekeeping. The capability ships inside the Microsoft 365 E7 suite (reported by third parties at USD 99 per user per month) and shares its registry and signals with Agent 365.
+
+The threat model. In the security blog "Securing the agentic insider", Microsoft security lead Hayete Gallot argued that enterprise-deployed agents must be treated as potential insiders: optimisation pressure produces reward hacking, prompt injection via emails or PDFs smuggles instructions into context, and agents can collude to achieve goals without any breach. Control must therefore sit outside the model.
+
+Guardrails and discovery. Guardian Agents intervene before each action and escalate by severity - revoking write permissions down to read-only, requiring human approval for high-risk steps, or terminating the process outright. Microsoft also expanded local agent discovery from 25 to 60 types, now covering third-party tools such as Claude Code, OpenAI Codex and GitHub Copilot, each with an identity separate from its human operator so audit logs can distinguish human from agent actions.
+
+A fragmented market. Okta anchors the identity layer with Okta for AI Agents; AWS offers gateway-and-policy control through Bedrock AgentCore with LOG_ONLY and ENFORCE modes, generally available in China since late September; OpenAI embeds Tool Guardrails in its Agents SDK; NVIDIA pushes a security runtime beneath models and frameworks. SailPoint research finds 97% of organisations have deployed or are evaluating agents, but only 11% enforce least-privilege access for them.
+
+Buy or wait. Enterprises with agents in production on a Microsoft-centric stack should evaluate E7 for its discovery coverage and identity-separated audit trail. Teams still piloting agents, or running on AWS or custom stacks, can wait and first establish an accurate agent asset inventory - a single test seat is enough to light up the advanced features for a proof of concept.`,
+    category: 'industry',
+    source: 'SMZDM',
+    date: '2026-10-19',
+    tags: ['AI Agents', 'Enterprise Security', 'Microsoft', 'Governance'],
+  },
+  {
+    id: 368,
+    title: `How to Choose a GEO Provider in the AI-Search Era: Three Citation Criteria and Five Red Flags`,
+    summary: `As Doubao, DeepSeek, Kimi and Tencent Yuanbao become core commercial decision entry points, traditional SEO answers "can users find your website" while GEO answers "will AI recommend you". A practical selection guide identifies the three factors models weigh when citing brands - trustworthy information, machine-parseable structure and multi-source corroboration - plus five vendor red flags to avoid.`,
+    content: `The new decision entry point. As Doubao, DeepSeek, Kimi and Tencent Yuanbao penetrate commercial decision scenarios, buyers increasingly skip search result pages and ask AI directly for suppliers and solutions. Traditional SEO answers "can users find your website when they search"; GEO answers "will AI recommend you when users ask". The two are complementary layers of a complete digital brand asset rather than substitutes.
+
+What models actually cite. GEO is not bulk article publishing or rebranded SEO. Large models decide whether to cite a brand on three criteria: truthful and trustworthy information, structured content that machines can parse, and cross-validated corroboration from multiple authoritative sources. A complete GEO pipeline covers enterprise knowledge-base building (unified product, qualification and case data to prevent AI hallucination), authoritative source development, per-platform semantic adaptation, continuous content iteration, and measurement review.
+
+Five red flags when choosing a provider. Over-promising results such as guaranteed rankings, 100% inclusion or page-one in seven days - no one controls model outputs. Rebranded SEO sold at GEO prices without knowledge-graph or multi-platform work. Unverifiable cases with inflated data. One-size-fits-all template content sold to every industry. Vague contracts without explicit deliverables, measurement definitions and accountability.
+
+Practical advice. Start with an AI-search diagnostic of your brand's current presence across answer engines before signing anything. Pilot with a small-budget test to inspect real delivery quality and data feedback. Write knowledge-base refresh frequency, content volume, reporting cadence and success metrics into the contract and refuse verbal promises. Combine GEO with foundational SEO and reputation content - authoritative media, encyclopedic entries and real customer cases all raise the probability that models trust and cite the brand.`,
+    category: 'industry',
+    source: 'Sohu IT',
+    date: '2026-10-19',
+    tags: ['GEO', 'AI Search', 'Vendor Selection', 'Brand Visibility'],
+  },
+  {
     id: 363,
     title: `2026 GEO Vendor Landscape Report Maps Ten Leading Providers in China's AI-Search Optimisation Market`,
     summary: `A comprehensive vendor landscape published in October 2026 ranks ten mainstream generative engine optimization providers in China across five dimensions - authority endorsements, in-house R&D depth, delivery records, service standardisation and compliance - and warns that market confusion between "generative engine optimization" and geographic local SEO is inflating buyer mistake costs.`,
