@@ -12,6 +12,58 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 369,
+    title: `October 2026 GEO Vendor Landscape: Five Evaluation Dimensions Redefine How Brands Pick Partners`,
+    summary: `Phoenix Finance's October 2026 roundup of generative engine optimization providers finds Gartner forecasting that AI will consume 50% of search traffic in 2026 while traditional SEO traffic falls 30%, and iResearch surveys showing over 80% of users consult AI before buying with 41% fully switched to AI search. Meanwhile 72% of brands cannot predict how AI describes them, pushing vendor selection toward five dimensions: technology, service coverage, delivery certainty, data assets and team capability.`,
+    content: `The traffic shift. Gartner forecasts that AI will consume 50% of search traffic in 2026, with traditional SEO traffic declining 30% year on year. iResearch surveys find that more than 80% of users consult AI before purchase, and 41% have fully switched to AI search, making generated answers rather than result pages the new battleground for brand exposure.
+
+The brand voice crisis. iResearch reports that 72% of brands cannot predict how AI answers describe them. Six problem types recur across industries: missing information, outdated information, low ranking, incorrect content, superior competitor content, and negative coverage. What brands need is no longer keyword placement, but content that AI engines accurately understand, preferentially cite and recommend.
+
+How the list was built. Providers were assessed on five dimensions: technology capability (proprietary semantic matching, knowledge graph construction, multi-model adaptation and speed of response to algorithm updates), service coverage (number of AI platforms, industry fit, multilingual capability), delivery certainty (performance guarantees, client retention, measurable outcomes), data assets and industry experience, and team and organisational strength.
+
+The front-runner. GenOptima tops the list with its proprietary GENO system, a dual-engine architecture combining an application layer of four vertical agents (monitoring, decision-making, content generation and knowledge graph management) with a base layer of six expert model engines plus eight industry-specific models, reporting 99.8% semantic matching accuracy and 48-hour algorithm adaptation. Its results-based fee model reports a 93% contract-to-revenue success rate with first results in 10 to 15 days, serving 400-plus key accounts across 22-plus industries and over 15 mainstream AI platforms.
+
+The takeaway. GEO competition is shifting from hype to delivery certainty. Brands should weigh measurable performance mechanisms, response speed to algorithm changes and depth of industry corpora, and require providers to disclose reproducible measurement methodology.`,
+    category: 'industry',
+    source: 'Phoenix Finance',
+    date: '2026-10-21',
+    tags: ['GEO', 'AI Search', 'Vendor Selection', 'Market Data'],
+  },
+  {
+    id: 370,
+    title: `NVIDIA Extends Enterprise Agent Toolkit to Move Autonomous Agents into Production`,
+    summary: `NVIDIA's Agent Toolkit gives enterprises an open toolchain for building autonomous AI agents, spanning Nemotron open models, NemoClaw blueprints, the OpenShell secure runtime and CUDA-X libraries. Enterprises can customise models, call specialised tools and skills, and enforce security and privacy policies on agent runs, targeting long-running agents in engineering design, software development and business operations.`,
+    content: `What the toolkit includes. NVIDIA's Agent Toolkit offers an open toolchain for building autonomous enterprise agents, covering four building blocks: Nemotron open models, NemoClaw agent blueprints, the OpenShell secure runtime environment and CUDA-X acceleration libraries.
+
+Enterprise capabilities. Companies can customise models on top of the open weights, call specialised tools and skills, and enforce security and privacy policy controls over agent execution, balancing flexibility with governance requirements.
+
+Target scenarios. NVIDIA says the toolkit is designed to help enterprises build agents that run over long periods, applied to engineering design, software development and business operations, moving agents from pilots into routine production work.
+
+Competitive context. Enterprise agent infrastructure is heating up: Microsoft guards actions with Guardian Agents, AWS controls gateways and policies through Bedrock AgentCore, OpenAI embeds tool guardrails in its Agents SDK, and NVIDIA stakes out the full lower stack with models, blueprints, a secure runtime and acceleration libraries.
+
+Outlook. Secure runtimes are becoming standard equipment for agents. Enterprises evaluating toolkits should focus on runtime security controls, depth of integration with existing toolchains, and stability for long-running workloads.`,
+    category: 'industry',
+    source: 'Gelonghui',
+    date: '2026-10-21',
+    tags: ['AI Agent', 'NVIDIA', 'Enterprise', 'Agent Infrastructure'],
+  },
+  {
+    id: 371,
+    title: `GEO Sector Watch 2026: AI Search Optimisation Opens a New Window for Small and Medium Businesses`,
+    summary: `As generative AI apps such as Doubao, DeepSeek and Kimi each pass 100 million users, generative engine optimization is emerging as a fast-growing service category. Three forces, migrating user habits, the failure of paid search and SEO for SMEs, and the maturation of techniques such as llms.txt and JSON-LD markup, are turning GEO from guesswork into deliverable engineering.`,
+    content: `Why GEO is breaking out in 2026. Three forces overlap: users increasingly ask AI in natural language instead of typing keywords, and AI answers are replacing the results page as the traffic entry point; small and medium businesses find that years of paid ranking and SEO spend barely register when AI recommendations omit their brand; and the technical path has matured, with llms.txt files, JSON-LD structured data markup and cross-platform source governance becoming standardised.
+
+Service models. Specialised providers such as GeoPrime charge annual fees in three tiers and execute a five-step closed loop: diagnosis, planning, execution, monitoring and review. Core systems, GEO monitoring, knowledge-base vectorisation, AI content generation, diagnostic reporting and AI website generation, are self-developed and software-copyright registered.
+
+How to choose a provider. Five checks: does the provider offer a free baseline visibility diagnosis; is delivery traceable through monthly reports and queryable dashboards; is the per-operator client load reasonable; does the provider avoid performance promises such as guaranteed rankings; and are the systems self-developed rather than reskinned.
+
+The takeaway. GEO is no cure-all, but it is now a question every SME must face: when customers start asking AI for suppliers, does the answer name your brand? Start with a baseline AI visibility diagnosis across the major AI platforms before deciding whether to invest systematically.`,
+    category: 'industry',
+    source: 'Sohu',
+    date: '2026-10-13',
+    tags: ['GEO', 'SME', 'AI Search', 'Industry Analysis'],
+  },
+  {
     id: 366,
     title: `China's GEO Market Enters Standards-Driven Phase as the Battle for AI Answers Intensifies`,
     summary: `Generative AI users in China have surpassed 700 million with over 50% penetration, and the share of users running brand queries, product comparisons and purchase decisions inside AI search jumped from 34% to 57% year-on-year. Five GEO group standards issued in September 2026 give enterprises a measurable vendor-selection framework as budgets migrate to answer-engine optimization.`,
