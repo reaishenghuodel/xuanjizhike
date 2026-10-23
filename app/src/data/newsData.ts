@@ -12,6 +12,60 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 372,
+    title: `DeepSeek Launches Its Own AI-Native Search Engine and Cracks Down on GEO Manipulation`,
+    summary: `DeepSeek has rolled out an updated V4.1-Flash-1017 model and opened web search and page-fetching APIs priced at 5 yuan per 1,000 successful requests. Its AI-native general search engine indexes hundreds of billions of pages across languages and explicitly filters SEO cheating, generative engine optimization manipulation and low-quality AI-generated content, while Baidu shares fell more than 5 percent on the news.`,
+    content: `The launch. DeepSeek announced that its V4.1 Flash model has been updated to the V4.1-Flash-1017 release, and that the DeepSeek API now supports web search and page fetching with usage-based pricing of 5 yuan per 1,000 successful requests.
+
+What the engine claims. DeepSeek describes the product as an AI-native general search engine that indexes hundreds of billions of pages worldwide, supports multilingual queries, and returns results tuned for relevance, authority and freshness, serving both end users and large language models.
+
+The anti-manipulation line. The company says it applies strict detection mechanisms to filter SEO cheating, generative engine optimization manipulation and low-quality AI-generated content, with the stated goal of presenting trustworthy information to users and models alike. Practically, this signals a compliance phase for GEO: bulk, low-value content tactics are likely to lose effectiveness quickly.
+
+Market reaction. Baidu shares fell as much as 5 percent in Monday trading after the announcement, reviving the debate over whether AI is set to displace the traditional search engine.
+
+What it means for brands. Being cited by AI engines will increasingly depend on factual accuracy, structured content and cross-validation by multiple authoritative sources. Manipulation carries rising risk and cost; verifiable content assets are the durable strategy.`,
+    category: 'industry',
+    source: 'Tencent News',
+    date: '2026-10-22',
+    tags: ['DeepSeek', 'AI Search', 'GEO', 'Search Engines'],
+  },
+  {
+    id: 373,
+    title: `DeepSeek Open-Sources DeepInfer, the Missing Piece of Its Inference Stack`,
+    summary: `On October 20 DeepSeek announced it is fully open-sourcing DeepInfer, its internal inference framework, following earlier releases of model weights, the TileLang compiler tool and inference operator libraries. DeepInfer integrates high-performance operators, supports distributed inference on both NVIDIA and Huawei Ascend hardware, and is meant to help developers and enterprises run large models at lower cost.`,
+    content: `What was released. DeepSeek said on its official WeChat account that it is open-sourcing DeepInfer, the inference framework it has run internally. The release follows its earlier open sourcing of model weights, the TileLang programming tool and inference operator libraries.
+
+Why it matters. DeepInfer is described as the final piece of the large-model serving chain, the component that largely determines compute cost and power consumption. It integrates high-performance operators, supports distributed inference, and works on both NVIDIA and Huawei Ascend hardware.
+
+The stated goal. DeepSeek says it wants to share its experience of deploying models at very large scale, helping developers and enterprises improve inference throughput and run AI models more cheaply.
+
+Industry impact. Inference cost is the main bottleneck to scaling AI applications. Open-sourcing the framework directly lowers the operating cost of enterprise agents and AI-search products, accelerating the shift from models that merely work to models that are affordable to run.
+
+The bigger picture. Full-stack open sourcing of models, operator libraries, compiler tools and inference frameworks is becoming the standard playbook for leading AI labs, moving competition from parameter counts toward deployment efficiency and ecosystem control.`,
+    category: 'industry',
+    source: 'Lianhe Zaobao',
+    date: '2026-10-20',
+    tags: ['DeepSeek', 'Open Source', 'Inference', 'Infrastructure'],
+  },
+  {
+    id: 374,
+    title: `AI Agent Industry Splits Into Two Fronts: Financial Security Standards and Enterprise Scale-Up`,
+    summary: `Between October 15 and 19 the agent industry accelerated on both governance and deployment. The Beijing Financial Technology Industry Alliance issued security requirements for financial agents on October 18, mandating authorised channels, human confirmation for money movements and full-chain audit logs, while Schwab and JPMorgan bar agents from moving client funds and Yelp and Delta restrict agent traffic. Meanwhile Meta released the Muse Spark Open weights, Tsinghua open-sourced the PilotDeck 2.0 agent operating system, and IBM disclosed roughly 6,000 agents across 150-plus workflows.`,
+    content: `Financial agent rules. On October 18 the Beijing Financial Technology Industry Alliance published its Security Requirements for Agent Technology in Financial Applications. Third-party financial agents must obtain institutional authorisation before acting; unauthorised screen reading, screenshotting and automated interface interaction are prohibited. Three bottom lines were set: authorised channels instead of screen reading, human confirmation for any movement of funds, and auditable full-chain operation logs.
+
+Overseas barriers. In parallel, Schwab and JPMorgan have made clear that agents may not move client funds, while sites including Yelp and Delta are restricting autonomous agent access. Agentic web traffic is being pushed from raw automation toward sanctioned APIs and dual-permission paths.
+
+Infrastructure. Meta released the Muse Spark Open open-weight model on October 15, with 816 billion parameters aimed at agents and long-running tasks, including support for local offline execution on Apple M5 Ultra. Tsinghua's THUNLP lab open-sourced PilotDeck 2.0, an agent operating system that reportedly cuts task costs by 83 percent.
+
+Enterprise deployment. IBM has deployed about 6,000 AI agents integrated into more than 150 workflows. On the consumer side, Meta's Muse, Manus's Cue and OpenAI's Dot are pushing AI apps from chat tools toward autonomous, long-horizon work entry points.
+
+The trend. The industry's centre of gravity is shifting from capability demos to responsibility, authorisation and infrastructure efficiency. Enterprises adopting agents should plan authorisation boundaries, audit trails and human-in-the-loop checkpoints alongside the deployments themselves.`,
+    category: 'industry',
+    source: 'Taobao AI Digest',
+    date: '2026-10-19',
+    tags: ['AI Agents', 'Governance', 'Enterprise AI', 'FinTech'],
+  },
+  {
     id: 369,
     title: `October 2026 GEO Vendor Landscape: Five Evaluation Dimensions Redefine How Brands Pick Partners`,
     summary: `Phoenix Finance's October 2026 roundup of generative engine optimization providers finds Gartner forecasting that AI will consume 50% of search traffic in 2026 while traditional SEO traffic falls 30%, and iResearch surveys showing over 80% of users consult AI before buying with 41% fully switched to AI search. Meanwhile 72% of brands cannot predict how AI describes them, pushing vendor selection toward five dimensions: technology, service coverage, delivery certainty, data assets and team capability.`,
