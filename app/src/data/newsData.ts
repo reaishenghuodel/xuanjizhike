@@ -12,6 +12,54 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 375,
+    title: `Baidu World 2026 Forums Put Enterprise Agents and the "Intelligent Organization" Center Stage`,
+    summary: `Baidu World 2026, scheduled for November 12, will host more than 10 sub-forums under three themes, with enterprise agent deployment at scale and organizational restructuring as the headline topics, while McKinsey's Organization State Report 2026 warns that most companies still treat AI as a tooling upgrade rather than a structural transformation.`,
+    content: `The agenda. Economic Information Daily reported on October 23 that Baidu World 2026 will take place on November 12 with more than 10 sub-forums organized around three tracks: AI-driven organizational transformation, AI office and knowledge work, and technology, industry and ecosystem. Sessions cover organizational evolution, scaled agent deployment, AI office workflows, self-evolving AI and vertical industry growth.
+
+The organizational gap. Citing McKinsey's Organization State Report 2026, the report notes that although AI is widely seen as a driver of a new productivity revolution, only a small minority of companies have converted it into operating results, largely because they treat AI transformation as a tooling upgrade while neglecting organizational restructuring, human-machine collaboration mechanisms, workflow redesign and safety governance.
+
+Agents on the production line. A dedicated forum titled "Agents taking root in R&D and production: from using AI to becoming an AI company" will map the four prerequisites for systematic transformation: agent infrastructure, data and knowledge, scenario selection, and organization and talent. Baidu will also showcase its "Daizi" general-purpose agent moving from personal desks into team collaboration and production lines.
+
+From individuals to organizations. As agents and digital humans accelerate their integration into business operations, the value of AI is shifting from individual productivity gains toward team-level and organization-level efficiency, a theme expected to define enterprise AI competition through 2026.`,
+    category: 'industry',
+    source: 'Economic Information Daily',
+    date: '2026-10-23',
+    tags: ['AI agents', 'enterprise adoption', 'Baidu', 'organizational AI'],
+  },
+  {
+    id: 376,
+    title: `Brand Visibility in the AI Search Era: Gartner Expects AI to Absorb 50% of Search Traffic in 2026`,
+    summary: `A survey of generative engine optimization providers finds that Gartner expects AI to absorb 50% of search traffic in 2026 as traditional SEO traffic declines 30% year over year, while iResearch data shows over 80% of users consult AI before purchases and 72% of brands cannot predict how they are described in AI answers.`,
+    content: `The traffic shift. Gartner projects that AI will absorb 50% of search traffic in 2026, with traditional SEO traffic falling 30% year over year. iResearch survey data shows that more than 80% of users use AI to assist purchase decisions and 41% have fully switched to AI search.
+
+The brand mute crisis. The same research finds that 72% of brands cannot predict how they are described inside AI answers. Six failure modes recur across industries: missing information, outdated information, low ranking, factual errors, stronger competitor content, and negative coverage.
+
+What separates providers. The review evaluates generative engine optimization vendors across five dimensions: technology capability, service coverage, delivery certainty, data assets and industry experience, plus team strength. Semantic matching, knowledge graph construction and multi-model adaptation are flagged as the core proprietary capabilities.
+
+What it means for brands. The game is no longer keyword placement but ensuring AI understands, cites and recommends brand information when generating answers. Brands are advised to stand up AI visibility monitoring and build content that is factual, structured and cross-validated by multiple authoritative sources.`,
+    category: 'industry',
+    source: 'Phoenix Finance',
+    date: '2026-10-21',
+    tags: ['GEO', 'AI search', 'brand visibility', 'industry report'],
+  },
+  {
+    id: 377,
+    title: `China Industry News Rolls Out Country's First GEO Solution Built for Industrial Manufacturers`,
+    summary: `At the China Industrial Brand Trusted GEO Seminar on October 21, China Industry News officially launched its "Zhengben" GEO solution under the manufacturing power brand program, positioning itself as the first industry media outlet to offer a dedicated generative engine optimization framework for industrial companies after a three-month pilot of its industrial brand AI corpus platform.`,
+    content: `The launch. On October 21, at the China Industrial Brand Trusted GEO Seminar and the press conference for the 19th Industrial Forum, China Industry News president Xu Jinbao unveiled the "Zhengben" GEO solution under the manufacturing power brand program, with the stated mission of "cleaning up the source and making AI more trustworthy."
+
+A first for the sector. The solution is described as the country's first generative engine optimization offering tailored specifically to industrial manufacturers, targeting trustworthy brand expression and visibility inside AI question-answering scenarios.
+
+From platform to solution. China Industry News launched the country's first industrial brand AI corpus and GEO service platform in July 2026, becoming the first industry media outlet to enter the GEO field. After a three-month trial run, the platform has now been formally upgraded into an industry solution.
+
+Why it matters. The entry of an authoritative industry media institution with a "trusted GEO" standard signals that GEO competition is shifting from marketing rhetoric toward authoritative sources and corpus quality, giving industrial brands an industry-grade foundation for structured content assets.`,
+    category: 'industry',
+    source: 'China Industry News',
+    date: '2026-10-23',
+    tags: ['GEO', 'manufacturing', 'AI corpus', 'trusted AI'],
+  },
+  {
     id: 372,
     title: `DeepSeek Launches Its Own AI-Native Search Engine and Cracks Down on GEO Manipulation`,
     summary: `DeepSeek has rolled out an updated V4.1-Flash-1017 model and opened web search and page-fetching APIs priced at 5 yuan per 1,000 successful requests. Its AI-native general search engine indexes hundreds of billions of pages across languages and explicitly filters SEO cheating, generative engine optimization manipulation and low-quality AI-generated content, while Baidu shares fell more than 5 percent on the news.`,
