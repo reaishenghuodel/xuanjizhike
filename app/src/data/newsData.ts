@@ -12,6 +12,60 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 378,
+    title: `DeepSeek Raises About 100 Billion Yuan in Record Funding Round for China's AI Industry`,
+    summary: `Bloomberg and Reuters report that DeepSeek has raised roughly 100 billion yuan (about $15 billion) in its latest round, the largest financing ever in China's AI sector, with CATL and Tencent said to be the biggest investors and more than 15 backers in total.`,
+    content: `The scale. Bloomberg reported that DeepSeek has raised about 100 billion yuan (roughly $15 billion) in its latest financing round, setting a new record for the largest AI funding round in China's history.
+
+The investor lineup. According to Reuters, which cited four people familiar with the matter, investors include GigaDevice, Meituan, Geely, Midea and existing shareholder NetEase, alongside Boyu Capital, CPE Peak, Legend Capital and existing shareholder IDG Capital. CATL and Tencent are said to be the largest investors in the round, and the total number of backers exceeds 15.
+
+The context. As a leading Chinese foundation model and AI search player, DeepSeek has rapidly accumulated users through its open-source ecosystem and cost-competitive APIs. The fresh capital is expected to fund compute procurement, model research and ecosystem expansion.
+
+The industry signal. A financing of this magnitude shows that capital markets are continuing to re-rate Chinese AI assets, with returns concentrating in a handful of star projects. Foundation model competition has entered a stage of combined capital, compute and ecosystem play.
+
+What brands should watch. The growing user base and expanding search entry points of domestic models like DeepSeek are reshaping how brand information is distributed. Enterprises should treat leading Chinese AI platforms as priority channels for GEO content placement.`,
+    category: 'industry',
+    source: 'Bloomberg / Reuters',
+    date: '2026-10-24',
+    tags: ['DeepSeek', 'funding', 'AI industry', 'foundation models'],
+  },
+  {
+    id: 379,
+    title: `Moonshot AI Unveils Kimi K3.1 Pro: 3-Trillion-Parameter Open Model with Stronger Long-Horizon Agent Skills`,
+    summary: `Moonshot AI released Kimi K3.1 Pro early on October 24, a 3-trillion-parameter open model with a 1-million-token context window that ranks as the largest open model by parameter count, with full weights due before November 4 and upgraded tool use for long-horizon agentic tasks.`,
+    content: `The release. Moonshot AI unveiled its next-generation open model Kimi K3.1 Pro in the early hours of October 24. The company said complete model weights will be published before November 4.
+
+The specifications. The model operates at 3-trillion-parameter scale and supports a 1-million-token context window, making it the open model with the largest parameter count in the world today.
+
+Capability upgrade. Kimi K3.1 Pro devotes more compute to reinforcement learning, improving across hundreds of domains through repeated training. It carries stronger professional tool-calling ability, with gains in code writing, 3D creation, financial research and long-horizon agent tasks, and can complete longer multi-step complex assignments.
+
+The industry signal. The open-source camp is advancing on parameter scale and agent capability at the same time. Model competition is shifting from answering questions to executing work, and long-horizon task execution is becoming the new dividing line for enterprise adoption.
+
+The GEO angle. Kimi is one of the core platforms monitored for brand AI visibility. A model upgrade changes its answer generation and citation preferences, so brands should track how the new version responds and adjust their corpus adaptation strategy accordingly.`,
+    category: 'industry',
+    source: 'Beijing News / Sina Tech',
+    date: '2026-10-24',
+    tags: ['Kimi', 'open-source models', 'AI agents', 'foundation models'],
+  },
+  {
+    id: 380,
+    title: `2026 GEO Industry Panorama: Generative Search Reaches 41.2% of Chinese Queries as Market Heads Past 20 Billion Yuan`,
+    summary: `An industry survey published by Finance & Technology Weekly and IT Home shows generative search already accounts for 41.2% of Chinese-language search queries as of October 2026, with the GEO services market projected to exceed 20 billion yuan for the full year and 75.9% of surveyed enterprises folding GEO into their digital marketing strategy.`,
+    content: `The market shift. As of October 2026, generative search queries account for 41.2% of Chinese-language search, and the GEO services market is projected to exceed 20 billion yuan (20.3 billion) for the full year, becoming the core growth track of enterprise digital marketing and expected to top 65 billion yuan by 2027.
+
+User behavior. CNNIC statistics released in October 2026 show China's generative AI user base has reached 901 million, with 69.2% using AI search engines for information queries. Meanwhile 79.1% of search users end their session after the first generated answer and only 20.9% follow up or click cited sources, making inclusion in AI answers the central battleground for brand exposure.
+
+Enterprise adoption. A survey of 1,300 corporate CMOs by EqualOcean in October 2026 found that 31.7% of enterprises have already deployed GEO and 44.2% plan to deploy within 12 months, meaning 75.9% have folded GEO into their digital marketing strategy. In high-ticket industries such as finance, healthcare and B2B services, GEO coverage among leading firms already exceeds 63%.
+
+Platform landscape. DeepSeek's monthly active users have surpassed 192 million with 2.97 billion daily search queries. iResearch's China Search Marketing Industry White Paper projects generative AI search will exceed 57% of query volume by Q3 2027, and already tops 52% in high-decision-cost domains such as B2B procurement, healthcare and financial services.
+
+What it means. GEO has evolved from an academic concept proposed by Princeton researchers in 2023 into a mature industry methodology. Answers are the result, citations are the traffic, semantics are the ranking, trust is the weight and structure is the entry point. Enterprises should build knowledge graphs and authoritative source matrices now to claim brand citation slots in AI answers.`,
+    category: 'industry',
+    source: 'Finance & Technology Weekly / IT Home',
+    date: '2026-10-13',
+    tags: ['GEO', 'AI search', 'industry data', 'generative engine optimization'],
+  },
+  {
     id: 375,
     title: `Baidu World 2026 Forums Put Enterprise Agents and the "Intelligent Organization" Center Stage`,
     summary: `Baidu World 2026, scheduled for November 12, will host more than 10 sub-forums under three themes, with enterprise agent deployment at scale and organizational restructuring as the headline topics, while McKinsey's Organization State Report 2026 warns that most companies still treat AI as a tooling upgrade rather than a structural transformation.`,
