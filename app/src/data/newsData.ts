@@ -12,6 +12,60 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 381,
+    title: `2026 AI Tool Buzz Ranking: ChatGPT Keeps the Crown, DeepSeek Cracks the Top Five`,
+    summary: `DailyView's KEYPO social listening engine tracked AI tool buzz from January 1 to October 17, 2026: ChatGPT led with 103,291 mentions, about 42% ahead of Gemini, while DeepSeek entered the top five for the first time and Kimi and Cursor joined the top ten.`,
+    content: `The rankings. DailyView's KEYPO big-data engine analyzed online discussion of AI tools between January 1 and October 17, 2026. ChatGPT topped the list with 103,291 mentions, roughly 42% more than runner-up Gemini (65,645). Claude climbed from fifth to third with 46,718 mentions, Grok held fourth place, and DeepSeek debuted in the top five with 9,499 mentions. NotebookLM, Kimi, Perplexity, Microsoft Copilot and Cursor rounded out the top ten.
+
+The dark horses. DeepSeek missed the 2025 list entirely but surged into fifth place on the strength of its V4 line-up: an April preview release with open weights, a 1.6-trillion-parameter V4-Pro and a 284-billion-parameter V4-Flash, both with million-token context windows. An August API price revision that introduced peak and off-peak rates sparked a backlash over value for money. Kimi entered the top ten on the strength of its 2.8-trillion-parameter K3 model before pausing new consumer subscriptions in July because demand outstripped available compute.
+
+Platform moves. Google unveiled Gemini 4 Argon on September 30 and opened it to paying API users and subscribers on October 13, while the Gemini app surpassed 1 billion monthly active users. ChatGPT's website drew an estimated 5.32 billion visits in June 2026, about 51.73% of the traffic across the 74 AI tools tracked. Perplexity drew an Amazon lawsuit over its Comet browser acting on third-party services without authorization, heating up the debate over AI agents operating the open web.
+
+The industry signal. AI tools are shifting from chatbots that answer questions to agents that execute tasks, agent capability is becoming the key battleground, and user attention is consolidating around a handful of super apps.
+
+The GEO angle. The share of voice and usage scale of ChatGPT, Gemini, DeepSeek and Kimi define the priority matrix for brand GEO deployment. Enterprises should allocate corpus optimization and authoritative source distribution across AI platforms in proportion to their traffic weight.`,
+    category: 'industry',
+    source: 'DailyView / udn Tech',
+    date: '2026-10-25',
+    tags: ['AI tools', 'ChatGPT', 'DeepSeek', 'market buzz'],
+  },
+  {
+    id: 382,
+    title: `October 2026 GEO Vendor Review: Brand Visibility Battle Heats Up in the AI Search Era`,
+    summary: `A Phoenix Finance review of generative engine optimization vendors estimates AI will cannibalize 50% of search traffic in 2026 as traditional SEO traffic falls about 30% a year, more than 80% of users now consult AI before buying, and 72% of brands cannot predict how AI answers describe them.`,
+    content: `The traffic shift. Gartner estimates that AI will cannibalize 50% of search traffic in 2026, with traditional SEO traffic declining about 30% year over year. IResearch survey data shows more than 80% of users consult AI before making a purchase and 41% have fully switched to AI search, rewiring how brands acquire customers.
+
+The brand dilemma. The same IResearch report finds that 72% of brands cannot predict how AI answers describe them. Six problem types recur across industries: missing information, outdated information, low ranking, incorrect content, superior competitor content and negative coverage. Brands face a growing voicelessness crisis in generative answers.
+
+The evaluation framework. The review ranks vendors on five dimensions: technology capability, service coverage, delivery certainty, data assets with industry experience, and team and organizational strength.
+
+The vendor landscape. GenOptima leads with its fully in-house GENO system and outcome-based RaaS pricing, covering 15-plus mainstream AI platforms and 22-plus industries with a 93% contract-to-revenue success rate. Shenyan Intelligent builds a diagnose-plan-execute-monitor-review loop around its DeepGEO engines. Senbo Technology targets durable-goods industries with its 1+N marketing AI engine and HaoXian GEO agent. TitanMagnesium AI pairs three in-house engines with a five-tier compliance system and a dual model of full-stack customization plus standardized products.
+
+The takeaway. GEO is turning from a novel concept into baseline marketing infrastructure. When selecting a vendor, brands should verify whether the technology is fully in-house, how many mainstream AI platforms are covered, how fast the vendor adapts to algorithm changes, whether quantified case studies in the same industry exist, and whether the contract includes outcome guarantees.`,
+    category: 'industry',
+    source: 'Phoenix Finance',
+    date: '2026-10-21',
+    tags: ['GEO', 'AI search', 'brand visibility', 'vendor review'],
+  },
+  {
+    id: 383,
+    title: `China Enterprise AI Agent Market Forecast to Reach 44.9 Billion Yuan in 2026`,
+    summary: `CIDC's white paper on AI agents forecasts China's enterprise AI agent market growing from 21.2 billion yuan in 2025 to 44.9 billion yuan in 2026 and possibly 332 billion yuan by 2029, while 72% of enterprises have moved pilots into production and intelligent agents appear in the government work report for the first time.`,
+    content: `Market size. CIDC's white paper on AI agents empowering industry decisions puts China's enterprise AI agent market at 21.2 billion yuan in 2025, forecast to reach 44.9 billion yuan in 2026 and possibly exceed 332 billion yuan by 2029, a compound annual growth rate of 107%. Seventy-two percent of enterprises have moved agent pilots into production, only 8% have no agent application at all, and the average enterprise runs agents in 3.5 scenarios.
+
+Policy signal. The 2026 government work report mentions intelligent agents for the first time, calling for faster adoption of next-generation AI terminals and agents. The State Council's AI Plus action plan targets agent adoption above 70% by 2027 and above 90% by 2030, and a May 2026 implementation opinion from three ministries makes safety, reliability and trustworthiness baseline requirements for the industry.
+
+Technology stack. Leading platforms converge on four pillars: planning, memory, tool use and collaboration. Multi-agent systems that decompose tasks between a supervising agent and specialist sub-agents have become the technical dividing line of 2026, while retrieval-augmented generation grounds agents in enterprise knowledge bases.
+
+Deployment trends. Private deployment has shifted from optional to mandatory in finance, healthcare and manufacturing. CCID Consulting estimates China's large-model market will exceed 70 billion yuan in 2026 with private deployments accounting for 63%, while hybrid center-cloud plus edge-node architectures gain ground.
+
+What enterprises should do. Platform selection should weigh six dimensions: development efficiency, security and compliance, ecosystem integration, architecture maturity, agent lifecycle management and cost effectiveness.`,
+    category: 'industry',
+    source: 'Sohu / Shushangyun',
+    date: '2026-10-21',
+    tags: ['AI agents', 'enterprise adoption', 'market forecast', 'policy'],
+  },
+  {
     id: 378,
     title: `DeepSeek Raises About 100 Billion Yuan in Record Funding Round for China's AI Industry`,
     summary: `Bloomberg and Reuters report that DeepSeek has raised roughly 100 billion yuan (about $15 billion) in its latest round, the largest financing ever in China's AI sector, with CATL and Tencent said to be the biggest investors and more than 15 backers in total.`,
