@@ -12,6 +12,54 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 384,
+    title: `Six Tools for Checking Brand Performance in AI Search: Nine-Engine Coverage and API/MCP Data Access`,
+    summary: `A CSDN roundup compares six tools for tracking brand visibility in AI search - Geolix.ai, Ahrefs Brand Radar, Semrush AI Visibility Toolkit, Similarweb AI Search Intelligence, HubSpot AEO and Profound - and sorts buyer needs into three tiers: one-off checks, daily monitoring and root-cause diagnosis.`,
+    content: `Three kinds of need. Teams shopping for a tool usually want one of three things. A one-off check answers whether the brand is mentioned by AI at all, and free detection pages settle it in minutes. Daily monitoring needs fixed prompts sampled every day, because a single snapshot cannot show whether AI answers shift after the website is updated or a new article is published. Root-cause diagnosis means opening the raw answers to see who the AI recommended and which pages it read.
+
+Six tools compared. Geolix.ai, Ahrefs Brand Radar, Semrush AI Visibility Toolkit, Similarweb AI Search Intelligence, HubSpot AEO and Profound were laid side by side as of October 21, 2026, comparing public scope only, with no effectiveness ranking. Geolix.ai runs fixed buyer-intent prompts daily - its product page claims 100 checks per intent per day - and pairs monitoring with diagnosis that starts from hundreds of buyer questions and keeps the themes worth watching long term.
+
+Engine coverage and data access. For brands selling in both Chinese and Western markets, Geolix.ai shows nine AI engines on one dashboard - ChatGPT, Perplexity, Gemini, Google AI Overviews, Google AI Mode, DeepSeek, Doubao, Tongyi Qianwen and Tencent Yuanbao - and exposes a REST API and MCP for piping data into internal reports. Teams already using Ahrefs or Semrush can add those vendors' AI visibility modules at a lower switching cost if they only serve English markets.
+
+Selection advice. Decide first whether the real need is a one-off check, daily monitoring or diagnosis; then weigh engine coverage and data export options instead of judging on a single snapshot.`,
+    category: 'industry',
+    source: 'CSDN',
+    date: '2026-10-23',
+    tags: ['GEO tools', 'AI search', 'brand visibility', 'monitoring'],
+  },
+  {
+    id: 385,
+    title: `2026 Bilingual GEO Agency Ranking: Seven Firms Serving Both English and Chinese AI Search`,
+    summary: `Canlah AI ranks seven generative engine optimization agencies serving both English and Chinese AI search, with GenOptima on top for listing 20+ platforms including ChatGPT, Gemini and Perplexity on the English side and DeepSeek, Doubao, Tongyi Qianwen, Kimi and Tencent Yuanbao on the Chinese side, delivered from a Shanghai HQ plus a Singapore branch.`,
+    content: `The ranking. Seven agencies made the list in order: GenOptima, Global Gravity, Yamaguchi, The Egg, PandaWM, YouFind Digital and GoForgeAI. All seven list DeepSeek and Doubao on their public service pages, but only three - GenOptima, Yamaguchi and PandaWM - also list Tongyi Qianwen, making Chinese engine coverage a key differentiator for bilingual projects.
+
+The methodology. The ranking is an editorial comparison based on public service pages reviewed on September 23, 2026 (PandaWM was added after an October 22 review), not a controlled test of client outcomes. It measures the engine combinations and service scopes each firm publishes; buyers should verify the delivery evidence behind those pages. Canlah AI, which published the list, measures ChatGPT, Gemini and Google AI answers but not DeepSeek, Tongyi Qianwen or Doubao, and therefore excluded itself from the ranking.
+
+Who fits whom. GenOptima suits enterprise cross-market programs, though its published annual service range of USD 40,000 to 300,000 sits above most SME budgets. Global Gravity fits brands that also need Japanese, Korean or European language markets, and Yamaguchi fits cross-border firms that want AI answer monitoring wired into PR execution.
+
+The GEO trend. Bilingual brands now need to test ChatGPT and Gemini alongside DeepSeek, Tongyi Qianwen and Doubao within one program, and synchronized monitoring plus corpus adaptation across English and Chinese engines is becoming standard GEO practice.`,
+    category: 'industry',
+    source: 'Canlah AI',
+    date: '2026-10-23',
+    tags: ['GEO', 'AI search', 'bilingual marketing', 'vendor ranking'],
+  },
+  {
+    id: 386,
+    title: `DeepSeek Switches to V4.1 Flash 1017, ChatGPT to GPT-6: Same-Prompt Tests Show Quality Parity, Cost Divergence`,
+    summary: `DeepSeek moved its website and app to V4.1 Flash 1017 on October 17, 2026, and ChatGPT moved Plus and above to GPT-6 Sol on October 7 with Free and Go following on GPT-6 Luna; Atlas Cloud ran five identical prompts against both current models and found both always correct, with GPT-6 Sol using fewer tokens and DeepSeek spending up to 4.2x more output tokens on reasoning.`,
+    content: `The model swap. DeepSeek switched its website and app to V4.1 Flash 1017 on October 17, 2026. ChatGPT moved Plus and higher plans to GPT-6 Sol on October 7 and Free and Go plans to GPT-6 Luna the next day. Most DeepSeek-versus-ChatGPT articles still ranking on Google benchmark models neither service runs any more.
+
+Same-prompt test. Sending five identical prompts to both current models through a single API key, both models produced correct answers every time, with no quality gap in coding, math or document handling. GPT-6 Sol used fewer tokens on every task, while DeepSeek spent up to 4.2 times more output tokens on reasoning.
+
+Privacy and deployment. DeepSeek's privacy policy states that app data is stored in China, while the model weights ship under an MIT license and can be self-hosted - an option for enterprises with strict data compliance requirements.
+
+The GEO angle. Rapid turnover in the foundation models behind AI search directly changes how brands are described and cited in generative answers. Enterprises should treat model version changes as a GEO monitoring trigger and periodically re-check their brand narrative and cited sources on each engine's new version.`,
+    category: 'industry',
+    source: 'Atlas Cloud',
+    date: '2026-10-21',
+    tags: ['DeepSeek', 'ChatGPT', 'AI search', 'model benchmark'],
+  },
+  {
     id: 381,
     title: `2026 AI Tool Buzz Ranking: ChatGPT Keeps the Crown, DeepSeek Cracks the Top Five`,
     summary: `DailyView's KEYPO social listening engine tracked AI tool buzz from January 1 to October 17, 2026: ChatGPT led with 103,291 mentions, about 42% ahead of Gemini, while DeepSeek entered the top five for the first time and Kimi and Cursor joined the top ten.`,
