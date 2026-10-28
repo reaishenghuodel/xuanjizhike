@@ -12,6 +12,54 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 387,
+    title: `2026 GEO Industry Guide Published: A Five-Dimension Framework for Choosing GEO Vendors`,
+    summary: `Phoenix Tech publishes a 2026 guide to generative engine optimization that defines GEO as the shift from competing for search result pages to earning trust inside AI-generated answers, sorts the Chinese GEO market into five vendor types, and lays out five screening dimensions: honest performance claims, original technology, compliance discipline, transparent data and long-term thinking.`,
+    content: `What GEO means. The guide defines generative engine optimization as methods for raising how often brand information is cited, how highly it ranks and how positively it is framed inside answers produced by conversational assistants, AI search tools and smart Q&A systems. First proposed by academic researchers in 2024, GEO shifts the goal from winning page slots to winning the model's trust as a source, and the guide argues that staying AI-ecosystem friendly - accurate, structured, first-party information - is the only durable foundation.
+
+Market structure. As of October 2026 the guide sorts Chinese GEO vendors into five types: full-stack generalists with in-house technology, vertical specialists, export-focused firms serving overseas AI platforms, affordable packages for small businesses, and tooling vendors selling SaaS software. Mid-size and large brands are pointed toward full-service providers, while smaller budgets are advised to run standardized GEO software themselves to limit trial-and-error cost.
+
+How to screen vendors. Five dimensions anchor the checklist: performance claims should be measurable and bounded - citing rates, top-recommendation rates, positive mention share - rather than promises of guaranteed rankings or guaranteed sales; technology should be self-developed across semantics, multi-platform adaptation and monitoring; operations must be compliant with traceable source material; results should be visible in real-time dashboards; and the provider should treat GEO as long-term knowledge-asset building.
+
+Outlook. Five trends are forecast: faster compliance-driven cleanup of bad actors, value-driven demand replacing raw exposure chasing, vertical depth becoming the core moat, hybrid models mixing standardized tools with custom services, and converging industry standards for measuring results. GEO and SEO can run in parallel, with early citation gains typically visible after one to two months and stable results after three to six months.`,
+    category: 'industry',
+    source: 'Phoenix Tech',
+    date: '2026-10-27',
+    tags: ['GEO', 'industry guide', 'vendor selection', 'AI search'],
+  },
+  {
+    id: 388,
+    title: `GEO's Long-Term Value: Turning Brand Content into Reusable Digital Assets`,
+    summary: `An Eastmoney column argues that as AI search, smart Q&A and agent applications spread, brands are discovered through credible citations inside AI answers rather than web rankings, and that the lasting payoff of GEO is consolidating scattered brand material into structured, trackable digital assets that compound over time.`,
+    content: `The shift in discovery. As AI search engines, smart Q&A systems and AI agents become everyday entry points, being found increasingly means being cited credibly inside AI answers rather than ranking on a results page. On that reading, GEO is not a one-off exposure play but a way to turn brand content into a long-lived, reusable asset.
+
+Building the asset base. The column describes consolidating company names, qualification records, product parameters, service scope, customer cases, regional coverage and contact details into a unified brand information foundation - organized through a company library, a materials library, an AI knowledge base and multi-platform source building, so that scattered brand material becomes structured and traceable.
+
+Compounding returns. Unlike traditional promotion where content is published and forgotten, GEO rewards continuous accumulation: every article, every media distribution and every indexation check adds new information points to the brand's source footprint. Over time AI platforms build a more accurate picture of the company's industry, products and service strengths, and the brand's presentation inside AI answers grows more stable.
+
+Operating advice. Companies can run publishing, account management, data review and strategy adjustment from a single dashboard, then tune headlines, paragraph structure and information density based on how each platform indexes the content - improving fit with AI Q&A scenarios while reducing dependence on any single paid traffic channel.`,
+    category: 'industry',
+    source: 'Eastmoney',
+    date: '2026-10-27',
+    tags: ['GEO', 'digital assets', 'brand building', 'AI search'],
+  },
+  {
+    id: 389,
+    title: `199IT Report: Generative AI Websites Draw 9.5 Billion Monthly Visits as AI Search Reshapes Discovery`,
+    summary: `A 199IT market report finds global generative AI websites averaged 9.5 billion visits per month between June 2025 and May 2026, up 70 percent year over year, with 655 million monthly active unique visitors. ChatGPT still leads independent AI websites but faces share pressure from Gemini, Claude, Perplexity and DeepSeek, and 95 percent of ChatGPT users also use Google.`,
+    content: `Scale. Between June 2025 and May 2026, global generative AI websites averaged 9.5 billion visits per month, up 70 percent year over year, with 655 million monthly active unique visitors (+57 percent) and 4.4 billion mobile AI app downloads (+58 percent). AI has moved from an early-adopter tool to a daily digital entry point spanning search, office work, shopping and social.
+
+Competition. ChatGPT remains the most visited independent AI website, but its share is under sustained pressure from Gemini, Claude, Perplexity and DeepSeek, and users increasingly switch between assistants. In the US mobile market, monthly actives grew 87 percent for ChatGPT, 31 percent for Gemini, 435 percent for Meta AI, 117 percent for Grok, 94 percent for Perplexity and 349 percent for Claude, while DeepSeek fell 23 percent and Microsoft 365 Copilot fell 31 percent.
+
+Embedded ecosystems. Meta AI grew from 384 million monthly actives in September 2024 to 1.2 billion by March 2026 by riding existing super-apps. Google is pushing AI Overviews and AI Mode into search, and Amazon is threading AI into shopping via Alexa for Shopping. The report expects AI to arrive inside the software people already use rather than as a destination users visit.
+
+What it means for brands. Ninety-five percent of ChatGPT users also use Google, so AI assistants complement rather than replace traditional search. The rules of digital competition are shifting from winning search rankings to appearing inside AI-generated answers - brand mention frequency, citation and recommendation position - and marketing metrics need to be redefined around AI recommendation exposure, citation value and conversion.`,
+    category: 'industry',
+    source: '199IT',
+    date: '2026-10-26',
+    tags: ['AI search', 'market report', 'generative AI', 'GEO'],
+  },
+  {
     id: 384,
     title: `Six Tools for Checking Brand Performance in AI Search: Nine-Engine Coverage and API/MCP Data Access`,
     summary: `A CSDN roundup compares six tools for tracking brand visibility in AI search - Geolix.ai, Ahrefs Brand Radar, Semrush AI Visibility Toolkit, Similarweb AI Search Intelligence, HubSpot AEO and Profound - and sorts buyer needs into three tiers: one-off checks, daily monitoring and root-cause diagnosis.`,
