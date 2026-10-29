@@ -12,6 +12,54 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 390,
+    title: `China's October 2026 GEO Vendor Top-10: Five Trends Reshaping the AI Search Entry Battle`,
+    summary: `Huaxia Morning Post rounds up China's ten leading GEO vendors for October 2026 - BlueFocus, Marketingforce, Shengliang Engine, Alibaba Chaojihichuan, Weimob Xingqi, Tencent Answerbit, GenOptima, Hongdong Data, Percent Point and 360 Zhijian - and identifies five market trends as CNNIC data shows generative AI users in China exceeding 700 million with penetration above 50 percent.`,
+    content: `Market signals. CNNIC statistics show China's generative AI user base surpassed 700 million in the first half of 2026, with penetration breaking 50 percent. Tencent's Qidian unit launched Answerbit while Alibaba, Weimob and 360 each rolled out their own GEO products - a sign that big tech now treats AI search as a traffic entry point on par with search advertising.
+
+Five trends. First, the field widened from marketing agencies to marketing groups, listed SaaS companies, in-house technology teams and internet giants competing on the same stage. Second, measurement moved from screenshot-based proof toward real-client multi-round sampling - model answers are stochastic, so single-round sampling yields only 0 or 100 percent and five or more rounds are needed for meaningful reference. Third, transparent metric definitions became a competitive edge, with brands increasingly demanding published formulas, denominators and sampling methods before signing. Fourth, delivery models split into project-based work, pay-for-performance and SaaS subscription. Fifth, GEO is converging with social media operations and open API ecosystems.
+
+Top-10 field. The list spans four archetypes - marketing group type, marketing SaaS type, self-developed technology type and platform-ecosystem type - with vendors such as Shengliang Engine differentiating through self-developed technology plus an open SaaS model with public pricing and open APIs.
+
+Selection advice. Brands should weigh whether measurement is genuinely reproducible (real-client multi-round sampling, published metric formulas, every number traceable to the model's original answer), plus source-management and content capabilities, and choose between SaaS self-service, pay-for-performance and managed project delivery according to budget.`,
+    category: 'industry',
+    source: 'Huaxia Morning Post / Phoenix',
+    date: '2026-10-26',
+    tags: ['GEO', 'vendor landscape', 'AI search', 'market trends'],
+  },
+  {
+    id: 391,
+    title: `Alibaba Cloud Unveils Enterprise Agent Stack: From Model Studio to AgentCore`,
+    summary: `At Apsara Conference 2026 and related events, Alibaba Cloud rolled out Model Studio, the QwenWork office agent platform, the Agent Studio full-stack agent platform and AgentCore deployment infrastructure for enterprise agents, alongside a unified Token Plan billing scheme, accelerating its pivot toward Agent-as-a-Service.`,
+    content: `Product matrix. Across 2026 Alibaba Cloud released the Model Studio unified multi-model platform, the QwenWork one-stop office agent platform, the Agent Studio full-stack agent platform and AgentCore infrastructure for enterprise-grade agent deployment - covering the full chain from model development and application orchestration to production deployment, with enterprise adopters such as Panasonic already landing AI applications.
+
+Commercial plumbing. The new Token Plan unifies billing across Qwen, Wan and other models, lowering the cost-calculation barrier for enterprises adopting AI models. At Apsara the company also unveiled the Qwen Book AI agent PC, with a dedicated Skill keyboard and an AI Island display that embeds AI capabilities directly into hardware.
+
+Strategy. CTO Li Feifei used WAIC 2026 to argue that AI is shifting toward Agent-as-a-Service. Alibaba Cloud co-hosted AINNOVATION DAY with Bosch Digital, landing more than 40 industry projects across three cities, and positions AgentCore as the infrastructure layer for enterprise agent workloads.
+
+Why it matters. From Model Studio to Agent Studio to AgentCore, the cloud giant is assembling a complete agent-service ecosystem that carries enterprises from model development to application rollout. Enterprise agent competition is moving from point tools to platform-level infrastructure, and agent applications are entering scaled deployment.`,
+    category: 'industry',
+    source: 'AITop News',
+    date: '2026-10-28',
+    tags: ['AI agents', 'enterprise AI', 'Alibaba Cloud', 'Agent-as-a-Service'],
+  },
+  {
+    id: 392,
+    title: `Four Types of AI Brand Visibility Monitoring Emerge as Evidence-Based GEO Gains Attention`,
+    summary: `A Phoenix column sorts AI brand visibility monitoring systems into four archetypes - generic Q&A monitoring, SEO-extended tools, overseas visibility trackers and GEO-specialized platforms - arguing that AI recommendations are evidence rather than ad slots, and spotlighting DZOS-AI, which adapts to more than 20 AI platforms including DeepSeek, Doubao, Kimi and ChatGPT.`,
+    content: `Why monitoring matters. When users ask DeepSeek, Doubao, Tencent Yuanbao or Kimi a question they get a synthesized answer, not a list of links. Who gets mentioned, at what position, with what tone, and citing which sources is decided by how models interpret publicly retrievable information - so brands have no real-time perception of the answer unless a system measures it continuously. Monitoring must answer four questions: existence, consistency, credibility and freshness, which makes its metric system fundamentally different from classic rank tracking.
+
+Four archetypes. The market splits into generic Q&A monitoring tools (batch prompting plus screenshot reports - quick to start but coarse), SEO-extended tools (strong web metrics but weak on answer-level attribution and sentiment), overseas visibility trackers (good ChatGPT and Perplexity coverage but thin on domestic platforms), and GEO-specialized systems. Buyers can compare them on platform coverage, measurement granularity, response speed and attribution power.
+
+Evidence-based GEO. In September 2026 Duzhi Semantic Technology published the Evidence-based GEO White Paper v1.0 and launched DZOS-AI, a monitoring system adapted to more than 20 mainstream AI platforms including DeepSeek, Doubao, Kimi, Tencent Yuanbao, ChatGPT and Gemini. It decomposes measurement into five layers - mention rate, top-recommendation rate, rank position, sentiment and citation provenance - with 30-minute high-frequency polling and strategy responses within five minutes.
+
+Buying advice. Six questions frame the purchase: can the vendor report mention and top-recommendation rates by platform, question and time; are citations traceable to official sources or unsourced reposts; is before-and-after comparison with re-inspection offered; how many mainstream platforms are covered; are metric definitions and methodology public; and does optimization follow the monitoring - a dashboard without action is not growth.`,
+    category: 'industry',
+    source: 'Phoenix',
+    date: '2026-10-23',
+    tags: ['GEO', 'brand visibility', 'AI search monitoring', 'evidence-based GEO'],
+  },
+  {
     id: 387,
     title: `2026 GEO Industry Guide Published: A Five-Dimension Framework for Choosing GEO Vendors`,
     summary: `Phoenix Tech publishes a 2026 guide to generative engine optimization that defines GEO as the shift from competing for search result pages to earning trust inside AI-generated answers, sorts the Chinese GEO market into five vendor types, and lays out five screening dimensions: honest performance claims, original technology, compliance discipline, transparent data and long-term thinking.`,
