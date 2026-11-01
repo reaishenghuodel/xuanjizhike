@@ -12,6 +12,53 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 393,
+    title: `Baidu Search Claims "Recursive Self-Evolution", Prices Its Search AI API Below DeepSeek`,
+    summary: `At an October 30 product upgrade event Baidu announced that its search engine now "recursively self-evolves" through a retrieval-feedback-retraining loop, and relaunched its Search AI API at a limited-time floor of 4.9 yuan per 1,000 queries - below DeepSeek's search API pricing.`,
+    content: `Product upgrade. Baidu says every real search and user feedback signal now feeds a training loop - retrieval, feedback, retraining - letting the engine iterate without human intervention and lifting overall iteration efficiency by more than 80 percent.
+
+Price signal. The upgraded Search AI API is offered at a limited-time floor of 4.9 yuan per 1,000 queries, undercutting DeepSeek's search API. The company credits a four-layer AI-native architecture: a content layer with an index of hundreds of billions of documents across 80-plus languages and data credibility improved by more than 50 percent, and an application layer supporting API, MCP and Skill integration, with Baidu's Wenxin assistant reportedly gaining 20 percent in effectiveness after plugging in.
+
+Experience upgrades. Search is shifting from "one question, one answer" toward "one task, one deliverable": complex questions get multi-step research and verified summaries, with the capability now spanning more than 170 tool scenarios. The AI camera supports multi-object recognition and real-time dialogue in nine Chinese dialects, while GUI scenario coverage rose five-fold with access to more than 5 billion units of authoritative government and public data across 20-plus industries.
+
+Why it matters. Falling API prices combined with self-evolving retrieval raise the competitive bar for AI-search infrastructure. Cheaper access accelerates enterprise adoption of AI search source strategies and widens the GEO optimization window.`,
+    category: 'industry',
+    source: 'Phoenix / Dafeng',
+    date: '2026-10-30',
+    tags: ['AI search', 'Baidu', 'DeepSeek', 'search API'],
+  },
+  {
+    id: 394,
+    title: `Overseas GEO Playbook Goes Mainstream: ChatGPT Tops 1.2 Billion Weekly Users, 84 Percent of AI Citations Come From Third-Party Content`,
+    summary: `A Phoenix feature on overseas GEO for Chinese exporters notes OpenAI's October 2026 disclosure of more than 1.2 billion weekly ChatGPT users and Similarweb data showing Google AI Overviews appearing in 43 percent of results, up from 15 percent a year earlier; a Muck Rack study of more than 25 million AI citation links found 84 percent point to third-party editorial and reporting content rather than brand websites.`,
+    content: `Traffic migration. Overseas buyers increasingly ask AI assistants instead of scanning search results. OpenAI said in October 2026 that more than 1.2 billion people use ChatGPT each week; Google disclosed over 2 billion monthly users for AI Overviews in July 2025, and Similarweb found AI Overviews appearing in 43 percent of Google results, up from 15 percent a year earlier.
+
+Citation patterns. Muck Rack statistics show that when citations appear, ChatGPT cites five sources per answer on average, Gemini eight and Claude thirteen. Its analysis of more than 25 million links across the three assistants found 84 percent point to third-party editorial and reporting content rather than brand websites. AI prefers to cite what others say about you, not what you say about yourself.
+
+Google's guidance. Google's official documentation on AI features and websites states there are no special requirements for appearing in AI Overviews - crawlability, indexing and useful, trustworthy content remain the prerequisites.
+
+The four-step playbook. Make AI recognize you: keep the brand name, company profile, founding year, core products and location identical across the website, LinkedIn, platform stores, industry directories and press releases. Get third parties to mention you: every product launch, market entry and certification deserves a dated, verifiable third-party record. Write content AI wants to cite: the KDD 2024 GEO study (Aggarwal et al.) found that adding citations, concrete statistics and quotes measurably lifts visibility in generative engine answers. And keep monitoring how AI describes the brand, correcting drift over time.`,
+    category: 'industry',
+    source: 'Phoenix (Hainan)',
+    date: '2026-10-29',
+    tags: ['GEO', 'overseas market', 'ChatGPT', 'brand visibility'],
+  },
+  {
+    id: 395,
+    title: `Enterprise Agents Move From the Desk to the Production Line as Baidu Dazi Reports 83 Percent Customer Growth`,
+    summary: `Baidu's Dazi agent platform unveiled upgrades for production and operations scenarios, weaving personal task execution, enterprise collaboration and secure deployment directly into business workflows; enterprise customers grew 83 percent quarter-on-quarter while demand for enterprise-grade deliverables rose 4.3-fold.`,
+    content: `Deep workflow embedding. In food-industry supply chains the agent automatically analyzes procurement, R&D and warehouse progress on a schedule and generates reports and alerts, compressing a two-day roll-up to under three minutes. In furniture customization it extracts customer requests from sales records and pushes them into the business backend for self-service tracking. In cross-border e-commerce, agent APIs automate the chain from product selection and pricing to listing, leaving only key checkpoints for human review.
+
+Security and localization. The new Agent Security Center combines sandbox isolation, operation tracing and high-risk authorization controls, with private and hybrid-cloud deployment options. Partnerships with Lenovo Kaitian, Kylin and UnionTech bring domestically produced general-purpose agents and workstations with pre-installed models for manufacturing and finance customers.
+
+Growth signals. Enterprise customers grew 83 percent quarter-on-quarter and demand for enterprise-grade deliverables rose 4.3-fold, evidence that AI adoption is entering an organizational efficiency cycle rather than single-point assistant use.
+
+What to watch. Baidu World 2026 on November 12 is expected to detail intelligent-organization practices and its full-stack chip-cloud-model-agent layout. Enterprise agent competition is shifting from office assistance to core business-chain productivity tools.`,
+    category: 'industry',
+    source: 'Phoenix / Oriental Net',
+    date: '2026-10-22',
+    tags: ['AI agents', 'enterprise AI', 'Baidu', 'digital transformation'],
+  },  {
     id: 390,
     title: `China's October 2026 GEO Vendor Top-10: Five Trends Reshaping the AI Search Entry Battle`,
     summary: `Huaxia Morning Post rounds up China's ten leading GEO vendors for October 2026 - BlueFocus, Marketingforce, Shengliang Engine, Alibaba Chaojihichuan, Weimob Xingqi, Tencent Answerbit, GenOptima, Hongdong Data, Percent Point and 360 Zhijian - and identifies five market trends as CNNIC data shows generative AI users in China exceeding 700 million with penetration above 50 percent.`,
