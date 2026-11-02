@@ -12,6 +12,54 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 396,
+    title: `2026 AI Search Landscape: ChatGPT Holds 17 Percent of Queries, Perplexity Citation Conversion Runs 11x Traditional Search`,
+    summary: `An industry analysis maps the 2026 AI search market: revenues are projected to grow from 16.3 billion dollars in 2025 to 20.75 billion dollars in 2026, with AI-driven search interactions exceeding one trillion. ChatGPT's 900 million weekly users account for roughly 17 percent of global digital queries, while Perplexity's in-answer citation conversion rate is 11 times that of traditional organic search.`,
+    content: `Market size. The global AI search market is projected to grow from 16.3 billion dollars in 2025 to 20.75 billion dollars in 2026, a compound annual growth rate of 27.3 percent, while AI-driven search interactions are expected to exceed one trillion - about 30 percent of all search activity. Google still holds roughly 90 percent of the traditional search market, but AI platforms are steadily eroding its dominance.
+
+Platform race. ChatGPT reports 900 million weekly users processing 2.5 billion prompts a day, or roughly 17 percent of global digital queries; its users click through to external links 1.4 times per visit versus 0.6 for Google. Perplexity surpassed 100 million monthly users and handles about 50 million queries a week, with an in-answer citation conversion rate 11 times higher than traditional organic search. Google Gemini's share of AI chat visits climbed to 27.4 percent, and Claude's share of AI referral traffic reached 18.5 percent.
+
+Ad shock. When AI Overviews appear, Google Ads click-through falls from 19.7 percent to 6.34 percent and zero-click results reach 83 percent. AI agents cut ad exposure across the consumer journey by 30 to 47 percent, pushing paid search value from driving clicks toward brand exposure and trust - though AI search users convert at four times the rate of traditional search users.
+
+Why it matters. SEO is shifting from rank optimization to citation optimization. Brands should track AI Overview citation rates and cross-platform AI referral share, use JSON-LD structured data and strong E-E-A-T signals to raise citation odds, and make sure robots.txt allows GPTBot, ClaudeBot and PerplexityBot to crawl key pages.`,
+    category: 'industry',
+    source: 'TideFlow',
+    date: '2026-11-01',
+    tags: ['AI search', 'ChatGPT', 'Perplexity', 'GEO'],
+  },
+  {
+    id: 397,
+    title: `Gartner: AI Zero-Click Traffic to Exceed 70 Percent in 2026 as Brand Visibility Competition Moves to AI Citations`,
+    summary: `Gartner and Statista forecast that at least 25 percent of traditional search traffic will be diverted by AI tools in 2026, with zero-click searches exceeding 70 percent. AI platform traffic is compounding at over 50 percent a year, and DeepSeek's monthly actives surged from 1.34 billion to 4.94 billion in 2025, shifting the brand growth equation from winning clicks to being recommended and cited by AI.`,
+    content: `Zero-click trend. Gartner and Statista project that by 2026 at least 25 percent of global traditional search traffic will be siphoned off by AI-driven tools, and zero-click search will become the mainstream way information is distributed. Traditional search's share of traffic falls from 91 percent in early 2024 to a projected 66 percent in 2026, while AI platforms take more than 34 percent and zero-click behavior exceeds 70 percent.
+
+AI platform growth. Traffic to AI content platforms and recommendation engines compounded at over 50 percent annually between 2024 and 2026. DeepSeek's monthly actives jumped from 1.34 billion to 4.94 billion during 2025, alongside continued expansion by ChatGPT and Google AI Overviews. Users increasingly get AI-generated answers without ever clicking through to a webpage, fundamentally rebuilding search traffic economics.
+
+The new brand question. With traffic and exposure at an inflection point, the core questions become how to be efficiently recommended, trusted and cited by AI, and how to quantify brand exposure and voice in AI answer surfaces. Cross-platform monitoring and sentiment analysis across ChatGPT, Perplexity, DeepSeek and Google AI Overviews are becoming standard capabilities.
+
+Playbook. Optimize authoritative structured content and FAQs to raise the odds of being picked up by AI, and pre-build brand knowledge bases; deploy cross-channel AI visibility monitoring to track answer share and citation structure; keep pace with AI ranking mechanism changes; and align SEO, PR, content, brand and data teams around quantified outcomes.`,
+    category: 'industry',
+    source: 'Gartner / Statista',
+    date: '2026-10-31',
+    tags: ['zero-click', 'Gartner', 'brand visibility', 'AI search'],
+  },
+  {
+    id: 398,
+    title: `AI Agents Enter the Real Business Layer: Enterprise AI Moves From Tools to Organizational Deep Water`,
+    summary: `At the Harvard Business Review China annual conference, executives from Ant Digital, Zeiss, China Gas and CITIC Digital discussed enterprise AI agent deployment: usage is shifting from efficiency tools to deep integration with real business scenarios, and organizational friction has become the biggest hidden cost of AI transformation.`,
+    content: `The judgment. At the Harvard Business Review (Chinese) Annual Conference and New Growth Seminar 2026, Ant Digital vice president Sun Lei said that in the first half of the year most enterprises still treated AI as an efficiency tool, but in the second half more and more top executives began pushing AI deep into real business scenarios: "If AI has not entered your real business, you are already a little behind."
+
+Business practice. Zeiss describes its AI work in two tracks. On the consumer side, AI assists optometrists with diagnosis, and an AI myopia risk prediction model turns clinical metrics into risk maps parents understand, shifting stores from one-off eyewear sales toward continuous eye-health data services; on the manufacturing side, AI quality monitoring and equipment maintenance run in its lighthouse factory. China Gas applies AI in three layers: efficiency gains such as compliance checks; changing how work is done - codifying top salespeople's experience and using OCR plus face recognition for safety hazard detection during home inspections; and business model evolution using supply-demand models to forecast regional energy prices.
+
+Organizational deep water. The hidden cost of enterprise AI transformation is the organizational friction created when data capabilities embed into existing workflows: "Our IT experts produced many plans that nobody used." Zeiss made data specialists a formal role embedded in business processes while keeping project ownership with business teams; Ant Digital has frontline sales staff and store managers map workflows before building agents; China Gas merged its HR department with the CTO and IT teams into a new Talent and Digital Intelligence Center with targets tied directly to business performance.
+
+Infrastructure. CITIC Digital's Zheng Jun argued that business-technology collaboration remains the harder challenge, and as operational data accumulates, computing networks are no longer supporting infrastructure but the first foundation of AI productivity.`,
+    category: 'industry',
+    source: 'National Business Daily',
+    date: '2026-11-01',
+    tags: ['AI agents', 'enterprise AI', 'digital transformation'],
+  },
+  {
     id: 393,
     title: `Baidu Search Claims "Recursive Self-Evolution", Prices Its Search AI API Below DeepSeek`,
     summary: `At an October 30 product upgrade event Baidu announced that its search engine now "recursively self-evolves" through a retrieval-feedback-retraining loop, and relaunched its Search AI API at a limited-time floor of 4.9 yuan per 1,000 queries - below DeepSeek's search API pricing.`,
