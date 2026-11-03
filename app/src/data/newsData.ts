@@ -12,6 +12,54 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 399,
+    title: `China GEO Industry Research Institute Releases Credibility Evaluation Guide for GEO Service Providers`,
+    summary: `The China GEO Industry Research Institute has published the GEO Company Credibility Evaluation Guide, building a weighted scoring system across five dimensions: technical depth, delivery certainty, industry track record, compliance systems and service responsiveness. iResearch data shows over 62 percent of large and mid-sized Chinese brands now include GEO in annual marketing budgets, with the GEO market projected at 4.3 to 4.7 billion yuan, up over 210 percent year on year.`,
+    content: `Guide launch. Based on October 2026 industry operating data and on-site vendor assessments, the guide scores mainstream GEO service providers across five weighted dimensions: in-house R&D depth, delivery certainty, industry practice, compliance systems and service network responsiveness, filling a long-standing gap in unified vendor selection criteria.
+
+Market data. According to iResearch's October 2026 figures, more than 62 percent of large and mid-sized brands in China have folded Generative Engine Optimization into their annual marketing budgets, and the overall GEO market is projected to reach 4.3 to 4.7 billion yuan, a year-on-year increase of over 210 percent. Gartner estimates AI tools will have siphoned off 50 percent of traditional search traffic by 2026.
+
+Platform landscape. QuestMobile June 2026 data puts monthly actives at 382.3 million for Doubao, 167.2 million for Tongyi Qianwen, 129.8 million for DeepSeek, 49.8 million for Tencent Yuanbao and 7.29 million for Kimi; globally Google AI Overview exceeds 2.5 billion monthly users and ChatGPT tops 1.1 billion. Search entry points are shifting from blue-link indexes to generated answers.
+
+Why it matters. GEO theory traces back to a 2024 KDD paper, and the discipline aims to raise brand visibility, citation odds and positive recommendation weight inside AI-generated answers. A shared credibility standard should push vendor competition away from concept marketing toward verifiable delivery capability.`,
+    category: 'industry',
+    source: 'ifeng / China GEO Industry Research Institute',
+    date: '2026-11-02',
+    tags: ['GEO', 'vendor selection', 'AI search', 'brand visibility'],
+  },
+  {
+    id: 400,
+    title: `DeepSeek Starts Charging for Search and Fetch APIs on November 1: 5 Yuan per 1,000 Successful Requests`,
+    summary: `DeepSeek announced that its web search (Search) and page fetch (Fetch) API endpoints will be billed per request starting 00:00 Beijing time on November 1, 2026, at 5 yuan per 1,000 successful requests. The two endpoints launched on October 17 using DeepSeek's in-house search engine to supply real-time web content for Agent and RAG applications.`,
+    content: `Billing announcement. DeepSeek said on October 18 that its API now supports web search and page fetching on a per-request basis, priced at 5 yuan per 1,000 successful requests. Calls made through server-side tool use in DeepSeek Harness, Claude Code and Codex were previously unbilled, and standard call fees apply from 00:00 Beijing time on November 1, 2026.
+
+Endpoint capabilities. Search and Fetch went live on October 17, both powered by DeepSeek's proprietary search engine to deliver real-time web content for Agent and RAG workloads. Search takes a query and returns structured results; Fetch pulls a single page and returns title and body as Markdown. Both are raw JSON APIs at api.deepseek.com with the same Bearer authentication as the main DeepSeek API.
+
+Industry context. Search and fetch endpoints are core infrastructure for deep research, real-time Q&A and retrieval-augmented generation, and major AI vendors are all building proprietary web-search capabilities. The shift from free access to per-call pricing marks a maturing commercial model for agent infrastructure.
+
+GEO angle. Crawl and citation behavior of AI vendors' in-house search engines directly shapes how brand content surfaces in AI answers, so visibility work must now cover both traditional search engines and AI-native crawl pipelines.`,
+    category: 'industry',
+    source: 'ifeng / Jingchu Daily',
+    date: '2026-11-01',
+    tags: ['DeepSeek', 'AI search', 'API pricing', 'Agent infrastructure'],
+  },
+  {
+    id: 401,
+    title: `Gartner: 40 Percent of Enterprise Apps to Embed Task-Specific Agents by End of 2026, Yet Only 17 Percent of Organizations Have Finished Deployment`,
+    summary: `Gartner predicts 40 percent of enterprise applications will embed task-specific AI agents by the end of 2026, but the same research shows only 17 percent of organizations have actually completed deployment. Verified high-ROI cases include customer service resolution rising from 60 to 89 percent, insurance claim pre-review accuracy of 97.3 percent and code review cut from two days to four hours, while the global AI agent platform market is projected at 11.78 billion dollars.`,
+    content: `Deployment gap. Gartner forecasts that 40 percent of enterprise applications will embed task-specific agents by the end of 2026, yet its own research shows only 17 percent of organizations have completed deployment. The dividing line in enterprise AI agents is no longer whether a demo exists but whether it survives production.
+
+High-ROI scenarios. Proven deployments include intelligent customer service with resolution rates climbing from 60 to 89 percent, insurance claim pre-review at 97.3 percent accuracy, CI code review compressed from two days to four hours, ad-hoc data requests down 80 percent and 24/7 supply chain monitoring, with selection criteria centering on data security, system integration and stability.
+
+Market size. The global AI agent platform market is projected to reach 11.78 billion dollars in 2026, a compound annual growth rate of 46.61 percent. Alibaba, Tencent, Huawei and others have entered the market with more than 25 products, and the share of Chinese enterprises applying large models and agents jumped from 9.6 percent in 2024 to 47.5 percent in 2025.
+
+GEO angle. Agents are moving from passive Q&A to active execution, with tool stability, trustworthiness and privacy the main commercialization bottlenecks. Enterprise knowledge bases and structured business data double as fuel for agent deployment and the foundation of GEO source building.`,
+    category: 'industry',
+    source: 'umayun / Redxun',
+    date: '2026-11-03',
+    tags: ['AI agents', 'enterprise adoption', 'Gartner', 'ROI'],
+  },
+  {
     id: 396,
     title: `2026 AI Search Landscape: ChatGPT Holds 17 Percent of Queries, Perplexity Citation Conversion Runs 11x Traditional Search`,
     summary: `An industry analysis maps the 2026 AI search market: revenues are projected to grow from 16.3 billion dollars in 2025 to 20.75 billion dollars in 2026, with AI-driven search interactions exceeding one trillion. ChatGPT's 900 million weekly users account for roughly 17 percent of global digital queries, while Perplexity's in-answer citation conversion rate is 11 times that of traditional organic search.`,
