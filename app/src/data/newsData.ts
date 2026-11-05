@@ -11,6 +11,7 @@ export interface NewsItem {
 }
 
 export const newsItems: NewsItem[] = [
+
   {
     id: 402,
     title: `2026 China GEO Vendor Landscape and Selection Research Report Frames AI Answer Entry as the New Battleground`,
@@ -1324,7 +1325,6 @@ The article outlines five evaluation dimensions for choosing a GEO platform: fir
 
 For different enterprise types, the guide recommends: national brands should leverage central and top-tier authoritative media for credibility; small and regional brands should focus on local vertical media and precise niche sources; overseas-bound brands must verify international media resources and coverage of overseas AI search ecosystems. The article concludes that GEO has become the core arena for brands competing for AI search traffic and user mindshare, replacing the single ranking logic of traditional SEO — only by aligning with platform indexing rules, relying on quality resources and running refined operations can brands hold their seats at the center of AI search.`,
     category: 'industry',
-    source: '凤凰网财经',
     date: '2026-10-03',
     tags: ['GEO', 'AI Search', 'Platform Selection', 'Brand Visibility'],
   },
@@ -1341,7 +1341,6 @@ On tactics, Perplexity calls for "source envelopment": publishing PR copy and in
 
 Case evidence: a project-management SaaS co-published an "Efficiency Whitepaper" with exclusive charts through tech media and became the core cited source in AI answers, generating high-quality B2B leads; a beauty brand built a multimodal AI skin-diagnosis agent embedded in its private-domain mini-program, lifting new-product trial conversion by 35%; a Shenzhen security brand combined authoritative media reviews, Reddit seeding and EEAT-site optimization to raise its Perplexity presence from 0 to 35% in 8 weeks with 200% organic traffic growth. The recommended execution path is "Perplexity first for fast results (7-14 days), then ChatGPT for authority accumulation" — brands must shift entirely from "traffic thinking" to "answer thinking".`,
     category: 'industry',
-    source: 'SheepGeo',
     date: '2026-10-03',
     tags: ['GEO', 'Dual-Engine', 'BAICI', 'AI Visibility'],
   },
@@ -1358,7 +1357,6 @@ Selection advice: when you only need question answering and document retrieval, 
 
 Four pre-launch checks: define task boundaries and callable tools; set role permissions and sensitive-data isolation; design human confirmation, logging and exception fallback; define pilot metrics and continuous evaluation. The article concludes that agent value comes from cutting repetitive work, connecting systems and driving tasks to completion, but reliability comes from clear boundaries, controllable permissions and traceable processes — enterprise agent adoption is pivoting from "can we use it" toward business outcomes and trustworthy governance.`,
     category: 'industry',
-    source: '搜狐IT',
     date: '2026-10-03',
     tags: ['AI Agent', 'Enterprise', 'Governance', 'Process Automation'],
   },
@@ -1377,7 +1375,6 @@ Six core selection signals: in-house technology (distinguishing full-stack R&D f
 
 The TOP5 list: Hongdong Data (full-stack benchmark with 7,000+ served enterprises including 90+ Fortune 500 firms, 98% retention), GrowthMan (full-intent content system and Qiaoyu intelligent system focused on lead growth), GenOptima (GENO system for long-tail and niche-scenario optimization), PureblueAI (multi-agent lightweight delivery for SMEs), and Marketingforce/Zhendao (standardized SaaS tools for self-operation). The article reminds buyers to verify project goals, monitoring methods, compliance mechanisms and delivery boundaries before signing — the essence of GEO marketing is accumulating long-term brand digital assets; only a structured brand knowledge system can seize the AI decision gateway.`,
     category: 'industry',
-    source: 'IT之家',
     date: '2026-10-01',
     tags: ['GEO', 'AI Search', 'Vendor Selection', 'Brand Visibility'],
   },
@@ -1396,7 +1393,6 @@ China's GEO service market splits into four types: technology-tool-oriented, con
 
 The 0-to-1 path has five steps: multi-platform brand audit, building an L1-L5 layered intent keyword library (intent word = intent level × keyword), constructing a private enterprise knowledge system (including Schema markup and LLMs-File context optimization), layered content planning with three-tier channel distribution, and continuous monitoring to compound digital assets over time. Landing cases show results: Eight Horses Tea reached a 41% brand recommendation rate on L1 gift-buying questions, Sugon-affiliated storage brand Sanshit reached 35% on L2 solution-exploration queries, and some manufacturing clients lifted conversion efficiency by 60% through full-intent content matrices.`,
     category: 'industry',
-    source: '凤凰网科技',
     date: '2026-10-01',
     tags: ['GEO', 'Full-Intent GEO', 'AI Search', 'Content Strategy'],
   },
@@ -1413,7 +1409,6 @@ On rollout timing, experts judge that mature enterprise-grade Agent applications
 
 Overseas experts urge caution about the hype: large language models such as Claude Opus 4.6 now plan, write and test code with strong capability while staying coherent over long horizons, and reliably task-executing models are spreading widely. But the buzzword carries marketing weight — much of what was called "generative AI" in 2025 has simply been relabeled "AI agent". For enterprises, the 2026 imperative is shifting from "can we use it" to "business outcomes": validating real agent ROI in concrete scenarios like customer service, operations, analytics and software delivery, while establishing permission, memory and audit policies in parallel.`,
     category: 'industry',
-    source: '新华社《环球》杂志',
     date: '2026-10-01',
     tags: ['AI Agent', 'Enterprise AI', 'AgentOps', 'Industry Trends'],
   },
@@ -2676,7 +2671,6 @@ Vision: Cloud 2.0 — the Agent Cloud, designed for agents as primary workload.`
     date: `2026-04-20`,
     tags: [`Cloudflare`, `AI Agent`, `Infrastructure`, `Sandbox`, `Agent Cloud`],
   },
-  {
   {
     id: 266,
     title: `Similarweb Q3 2026: AI Search Referral Traffic +420% YoY, GEO ROI Exceeds Traditional SEO`,
@@ -4023,4 +4017,634 @@ GEO（生成式引擎优化）已从企业数字营销的"可选动作"升级为
     date: '2026-06-20',
     tags: ['行业峰会', '技术分享'],
   },
-]
+{
+    id: 206,
+    title: 'OpenAI下一代模型被曝8月提前上线，AI搜索格局或将重塑',
+    summary: '据新智元报道，OpenAI下一代模型计划于8月提前发布，性能大幅提升的同时可能重新定义AI搜索引擎的能力边界，GEO行业需提前布局应对。',
+    content: `据新智元援引多方消息源报道，OpenAI下一代旗舰模型计划于2026年8月提前上线，较原定时间表有所提前。
+
+核心信息：
+1. 发布时间：下一代模型预计8月上线，较此前市场预期提前
+2. 性能跃升：新模型在推理、多模态理解等方面预计有显著提升
+3. 搜索整合：新模型将进一步强化AI搜索能力，ChatGPT的搜索功能有望获得底层能力升级
+4. 行业震动：若性能大幅提升，将直接影响Perplexity、Google AI Overview等AI搜索产品的竞争格局
+
+对GEO行业的影响：
+- AI搜索引擎底层能力升级意味着品牌内容被理解和推荐的方式将发生变化
+- GEO优化策略需要适配新一代模型的语义理解和推理能力
+- 企业应提前关注新模型的特性，调整内容优化方向
+- 模型能力提升将使AI搜索结果更加精准，对GEO内容质量要求更高`,
+    category: 'industry',
+    source: '新智元 / 36氪',
+    date: '2026-07-26',
+    tags: ['OpenAI', 'AI模型', 'AI搜索', 'GEO', 'ChatGPT'],
+    isTop: true,
+  },
+  {
+    id: 207,
+    title: '黄仁勋首次发推力挺Kimi K3开源，半个硅谷响应：开源模型成为AI产业共识',
+    summary: '英伟达CEO黄仁勋首次在社交媒体发推，力挺月之暗面Kimi K3开源，引发硅谷科技界广泛响应，开源模型在AI产业中的战略地位进一步巩固。',
+    content: `英伟达CEO黄仁勋近日首次在社交媒体发推，公开力挺月之暗面旗下Kimi K3模型的开源策略，引发半个硅谷科技圈的广泛响应和讨论。
+
+核心信息：
+1. 黄仁勋表态：优秀开源模型应该被使用，开源是AI产业发展的重要力量
+2. 行业响应：多位硅谷科技领袖跟进表态，支持开源AI模型的发展路线
+3. Kimi K3影响力：Kimi K3作为中国开源大模型的代表，获得国际产业界高度认可
+4. 开源趋势：继DeepSeek之后，Kimi K3再次证明中国开源模型的全球竞争力
+
+产业意义：
+- 开源模型正在成为AI产业的基础共识，不再是"二等选择"
+- 英伟达作为算力基础设施提供者，力挺开源意味着生态策略的深层调整
+- 中国AI开源力量获得国际认可，有助于推动全球AI普惠化
+
+对GEO行业的启示：开源模型的普及将降低GEO工具和服务的部署成本，更多企业可以本地化部署AI搜索优化方案。`,
+    category: 'industry',
+    source: '机器之心 / 36氪',
+    date: '2026-07-26',
+    tags: ['开源', 'Kimi K3', '黄仁勋', 'AI模型', 'DeepSeek'],
+    isTop: true,
+  },
+  {
+    id: 208,
+    title: '大厂AI Agent赛马结束，各寻主心骨：智能体从概念走向差异化落地',
+    summary: '据市象报道，国内互联网大厂的AI Agent布局已从"重复造轮"阶段进入差异化竞争期，各家根据自身生态优势找到不同的Agent主攻方向。',
+    content: `据市象深度分析报道，国内互联网大厂在AI Agent领域的"赛马"阶段已基本结束，各家开始根据自身生态优势寻找差异化的Agent发展路径。
+
+核心观察：
+1. 阿里：依托通义千问和钉钉生态，主攻企业办公智能体，推出"千问办公"新打法
+2. 字节跳动：基于豆包模型和抖音生态，聚焦内容创作和营销Agent
+3. 百度：以文心大模型为核心，在搜索和知识服务领域深耕Agent能力
+4. 腾讯：利用微信生态优势，探索社交场景下的AI Agent应用
+5. 华为：结合鸿蒙生态和盘古大模型，在端侧Agent和行业应用上发力
+
+行业趋势：
+- Agent从"什么都做"转向"做深做透"，垂直场景成为竞争焦点
+- 大厂不再简单复制对手的Agent产品，而是围绕自身生态构建差异化优势
+- 企业级Agent部署从POC（概念验证）进入规模化落地阶段
+
+对GEO行业的启示：不同平台的Agent对品牌信息的获取和呈现方式各不相同，GEO优化需要针对不同AI Agent生态制定差异化策略。`,
+    category: 'industry',
+    source: '市象 / 36氪',
+    date: '2026-07-26',
+    tags: ['Agent', '智能体', '大厂竞争', '企业应用', 'AI生态'],
+  },
+  {
+    id: 203,
+    title: 'Anthropic发布Opus 5：性能逼近Fable 5但价格砍半，刷新ARC-AGI-3纪录',
+    summary: 'Anthropic正式发布Claude Opus 5模型，在ARC-AGI-3基准测试中创下新纪录，性能接近Fable 5水平但定价大幅降低，进一步加剧大模型市场竞争。',
+    content: `Anthropic于7月25日正式发布Claude Opus 5模型，引发行业广泛关注。
+
+核心亮点：
+1. 性能突破：在ARC-AGI-3基准测试中刷新纪录，推理能力显著提升
+2. 价格优势：相比上一代旗舰模型，定价降低约50%，大幅降低企业使用门槛
+3. 竞争格局：性能逼近行业领先的Fable 5模型，形成强有力的竞争态势
+4. 企业应用：更低的价格和更强的性能将加速AI在企业级场景的普及
+
+行业影响：
+- 大模型价格战持续升级，企业AI应用成本进一步下降
+- ARC-AGI-3基准测试成为衡量模型能力的新标准
+- Anthropic在企业AI市场的竞争力显著增强`,
+    category: 'industry',
+    source: 'IT之家',
+    date: '2026-07-25',
+    tags: ['AI模型', 'Anthropic', 'Opus 5', 'ARC-AGI', '大模型竞争'],
+    isTop: true,
+  },
+  {
+    id: 204,
+    title: '北京市发布《加快智能体引领发展的若干措施》，鼓励发展Token经济和AaaS模式',
+    summary: '北京市发改委联合多部门发布智能体发展政策，鼓励发展Token即服务（TaaS）、智能体即服务（AaaS）、结果即服务（RaaS）等商业新模式，加大算力券支持力度。',
+    content: `北京市发展改革委等部门联合印发《北京市关于加快智能体引领发展的若干措施》，推动智能体创新引领发展，率先培育智能经济新形态。
+
+政策要点：
+1. Token经济：鼓励发展Token即服务（TaaS）商业模式，推动更多Token新产品纳入中小企业服务券范围
+2. 智能体服务：培育智能体即服务（AaaS）、结果即服务（RaaS）等商业新模式
+3. 算力支持：加大算力券支持力度，鼓励发放Token券、智能体服务券加速推广应用
+4. 芯片创新：推动研发适配智能体系统调用、复杂任务调度的通用处理器和专用推理芯片
+5. 效率优化：通过异构协同、存算协同以及智能调度等降低推理成本
+
+行业意义：
+- 北京率先出台智能体专项政策，释放明确的产业信号
+- TaaS/AaaS/RaaS三种新模式定义了AI商业化的新方向
+- 算力券和Token券将降低中小企业AI应用门槛`,
+    category: 'industry',
+    source: '36氪',
+    date: '2026-07-25',
+    tags: ['智能体', '政策', 'Token经济', 'AaaS', '北京'],
+    isTop: true,
+  },
+  {
+    id: 205,
+    title: '36氪深度分析：DeepSeek不是理想主义公司，它只是把现实服务于理想',
+    summary: '36氪发布DeepSeek深度分析文章，探讨DeepSeek如何在商业化与技术理想之间找到平衡，以及其对国内AI行业格局的深远影响。',
+    content: `36氪发布深度分析文章《DeepSeek不是理想主义公司，它只是把现实服务于理想》，深入解读DeepSeek的发展策略和行业影响。
+
+核心观点：
+1. 商业策略：DeepSeek并非纯粹的理想主义公司，而是在商业现实与技术理想之间找到独特平衡
+2. 技术路线：通过开源策略和高性价比模型，打破了大模型高成本的行业壁垒
+3. 行业影响：DeepSeek的成功改变了国内AI行业的竞争格局，推动更多企业关注效率而非单纯堆算力
+4. 市场反响：其高性价比模型受到广泛欢迎，加速了AI应用的普及
+
+行业启示：
+- 开源+高性价比成为AI行业的新竞争范式
+- 技术创新与商业可持续性可以并行
+- 国内AI行业正从"烧钱竞赛"转向"效率竞争"`,
+    category: 'industry',
+    source: '36氪',
+    date: '2026-07-25',
+    tags: ['DeepSeek', '开源', '大模型', '商业模式', 'AI行业'],
+  },
+  {
+    id: 200,
+    title: '21世纪经济报道深度调查：3·15后GEO行业加速洗牌，合规成为核心分水岭',
+    summary: '21世纪经济报道发布GEO行业深度调查，揭示3·15曝光后行业从草莽阶段走向规范化，品牌客户从追求排名转向重视合规与信息准确性，GEO服务商加速分化。',
+    content: `21世纪经济报道记者肖潇发布GEO行业深度调查文章《3·15后时代的GEO：出圈、洗牌、等待AI打开黑匣子》。
+
+核心发现：
+1. 行业认知发生根本变化：品牌客户从"能不能让AI推荐到第一"转向"你们会怎么让AI推荐我"，开始追问方法论和合规性
+2. 客户需求升级：越来越多企业关注AI如何描述公司，尤其是负面信息管控，GEO从流量工具升级为品牌认知建设
+3. 合规门槛提高：医药、金融等高风险行业已不敢使用低价小服务商，审查比以前严格很多
+4. 人机协同成主流：营销团队用智能体监测AI回答、分析策略、写初稿，营销人员负责审核把关
+5. 行业标准密集出台：信通院GEO服务可信标准已发布，中国广告协会等多家机构加速制定行业规范
+
+行业数据：
+- 国信证券预测2026年全球GEO市场规模将达240亿美元，国内市场突破111亿元
+- 头部品牌在AI搜索中的提及率每提升10%，全渠道转化成本平均下降约18.5%
+- 50%的中国网民已将AI作为消费决策依据`,
+    category: 'industry',
+    source: '21世纪经济报道',
+    date: '2026-07-24',
+    tags: ['GEO', '行业洗牌', '合规', '3·15', '品牌建设'],
+    isTop: true,
+  },
+  {
+    id: 201,
+    title: 'OpenAI正式发布Presence平台，企业级AI智能体部署进入产品化时代',
+    summary: 'OpenAI推出企业产品Presence，为企业提供AI Agent部署、监控、治理的一站式平台，BBVA、SoftBank等已开始评估，智能体从概念验证走向生产环境运营。',
+    content: `OpenAI于7月22日正式发布企业产品OpenAI Presence，为企业提供一套可以在客户服务与内部流程中部署、监控并持续更新AI Agent的平台。
+
+核心功能：
+1. 部署前模拟测试：企业可用常见查询、极端个案和高风险情境进行批量模拟，由评分器判断Agent表现
+2. 安全防护机制：企业可自行界定Agent可独立执行的、需审批的和必须交由人工的动作
+3. 上线后持续监控：Codex工具可分析生产环境对话数据，提出改进建议
+4. 语音与文字双通道：覆盖客户支持、对外销售与高风险内部流程
+
+行业影响：
+- OpenAI英语电话客服热线1-888-GPT-0090已由Presence支撑，解决75%来电问题
+- BBVA、SoftBank与澳洲保险商IAG已开始评估
+- OpenAI从"卖模型"转向"卖企业软件服务"，战略定位发生根本变化`,
+    category: 'industry',
+    source: 'OpenAI / 新浪科技',
+    date: '2026-07-24',
+    tags: ['AI Agent', 'OpenAI', '企业应用', '智能体治理', 'Presence'],
+    isTop: true,
+  },
+  {
+    id: 202,
+    title: 'WAIC 2026：大厂智能体入口卡位战全线开打，2026正式进入智能体元年',
+    summary: '2026世界人工智能大会释放明确信号，阿里、腾讯、百度等大厂在智能体领域展开全面竞争，IDC预测2026年全球活跃Agent数量将达7940万个。',
+    content: `2026世界人工智能大会（WAIC）于7月17-20日在上海举办，1100多家参展企业带来4400多项科技产品，智能体成为绝对主角。
+
+大厂动态：
+1. 腾讯：发布WorkBuddy独立App，与李未可科技合作发布X-AI记忆眼镜
+2. 阿里：推出"千问办公"桌面智能体，千问AI眼镜升级为智能体眼镜
+3. 百度：展示通用智能体GenFlow4.0、百度秒哒3.5等智能体全家桶
+4. 商汤：发布SenseNova U1 Pro，定位交付级原生多模态智能体基座
+5. 荣耀：发布AgenticOS，业界首个系统级Agent架构
+
+行业数据：
+- IDC预测2026年全球活跃Agent数量达7940万个，2030年将达22.16亿个
+- 麦肯锡预测到2030年智能体将驱动3~5万亿美元全球交易规模`,
+    category: 'industry',
+    source: '36氪 / 赛迪网',
+    date: '2026-07-24',
+    tags: ['WAIC', '智能体', 'AI Agent', '大厂竞争', '入口之争'],
+    isTop: true,
+  },
+  {
+    id: 100,
+    title: '信通院发布GEO服务质量分级评测规范，行业准入门槛正式确立',
+    summary: '中国信通院联合30余家机构发布《GEO服务质量分级评测规范》，将GEO服务商划分为L1-L4四个等级，推动行业从无序竞争走向规范化发展。',
+    content: `中国信息通信研究院联合百度、蓝色光标、科大讯飞等30余家机构，正式发布《GEO服务质量分级评测规范》。
+
+核心内容：
+1. 建立L1-L4四级评测体系：L1基础优化、L2结构化增强、L3语义深度优化、L4全链路智能GEO
+2. 明确评测维度：AI搜索引擎覆盖度、引用准确率、品牌可见性提升率、合规性评分
+3. 首批通过L3以上评测的服务商仅8家，头部效应明显
+4. 中小企业可依据评测等级选择适配自身需求的GEO服务商
+
+行业影响：GEO行业正式进入"持证上岗"阶段，无资质的服务商将面临市场出清压力。`,
+    category: 'industry',
+    source: '中国信通院',
+    date: '2026-07-23',
+    tags: ['GEO', '行业标准', '信通院', '评测规范'],
+    isTop: true,
+  },
+  {
+    id: 101,
+    title: 'Anthropic发布MCP 2.0协议，多Agent协作进入标准化时代',
+    summary: 'Anthropic正式发布MCP 2.0协议，新增Agent间通信、任务编排和权限管理模块，多Agent协作从概念验证进入规模化落地阶段。',
+    content: `Anthropic正式发布MCP（Model Context Protocol）2.0协议，这是继1.0版本后的重大升级。
+
+核心更新：
+1. 新增Agent-to-Agent通信层：支持不同厂商的Agent通过标准协议互操作
+2. 引入任务编排引擎：支持DAG式多步骤任务自动编排
+3. 权限管理框架：细粒度的Agent权限控制，满足企业级安全合规需求
+4. 性能优化：Agent间通信延迟降低60%，吞吐量提升3倍
+
+行业数据：
+- 已有超过200家企业级Agent产品接入MCP协议
+- 多Agent协作场景的任务成功率从单Agent的89%提升至96%
+- 预计2027年MCP将成为Agent生态的事实标准`,
+    category: 'industry',
+    source: 'Anthropic Blog',
+    date: '2026-07-23',
+    tags: ['AI Agent', 'MCP协议', '多Agent协作', '技术标准'],
+    isTop: true,
+  },
+  {
+    id: 102,
+    title: 'DeepSeek企业版API正式开放搜索增强功能，品牌GEO优化迎来新阵地',
+    summary: 'DeepSeek正式开放企业版API的搜索增强功能，品牌可通过结构化数据直接影响DeepSeek的生成式回答，GEO优化版图再扩一城。',
+    content: `DeepSeek正式开放企业版API的搜索增强功能，这是继ChatGPT和Perplexity之后，第三个向品牌方开放GEO优化通道的主流AI搜索平台。
+
+功能详情：
+1. 企业可通过DeepSeek API提交结构化品牌数据（产品信息、FAQ、权威认证等）
+2. 提交数据经审核后，在相关查询中被优先引用，附带"企业认证"标识
+3. 提供品牌引用分析仪表盘，实时追踪品牌在DeepSeek搜索中的曝光和引用情况
+4. 支持批量数据提交和自动更新机制
+
+行业意义：三大主流AI搜索平台均开放GEO优化通道，标志着AI搜索商业化生态进入成熟期。企业需同时布局多平台GEO策略。`,
+    category: 'industry',
+    source: 'DeepSeek开放平台',
+    date: '2026-07-23',
+    tags: ['DeepSeek', 'GEO', 'AI搜索', '品牌优化'],
+    isTop: true,
+  },
+
+
+  {
+    id: 1,
+    title: 'Google发布AI搜索质量评估新框架，GEO合规化进入技术标准化阶段',
+    summary: 'Google Search Central更新AI搜索质量评估指南，首次将"生成式引用准确性"纳入官方排名信号体系，标志着GEO从营销策略升级为技术标准。',
+    content: `Google Search Central发布重大更新，在官方搜索质量评估指南中新增"AI生成式引用质量"评估维度。
+
+核心变化：
+1. 首次将"被AI引用的准确性"纳入页面质量评分体系
+2. 结构化数据标记（Schema.org）的权重进一步提升，FAQ和HowTo类型页面优先级提高
+3. 引入"引用可溯源性"指标——被AI引用的内容需具备清晰的数据来源标注
+4. 明确打击"投毒式GEO"行为，对刻意操纵AI引用结果的页面实施降权
+
+行业影响：GEO优化从"技巧层面"正式进入"技术标准层面"，企业需要建立系统化的GEO技术栈，而非仅依赖内容优化。`,
+    category: 'industry',
+    source: 'Google Search Central',
+    date: '2026-07-22',
+    tags: ['GEO', 'AI搜索', 'Google', '技术标准', '合规化'],
+    isTop: true,
+  },
+  {
+    id: 2,
+    title: 'Perplexity推出"品牌答案卡"功能，AI搜索商业化路径日趋清晰',
+    summary: 'Perplexity正式上线品牌答案卡（Brand Answer Card）功能，允许品牌方提交结构化信息供AI直接引用，开启AI搜索商业化新阶段。',
+    content: `Perplexity官方博客宣布正式上线"品牌答案卡"（Brand Answer Card）功能，这是AI搜索平台首次向品牌方开放结构化内容提交通道。
+
+功能详情：
+1. 品牌方可通过Perplexity for Brands平台提交结构化产品信息、FAQ和品牌故事
+2. 提交内容经过Perplexity审核后，可在相关查询中被优先引用
+3. 引用结果附带"品牌认证"标识，提升用户信任度
+4. 提供品牌可见性分析仪表盘，展示品牌在各查询中的引用频次和上下文
+
+商业模式：采用"按引用付费"（Pay-per-Citation）模式，品牌仅在内容被实际引用时计费。
+
+行业意义：这是AI搜索平台从"信息检索工具"向"商业生态"转型的标志性事件，GEO的价值链正在形成闭环。`,
+    category: 'industry',
+    source: 'Perplexity Blog',
+    date: '2026-07-22',
+    tags: ['Perplexity', 'AI搜索', '商业化', '品牌营销', 'GEO'],
+    isTop: true,
+  },
+  {
+    id: 3,
+    title: 'IDC报告：2026年全球GEO服务市场规模达42亿美元，中国增速领跑亚太',
+    summary: 'IDC发布首份GEO市场追踪报告，全球GEO服务支出预计2026年达42亿美元，中国市场同比增长187%，成为增速最快的区域市场。',
+    content: `IDC发布全球首份GEO（生成式引擎优化）服务市场追踪报告，量化这一新兴市场的规模和增长趋势。
+
+核心数据：
+1. 2026年全球GEO服务市场规模预计达42亿美元，较2025年增长156%
+2. 中国市场以187%的同比增速领跑亚太地区，市场规模约58亿元人民币
+3. 北美市场占全球份额的41%，但亚太增速是北美的2.3倍
+4. 企业GEO支出中，技术工具占38%，内容优化占29%，咨询服务占22%，监测分析占11%
+
+中国市场特征：
+- 信通院YD/T3980-2026标准推动行业规范化
+- 蓝色光标、科大讯飞等上市公司加速布局
+- 中小企业GEO渗透率仅12%，增长空间巨大
+
+IDC预测：到2028年，GEO服务将与传统SEO服务市场规模持平，成为数字营销基础设施的核心组成部分。`,
+    category: 'industry',
+    source: 'IDC',
+    date: '2026-07-22',
+    tags: ['GEO', '市场规模', 'IDC', '行业报告', '中国市场'],
+    isTop: true,
+  },
+
+
+  {
+    id: 4,
+    title: 'Forbes重磅分析：AI搜索不再是新鲜事物，DeepSeek、ChatGPT、Perplexity正成为消费者首要发现渠道',
+    summary: 'Forbes Tech Council发布深度分析，指出AI驱动的搜索工具正从辅助角色转变为品牌发现的主要入口，企业必须立即行动优化AI搜索可见性。',
+    content: `Forbes Tech Council发布深度分析文章，系统阐述AI搜索对品牌营销的颠覆性影响。
+
+核心观点：
+1. ChatGPT、DeepSeek、Perplexity已成为数百万消费者的首选搜索工具
+2. 品牌在AI搜索结果中的提及率直接影响消费者购买决策
+3. 传统SEO策略无法覆盖AI搜索引擎的引用逻辑
+4. 早期布局GEO的品牌已获得显著的先发优势
+
+Forbes建议企业立即开展AI搜索品牌审计，评估当前在各AI平台中的可见性表现，并制定系统化的GEO优化路线图。`,
+    category: 'industry',
+    source: 'Forbes',
+    date: '2026-07-21',
+    tags: ['AI搜索', '品牌可见性', 'GEO', '营销策略'],
+    isTop: true,
+  },
+  {
+    id: 5,
+    title: 'Reuters报道：全球AI Agent企业支出2026年底将达150亿美元，Agentic AI进入规模化部署',
+    summary: 'Reuters最新报告显示全球企业正加速部署AI Agent，Agentic AI支出预计2026年底达150亿美元，从实验阶段全面转入生产环境。',
+    content: `Reuters发布最新科技产业报告，跟踪全球AI Agent企业级部署趋势。
+
+核心数据：
+1. 全球Agentic AI支出预计2026年底达150亿美元
+2. 超80%企业将在2026年内使用某种形式的AI Agent（Gartner预测）
+3. 从客服自动化到智能流程自动化，AI Agent正覆盖企业运营全链条
+4. McKinsey指出Agent是生成式AI的下一前沿，将自主执行复杂多步任务
+
+行业共识：AI Agent已从"是否采用"的讨论阶段，转入"如何规模化部署"的执行阶段。`,
+    category: 'industry',
+    source: 'Reuters',
+    date: '2026-07-21',
+    tags: ['AI Agent', '企业应用', 'Agentic AI', '市场规模'],
+    isTop: true,
+  },
+  {
+    id: 6,
+    title: '2026年企业级AI智能体市场规模突破800亿，从数据可信到业务落地成核心命题',
+    summary: 'IDC预测2026年中国企业级智能体市场规模将突破800亿元，超25%企业已部署生成式AI智能体，合规化与可信化成为选型关键。',
+    content: `随着《人工智能赋能新型工业化三年行动计划》的推进，2026年被视为AI从技术探索迈向规模化商用的关键节点。中国信通院数据显示，2025年国内已有超过25%的企业部署了生成式AI智能体，预计2027年这一比例将攀升至50%。
+
+政策层面明确提出到2027年建成300个以上行业级智能体应用标杆。企业级AI智能体正逐步从单一的效率辅助工具，转型为重构企业价值链的核心引擎。
+
+选型建议：
+1. 高合规需求场景：优先选择"可信"概念的全链路平台
+2. 轻量化运营场景：可采用低代码/零代码智能体构建平台
+3. 特定职能场景：选用预置行业Know-how的垂直解决方案`,
+    category: 'industry',
+    source: 'IT之家',
+    date: '2026-07-20',
+    tags: ['AI智能体', '企业应用', '市场规模', '可信AI'],
+    isTop: true,
+  },
+  {
+    id: 7,
+    title: '硅谷调研：57%企业已在多阶段工作流中部署AI Agent，2026年进入规模化扩展',
+    summary: 'Anthropic联合Material调研500+技术领袖，81%组织计划2026年开发更复杂的智能体使用场景。',
+    content: `Anthropic与研究机构Material对美国500多位技术领导者调研显示，超过一半的组织（57%）目前已在多阶段工作流程中部署智能体，其中16%已推进到跨多个团队的跨职能流程。
+
+2026年关键数据：
+• 81%的组织计划着手更复杂的使用场景
+• 39%将为多步骤流程开发智能体
+• 29%将在跨职能项目中部署智能体
+• 十分之八的组织认为AI智能体已带来可衡量的ROI
+
+企业面临的核心挑战：集成挑战（46%）、数据质量要求（42%）、变革管理需求（39%）。问题已从"是否采用"转变为"如何战略性地扩大规模"。`,
+    category: 'industry',
+    source: '36氪',
+    date: '2026-07-19',
+    tags: ['AI智能体', '企业部署', 'Agent', '调研报告'],
+    isTop: true,
+  },
+  {
+    id: 8,
+    title: 'GEO从论文到工程：火山引擎解析完整算法体系，AutoGEO可见度提升超50%',
+    summary: '火山引擎开发者社区系统拆解GEO技术栈，涵盖普林斯顿9种方法和CMU AutoGEO自动化方案。',
+    content: `火山引擎开发者社区发布GEO完整技术栈解析。
+
+核心发现：
+- 普林斯顿大学GEO论文定义9种优化方法，Cite Sources提升可见度42.6%
+- CMU AutoGEO（ICLR 2026）自动化方案比最强baseline提升50.99%
+- 跨引擎规则迁移有效，Gemini规则在GPT/Claude上重叠率78-84%
+- 低排名网站受益最大，排名第5的网站可见度提升115%
+
+GEO已从学术概念进入工程落地阶段，是基于可验证性和语义结构化的系统工程。`,
+    category: 'industry',
+    source: '火山引擎开发者社区',
+    date: '2026-07-19',
+    tags: ['GEO', '算法', 'AutoGEO', '技术前沿'],
+  },
+  {
+    id: 9,
+    title: '品牌多平台AI可见性成必修课：ChatGPT周活9亿、Perplexity年营收增335%',
+    summary: 'AI搜索平台用户规模爆发，品牌需制定差异化GEO策略覆盖ChatGPT、Perplexity、DeepSeek等多平台。',
+    content: `2026年AI搜索平台呈现爆发式增长。
+
+关键数据：
+- ChatGPT周活突破9亿，较2025年增长125%
+- Perplexity月活超1亿，年营收增长335%，ARR达5亿美元
+- DeepSeek全球热搜榜首，免费开源模式改变竞争格局
+- 豆包月活近6000万，日均调用量突破50万亿Tokens
+
+差异化GEO策略：
+- Perplexity：实时性内容+可验证数据+来源标注
+- ChatGPT：E-E-A-T内容+深度长文+FAQ模块
+- Gemini：Schema标记+技术SEO+本地SEO
+- DeepSeek/Kimi：中文专业深度内容`,
+    category: 'industry',
+    source: '加搜TideFlow',
+    date: '2026-07-19',
+    tags: ['AI搜索', '品牌可见性', 'GEO策略', '多平台'],
+  },
+  {
+    id: 10,
+    title: '2026企业AI Agent规模化元年：79%企业已部署，MCP协议成行业标准',
+    summary: '全球79%组织已启动Agent部署，市场规模达187亿美元，MCP协议成为Agent生态互联互通标准。',
+    content: `2026年被公认为AI Agent规模化落地元年。
+
+核心数据：
+- 全球79%组织已启动AI Agent部署
+- 市场规模飙升至187亿美元
+- 任务成功率从68%提升至89%
+- MCP协议成为Agent生态行业标准
+
+五大落地场景：软件研发自动化、智能客服、金融风控、数据治理、营销洞察。
+
+警示：Gartner预测40%项目将在2027年前被叫停，需关注业务痛点明确性和幻觉控制。`,
+    category: 'industry',
+    source: 'QubitTool',
+    date: '2026-07-19',
+    tags: ['AI Agent', '企业应用', 'MCP协议', '规模化'],
+  },
+  // 行业资讯
+  {
+    id: 11,
+    title: '2026年GEO优化公司推荐趋势观察：AI搜索时代头部服务商格局初现',
+    summary: '2026年生成式AI搜索流量同比增幅突破215%，传统搜索引擎流量持续下滑。企业在AI平台上的可见度已成为数字营销核心战场。',
+    content: `2026年生成式AI搜索流量同比增幅突破215%，传统搜索引擎流量持续下滑。企业在AI平台上的可见度已成为数字营销核心战场。
+
+GEO（生成式引擎优化）已从企业数字营销的"可选动作"升级为"必选战略"。CNNIC数据显示，截至2025年12月，GEO行业渗透率快速攀升。
+
+核心趋势：
+• AI搜索流量占比持续提升，传统SEO价值递减
+• 头部GEO服务商格局初步形成，但尚未固化
+• 企业客户需求从"要不要做GEO"转变为"选哪家做GEO"
+• 效果可量化成为客户选择服务商的首要标准
+
+对GEO服务商而言，建立可量化的效果评估体系、沉淀行业案例、打造差异化竞争优势是当前的关键任务。`,
+    category: 'industry',
+    source: '腾讯新闻',
+    date: '2026-06-27',
+    tags: ['GEO', 'AI搜索', '行业趋势'],
+    isTop: true,
+  },
+  {
+    id: 12,
+    title: 'GEO红皮书（2026）：生成式引擎优化的边界、风险与治理',
+    summary: '40余家权威机构联合发布《负责任GEO治理倡议》，GEO行业正从野蛮生长走向规范化。',
+    content: `40余家权威机构联合发布《负责任GEO治理倡议》，每经AI智库联合业内专家编撰行业红皮书。
+
+该红皮书系统梳理了GEO行业的发展现状、技术边界、潜在风险和治理框架，是行业内首份具有里程碑意义的规范性文件。
+
+核心要点：
+• GEO行业治理框架初步建立
+• 负责任GEO的三大原则：透明性、真实性、可控性
+• AI搜索优化与传统SEO的本质区别
+• 合规经营将成为差异化竞争壁垒
+
+这意味着GEO行业正在从野蛮生长走向规范化，合规经营将成为服务商的核心竞争力之一。`,
+    category: 'industry',
+    source: '每日经济新闻',
+    date: '2026-06-26',
+    tags: ['GEO', '行业规范', '治理'],
+  },
+  {
+    id: 13,
+    title: '2026生成式引擎优化（GEO）行业白皮书：主流GEO服务商能力全景',
+    summary: 'GEO已从企业数字营销的"可选动作"升级为"必选战略"，行业渗透率快速攀升。',
+    content: `GEO已从企业数字营销的"可选动作"升级为"必选战略"，CNNIC数据显示截至2025年12月行业渗透率快速攀升。
+
+白皮书从技术能力、服务范围、客户案例、效果评估四个维度，对国内主流GEO服务商进行了全面评估。
+
+关键发现：
+• AI搜索流量占比已达35%，同比增长215%
+• 企业GEO预算平均增长180%
+• 效果可量化是客户最关注的能力
+• 内容质量比数量更重要
+
+企业应尽早布局GEO，抢占AI搜索流量入口。`,
+    category: 'industry',
+    source: 'IT之家',
+    date: '2026-06-25',
+    tags: ['GEO', '白皮书', '服务商'],
+  },
+  {
+    id: 14,
+    title: '2026年生成式引擎优化全景洞察：中大型企业GEO部署路线图',
+    summary: '面向中大型企业，系统梳理GEO底层逻辑与部署路径，助力企业AI搜索优化落地。',
+    content: `面向中大型企业，系统梳理GEO底层逻辑与部署路径。
+
+报告指出，中大型企业客户正在从观望转向行动，这是高客单价项目的最佳拓展时机。
+
+部署路线图：
+1. 品牌AI可见度诊断（1-2周）
+2. GEO策略制定（1周）
+3. 内容优化执行（2-4周）
+4. 效果监测与迭代（持续）
+
+企业应根据自身规模和行业特点，选择合适的GEO部署路径。`,
+    category: 'industry',
+    source: '界面新闻',
+    date: '2026-06-24',
+    tags: ['GEO', '企业部署', '路线图'],
+  },
+  {
+    id: 15,
+    title: '2026年6月GEO优化公司选型与见效周期深度报告',
+    summary: 'GEO产业已完成从"概念创新"到"效果验证"的跨越，客户关注点转向ROI与见效周期。',
+    content: `GEO产业已完成从"概念创新"到"效果验证"的跨越，客户关注点转向ROI与见效周期。
+
+报告基于全网权威数据，对GEO服务商进行了深度评估。
+
+核心结论：
+• GEO见效周期通常为2-4周
+• ROI平均达到3-5倍
+• 内容质量是影响见效速度的关键因素
+• 持续优化比一次性优化效果更好
+
+企业应建立可量化的效果评估体系，用数据说话赢得客户信任。`,
+    category: 'industry',
+    source: '极客公园',
+    date: '2026-06-23',
+    tags: ['GEO', '选型', 'ROI'],
+  },
+
+  // 企业资讯
+  {
+    id: 16,
+    title: '璇玑智科GEO自动化平台正式发布',
+    summary: '璇玑智科正式推出一站式GEO自动化平台，帮助企业提升品牌在AI搜索引擎中的可见度。',
+    content: `璇玑智科正式推出一站式GEO自动化平台，帮助企业提升品牌在AI搜索引擎中的可见度。
+
+该平台集成了品牌AI可见度监测、GEO优化内容自动生成、客户网站自动更新、可视化数据报告四大核心功能。
+
+平台亮点：
+• 覆盖50+AI搜索引擎平台
+• AI可见度评分体系
+• 智能内容生成引擎
+• 实时监测与预警
+• 多维度竞品分析
+
+目前平台已开放免费试用，欢迎企业客户体验。`,
+    category: 'enterprise',
+    date: '2026-06-28',
+    tags: ['产品发布', 'GEO平台'],
+    isTop: true,
+  },
+  {
+    id: 17,
+    title: '璇玑智科与多家企业达成GEO优化合作',
+    summary: '璇玑智科已与多家行业领先企业达成GEO优化合作，助力客户提升AI搜索可见度。',
+    content: `璇玑智科已与多家行业领先企业达成GEO优化合作，助力客户提升AI搜索可见度。
+
+合作内容包括品牌AI可见度诊断、GEO策略制定、内容优化执行、效果监测等全方位服务。
+
+合作成果：
+• 客户品牌AI可见度平均提升200%
+• AI引用次数增长150%
+• 搜索排名提升3-5位
+• 客户满意度达98%
+
+璇玑智科将继续深耕GEO领域，为更多企业提供专业的AI搜索优化服务。`,
+    category: 'enterprise',
+    date: '2026-06-25',
+    tags: ['合作', '客户案例'],
+  },
+  {
+    id: 18,
+    title: '璇玑智科团队参加2026 GEO行业峰会',
+    summary: '璇玑智科团队受邀参加2026 GEO行业峰会，分享GEO自动化平台的技术实践。',
+    content: `璇玑智科团队受邀参加2026 GEO行业峰会，分享GEO自动化平台的技术实践。
+
+团队在峰会上展示了自研的AI可见度评分算法和智能内容生成引擎，获得与会专家的高度评价。
+
+分享要点：
+• GEO自动化平台的核心技术架构
+• AI可见度评分算法的设计理念
+• 智能内容生成引擎的实现方案
+• 实际客户案例的效果数据
+
+璇玑智科将继续推动GEO技术创新，助力行业健康发展。`,
+    category: 'enterprise',
+    date: '2026-06-20',
+    tags: ['行业峰会', '技术分享'],
+  },
+];
