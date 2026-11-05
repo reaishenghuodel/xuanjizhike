@@ -12,6 +12,54 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: 402,
+    title: `2026 China GEO Vendor Landscape and Selection Research Report Frames AI Answer Entry as the New Battleground`,
+    summary: `An independent industry research roundup maps China's GEO service provider tiers and selection criteria, citing a projected 28.6 billion yuan AIGC application market in 2026 and Gartner's forecast that traditional search engine traffic will fall about 25 percent as AI assistants take over. CNNIC monitoring shows China's AI search penetration rising to 42.8 percent, and while roughly 70 percent of SEO skills transfer to GEO, the remaining 30 percent - structured semantic adaptation, E-E-A-T signal building and multi-platform algorithm alignment - cannot be covered by legacy SEO experience.`,
+    content: `Entry shift. The link-ranking paradigm of traditional search is being displaced by large-model powered generative Q&A. Users no longer sift through ten blue links but pose complete questions to assistants such as Doubao, DeepSeek, Kimi, Tongyi Qianwen, Tencent Yuanbao and Wenxin Yiyan, expecting integrated answers with cited sources. This has given rise to Generative Engine Optimization as an entirely new marketing technology track.
+
+Market data. A CAICT white paper projects China's AIGC application market at 28.6 billion yuan in 2026; Gartner expects traditional search engine traffic to drop about 25 percent, diverted by AI chatbots and similar entry points; NP Digital research finds AI tools already account for 36 percent of global answer-seeking behavior, with AI search queries averaging about 23 characters versus roughly 4 keywords in traditional search; CNNIC data shows China's AI search penetration climbing from 36.5 percent in mid-2025 to 42.8 percent by December 2025.
+
+Capability transfer. Industry white papers estimate about 70 percent of SEO skills carry over to GEO, but the core 30 percent - structured semantic adaptation, E-E-A-T signal building and multi-platform algorithm alignment - cannot be covered by traditional SEO experience alone, pushing enterprises toward specialist GEO vendors rather than repurposed content teams.
+
+Selection pitfalls. The report flags four common misconceptions: treating GEO as mass "AI publishing" that ignores structure and semantic fit, chasing being mentioned over being correctly understood, treating GEO as a one-off project without continuous monitoring and iteration, and over-relying on purely AI-generated content that drags down E-E-A-T signals. The vendor field spans marketing SaaS and data intelligence incumbents, GEO-native startups and teams with academic-industry backgrounds.`,
+    category: 'industry',
+    source: 'ifeng / Global Tech Network',
+    date: '2026-11-02',
+    tags: ['GEO', 'vendor selection', 'AI search', 'generative engines'],
+  },
+  {
+    id: 403,
+    title: `Cross-Engine GEO Benchmark: ChatGPT, Perplexity and Gemini Cite Content Very Differently, One-Size-Fits-All Fails`,
+    summary: `A benchmark built on 30 million AI citations and the Princeton KDD 2024 paper finds global AI search queries topped 10 billion per month in 2026, yet while 92 percent of marketers plan to optimize AI search visibility only 40.6 percent actually execute. ChatGPT surfaces only about 15 percent of retrieved pages in its final answers, and adding statistics or expert quotes lifts visibility by 41 percent while keyword stuffing cuts it by 10 percent.`,
+    content: `Scale and intent. Global AI search queries exceeded 10 billion per month in the first quarter of 2026, Gartner predicts traditional search traffic will fall 25 percent within two years, and ConvertMate's 2026 GEO benchmark survey shows 92 percent of marketers plan to optimize AI search visibility while only 40.6 percent are actually doing it.
+
+Citation mechanics. All three engines run the same retrieval-augmented generation pipeline - query understanding, retrieval of 20 to 100 candidate documents, re-ranking, then generation with citations - but their citation preferences, time-to-impact and ROI differ sharply. Analysis of 30 million AI citations shows only about 15 percent of pages retrieved by ChatGPT make it into the final answer; roughly 85 percent are filtered out at the candidate stage.
+
+Measured data. The Princeton and Georgia Tech KDD 2024 paper quantifies what helps: adding statistics raises visibility 41 percent, embedding expert quotes 41 percent, explicit source citations 30 percent, while keyword stuffing reduces visibility by 10 percent. Ahrefs research covering 15,000 prompts finds 80 percent of URLs cited by ChatGPT do not rank in Google's top 10; about 30 domains capture 67 percent of citations, and list-style content leads ChatGPT's format preferences at 21.9 percent.
+
+What it means. A single content set cannot win across every engine. Brands pursuing GEO need differentiated playbooks - chasing authoritative slots on ChatGPT, citation-first sourcing for Perplexity, and source-authority alignment for Gemini - with fact density, source authority, information uniqueness and structured content as the shared levers.`,
+    category: 'industry',
+    source: 'Kuazhi',
+    date: '2026-10-30',
+    tags: ['GEO', 'AI search', 'ChatGPT', 'Perplexity'],
+  },
+  {
+    id: 404,
+    title: `Deloitte Survey: Over 90 Percent of Enterprises Piloting AI, Only 8 Percent Report Financial Returns`,
+    summary: `Deloitte China's white paper released on October 27 finds 92 percent of enterprises have launched AI pilots, yet only 8 percent believe their AI spending delivered financial and strategic returns and just 4 percent claim organization-level AI transformation. Twenty-eight percent remain stuck in proof-of-concept and 56 percent in incremental rollout, with token and compute costs cited as a growing burden - some firms now spend more on tokens than they save from workforce optimization.`,
+    content: `The survey. Deloitte China's white paper released on October 27 shows 92 percent of enterprises have started AI pilots, but only 8 percent say AI investment delivered financial and strategic returns and only 4 percent claim genuine organization-level AI transformation. Among AI pilots, 28 percent remain at the experimentation stage, 56 percent are in incremental rollout, and just 4 percent each have reached scaled promotion or P&L-level impact.
+
+The gap. Deloitte partner Tang Jie attributes weak ROI to the disconnect between individual productivity gains and organizational productivity - office workers using AI for slides, meeting notes and translation produces point solutions that do not improve end-to-end processes or show up in revenue and profit. Overseas tech giants have found that spending on the token economy does not compare favorably with savings from workforce optimization.
+
+Cost pressure. Anthropic's recently filed IPO prospectus makes the math tangible: token-based revenue reached 13.1 billion US dollars in the first half of 2026, 80 percent of total revenue, while compute and infrastructure costs hit 8.945 billion US dollars, 55 percent of revenue. Buying tokens and paying for compute remains a heavy line item.
+
+Takeaway. Enterprise AI is moving from proof of concept to scaled deployment, but companies must convert scattered productivity gains into end-to-end process redesign with measurable P&L impact before the return equation works. Agent-scale deployment and organization-level transformation are the next competitive focus.`,
+    category: 'industry',
+    source: 'ifeng / Deloitte China',
+    date: '2026-10-27',
+    tags: ['AI agents', 'enterprise AI', 'ROI', 'Deloitte'],
+  },
+  {
     id: 399,
     title: `China GEO Industry Research Institute Releases Credibility Evaluation Guide for GEO Service Providers`,
     summary: `The China GEO Industry Research Institute has published the GEO Company Credibility Evaluation Guide, building a weighted scoring system across five dimensions: technical depth, delivery certainty, industry track record, compliance systems and service responsiveness. iResearch data shows over 62 percent of large and mid-sized Chinese brands now include GEO in annual marketing budgets, with the GEO market projected at 4.3 to 4.7 billion yuan, up over 210 percent year on year.`,
