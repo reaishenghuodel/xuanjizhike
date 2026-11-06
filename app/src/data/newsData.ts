@@ -13,6 +13,54 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 405,
+    title: `Industry Soul-Search: 'Time Is Running Out for GEO' as DeepSeek Pledges to Filter GEO Manipulation`,
+    summary: `A widely discussed commentary highlights the central paradox of the GEO industry - its momentum comes from growing AI capability, while part of its profit comes from AI's current inability to judge content quality. When DeepSeek opened its in-house search API on October 17 it explicitly pledged to filter SEO cheating, GEO manipulation and low-quality AIGC, signaling that resisting content manipulation is becoming a core competitive capability for AI search platforms.`,
+    content: `Background. DeepSeek opened its self-developed search API on October 17 with an explicit commitment in the official changelog to filter SEO cheating, GEO manipulation and low-quality AI-generated content, aiming to provide more trustworthy information to users and models. Using a robot vacuum purchase as an example, the article shows how consumers now hand comparison, review-reading and pitfall-checking entirely to assistants such as DeepSeek, Doubao and ChatGPT, moving the battleground of brand competition from search result pages into the answer text of AI responses.
+
+The GEO paradox. GEO's momentum comes from the growth of AI capability, but part of the GEO business profits from the remaining gaps in AI judgment. Brands that buy services exploiting loopholes AI cannot yet detect - dressing promotion up as word-of-mouth and paid placements up as consensus - face a simple question: how long can that business survive as AI gets better at verifying information? Platforms that want to keep users have every incentive to clean up such interference.
+
+Data disorder. A 2024 KDD paper by Aggarwal et al. from Princeton formalized GEO, introduced the GEO-bench benchmark and measured visibility lifts of up to 40 percent for optimized content in generative engines. Yet market-size figures for China's GEO industry in vendor PR copy range from 3 billion to 94.2 billion yuan - a thirtyfold gap. An industry that cannot even size itself consistently is busy giving authoritative endorsements to others.
+
+Compliance turn. A BBC Future journalist fabricated a tongue-in-cheek ranking of hot-dog-eating tech reporters and had it repeated as fact by Gemini and Google AI Overviews within 24 hours; Amsive's VP of SEO strategy Lily Ray noted that fooling AI chatbots is far easier than fooling Google was two or three years ago. But as AI search products strengthen detection of SEO cheating, GEO manipulation and low-quality AIGC, genuine original reporting, professional research and real case studies gain value - and GEO is shifting from loophole exploitation toward trustworthy semantic engineering and structured content.`,
+    category: 'industry',
+    source: 'ifeng',
+    date: '2026-11-05',
+    tags: ['GEO', 'AI search', 'content governance', 'DeepSeek'],
+  },
+  {
+    id: 406,
+    title: `Enterprise AI Agents Enter Deep Water in 2026: ROI Accounting and Scaled Replication Become the First Priority`,
+    summary: `Deloitte's 2026 Enterprise AI Report finds 66 percent of organizations have gained efficiency and productivity from AI, yet only 34 percent are truly rebuilding core business processes around it. Anthropic and Material report that 57 percent of organizations run multi-step agent workflows in production and 80 percent report measurable economic returns. The Uber all-in AI coding incident, where more than 5,000 engineers burned a full year's AI budget in four months with no movement in users, orders or revenue, is a cautionary tale about mistaking code output for business progress.`,
+    content: `Turning point. Deloitte's latest 2026 Enterprise AI Report shows 66 percent of organizations have gained efficiency and productivity from AI applications, but only 34 percent are truly using AI to rebuild core business processes and business models. AI technical capability has matured; organizational capability, process adaptation and ROI verification lag behind. Agent adoption is moving from pilot to production.
+
+Production numbers. The 2026 AI Agent Report by Anthropic and Material finds more than 57 percent of organizations have deployed multi-step agent workflows in production environments, 16 percent already cover cross-functional processes, and 80 percent of enterprises report measurable economic returns from these investments - actual ROI, not projected pilot benefits.
+
+Cautionary tale. The Uber all-in AI coding episode shook the industry: more than 5,000 engineers used AI coding tools and burned the entire annual AI budget in four months while user numbers, order volume and revenue did not budge. It exposes the most absurd misconception in enterprise AI adoption - treating code output as business progress while token consumption climbs and business metrics stay flat.
+
+How to proceed. Practitioners recommend measuring agent ROI across four dimensions - efficiency gains, cost restructuring, revenue increments and risk control - and scaling through four steps: single-scenario pilots, process precipitation, cross-functional replication and scaled operations. Three core recommendations for decision makers: measure AI value with business metrics rather than tool metrics, plan organizational capability building alongside technology investment, and establish ROI review mechanisms to continuously correct the direction of spend.`,
+    category: 'industry',
+    source: 'Deloitte / Anthropic / Hanlin Information',
+    date: '2026-11-05',
+    tags: ['AI agents', 'enterprise AI', 'ROI', 'digital transformation'],
+  },
+  {
+    id: 407,
+    title: `Brand Information Distortion in the AI Era: Entity Correction Capability Becomes the First Line of Defense in GEO Vendor Selection`,
+    summary: `Industry practice shows large language models do not pull content directly from corporate websites but rely on indexed public sources to interpret and trust information. Brand distortion stems from four causes - missing authoritative sources, conflicting multi-channel information, stale content and insufficient third-party corroboration. When evaluating GEO vendors, enterprises should focus on five dimensions: fixed question-set testing across platforms, fact-checking and correction mechanisms, structured content production, tiered source distribution, and retest ledgers with continuous calibration.`,
+    content: `Four causes of distortion. Large models do not fetch corporate websites directly; they interpret, summarize and trust indexed public sources. Brand information distortion falls into four categories: missing authoritative sources (only an official profile with no citable media coverage or structured data, inviting speculative statements), conflicting multi-channel information (company name, registered capital or main business differing across the website, job boards and media reports), stale information (old material persisting after a rename or transformation), and insufficient third-party corroboration (self-description only, with no authoritative cross-validation).
+
+Five selection dimensions. Enterprises evaluating GEO vendors should weigh five capabilities rather than price or promised rankings: fixed question-set testing across Doubao, DeepSeek, Wenxin Yiyan, Tencent Yuanbao, Tongyi Qianwen, Kimi and major overseas AI platforms; fact-checking and entity correction placed before content production; structured content that turns qualifications, product parameters and project cases into data-backed, sourced writing; tiered distribution across central media, portals, vertical outlets, regional media and overseas media; and retest ledgers that track exposure, citation frequency and recommendation position with continuous correction of declining content.
+
+Case evidence. In one engagement with a veterinary medical device manufacturer, 147 search terms achieved brand exposure across Doubao, DeepSeek, Wenxin Yiyan, Tencent Yuanbao, Tongyi Qianwen, Kimi and overseas platforms including ChatGPT, Gemini, Grok and Claude - 79 core terms on domestic platforms and 68 overseas.
+
+What it means. These problems rarely appear in traditional search ranking reports, yet they directly shape the brand perception customers form through AI Q&A. GEO is shifting from bulk content placement to a systematic discipline of factual accuracy, verifiable sources and continuous retesting.`,
+    category: 'industry',
+    source: 'ifeng Tech',
+    date: '2026-11-04',
+    tags: ['GEO', 'brand visibility', 'entity correction', 'vendor selection'],
+  },
+  {
     id: 402,
     title: `2026 China GEO Vendor Landscape and Selection Research Report Frames AI Answer Entry as the New Battleground`,
     summary: `An independent industry research roundup maps China's GEO service provider tiers and selection criteria, citing a projected 28.6 billion yuan AIGC application market in 2026 and Gartner's forecast that traditional search engine traffic will fall about 25 percent as AI assistants take over. CNNIC monitoring shows China's AI search penetration rising to 42.8 percent, and while roughly 70 percent of SEO skills transfer to GEO, the remaining 30 percent - structured semantic adaptation, E-E-A-T signal building and multi-platform algorithm alignment - cannot be covered by legacy SEO experience.`,
