@@ -13,6 +13,56 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 408,
+    title: `GEO Vendor Landscape, November 2026: Industry Still in Hypergrowth, 'Concept Packaging' Is the Biggest Selection Trap`,
+    summary: `A November 3 vendor review published by ifeng Hainan finds China's GEO industry still in a high-growth phase as of November 2026, with players ranging from established integrated marketing agencies to vertical tool platforms and traditional web service firms pivoting into the space. Capability models, delivery modes, service depth and industry fit vary widely, leaving brand buyers highly exposed to concept packaging, ranking claims and short-term performance promises.`,
+    content: `Converging definition. GEO - Generative Engine Optimization - is defined as systematically optimizing a company's brand information, business knowledge, product and service descriptions, case evidence and frequently asked questions around how generative AI platforms acquire information, parse semantics, consolidate content and generate answers, so that the information is more readily recognized, cited and accurately rendered by AI models. The core objective is not web rankings and click traffic but making enterprise information a trusted knowledge source inside AI answers.
+
+Service tiers. GEO services break into three levels: a base tier that fixes whether information exists, is accurate and is complete; an advanced tier that covers information needs across different decision stages; and a top tier focused on brand voice management, reputation governance and the systematic expression of complex information. Publishing a handful of articles only counts as base-tier delivery - treating that as a complete GEO program is itself a selection mistake.
+
+Four core modules. Diagnostics and consulting (auditing existing information assets, assessing completeness, accuracy and citation priority across AI platforms, identifying gaps and risks); content system building (layered content around real user questions plus AI semantic adaptation); knowledge graph construction (structuring scattered business information, product parameters and brand credentials to reduce hallucination at the source); and multi-platform deployment and distribution (pushing optimized content onto authoritative source platforms).
+
+How to evaluate vendors. The article argues buyers should first check whether a vendor can clearly articulate the concept boundary and service scope, then verify credentials, industry fit and delivery process - and stay wary of agencies packaging ranking claims and short-term performance promises. For brands, the verifiable deliverable is stable citation inside AI answers, not a report counting "keywords optimized".`,
+    category: 'industry',
+    source: 'ifeng Hainan',
+    date: '2026-11-07',
+    tags: ['GEO', 'vendor selection', 'AI search', 'China market'],
+  },
+  {
+    id: 409,
+    title: `China Advertising Association and Frost & Sullivan Launch 2026 China GEO Industry White Paper as Self-Regulation Standards Take Effect`,
+    summary: `The China Advertising Association formally began standardization work on GEO in March 2026, drafting self-regulation standards covering technical capability requirements, operational norms, service process criteria, compliance management and performance evaluation. Frost & Sullivan has now launched a 2026 China GEO Industry Development White Paper under the association's guidance and is collecting "trusted GEO" case studies.`,
+    content: `Standardization timeline. The China Advertising Association launched formal GEO standardization work in March 2026, setting industry self-regulation standards and operational guidelines across technical capability requirements, technical operation norms, service process criteria, compliance management requirements and performance evaluation systems. The stated goal is to curb industry chaos at the source and promote a healthy pattern in which good actors displace bad ones.
+
+White paper scope. Frost & Sullivan, a global growth consulting firm, has begun drafting the 2026 China GEO Industry Development White Paper under the association's guidance. Following the association's standardization framework, the paper builds a systematic understanding of China's GEO industry covering definitions and background, industry chain structure and commercialization paths, application practice and regulatory direction.
+
+The official definition. The white paper defines GEO as an information processing mechanism in which professional service providers, adhering to laws, platform rules and ethical requirements, apply content governance, technical adaptation, trusted-source development and multi-channel coordinated distribution to achieve structured expression, trustworthy supply and systematic optimization of relevant information - thereby improving its recognizability, understandability, callability, citability and recommendation fit within generative AI engines.
+
+Confirmed industry pain points. The launch document explicitly names rising information pollution risk, uneven service capability, inconsistent performance evaluation systems and non-compliant competition squeezing compliant players out of the market. For service providers, "trustworthy" stops being a marketing slogan and becomes a standards-based, auditable qualification dimension; for brands, vendor selection can now be checked against association standards.`,
+    category: 'industry',
+    source: 'Frost & Sullivan',
+    date: '2026-11-07',
+    tags: ['GEO', 'industry standards', 'China Advertising Association', 'regulation'],
+  },
+  {
+    id: 410,
+    title: `AI Search Market in Numbers: ChatGPT Holds ~17% of Global Queries, Perplexity Citation Conversion Runs 11x Traditional Search`,
+    summary: `The global AI search engine market is projected to grow from $16.3 billion in 2025 to $20.75 billion in 2026 at a 27.3% CAGR. ChatGPT reaches 900 million weekly active users and 2.5 billion daily prompts for roughly 17% of global digital queries, while Perplexity grew from 10 million monthly users in 2024 to over 100 million, with in-link citation conversion 11 times that of traditional organic search.`,
+    content: `Market size. The global AI search engine market is expected to grow from $16.3 billion in 2025 to $20.75 billion in 2026, a 27.3% compound annual growth rate. AI-driven search interactions are projected to exceed one trillion in 2026, about 30% of all search interactions.
+
+Platform share. ChatGPT holds 900 million weekly active users and processes 2.5 billion prompts per day, accounting for roughly 17% of global digital queries and 63% of AI referral traffic. Perplexity grew from 10 million monthly users in 2024 to over 100 million by April 2026, handling about 50 million queries weekly and capturing 15.1% of AI referral traffic. Claude reached an 18.5% share of AI referral traffic by May 2026, and Google Gemini rose from 5.6% in early 2025 to 27.4% in April 2026.
+
+Mechanism differences drive GEO strategy differences. ChatGPT search requires users to trigger it explicitly and presents citations as footnotes; its users click outbound links more often, averaging 1.4 clicks per visit versus 0.6 for Google users. Perplexity is built citation-first, attaching inline reference links to every answer, and its in-link citation conversion rate is 11 times that of traditional organic search. A key finding: content ranking well on Google does not necessarily surface in Perplexity, and vice versa - the two evaluate content on fundamentally different grounds.
+
+Zero-click and advertising impact. When Google AI Overviews appear, zero-click rates reach 83% and the top-ranking result loses 58% of its CTR. Google Ads CTR falls from 19.70% to 6.34%, a 68% decline. Yet AI search users convert at four times the rate of traditional search users, shifting paid search value from driving clicks toward brand exposure and trust building.
+
+Implications for GEO. Brands need platform-differentiated optimization: Perplexity favors clearly structured content with direct answers and authoritative citations, while ChatGPT weighs comprehensiveness and consistent tone. Single-platform tactics are losing marginal returns fast.`,
+    category: 'industry',
+    source: 'TideFlow',
+    date: '2026-11-06',
+    tags: ['AI search', 'market data', 'ChatGPT', 'Perplexity', 'GEO'],
+  },
+  {
     id: 405,
     title: `Industry Soul-Search: 'Time Is Running Out for GEO' as DeepSeek Pledges to Filter GEO Manipulation`,
     summary: `A widely discussed commentary highlights the central paradox of the GEO industry - its momentum comes from growing AI capability, while part of its profit comes from AI's current inability to judge content quality. When DeepSeek opened its in-house search API on October 17 it explicitly pledged to filter SEO cheating, GEO manipulation and low-quality AIGC, signaling that resisting content manipulation is becoming a core competitive capability for AI search platforms.`,
