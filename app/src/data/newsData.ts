@@ -13,6 +13,54 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 411,
+    title: `Analysys Releases China GEO Industry Application Scenario Maturity and Vendor Selection Report 2026 as GEO Becomes a Standing Marketing Budget Line`,
+    summary: `Analysys surveyed brands across consumer retail, cross-border commerce, industrial manufacturing and enterprise services to guide AI search vendor selection. The report treats proprietary engines, industry knowledge graphs and full-chain service capability as the dividing line between technology-native firms and outsourced content shops, and finds GEO shifting from early digital pilots to a standing marketing budget item across industries.`,
+    content: `Industry inflection. GEO - Generative Engine Optimization - is shifting from early digital pilot projects to a standing line item in marketing budgets across industries. Foundation models such as Doubao and DeepSeek are deeply embedded in consumer, industrial procurement and business service decision scenarios, and traditional search traffic keeps draining toward AI Q&A channels. For brands the competitive question is no longer "can we be found in search" but "can we be understood, cited and recommended by AI".
+
+Evaluation framework. The Analysys report distinguishes technology-native firms from outsourced content vendors by whether they own proprietary engines, industry knowledge graphs and full-chain service capability, and evaluates suppliers on three axes: technology, proven results and compliance. Common brand pain points it documents include missing brand information in AI answers, inaccurate product parameter descriptions, inconsistent brand narratives across models, and no lasting digital assets after short optimization engagements.
+
+Evidence sample. Per the 2026 Brand GEO Marketing Practice White Paper jointly published by Analysys and Tamei AI in September 2026, a European pharmaceutical case lifted average AI mention rates on core questions from 30% to 95% across four major AI platforms, and a period-care brand's Doubao mention rate rose from 30% to 98%; a beauty and skincare case saw AI mentions up about 285% with its Douyin index doubling over the same period.
+
+Compliance baseline. The report applies trusted-corpus grading under group standard T/CAACCHINA 004-2026, and leading vendors run five-dimensional compliance review covering corporate rules, laws and regulations, industry norms, ethical safety and platform rules. For brands, GEO vendor selection is shifting from comparing article prices to auditing proprietary technical assets, trusted corpora and compliance foundations.`,
+    category: 'industry',
+    source: 'Analysys / ifeng Finance',
+    date: '2026-11-07',
+    tags: ['GEO', 'AI search', 'vendor selection', 'China market'],
+  },
+  {
+    id: 412,
+    title: `QuestMobile Autumn Report: AI App "Entry War" Winds Down as Doubao and DeepSeek Lead Monthly Usage`,
+    summary: `QuestMobile's China Mobile Internet Autumn Report 2026 says competition in China's AI app market is shifting from user acquisition to high-frequency engagement and user operations. Doubao and DeepSeek average 72.0 and 65.9 uses per user per month, with 132.5 and 136.7 monthly minutes, leading all AI apps on both frequency and time spent.`,
+    content: `Competition phase shift. QuestMobile's China Mobile Internet Autumn Report, released November 3, concludes that the "entry war" in China's AI app market is nearing its end. Industry competition is moving from user-base expansion to high-frequency interaction and user operations - AI apps have entered a retention-driven phase.
+
+Usage data. Doubao and DeepSeek record 72.0 and 65.9 average uses per user per month, and 132.5 and 136.7 average monthly minutes respectively, leading other AI apps on both frequency and time spent.
+
+Diverging momentum. Doubao's monthly per-user uses and time each fell 6.1% and 7.8%, while DeepSeek's rose 5.8% and 9.5% respectively, showing steadily improving user activity - engagement differentiation among leading AI assistants is beginning to show.
+
+Implications for brands. As AI apps become high-frequency interaction entry points, users are solidifying the habit of asking AI assistants complete decision-stage questions. Whether brand information can be understood and cited by high-frequency entry points such as Doubao and DeepSeek is becoming the new visibility battleground, and usage-frequency-driven "entry operations" logic will reshape GEO investment priorities.`,
+    category: 'industry',
+    source: 'QuestMobile / ITBear',
+    date: '2026-11-03',
+    tags: ['AI search', 'market data', 'DeepSeek', 'Doubao'],
+  },
+  {
+    id: 413,
+    title: `Ant Group Digital Technologies Launches Agentar Medical Edition at Wuzhen Summit: AI Workbench for Doctors Lifts Documentation Efficiency About 70%`,
+    summary: `At the 2026 World Internet Conference Wuzhen Summit, Ant Group Digital Technologies launched Agentar Medical Edition, an AI workbench for clinicians bundling medical record quality control, diagnostic assistance and a 360-degree patient view. Named one of the expo's "Top 10 Debut Products", it reports about 70% faster medical documentation and over 93% accuracy on top-5 diagnostic suggestions.`,
+    content: `Launch. On November 2, at the 2026 World Internet Conference Wuzhen Summit, Ant Group Digital Technologies officially released Agentar Medical Edition. Focused on core clinical workflows, it combines medical record quality control, diagnostic assistance and a 360-degree patient view into one intelligent medical workbench, and was named one of the "Top 10 Debut Products" at the Light of Internet Expo.
+
+Measured results. Medical documentation efficiency improves by roughly 70%; patient information retrieval drops from 8 minutes to 30 seconds; geriatric comprehensive assessment completion rises to 95%. The AI's top-5 diagnostic suggestions exceed 93% accuracy, and real-time interception of unreasonable prescriptions in AI prescription review reaches 93%.
+
+Enterprise agent signal. Agentar Medical Edition is a landmark case of AI agents moving from general office tasks into high-value verticals. Healthcare demands extreme accuracy, traceability and compliance, so its launch shows enterprise agents embedding into core business processes as professional workbenches rather than staying at the chat-assistant level.
+
+Benchmark for buyers. The case offers quantifiable evaluation metrics - efficiency lift, suggestion accuracy, interception rate - that enterprises can use when procuring AI agents, reinforcing the industry consensus that agent deployments should be accepted against verifiable business KPIs.`,
+    category: 'industry',
+    source: 'TechWeb / ITBear',
+    date: '2026-11-02',
+    tags: ['AI agents', 'enterprise AI', 'healthcare', 'Ant Group'],
+  },
+  {
     id: 408,
     title: `GEO Vendor Landscape, November 2026: Industry Still in Hypergrowth, 'Concept Packaging' Is the Biggest Selection Trap`,
     summary: `A November 3 vendor review published by ifeng Hainan finds China's GEO industry still in a high-growth phase as of November 2026, with players ranging from established integrated marketing agencies to vertical tool platforms and traditional web service firms pivoting into the space. Capability models, delivery modes, service depth and industry fit vary widely, leaving brand buyers highly exposed to concept packaging, ranking claims and short-term performance promises.`,
