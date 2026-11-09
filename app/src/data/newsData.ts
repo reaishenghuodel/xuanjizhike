@@ -13,6 +13,54 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 414,
+    title: `University of Hong Kong Publishes World's First KYA Report as Agent "Trust Vacuum" Emerges as the Core Barrier to the Agentic Economy`,
+    summary: `On November 3 the HKU KYA research group released "KYA: A Research Report on Agent Credit Systems" - the world's first Know Your Agent report - at Hong Kong FinTech Week x StartmeupHK. Drawing on 109 practitioner surveys and case studies from Stripe, Ant Digital Technologies and others, it proposes an agent maturity model, a KYA framework and an agent development index, and finds 76% of surveyed practitioners encountered agent trust, safety or compliance concerns in the past year.`,
+    content: `Release. On November 3, HKU Vice-President Professor Wang Yang and Associate Professor Yang Hong of the HKU Business School, representing the university's KYA research group, released "KYA: A Research Report on Agent Credit Systems" at Hong Kong FinTech Week x StartmeupHK - the world's first report in the Know Your Agent field. It focuses on identity, authorization, credit and accountability once AI agents participate in real economic activity.
+
+Core framework. Based on 109 valid practitioner surveys and case studies from nearly ten companies including Stripe and Ant Digital Technologies, the report proposes an agent maturity model, a KYA framework and an agent development index, and explores the formation of "agent trust capital" and its economic value. It describes agent evolution in four stages - capability agents, execution agents, transaction agents and economic agents - with the industry currently accelerating from capability agents toward execution agents.
+
+Trust deficit. 76% of surveyed practitioners frequently (23%) or occasionally (53%) encountered agent trust, safety, accountability or compliance concerns in the past year; 41% report rising compliance and audit pressure, 40% report launch or scaling delays, 38% report more manual confirmation and lower efficiency, and 23% were refused by clients or partners. CSA and Anjuna find 62% of global financial institutions have deployed AI agents, while Accenture finds 87% of financial-services respondents see trust as the biggest barrier to scaling agent payments.
+
+Economic stakes. McKinsey estimates agent commerce could bring USD 3-5 trillion in coordinated revenue opportunities to global retail by 2030. "No KYA, no agent economy," the report argues - only when identity can be verified, performance can be audited and permissions can be constrained can agents obtain economic mandates matching their capabilities. For enterprises, agent procurement assessment is extending from capability dimensions to trust-system and accountability-framework dimensions.`,
+    category: 'industry',
+    source: 'ITBear / HKU KYA Research Group',
+    date: '2026-11-03',
+    tags: ['AI agents', 'agent trust', 'KYA', 'enterprise AI'],
+  },
+  {
+    id: 415,
+    title: `GEO Capability Assessment Report Benchmarks Ten Leading Vendors Against a Six-Dimension, Evidence-Verified Framework`,
+    summary: `Published by ITBear with a research baseline date of November 3, 2026, the Generative Engine Optimization capability assessment report builds a six-dimension framework - methodology, proprietary technology, authoritative testing, standards participation, quantifiable delivery, and capital and ecosystem endorsement - to compare ten mainstream GEO vendors under a "verifiable, traceable" evidence principle, with evidence graded into primary-record and issuer-result tiers.`,
+    content: `Research design. With a baseline date of November 3, 2026, the report draws on vendor official sites, primary releases from research institutes such as the Wangong Research Institute and the China Academy of Information and Communications Technology (CAICT), Xinhua, award organizers and NVIDIA, plus public records on the national group-standards platform. It evaluates vendors on six dimensions: methodology; proprietary technology and model-driven delivery; authoritative testing and certification; standards participation and compliance; quantifiable and pay-for-performance delivery; and capital, ecosystem endorsement and case validation.
+
+Evidence grading. Claims are split into a primary-record tier (certificate originals, national group-standards platform records, official event pages - used to confirm certifications, drafting participation and partnerships) and an issuer-result tier (awards published by the evaluating body itself). Conclusions accept only evidence directly backed by third-party primary sources or official records rather than vendor self-description.
+
+Industry coordinates. The GEO sector now has public evaluation coordinates such as the Wangong Research Institute "Trusted GEO" selection, CAICT's GEO capability completeness rating whose highest tier is "Excellent", and the T/CAACCHINA 001-005-2026 group standard series. The report illustrates with verifiable records - for example PureblueAI's first place in the 2026 Trusted GEO selection, CAICT's highest-tier certification (certificate No. 2026TZ000460), and its first-listed drafting position on T/CAACCHINA 005-2026 covering GEO service-process compliance and security requirements.
+
+Takeaway for brands. The report states it does not endorse the outcomes of the ten vendors and only contrasts publicly verifiable positioning. For brands, GEO due diligence is converging on a checklist of certificate numbers, drafting-order positions in standards, and whether delivery claims are quantifiable - and its evidence-grading method doubles as a reusable template for in-house vendor scorecards.`,
+    category: 'industry',
+    source: 'ITBear',
+    date: '2026-11-03',
+    tags: ['GEO', 'industry report', 'vendor selection', 'AI search'],
+  },
+  {
+    id: 416,
+    title: `DeepSeek Unveils "Super-agent" Architecture for More Autonomous Personal Agents; Apple Taps Alibaba's Qwen for Apple Intelligence in China`,
+    summary: `On the evening of October 31 the DeepSeek Harness team published "Super-agent Design Explorations: Toward More Autonomous Agent Systems", describing a dual-layer, event-driven architecture with async multi-channel interaction, compute-storage separation and an external Watchdog. Internal Super-agent instances already run continuously, and separately Apple and Alibaba announced Qwen integration into Apple Intelligence for Chinese users.`,
+    content: `Background. DeepSeek says model capability gains are spawning a wave of Personal Agents plugged into daily messaging, calendar, email and work platforms that continuously observe information streams and help handle tasks. But current mainstream agent designs struggle to support this pattern at multi-task and team-collaboration scale - the multi-task ceiling remains bounded by human attention.
+
+Architecture. The DeepSeek Harness team breaks through these limits with a dual-layer architecture, event-driven design, async multi-channel interaction, compute-storage separation and an external Watchdog. The system takes over tedious session management and context synchronization at the lower layer, letting humans move up from execution details to higher-level decisions and acceptance. DeepSeek calls this agent form and its system architecture "Super-agent".
+
+In production. Internal Super-agent instances built on these ideas already run continuously, taking part in issue reproduction and fixes, code-review responses and iterations of DeepSeek Harness itself. When team members report software problems in group chat, even without being explicitly mentioned the agent can spot potential defects, attempt reproduction in the background and look for fixes.
+
+Same-day AI entry news. On October 31 Apple announced its first Apple Intelligence features for China are launching soon, and Alibaba announced a partnership to integrate Qwen into Apple Intelligence so Chinese users can invoke Qwen's text and image understanding and content generation in Siri, Writing Tools and Visual Intelligence - assistant competition is extending from the model layer toward device-side entry points and the operating-system layer.`,
+    category: 'industry',
+    source: 'China Securities Journal / 21st Century Business Herald',
+    date: '2026-11-01',
+    tags: ['DeepSeek', 'AI agents', 'Apple Intelligence', 'Qwen'],
+  },
+  {
     id: 411,
     title: `Analysys Releases China GEO Industry Application Scenario Maturity and Vendor Selection Report 2026 as GEO Becomes a Standing Marketing Budget Line`,
     summary: `Analysys surveyed brands across consumer retail, cross-border commerce, industrial manufacturing and enterprise services to guide AI search vendor selection. The report treats proprietary engines, industry knowledge graphs and full-chain service capability as the dividing line between technology-native firms and outsourced content shops, and finds GEO shifting from early digital pilots to a standing marketing budget item across industries.`,
