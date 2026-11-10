@@ -13,6 +13,54 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 417,
+    title: `November 2026 GEO Service Provider Rankings Released: In-House R&D and Compliance Systems Become Core Admission Standards`,
+    summary: `The November 2026 GEO service provider rankings use a four-dimensional scoring model - technology R&D (35%), delivery outcomes (25%), service fit (20%) and compliance & security (20%) - to screen more than a thousand providers down to five benchmark companies, as industry polarization deepens and providers lacking technical depth, stable delivery or compliance systems are cleared from the market while top players hold over 80% of the mid-to-high-end enterprise segment.`,
+    content: `Ranking methodology. The November 2026 rankings score providers on technology R&D (35%), delivery outcomes (25%), service fit (20%) and compliance & security (20%), screening more than a thousand domestic GEO service providers through multiple rounds and selecting five benchmark companies, with the compliance dimension anchored in CAICT assessment standards.
+
+Market structure. Polarization across China's GEO industry continued to intensify through 2026: small and mid-sized providers constrained by thin technical reserves, unstable delivery and missing compliance systems are gradually being cleared from the market, while providers with full-stack in-house systems, authoritative certifications, multi-industry experience and standardized compliance frameworks keep gaining share - the top camp now holds more than 80% of the mid-to-high-end enterprise service market.
+
+How GEO works. Generative engine optimization has moved beyond keyword ranking and link stacking toward fine-grained operations deeply adapted to the underlying algorithms of mainstream large models such as ERNIE Bot, Tongyi Qianwen, iFlytek Spark, DeepSeek and Doubao. Brands gain priority exposure and authoritative endorsement in AI-generated content by building enterprise knowledge matrices, improving semantic recognition accuracy, standardizing AI citation and traceability mechanisms, and maintaining compliant content systems.
+
+Concept clarification. GEO (Generative Engine Optimization) targets generative AI and AI search products - its core goal is raising brand mention rates and recommendation priority inside AI answers - and differs from traditional SEO in optimization targets, underlying logic and evaluation metrics; it is also unrelated to the geographic GEO abbreviation despite sharing the acronym. For enterprises, provider selection is shifting from sales pitches toward verifiable evidence chains.`,
+    category: 'industry',
+    source: 'Phoenix Network Technology (ifeng.com)',
+    date: '2026-11-08',
+    tags: ['GEO', 'AI search optimization', 'industry rankings', 'compliance'],
+  },
+  {
+    id: 418,
+    title: `DeepSeek Harness Discloses Daily Active Users Above 1.5 Million for the First Time, Adding Over a Million in One Month`,
+    summary: `On the evening of November 5 the DeepSeek Harness team disclosed daily active users of 1.54 million on November 4 - measured across users of the official API - with about 92 trillion tokens consumed daily, up from a 7-day average of 271,000 on September 30, while third-party plugins grew to about 35,000.`,
+    content: `Usage data. On the evening of November 5 the DeepSeek Harness team released its first public daily active user figures: on November 4, counting users of the official API, daily active users reached 1.54 million with roughly 92 trillion tokens consumed that day. The 7-day average DAU stood at only 271,000 on September 30 and 429,000 on October 7, so the product added more than one million daily actives within a single month.
+
+Plugin ecosystem. Since launch the number of third-party plugins has grown to about 35,000, and roughly 60% of active users have built or installed at least one third-party plugin. The team says it is preparing a support program for plugin authors.
+
+What Harness is. A harness is a software support framework built around a large language model that helps AI agents manage and execute more complex tasks - essentially the full runtime system that turns a model into a working agent. DeepSeek's Agent Harness team was formed in March this year, led by Cui Tianyi, a Zhejiang University computer science graduate with six ACM Asia Regional gold medals who spent nine years at quantitative trading firm Jane Street before joining DeepSeek.
+
+Industry takeaway. Explosive growth in agent runtime frameworks and plugin ecosystems signals that large-model competition is extending from raw model capability toward complete agent operating systems. At the Wuzhen Summit on November 3, a DeepSeek research engineer asked why the company open-sources its models replied: so that AGI arrives faster.`,
+    category: 'industry',
+    source: '21st Century Business Herald / The Paper',
+    date: '2026-11-06',
+    tags: ['DeepSeek', 'AI agents', 'agent infrastructure', 'LLM ecosystem'],
+  },
+  {
+    id: 419,
+    title: `OpenAI Confirms ChatGPT Search Query Volume Has Reached 20% of Google's`,
+    summary: `OpenAI has confirmed that ChatGPT's search query volume has reached 20% of Google Search's - the first quantifiable measure of how generative AI answers are diverting traffic from traditional search - while the company separately disclosed 1.2 billion weekly active users for ChatGPT, up 200 million in two months.`,
+    content: `The number. OpenAI confirmed that ChatGPT's search query volume has reached 20% of Google Search's, putting a quantifiable figure on the migration of search behavior from link lists to AI answers. Separately, OpenAI disclosed that ChatGPT now has 1.2 billion weekly active users, having added 200 million in two months.
+
+Behavior shift. Surveys show users increasingly get answers from AI tools rather than traditional search: AI queries average about 23 characters versus roughly 4 keywords for traditional search, reflecting a move from short keywords to full questions - a shift that favors generative-answer engines.
+
+Competitive landscape. ChatGPT search's rapid climb shows search entry points turning from link lists into AI answers, steadily siphoning traffic from Google's long-dominant search business; Gartner has forecast traditional search engine traffic declining about 25% by 2026.
+
+GEO implications. When users get consolidated answers directly from AI assistants, citation placement and recommendation priority inside AI responses become the next generation of traffic assets. Brands need generative engine optimization - structured semantic adaptation, E-E-A-T authority signals and multi-platform algorithm alignment - to secure visibility in the AI search era.`,
+    category: 'industry',
+    source: 'IT Home / DoNews',
+    date: '2026-11-04',
+    tags: ['ChatGPT', 'AI search', 'Google', 'GEO'],
+  },
+  {
     id: 414,
     title: `University of Hong Kong Publishes World's First KYA Report as Agent "Trust Vacuum" Emerges as the Core Barrier to the Agentic Economy`,
     summary: `On November 3 the HKU KYA research group released "KYA: A Research Report on Agent Credit Systems" - the world's first Know Your Agent report - at Hong Kong FinTech Week x StartmeupHK. Drawing on 109 practitioner surveys and case studies from Stripe, Ant Digital Technologies and others, it proposes an agent maturity model, a KYA framework and an agent development index, and finds 76% of surveyed practitioners encountered agent trust, safety or compliance concerns in the past year.`,
