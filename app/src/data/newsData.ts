@@ -13,6 +13,54 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 420,
+    title: `GEO System Selection Guide Sets Five Hard Criteria: Question Banks, Independent Sampling, Citation Attribution, Data Reproduction and Free Quotas`,
+    summary: `A complete GEO optimization system selection guide published on CSDN argues that GEO is not "SEO repackaged for the AI era" but a new discipline of cognitive engineering: large models decide what to cite through recall, re-ranking and generation, and enterprises must follow a five-step rollout - deep diagnosis, knowledge-base construction, content engineering, dynamic distribution and real-time monitoring - while selecting vendors on five hard criteria.`,
+    content: `Underlying logic. Generative engine optimization is not "SEO repackaged for the AI era" but a new cognitive engineering discipline - SEO competes for positions on the search results page while GEO competes for which sources an AI answer selects. Large models answer questions in three steps (recall, re-ranking, generation), RAG (retrieval-augmented generation) is the core technical foundation, and the essence of GEO is making brand content a priority hit in RAG retrieval.
+
+Semantic assets. The most valuable digital asset for enterprises in the AI era is no longer website traffic but "semantic assets" - structured brand knowledge with high-credibility labels that AI can efficiently recognize - built along three dimensions: entity prominence (Schema markup and structured data), semantic scenario coverage across the full funnel (awareness, consideration, decision, repurchase) and multimodal semantic alignment.
+
+Five-step rollout. Deep diagnosis (AI citation rate, semantic deviation, competitor semantic share, producing a "semantic gap map") comes first, followed by knowledge-base construction, content engineering (intent alignment rather than keyword stuffing), platform-specific distribution (each AI platform's RAG mechanism differs) and real-time monitoring. Core metrics are AI citation share, brand semantic sentiment index and conversion attribution; semantic associations form within 24 hours, citation rates shift in about 14 days and results stabilize over 30-90 days - any vendor promising "results within a week" is selling talk.
+
+Five selection criteria. First, does the question bank store real user questions rather than keywords? Second, does the platform sample each AI engine independently (in China: Doubao, DeepSeek, ERNIE Bot, Tongyi Qianwen, Kimi and Yuanbao)? Third, can it explain "why the AI cited you" with citation backtracking? Fourth, can the data be exported and reproduced with platform, exact question, timestamp and query count attached? Fifth, is the free quota enough to run one complete diagnosis? The industry standard "Generative Engine Optimization (GEO) Group Standard" is in drafting, with credible-corpus specifications as its fourth part.`,
+    category: 'industry',
+    source: 'CSDN',
+    date: '2026-11-07',
+    tags: ['GEO', 'AI search optimization', 'vendor selection', 'semantic assets'],
+  },
+  {
+    id: 421,
+    title: `November 2026 AI Chatbot Market Share Report: ChatGPT Rebounds to 52.3%, Claude Becomes the Fastest-Growing Platform`,
+    summary: `First Page Sage's November 2026 AI chatbot market share report shows ChatGPT rebounding to 52.3% of US web and mobile monthly active users in October (its third straight monthly gain), Gemini easing to 26.3% and Claude rising to 11.2% with the largest monthly gain, while Claude also posted the fastest three-month user growth at 22%; users increasingly keep two or three chatbots in rotation, and October's releases centered on models reaching more people rather than new flagships.`,
+    content: `Share landscape. October US web and mobile monthly-active-user shares: ChatGPT 52.3% (+0.2 points, third consecutive monthly gain), Google Gemini 26.3% (down from its August high of 27.6% for a second straight decline), Claude 11.2% (+0.6, the largest gain of any platform), Grok 3.4%, Perplexity 1.8%, Microsoft Copilot 1.34% (a yearly high) and DeepSeek 0.4%. ChatGPT began 2026 with 67.1% in January, slid to 51.3% in July, and has since stabilized.
+
+Growth momentum. Claude was the fastest-growing chatbot, averaging about 291.1 million monthly active users from August to October versus 238.2 million from May to July, up 22%; Gemini grew 15%, ChatGPT 4%, DeepSeek 4%, Copilot 3% and Grok 2%, while Perplexity declined 6%. The Gemini app passed one billion monthly active users on August 11.
+
+October releases. GPT-6 Sol became the default chat model on paid plans on October 7 with GPT-6 Luna reaching free tiers the next day; Anthropic released Claude Haiku 5.5 and moved Docs, Slides and Design out of beta onto every plan including Free; Gemini 4 Argon rolled out only to paid subscribers while Gemini 4 Carbon got limited early access; DeepSeek updated its V4.1-Flash model on October 17; Microsoft disclosed that Microsoft 365 Copilot daily users rose nearly 50% quarter over quarter.
+
+Industry implications. Users increasingly keep two or three chatbots in rotation rather than switching outright, which limits how far any single platform can climb or fall - ChatGPT is projected to hold in the low 50s through the rest of 2026. The release theme of the month was extending model reach rather than launching new flagships, and for brands running GEO programs the takeaway is to cover multiple AI entry points and tune content distribution to each platform's RAG preferences instead of betting on a single engine.`,
+    category: 'industry',
+    source: 'First Page Sage',
+    date: '2026-11-02',
+    tags: ['AI chatbots', 'market share', 'ChatGPT', 'Claude'],
+  },
+  {
+    id: 422,
+    title: `199IT Report: Generative AI Websites Draw 9.5B Monthly Visits, Up 70% Year Over Year, as Enterprise Competition Enters "Intelligent Distribution"`,
+    summary: `A 199IT report shows global generative AI websites averaged 950 million monthly visits (up 70% year over year) with 655 million monthly active unique visitors (up 57%) and 4.4 billion mobile app downloads (up 58%) between June 2025 and May 2026; ChatGPT remains the most-visited standalone AI website but its share is being challenged by Gemini, Claude, Perplexity and DeepSeek, while 95% of ChatGPT users also use Google - AI search and traditional search complement rather than replace each other.`,
+    content: `Market scale. Between June 2025 and May 2026, global generative AI websites averaged 950 million visits per month (up 70% year over year), monthly active unique visitors reached 655 million (up 57%) and mobile AI app downloads hit 4.4 billion (up 58%). AI has moved from a niche tool for tech early adopters to a daily digital gateway spanning search, office work, shopping and social interaction.
+
+Competitive structure. ChatGPT still leads standalone AI websites by visits, but its share faces sustained challenges from Gemini, Claude, Perplexity and DeepSeek; US mobile monthly-active-user growth diverged sharply - Meta AI +435%, Claude +349%, Grok +117%, Perplexity +94%, ChatGPT +87%, Gemini +31%, while DeepSeek fell 23% and Microsoft 365 Copilot fell 31%. Meta AI grew from 384 million monthly actives in September 2024 to 1.2 billion in March 2026, validating the scale advantages of AI embedded in super-app ecosystems.
+
+Search evolution. Google is pushing search toward an AI-native model, with AI Overviews becoming a major part of results and AI Mode traffic growing steadily; 95% of ChatGPT users also use Google - AI search handles complex analysis, comparison and decision support while traditional search covers quick lookups and navigation, so the two form a complementary system rather than a replacement.
+
+Enterprise implications. AI is reshaping the consumer decision journey (Amazon's Alexa for Shopping is already driving product-page traffic for brands), and digital marketing metrics must shift from raw traffic acquisition toward AI recommendation exposure, citation value and final conversion. The internet is moving from "traffic competition" to "intelligent distribution competition" - enterprises that own data assets, structure their content and integrate into the AI ecosystem are most likely to become core players in the next phase of the digital economy.`,
+    category: 'industry',
+    source: 'Sina Tech / 199IT',
+    date: '2026-10-26',
+    tags: ['generative AI', 'AI search', 'market landscape', 'digital marketing'],
+  },
+  {
     id: 417,
     title: `November 2026 GEO Service Provider Rankings Released: In-House R&D and Compliance Systems Become Core Admission Standards`,
     summary: `The November 2026 GEO service provider rankings use a four-dimensional scoring model - technology R&D (35%), delivery outcomes (25%), service fit (20%) and compliance & security (20%) - to screen more than a thousand providers down to five benchmark companies, as industry polarization deepens and providers lacking technical depth, stable delivery or compliance systems are cleared from the market while top players hold over 80% of the mid-to-high-end enterprise segment.`,
