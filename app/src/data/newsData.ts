@@ -13,6 +13,52 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 423,
+    title: `2026 GEO Service Provider Panorama Guide Maps Vendor Boundaries and Selection Traps`,
+    summary: `A comprehensive GEO vendor guide notes that China's generative engine optimization industry as of November 2026 features "comprehensive full-service providers leading, with multiple participant types coexisting" amid hype and inconsistent delivery; it proposes a six-dimension evaluation framework, eight qualification checks, an RaaS payment explainer and ten common selection pitfalls for enterprises buying GEO services.`,
+    content: `Market landscape. As of November 2026 China's GEO industry is in a fast-growth phase with a "comprehensive providers leading, multiple participant types coexisting" structure: full-stack self-developed comprehensive vendors lead, while vertical technical platforms and SaaS tool vendors (such as Marketingforce and 360) serve as complements. Market chaos includes concept packaging, blurred capability boundaries and inconsistent delivery standards - some enterprises pay for GEO but only receive templated content pages and shallow monitoring reports.
+
+Six-dimension evaluation. Professional capability should be assessed on: autonomy of the technology base (share of self-developed systems, ability to adapt to AI platform algorithm updates), implementable methodology (content layering logic and quality-check mechanisms), depth of industry knowledge, standardization of delivery processes, scientific definition of results (multi-dimensional metrics such as information coverage, AI citation rate, content asset accumulation and lead quality), and compliance and risk-control capability - especially critical for regulated industries such as finance, healthcare and education.
+
+Eight qualification checks. Enterprises should verify: systematic service capability rather than repackaged traditional SEO, layered content execution frameworks, brand reputation and risk management, a high proportion of self-developed technology, operational stability, scaled professional teams, delivery experience at comparable scale, and result metrics written into the contract. GEO services are tiered into a basic layer (information existence and accuracy), an advanced layer (full decision-cycle coverage) and a premium layer (voice management and reputation governance).
+
+RaaS and pitfalls. The Result-as-a-Service model ties vendor fees to agreed metrics such as coverage and citation rates and suits large full-scope projects. Ten common selection mistakes include comparing only price, trusting absolute performance promises, applying traditional SEO standards, skipping case verification, ignoring data and account ownership, and neglecting compliance risk. Basic information optimization shows initial results in 1-2 months while systematic full-scope GEO needs a 3-6 month settling period.`,
+    category: 'industry',
+    source: 'Phoenix New Media (ifeng)',
+    date: '2026-11-11',
+    tags: ['GEO', 'vendor selection', 'RaaS', 'AI search optimization'],
+  },
+  {
+    id: 424,
+    title: `Moonshot AI Starts Renting Digital Workers as Agent Pricing Anchors Shift to Labor Budgets`,
+    summary: `On November 5 Moonshot AI began renting out its Harness agent runtime as a hosted service - cloud sandbox at 0.072 yuan per hour plus separate token and plugin fees - marking the fifth upward shift of enterprise AI pricing anchors from licenses and seats to agent work hours, with budget ownership moving from IT spending toward structured execution-layer labor costs as Anthropic and OpenAI launch comparable hosted agent products.`,
+    content: `The launch. Moonshot AI's Hosted Agents package the full back-office infrastructure for "AI employees" - cloud sandbox, session memory, tool chains, crash recovery and audit logs - as a rental service running 24/7 in the cloud with resume-from-checkpoint support. Pricing is 0.072 yuan per hour for the sandbox, with token inference fees and per-call plugin fees stacked on top.
+
+Pricing anchor migration. Enterprise AI procurement has completed its fifth pricing-anchor shift: License (assets) to SaaS accounts (access) to seats (per person/month) to tokens (usage) to agent runtimes (work hours). Budget ownership slides from IT spending toward the structurable execution layer of labor spending. Anthropic's Claude Managed Agents (0.08 USD per session hour) and OpenAI's Hosted Agents follow the same model - an industry-wide turn from "selling electricity" to "selling work hours".
+
+Rent versus buy. Agents have high-intensity dynamism - they must evolve, be maintained and follow business changes - so bought-out versions depreciate to zero while renting externalizes iteration risk to the vendor. A three-tier structure coexists: cloud-native agents mainly rented, edge devices "buy the device, rent the brains", robots "buy the body plus maintenance services", while government and sovereign systems keep self-built foundations.
+
+Governance and market. The Wuzhen Intelligent Agent Self-Discipline Convention released in November 2026 calls for "verifiable identity, controllable authorization, inspectable behavior and traceable responsibility", with the national blockchain network serving as a trust anchor; HKU research found 76% of practitioners have encountered agent trust concerns. Result-based pricing works only in narrow scenarios such as marketing acquisition; IDC forecasts China's enterprise AI agent market growing from 21.2 billion yuan in 2025 to 332 billion yuan in 2029.`,
+    category: 'industry',
+    source: 'Titan Media (TMTPost)',
+    date: '2026-11-11',
+    tags: ['AI agents', 'hosted agents', 'digital workers', 'pricing models'],
+  },
+  {
+    id: 425,
+    title: `OpenAI to Merge ChatGPT's Chat and Work Tabs as ChatGPT and Codex Share Usage Limits`,
+    summary: `OpenAI plans to merge ChatGPT's Chat and Work tabs into a single experience with a limited test before wider rollout while keeping Codex separate; starting December, Plus, Pro and Business subscribers will draw on a shared token-based usage allowance across ChatGPT and Codex, with Instant chat exempt and combined balances visible in settings.`,
+    content: `The merger. OpenAI plans to fold ChatGPT's Chat tab (everyday questions and conversational help) and Work tab (longer tasks including research, analysis, and creating documents, presentations and websites) into one interface, starting with a limited test before a broader rollout. The desktop Codex coding experience stays separate. The company says the merge lets users "go from exploring an idea to having ChatGPT carry it through, all in one place", with files and plugins usable while reviewing and guiding its work.
+
+Billing changes. Starting in December, Plus, Pro and Business plans move to a shared usage allowance across ChatGPT and Codex, measured in tokens, with more demanding tasks and advanced models consuming more of the allowance. Instant chat does not draw from the shared pool. Subscribers can check combined remaining usage and reset times under Settings - Usage; hitting a limit means waiting for a reset, upgrading, or buying credits for eligible features.
+
+Industry context. ChatGPT has been consolidating workflow entry points - interactive graphics in October, image-based ad tests, and an invisible text watermark for AI-generated text (mandatory in the EU). The unified interface funnels "ask - research - deliver" into a single entry point, concentrating the citation surface for brand GEO work and calling for content distribution strategies to be re-evaluated around the unified entry.`,
+    category: 'industry',
+    source: 'Mashable',
+    date: '2026-11-11',
+    tags: ['ChatGPT', 'OpenAI', 'AI search', 'product updates'],
+  },
+  {
     id: 420,
     title: `GEO System Selection Guide Sets Five Hard Criteria: Question Banks, Independent Sampling, Citation Attribution, Data Reproduction and Free Quotas`,
     summary: `A complete GEO optimization system selection guide published on CSDN argues that GEO is not "SEO repackaged for the AI era" but a new discipline of cognitive engineering: large models decide what to cite through recall, re-ranking and generation, and enterprises must follow a five-step rollout - deep diagnosis, knowledge-base construction, content engineering, dynamic distribution and real-time monitoring - while selecting vendors on five hard criteria.`,
