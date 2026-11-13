@@ -13,6 +13,54 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 426,
+    title: `GEO Press-Release Platforms Explained: Source Authority and Content Structure Decide AI Citations`,
+    summary: `A Phoenix New Media Tech analysis of GEO press-release distribution notes that large models score and layer sources by authority, freshness and multi-source consistency, with central media and authoritative industry sites far more likely to be trusted; industry tests show GEO-optimized brand information gains roughly 3x weight in ByteDance-family AI search with a structured citation rate around 53%, pushing vendor selection from volume thinking to weight thinking.`,
+    content: `GEO distribution logic. As user information entry points split in 2026 - some people keep using search engines while others ask Doubao, DeepSeek, Yuanbao and Tongyi Qianwen directly - visibility inside AI answers is becoming a new communication metric. The core value of a GEO press-release platform is to get brand content into the LLM retrieval candidate pool and earn positive citations after multi-source verification: authoritative sources are the foundation, content structure is the key, and continuous monitoring and iteration is the guarantee.
+
+Source weight layering. In the GEO era large models score and layer sources when generating answers - central media, authoritative industry sites and high-credit vertical portals are more likely to be trusted, while large volumes of low-weight, templated, keyword-stuffed advertorial sites basically never make the reference list. A common failure mode is doubled press-release volume with decent indexing yet the brand still invisible in AI answers; the problem is usually low channel weight, so vendor selection must shift from volume thinking to weight thinking.
+
+How models answer. The internal flow of mainstream LLMs can be summarized as: understand user intent, pull candidate pages from training corpora and real-time crawling, score and rank them by authority, freshness and multi-source consistency, then write the top-ranked viewpoints into the final answer. Releases placed on low-weight sites may stay stuck in the candidate pool and never reach the citation stage.
+
+Effect data. Industry tests across multiple vendors in 2026 show a consistent trend: GEO-optimized brand information sees roughly 3x weight improvement in ByteDance-family AI search with a structured citation rate around 53%, versus about 8% organic citation for unoptimized content. GEO does not replace SEO but upgrades it - reputable distribution platforms usually cover both search indexing and the LLM candidate pool.`,
+    category: 'industry',
+    source: 'Phoenix New Media Tech (ifeng)',
+    date: '2026-11-12',
+    tags: ['GEO', 'press release distribution', 'source authority', 'AI search'],
+  },
+  {
+    id: 427,
+    title: `November 2026 AI Inclusion Checklist: Authoritative Sources, Structured Content and Multi-Source Consistency`,
+    summary: `A Phoenix New Media analysis argues that whether brand content gets included and cited by large models depends on three conditions - the content sits on an authoritative source, its structure is easy for models to extract, and multiple independent sources tell a consistent story - and that AI inclusion (entering the LLM retrieval pool and being cited in answers) is not the same as ordinary web indexing.`,
+    content: `Three conditions for AI inclusion. For brand content to be included and cited by large models, three conditions must hold: the content sits on an authoritative source, its structure is easy for models to extract, and multiple independent sources tell a consistent story - miss any one and the content, even once published, struggles to enter answers. "Inclusion" here means entering the LLM retrieval pool and being cited when questions are answered, which is not the same as ordinary web indexing.
+
+How models select content. Large models work on retrieval-augmented generation: they first parse the intent of the user's question, recall relevant content from sources in the retrieval pool, weight it by authority, cross-verify it, and synthesize the answer. Getting included requires the source to be inside the retrieval range; getting cited additionally requires semantic matching, clear structure and multi-source corroboration.
+
+Why indexed pages still miss citations. Common reasons include: the source sits outside the model's trusted range; the content is essay-style prose with no extractable key points; critical claims rest on a single source and cannot be cross-verified; brand information contradicts other sources; or the content is too stale. Web indexing is only the first step - AI citation must still pass the filters of source, structure and consistency.
+
+Why enterprises should plan AI visibility now. Users increasingly ask Doubao, DeepSeek, Yuanbao and Tongyi Qianwen directly for brand recommendations and category comparisons. If brand content never enters the retrieval pool, AI answers will only mention competitors or leave a blank - laying out sources and content according to model inclusion rules is now one of the basics of brand communication planning.`,
+    category: 'industry',
+    source: 'Phoenix New Media (ifeng)',
+    date: '2026-11-11',
+    tags: ['AI search', 'brand visibility', 'RAG', 'content structure'],
+  },
+  {
+    id: 428,
+    title: `How to Choose a GEO Optimization System in November 2026: From First Principles to Vendor Selection`,
+    summary: `A CSDN guide argues GEO is not "SEO for the AI era" with new paint but a new cognitive engineering discipline - systematic content engineering, technical configuration and authority-signal building that makes brand information precisely recognized, positively cited and preferentially recommended when AI models generate answers - and that vendor selection should start from the underlying differences in interaction and distribution logic.`,
+    content: `Not SEO with new paint. As of November 2026 some people still treat GEO as "SEO for the AI era" - swap a few keywords, publish a few articles, and expect AI to mention you. GEO, generative engine optimization, is actually a systematic discipline of content engineering, technical configuration and authority-signal building that makes brand information precisely recognized, positively cited and preferentially recommended when AI models generate answers. Its difference from traditional SEO is logical, not incremental - it is a cognitive engineering problem rather than a reskinned SEO workflow.
+
+Interaction logic. SEO handles keyword retrieval where users type fragmented words; GEO handles natural-language dialogue where users type long sentences carrying complex intent. The optimization core shifts from keyword density to semantic intent matching.
+
+Distribution mechanism. SEO relies on backlink weight and the PageRank algorithm; GEO relies on the attention mechanism of large models, which care far more about content credibility and logical coherence, making authority-signal building and structured expression the core variables instead of link stacking.
+
+Selection methodology. Choosing a GEO optimization system should start from these underlying differences rather than surface feature checklists: first clarify whether the system is designed around semantic intent matching and authority-signal building, then evaluate implementation-side capabilities such as content engineering depth, automation of technical configuration, and monitoring-and-iteration mechanisms - avoiding the trap of measuring GEO tools with traditional SEO standards.`,
+    category: 'industry',
+    source: 'CSDN',
+    date: '2026-11-07',
+    tags: ['GEO', 'vendor selection', 'semantic optimization', 'AI search'],
+  },
+  {
     id: 423,
     title: `2026 GEO Service Provider Panorama Guide Maps Vendor Boundaries and Selection Traps`,
     summary: `A comprehensive GEO vendor guide notes that China's generative engine optimization industry as of November 2026 features "comprehensive full-service providers leading, with multiple participant types coexisting" amid hype and inconsistent delivery; it proposes a six-dimension evaluation framework, eight qualification checks, an RaaS payment explainer and ten common selection pitfalls for enterprises buying GEO services.`,
