@@ -13,6 +13,55 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 429,
+    title: `GEO Enters Its "Standards Year": CAAC Publishes Five Group Standards; China GEO Market Forecast to Reach 137.6B RMB by 2030`,
+    summary: `China's China Advertising Association (CAAC) has published five group standards for Generative Engine Optimization (T/CAACCHINA 001-005-2026) defining GEO's boundary against SEO/AEO and standardizing vendor evaluation, pricing/measurement and trustworthy corpora; iResearch forecasts China's GEO market to grow from about 4.8B RMB in 2026 to 137.6B RMB in 2030, while Gartner predicts AI search will erode 50% of traditional search traffic in 2026.`,
+    content: `Standards land. The five CAAC group standards passed review and were published on September 14 via the national group-standards platform, covering general terms, vendor evaluation, pricing/assessment/measurement, trustworthy corpora, and service-process compliance. They define GEO's core goal as "making content discovered, cited and recommended in generative engine responses" and provide a yardstick for distinguishing real GEO from SEO reskinned as GEO.
+
+Market size. iResearch forecasts China's GEO market at about 4.8B RMB in 2026, 15.4B in 2027, 43B in 2028 and 137.6B RMB by 2030 - a five-year CAGR above 130%. In H1 2026, 23 public GEO tenders worth over 60M RMB were recorded (largest single deal 18M RMB), and the market shows a "dumbbell" competitive structure.
+
+User migration. CNNIC data show China's generative-AI user base exceeded 602 million in H1 2026 (42.8% of netizens), with 80%+ of consumers using AI to assist purchase decisions. Gartner predicts AI search will consume 50% of traditional search traffic in 2026, shifting brand reach logic from winning clicks to earning AI citations.
+
+Governance. The compliance section explicitly bans promises such as "absolute control of model output" and "100% answer domination"; the measurement section defines statistical conventions for nine core indicators including visibility rate, pushing effect evaluation from black box to white box and popularizing RaaS (result-as-a-service) pricing.`,
+    category: 'industry',
+    source: 'CAAC / Phoenix New Media',
+    date: '2026-11-16',
+    tags: ['GEO', 'industry standards', 'AI search', 'market forecast'],
+  },
+  {
+    id: 430,
+    title: `October 2026 China GEO Vendor Top-10 Roundup: Tencent, Alibaba and Weimob Enter the Field; Monitoring Shifts from Screenshots to Real-Client Sampling`,
+    summary: `A Huaxia Morning Post roundup of China's top-10 GEO vendors (BlueFocus, Marketingforce, Shengliang Engine, Alibaba Super XuanChuan, Weimob Xingqi, Tencent Answerbit, GenOptima, Hongdong Data, Percent Point, 360 Zhijian) highlights platform giants entering the field and AI search being treated as a new traffic entry on par with search ads; monitoring is moving from effect screenshots to multi-round sampling in real AI clients, with transparent metric definitions becoming a competitive differentiator.`,
+    content: `Competitive landscape. The top-10 spans four player types - marketing groups, marketing SaaS, self-developed technology teams and platform ecosystems. The sector has moved from marketing companies "also doing GEO" to a multi-force contest, with AI search now treated as a new traffic entry alongside search advertising.
+
+Platform giants enter. Tencent Qidian launched Answerbit for AI-search brand-visibility monitoring (daily sampling of major AI platforms with citation tracking); Alibaba Super XuanChuan, Weimob Xingqi and 360 Zhijian each rolled out GEO products, signaling that AI search has become a strategic entry point.
+
+Monitoring upgrades. Delivery is shifting from screenshots to real-client, multi-round sampling - asking questions inside the AI apps users actually use, with five or more rounds needed for statistical reference; public disclosure of indicator formulas (mention rate, top-1 rate, top-3 rate) and composite weights is becoming a purchase criterion.
+
+Convergence. GEO is merging with social-media operations (social content itself becomes AI source material), and GEO capabilities are entering brands' own systems via open APIs and AI-assistant skills; delivery models are splitting into project-based, pay-per-result and SaaS subscription tiers.`,
+    category: 'industry',
+    source: 'Huaxia Morning Post',
+    date: '2026-11-16',
+    tags: ['GEO', 'AI search', 'vendor landscape', 'monitoring'],
+  },
+  {
+    id: 431,
+    title: `OpenAI Launches ChatGPT Wallet for Agent Payments; DeepSeek Opens Its Full App Capability API`,
+    summary: `Mid-November industry moves: OpenAI's ChatGPT Wallet enables agents to complete payments and transactions inside conversations with user authorization, moving AI assistants from advice to execution; DeepSeek has fully API-ified its app capabilities - web search, file reading, link reading, OCR and voice - across Messages, Responses and ChatCompletions interfaces, lowering the barrier for enterprise agent applications.`,
+    content: `ChatGPT Wallet. OpenAI launched ChatGPT Wallet in mid-November, letting agents complete orders and payments directly in conversations once authorized by the user. AI assistants move from "giving advice" to "acting on your behalf", closing the commercial loop for agentic products.
+
+DeepSeek capability APIs. DeepSeek has exposed its app's web search, file reading, link reading, OCR and voice capabilities as APIs callable through the Messages, Responses and ChatCompletions interfaces, giving developers the tool chain enterprise agents need without rebuilding it.
+
+Enterprise adoption. Payments plus tool APIs mean agents can enter real business and transaction workflows and evolve from chat assistants toward "digital employees" (IDC projects China's enterprise AI-agent market at 332B RMB by 2029); enterprises must stand up authorization, audit and accountability mechanisms in parallel.
+
+Brand impact. In agent-executed scenarios, the gate for a brand to be "chosen" by AI moves earlier in the funnel - GEO fundamentals (authoritative sources, structured content, multi-source consistency) will directly shape agent recommendations and procurement decisions.`,
+    category: 'industry',
+    source: 'CSDN / industry news',
+    date: '2026-11-16',
+    tags: ['AI agents', 'ChatGPT', 'DeepSeek', 'enterprise adoption'],
+  },
+
+  {
     id: 426,
     title: `GEO Press-Release Platforms Explained: Source Authority and Content Structure Decide AI Citations`,
     summary: `A Phoenix New Media Tech analysis of GEO press-release distribution notes that large models score and layer sources by authority, freshness and multi-source consistency, with central media and authoritative industry sites far more likely to be trusted; industry tests show GEO-optimized brand information gains roughly 3x weight in ByteDance-family AI search with a structured citation rate around 53%, pushing vendor selection from volume thinking to weight thinking.`,
