@@ -13,6 +13,54 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 432,
+    title: `Two Months On: China's GEO Standards Name Black-Hat Tactics; Major Advertisers Audit Providers with a Seven-Question Checklist`,
+    summary: `Two months after China's first GEO group standards took effect, prompt injection, keyword stuffing, forged authority endorsements and hidden text are explicitly named black-hat practices; the China Advertising Association added three more standards on October 23 (including measurement and verification), and procurement teams now audit vendors with a seven-question checklist, though no public penalty has been reported.`,
+    content: `What the rules name. The CAAC standards (T/CAACCHINA 001-005-2026) put prompt injection, keyword stuffing, forged authority endorsements and hidden text off-limits, with stricter source management and 100% human review for finance and healthcare content. Some 41 organizations and 75 experts took part in drafting, with 360, Zhihu and iFlytek among the drafting group.
+
+The rulebook is expanding. Two months in, there is more than one standard: the China Advertising Association put three additional GEO standards into force on October 23, 2026, one of them on measuring and verifying results, so proof based on a single AI answer or a single screenshot no longer holds. CAICT had earlier published its own trust requirements for GEO services (AIIA/T 0277-2026).
+
+Enforcement reality. These are recommended group standards, not law, and no public penalty has been tied to them so far. After CCTV's March 15 expose of AI poisoning, Jiemian reported that GEO vendors actually saw more inquiries and orders. The binding constraint is procurement: large advertisers now put the standards into tenders and audit vendors with seven questions, covering which prompts and platforms are tested (send the raw list), what the sample size is, where content is published and under whose name, whether hidden text, prompt injection or mass-generated articles are used, whether every authority claim is verifiable, where the human-review log sits for health and finance content, and which of the seven pricing units and five pricing models applies.
+
+Practical takeaway. A guaranteed top-three AI answer is a red flag, since model answers vary by user, date and wording. Honest GEO is mostly solid SEO, real PR and clean content on sources that models trust; brands should track a fixed prompt set across Doubao, DeepSeek and Qianwen rather than chase screenshots.`,
+    category: 'industry',
+    source: 'Marketing China (GMA) / Securities Times e-Company',
+    date: '2026-11-16',
+    tags: ['GEO', 'industry standards', 'compliance', 'vendor audit'],
+  },
+  {
+    id: 433,
+    title: `Meta-Analysis of 66 GEO Articles: 90% of "AI Mention" Advice Is Repackaged SEO; 44,070-Citation Dataset Shows Third-Party Pages Dominate`,
+    summary: `A developer had Claude read 66 SEO/GEO long-form articles, 48 agent skill packs and 14 GitHub repos and found roughly 90% of "AI mention" advice is classic SEO repackaged; a dataset of 44,070 AI citations across 10 brands shows 85% of citations point to third-party pages while brand-owned sites account for under 4%.`,
+    content: `Method and verdict. Having Claude digest 66 SEO/GEO long-form articles, 48 free agent skill packs and 14 GitHub repos (2k-27k stars) and run a baseline check on a not-yet-launched site, the author concludes about 90% of "AI mentions up X%" advice is classic SEO actions re-skinned. Repeated thresholds like "rank 8-15", "at least 5 internal links" or "DR 20" are heuristics even in reliable sources, and some headline numbers quietly come from Google Search Console impressions.
+
+Citation data. A dataset covering 44,070 citations across 10 brands shows 85% of AI citations land on third-party pages (best-of lists, YouTube, review sites) while brand-owned sites account for under 4%, yet brands whose own sites are cited get named noticeably more often, so both sides matter. ChatGPT replaces most of its sources within a week, making one-off tests nearly meaningless.
+
+What works. Put the answer in the first 40-80 words and name the product; keep best-of lists to 5-8 options (3 looks like an ad, 25 looks like a directory); source every price from the vendor's own page with a "checked on" date and include one real con. Bing Webmaster Tools now surfaces the queries for which Copilot cites your site, the closest thing to free first-party AI citation data. Measure with 15-30 real buyer questions run at least twice per engine while logged out, tracking mentions and citations as separate numbers; adding "how did you hear about us" at signup revealed Google was over-attributed 3.4x by analytics.
+
+Basics and guardrails. Missing sitemap, canonical, structured data or the www-to-apex redirect makes any crawler strategy moot, and real-time search bots (OAI-SearchBot, Claude-SearchBot, PerplexityBot, Bingbot) must not be blocked. When agents do SEO, numbers must come from tools, not the model; permissions run in three tiers (read data and write drafts, publish only with approval, never delete pages or touch robots.txt and canonical, enforced as hooks rather than prompts), with pre-deploy snapshots checking for noindex flips, canonical drift, 200-to-404 changes and robots.txt blocks.`,
+    category: 'industry',
+    source: 'AtomGit AI Community / CSDN',
+    date: '2026-11-16',
+    tags: ['GEO', 'AI search', 'citation data', 'SEO'],
+  },
+  {
+    id: 434,
+    title: `Anthropic Ships Fable 5.2 and Restricted Mythos 5.2: 1,000+ Subagents Build a Prototype Operating System in Eight Days`,
+    summary: `Anthropic announced Fable 5.2 (generally available) and Mythos 5.2 (restricted access) engineering models on November 9; in its headline demo Fable coordinated more than 1,000 subagents for eight days of work, building from an empty folder a prototype OS that boots on a laptop with drivers, file storage, windows, a login screen and an installer.`,
+    content: `The demo. Anthropic says Fable 5.2 coordinated more than 1,000 subagents through eight days of coding, testing and review, starting from an empty folder and one engineer's request, to produce a prototype operating system that boots on a laptop with drivers, file storage, windows, a login screen and an installer. The company frames it as a striking demonstration of long-running delegated coding, an experiment rather than evidence the model can reliably build production operating systems.
+
+Two models, one base. Fable 5.2 and Mythos 5.2 share an underlying model but differ in safeguards and access: Fable went generally available on November 9 with protections that block most cybersecurity-related tasks, while Mythos reaches selected organizations through cybersecurity and life-sciences verification programs with fewer safeguards in those fields. Both cost 8 dollars per million input tokens and 40 dollars per million output tokens; the optional fast mode doubles those prices for up to 2.5x faster generation.
+
+Benchmarks and production. In early FrontierCode 2.0 testing, Fable at High effort scored 45.3% versus Opus 5.5's best 45.5% at roughly half the cost per task, company-reported results rather than independent assessments. In a separate production project, agents running an earlier Fable version migrated a service from Python to Rust, with startup reportedly about 26 times faster.
+
+Selection advice. Anthropic still recommends starting with Opus 5.5 for most coding and knowledge work and switching to Fable or Mythos when the assignment demands it: the newest or cheapest model is not automatically the right default. Meta's low-cost Muse Ember (from 0.10 dollars per million input tokens) points the same way, pairing big planners with small models for routine agent steps such as tool calls, document parsing and targeted code fixes.`,
+    category: 'industry',
+    source: 'Anthropic / Superpower Daily / Economic Times',
+    date: '2026-11-09',
+    tags: ['AI agents', 'Anthropic', 'LLM', 'coding agents'],
+  },
+  {
     id: 429,
     title: `GEO Enters Its "Standards Year": CAAC Publishes Five Group Standards; China GEO Market Forecast to Reach 137.6B RMB by 2030`,
     summary: `China's China Advertising Association (CAAC) has published five group standards for Generative Engine Optimization (T/CAACCHINA 001-005-2026) defining GEO's boundary against SEO/AEO and standardizing vendor evaluation, pricing/measurement and trustworthy corpora; iResearch forecasts China's GEO market to grow from about 4.8B RMB in 2026 to 137.6B RMB in 2030, while Gartner predicts AI search will erode 50% of traditional search traffic in 2026.`,
