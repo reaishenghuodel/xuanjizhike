@@ -13,6 +13,56 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 435,
+    title: `Service Entity Modeling in the Zero-Website Era: What GEO Engines Actually Rank`,
+    summary: `Local-life merchants with no website or official account are pulling long-tail AI-search traffic — the key is structuring dynamic service facts into "executable geo-service entities", not building pages.`,
+    content: `The core shift. Local-life merchants without websites or official accounts are pulling in long-tail natural traffic from AI-driven geo search. One shop owner saw queries like "pet bathing in Chaoyang" and "coffee shops near the Haidian school district" arrive from "Tencent Geo platform" despite never submitting a sitemap; a Hangzhou community grocery chain that never registered a domain, running everything on Meituan and Amap, beat its ¥30,000 mini-program by 37% on in-store conversions for "24-hour vegetable delivery in West Lake District" within three months.
+
+Why classic SEO fails here. A merchant that only fills in an address sees up to 82% exposure decay on queries like "late-night phone repair in Chaoyang" — the system treats it as a static coordinate, not a service node with 24/7 response capability. GEO ranking runs on geo proximity → service match → fulfillment certainty → real-time availability, not TF-IDF/PageRank. In a three-month controlled comparison on a dental chain, a full SEO website (Schema markup, sitemap, HTTPS) got 127 organic exposures for "Beijing implant price", while structured service data with no web links got 2,143 exposures for "same-day implants near Guomao" at 3.8× the CTR.
+
+What to do instead. Dynamic facts must be injected into the geo index layer in machine-parseable form: "can you take an order at 2 a.m." should be an API-returned boolean, "Mate 60 screen replacement success rate 92%" a service attribute field that participates in ranking — not prose in a shop bio. Platform-direct API data streams rank highest in the ingestion pipeline (OpenAPI 3.0, with a service_availability object). One tuning parameter worth knowing: on Tencent's geo platform, 73% of the service-match weight goes to vector cosine similarity between query and service attributes, so "pet bathing in Chaoyang" matches "dog grooming in Wangjing" well while "pet store in Chaoyang" matches poorly — it lacks a service-action verb.
+
+Practical takeaway. GEO is not "shoving webpages into maps"; it is giving the engine's millisecond reasoning chain — geo coordinates → semantic intent → service matching → credibility weighting → real-time response — the structured data it needs. For zero-website merchants, the core asset is executable service-entity data.`,
+    category: 'industry',
+    source: 'CSDN (webblog_16932933)',
+    date: '2026-11-17',
+    tags: ['GEO', 'entity modeling', 'local services', 'AI search'],
+  },
+  {
+    id: 436,
+    title: `AWS Reference Architecture: Agent GEO Optimization plus x402 Payments Turn Agent Traffic into Data Revenue`,
+    summary: `AWS's official China blog details a full pipeline — Bedrock/AgentCore industry research, GEO so agents discover and cite the content, and x402 pay-per-call for machine-readable data.`,
+    content: `The pipeline. AWS's official China blog lays out a complete practice: run industry research on Amazon Bedrock and Bedrock AgentCore, use GEO (generative engine optimization) so the resulting content is discovered, understood and cited by agents, then open a pay-per-call entry point for machine-readable data via the x402 protocol — converting agent traffic into data-service revenue.
+
+The demo scenario. An e-commerce price-comparison content agent workflow walks through the lifecycle of a single article: trusted content production and paid delivery, executing the research so each piece answers a question worth asking, publishing the report and verifying GEO results, validating the x402 quote and payment, executing an authorized purchase and reconciling the transaction, and reviewing the GEO dashboard and payment outcomes.
+
+Why it matters. Agent traffic — machine crawls and API calls rather than human page views — is becoming a distribution channel in its own right, with a direct line to data-service income. This is the first official reference architecture that ties GEO performance directly to revenue: "content gets cited → machine-readable dataset → x402 micropayments" is now a buildable loop rather than a white-paper idea. The blog frames the endgame as moving from technical validation to a sustainable data business built on content assets.
+
+Practical takeaway. The GEO value loop is extending from "being cited by AI" to "being paid for by agents"; monetizing content as machine-readable data delivery is the next experimental frontier.`,
+    category: 'industry',
+    source: 'AWS China Blog (official)',
+    date: '2026-11-17',
+    tags: ['GEO', 'AI agents', 'x402', 'data monetization'],
+  },
+  {
+    id: 437,
+    title: `Dongyin Launches Supply-Chain AI Agents Across Four Domains; AI-Native Products Shift from Features to Task Execution`,
+    summary: `At its 2026 user conference, Dongyin released supply-chain AI agents for transport, warehousing, freight forwarding and shipping, plus AI-native DI.AI TMS and DI.AI CargoNova products.`,
+    content: `What launched. At its "Insight is Action" user conference in Shanghai on November 13, Dongyin Technology — 20+ years in logistics IT — released supply-chain AI agents covering four domains (transport, warehousing, freight forwarding, shipping) and showed two AI-native products: DI.AI TMS for transport management and DI.AI CargoNova for freight forwarding. The focus is high-frequency, judgment-heavy logistics work, pushing software from feature delivery toward business task execution.
+
+The agent lineup. Transport gets three agents: a logistics visibility agent merging carrier and third-party sea/land/air/warehouse milestones into one unified timeline (AI dialog and document recognition fill gaps where no system integration exists); an exception-management agent that flags fulfillment deviations and external risks, links affected orders, proposes actions from the enterprise knowledge base and SOPs, creates work orders and dispatches tasks within its authorization, escalates on timeout, and files post-mortems back into the knowledge base; and a POD-receipt audit agent that ties receipt collection, waybill matching, document recognition and customer-rule verification together, writing conclusions back to business systems as traceable settlement evidence. Warehousing covers put-away, replenishment and tally recommendations integrating with existing WMS; freight forwarding has a booking-entrustment agent parsing commissions from email attachments; shipping has a container-repositioning agent comparing sources, cost and arrival time.
+
+The AI-native products. DI.AI TMS is goal- and event-driven: staff state a shipment requirement, the system decomposes it into order validation, planning and delivery tasks, and creates sub-tasks to handle rush orders, deviations, changed delivery times or missing POD photos while humans keep requirement confirmation and key authorizations. DI.AI CargoNova organizes eight role agents around one freight job — capacity, quoting, booking, documents, customs, settlement, operations — with shared task state, linked quotes and costs, and human sign-off on external actions.
+
+The landing recipe. CEO Liu Bin says the critical moves for supply-chain AI are sedimenting context, converting business rules into callable skills, and crystallizing human judgment and experience into memory — backed by the firm's 20+ years of industry data.
+
+Practical takeaway. Enterprise agents are moving from Q&A assistants to task-execution systems; depth of domain context has become the dividing line for real-world deployment.`,
+    category: 'industry',
+    source: 'Ifeng Hainan (Business News)',
+    date: '2026-11-17',
+    tags: ['AI agents', 'supply chain', 'enterprise', 'task execution'],
+  },
+  {
     id: 432,
     title: `Two Months On: China's GEO Standards Name Black-Hat Tactics; Major Advertisers Audit Providers with a Seven-Question Checklist`,
     summary: `Two months after China's first GEO group standards took effect, prompt injection, keyword stuffing, forged authority endorsements and hidden text are explicitly named black-hat practices; the China Advertising Association added three more standards on October 23 (including measurement and verification), and procurement teams now audit vendors with a seven-question checklist, though no public penalty has been reported.`,
