@@ -13,6 +13,64 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 438,
+    title: `2026 GEO Vendor Effectiveness Selection Guide: Four Procurement Pain Points and a Five-Stage Full-Chain Benchmark`,
+    summary: `The latest GEO effectiveness selection guide finds the market expanding fast but uneven: buyers report effect volatility after model updates, opaque delivery, imprecise leads and unclear aftercare, while full-chain service must cover diagnosis, knowledge assets, source distribution, conversion capture and iteration.`,
+    content: `Market state. Public industry monitoring for November 2026 shows China's GEO service market expanding quickly with new entrants arriving, but service quality varies widely and buyer-side feedback shows selection is getting harder.
+
+Four procurement pain points. (1) Optimization results fluctuate after major model version updates. (2) Some vendors run opaque delivery pipelines where progress is hard to track. (3) Lead precision is low and invalid inquiries take a large share. (4) After-sales guarantees are unclear and costs run high.
+
+The full-chain benchmark. A complete GEO engagement covers five stages - AI-search performance diagnosis, brand knowledge asset building, multi-channel source distribution, conversion capture surface setup, and effect iteration - distinct from pure content generation or media placement. The common evaluation metrics are AI-search mention rate, brand information accuracy, valid lead share, and ROI.
+
+Tiered service models. Leading vendors price in tiers: a domestic standard tier for SMEs (one public quote: RMB 19,800/year covering a full-platform baseline report, year-round AI platform optimization, knowledge-graph building and weekly/monthly reviews), an overseas tier adding site building and international media distribution, and a custom tier for multi-brand groups and cross-border needs.
+
+Time-to-signal. Standard domestic service typically shows first movement in AI-search mentions and exposure within 2-4 weeks; stability depends on building brand-owned knowledge assets and authoritative sources, which dampens volatility from model updates.
+
+Practical takeaway. GEO procurement is shifting from "show me ranking screenshots" to "show me a traceable delivery system and effect data" - technical maturity, delivery standardization and after-sales mechanics are the three dimensions for long-term partnerships.`,
+    category: 'industry',
+    source: 'Phoenix Business (biz.ifeng.com)',
+    date: '2026-11-17',
+    tags: ['GEO', 'vendor selection', 'AI search', 'enterprise services'],
+  },
+  {
+    id: 439,
+    title: `Perplexity in 2026: Seven Core Features, Four Use Cases and How Its Plans Compare with ChatGPT`,
+    summary: `A PressPlay Academy deep dive maps Perplexity's 2026 product surface - four real-time search modes, verifiable citations, file input, Projects, Research, deliverable creation and the Comet browser - and compares its plans and positioning with ChatGPT.`,
+    content: `What it is. Perplexity combines AI with real-time web search and returns structured answers with cited sources that users can open and verify - a different interaction model from traditional search engines that list blue links.
+
+Seven core features. (1) Real-time search and summarization with four modes for different needs. (2) Cited sources on every answer for fact-checking. (3) Multiple file types accepted as input. (4) Projects to keep all material for one topic in a single space. (5) Research mode that turns a question into a complete report. (6) Create files and apps that turn answers into usable deliverables. (7) The Comet browser, where AI operates tabs on the user's behalf.
+
+Four use cases. Research and investigation, content production, material organization, and file/app generation - covering the full chain from information gathering to deliverable output.
+
+Versus ChatGPT. The article walks through plan pricing and capability trade-offs: Perplexity is stronger at source traceability, real-time retrieval and citation verification, while ChatGPT is stronger at general-purpose creation and its plugin ecosystem - researchers lean Perplexity, creators lean ChatGPT.
+
+Why it matters. Competition among AI search products is moving from "how human does the answer sound" to "how trustworthy are the citations". Whether a brand's information enters these tools' citation sources directly determines its visibility in the AI-search era.`,
+    category: 'industry',
+    source: 'PressPlay Academy',
+    date: '2026-11-17',
+    tags: ['Perplexity', 'ChatGPT', 'AI search', 'brand visibility'],
+  },
+  {
+    id: 440,
+    title: `GEO Architecture and Industry Agent Practice: Enterprise AI Enters the "Internal-External Dual Loop" Phase`,
+    summary: `A Tencent Cloud developer community deep dive argues enterprise AI now runs on two loops - internal agents for knowledge management and system coordination, external GEO for AI-search presence - with black-hat corpus flooding purged and authoritative structured sources now dominating recall.`,
+    content: `The dual loop. As generative AI becomes the primary information entry point for enterprise procurement and technology selection, digitalization faces a two-sided upgrade: bring AI inside business workflows and permission scopes, and use GEO to shape how the brand appears in AI search.
+
+Ecosystem contrast. Overseas (ChatGPT / Perplexity / Google AI) recall leans on open-web standalone sites, Schema.org structured markup and multilingual routing; domestic platforms (DeepSeek, Doubao, Qianwen, Yuanbao, Kimi) lean on officially registered sites, cloud developer communities and cross-platform consistency of expression, with professional-reasoning and consumer-Q&A scenes deeply split.
+
+Compliance shift. With RAG rerankers and fact-checking mechanisms improving, 2026 saw a thorough purge of early "black-hat GEO" corpus flooding; major platforms now significantly upweight authoritative official source sites and structured professional documentation. Only real, structured, verifiable digital assets win stable long-term recommendation.
+
+Four-step playbook. (1) Run a GEO audit: list the 20-50 core questions buyers ask and baseline the brand's presence across DeepSeek, Doubao, Kimi, Qianwen, Perplexity and ChatGPT. (2) Upgrade the site's structured foundation - application/ld+json with Organization/Service/knowsAbout fields, sitemap.xml, hreflang. (3) Build question-driven technical and business content instead of empty PR copy. (4) Introduce vertical industry agents into daily operations.
+
+Agent practice. Industry agents wrap LLM capability into concrete workflows - office knowledge collaboration, GEO source governance, education courseware generation, cross-border multilingual content - with permission controls, timed/event/manual triggers and full execution traces, letting AI enter business processes inside manageable boundaries.
+
+Takeaway. GEO is not an isolated marketing trick but the outward projection of an enterprise's internal knowledge assets into the external AI ecosystem; the "internal knowledge-agent + external GEO-agent" flywheel is becoming the key architecture of enterprise AI infrastructure in 2026.`,
+    category: 'industry',
+    source: 'Tencent Cloud Developer Community',
+    date: '2026-10-23',
+    tags: ['GEO', 'AI agents', 'enterprise AI', 'RAG'],
+  },
+  {
     id: 435,
     title: `Service Entity Modeling in the Zero-Website Era: What GEO Engines Actually Rank`,
     summary: `Local-life merchants with no website or official account are pulling long-tail AI-search traffic — the key is structuring dynamic service facts into "executable geo-service entities", not building pages.`,
