@@ -13,6 +13,62 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 441,
+    title: `Foundation Models Ship in Bulk as Agents Push into High-Value Physical Scenarios`,
+    summary: `A dense release week - OpenAI's GPT-6.2 (Astra and Sol), Google's Gemini 4 Neon, Alibaba's Qwen4-Max and Tencent's Hunyuan Hy4 flash - pairs capability gains with steep price cuts, while agents move from office work into manufacturing, city governance and healthcare, and pricing shifts toward multi-layer, scenario-based models.`,
+    content: `Model wave. On November 18 OpenAI launched the GPT-6.2 family: Astra targets complex professional work (document processing, programming, research, 3D design) while Sol handles everyday multi-step workflows with fewer tokens; API input/output prices fell 20% versus the previous generation and cached input dropped 60%. The same day Google released Gemini 4 Neon for complex software engineering, knowledge work and research, with million-token context and four thinking levels. Domestically, Alibaba shipped Qwen4-Max on November 16 with 2.4 trillion parameters and an average per-task cost about 58% lower than its predecessor, while Tencent launched Hunyuan Hy4 flash at RMB 0.5 per million input tokens and RMB 2 per million output tokens - one twentieth of Hy4 standard's per-task cost.
+
+Agents everywhere. Microsoft introduced Copilot Today on November 17, moving the assistant from "you ask, it answers" to "it watches first, then prepares", aggregating mail, meetings and tasks into one work hub. On November 18 Google launched Stitch Loop, a long-running agent that connects to codebases and live production data to keep finding issues and writing fixes, supporting 180+ integrations.
+
+Physical scenarios. At the upcoming bauma China show, SANY will unveil an AI agent and heavy-duty embodied robotics platform with cloud-vehicle coordinated autonomous mining trucks and excavators. On November 10 Zhongke Danao released four city agents: its Qiqitong industrial-economy agent cut enterprise visit preparation from one hour to one minute, while its Zhiyu digital doctor assistant - built with Peking University Hospital clinicians - now covers 200+ medical institutions and raised early chronic-disease diagnosis rates by 15-20%.
+
+Monetization. Pricing is evolving from flat API calls toward layered, scenario-based systems: token post-payment, subscriptions, platform-plus-model dual billing, separate multimodal pricing and private deployment. Billing is shifting from "per call" to "per task value, scenario depth and service tier", with caching and price cuts the key market-share levers.
+
+Takeaway. Foundation-model competition has moved from benchmark scores to reliably completing cross-tool workflows at low cost; capability gains plus falling inference costs are lowering the barrier to agent deployment, making manufacturing, city governance and healthcare the next battleground for agent adoption.`,
+    category: 'industry',
+    source: 'Economic Information Daily (jjckb.xinhuanet.com)',
+    date: '2026-11-19',
+    tags: ['foundation models', 'AI agents', 'enterprise AI', 'pricing'],
+  },
+  {
+    id: 442,
+    title: `Menlo Ventures Ranking: DeepSeek and Moonshot AI Both Crack the Global AI Top Ten`,
+    summary: `A global AI valuation-and-revenue leaderboard compiled by Menlo Ventures partner Deedy Das counts 30 private AI firms above $10B valuation with $100M+ annualized revenue - 23 of them US-based - with DeepSeek fifth at about $89B and Moonshot AI seventh at about $50B the only Chinese entrants, both inside the top ten.`,
+    content: `The list. In November 2026, Menlo Ventures partner Deedy Das published a global AI valuation and revenue leaderboard covering private AI companies with valuations above $10 billion and public annualized revenue above $100 million as of November 14. Thirty companies qualified, 23 from the United States; only DeepSeek and Moonshot AI from China made the cut - and both landed in the global top ten.
+
+Top of the table. The OpenAI-Anthropic duopoly holds: OpenAI leads with a valuation of about $1.25 trillion and Anthropic follows at about $965 billion, though their annualized revenue ranks have swapped places, with Anthropic now ahead of OpenAI.
+
+The Chinese pair. DeepSeek ranks fifth at roughly $89 billion. Under Liang Wenfeng's team it has stuck to a low-cost, high-efficiency route - reasoning models and open weights winning global developer mindshare, a free ad-free consumer product, and revenue almost entirely from enterprise and developer API calls; even after modest price increases demand held, validating technical premium and customer stickiness. Moonshot AI ranks seventh at about $50 billion: after the K3 release its performance, coding and long-horizon task capabilities won technical acclaim, requests once approached cluster capacity, and API-heavy revenue plus consumer subscriptions and overseas growth pushed ARR up sharply. Both firms show annualized revenue around the $1 billion level, at trailing multiples of roughly 89x and 50x respectively.
+
+Signal. Both Chinese companies breaking through at once shows China's AI industry shifting from burning cash to engineering efficiency, value for money, developer ecosystems and diversified monetization - DeepSeek leaning toward infrastructure and API-platform logic, Moonshot toward productization, subscriptions and agent scenarios. Capital pricing reflects not just current revenue but expectations for technical route, ecosystem potential and long-term commercialization.
+
+Takeaway. Two Chinese firms in the global hundred-billion-dollar club's top ten offer a reference path from reputation breakthrough to commercial validation - and for GEO, a brand's valuation-revenue-technical-route narrative is becoming a key factual anchor that models cite in their answers.`,
+    category: 'industry',
+    source: 'NetEase (163.com)',
+    date: '2026-11-17',
+    tags: ['DeepSeek', 'Moonshot AI', 'AI market', 'valuation'],
+  },
+  {
+    id: 443,
+    title: `2026 GEO Industry Practice and Brand Value White Paper Maps the Shift from Search Pages to AI Conversations`,
+    summary: `A new white paper from the GEO Industry Application Research Group documents four brand cognition pitfalls, a four-layer value model, three vendor strategy paths and 3-14 working-day time-to-effect, arguing that GEO vendors are evolving from content executors into managers of brands' cognition assets across the AI ecosystem.`,
+    content: `The report. The GEO Industry Application Research Group released the "2026 GEO Industry Practice and Brand Value White Paper" (No. GEO-HY-2026-003), covering January 2025 to October 2026 across services, manufacturing, education, new energy, e-commerce and finance, with an observation sample of nine GEO service providers.
+
+The entry point is moving. Users' main source of brand information is shifting from search result pages to AI conversation interfaces; how a brand appears in generated answers has become a variable in purchase and procurement decisions. The center of gravity in the decision chain moves from "users filtering information" to "models filtering information", and brand influence now arrives at the moment an answer is generated.
+
+Four pitfalls, four value layers. Brands face four cognition pitfalls in the AI ecosystem - scattered information, disconnected touchpoints, cognitive bias and missing citations - which compound each other. GEO value maps to four escalating layers: visibility, trust, acquisition efficiency and brand asset accumulation - from "being found" to "being believed", "being chosen" and "being remembered long-term".
+
+Industry shape. Three strategy paths have formed - vertical deepening, horizontal coverage and scenario focus - with time-to-effect typically 3-14 working days. The object of work has shifted from "pages" to "fact units", deliverables from "articles" to "structured cognition that models can reliably cite", and the vendor role from content executor to manager of a brand's cognition assets in the AI ecosystem.
+
+Outlook. Multimodal GEO is the new battleground: "multimodal corpus packages" pairing text, image, audio and video keep facts consistent whichever form is read. Integration with CRM, support desks and e-commerce backends will close the loop from impressions to inquiries to deals, turning GEO from a brand-publicity expense into measurable acquisition investment.
+
+Takeaway. GEO value is extending from "being seen" to "being trusted and chosen"; delivery should shift from volume to unified fact statements and question-coverage precision - the stable projects are not the biggest ones but those with the most consistent facts and the question coverage closest to real decisions.`,
+    category: 'industry',
+    source: 'ITHome (ithome.com)',
+    date: '2026-11-16',
+    tags: ['GEO', 'AI search', 'brand visibility', 'white paper'],
+  },
+  {
     id: 438,
     title: `2026 GEO Vendor Effectiveness Selection Guide: Four Procurement Pain Points and a Five-Stage Full-Chain Benchmark`,
     summary: `The latest GEO effectiveness selection guide finds the market expanding fast but uneven: buyers report effect volatility after model updates, opaque delivery, imprecise leads and unclear aftercare, while full-chain service must cover diagnosis, knowledge assets, source distribution, conversion capture and iteration.`,
