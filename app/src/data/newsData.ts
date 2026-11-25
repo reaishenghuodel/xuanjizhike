@@ -13,6 +13,47 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 444,
+    title: `Baidu App Loses 104 Million MAU in 12 Months as AI Rewrites the Search Entrance`,
+    summary: `Baidu's Q3 2026 results show its app falling from 708 million MAU in September 2025 to 604 million a year later, a 14.7% drop, while online marketing revenue fell 22% and dropped below half of core revenue for the first time in two decades. China's AI-native apps meanwhile reached 546 million MAU, up 82.1% year on year, with Doubao leading at 419 million.`,
+    content: `User and revenue decline. Baidu's Q3 2026 report showed its app at 604 million monthly active users as of September 2026, down from 708 million a year earlier - a net loss of 104 million users, or 14.7% year on year. Measured from the June 2025 peak of 735 million, the company shed 131 million MAU in fifteen months. Online marketing revenue came in at RMB 11.9 billion, down 22% year on year, falling to 48% of core business revenue - the first time in more than two decades of public listing that advertising has accounted for less than half of the core business.
+
+Where the users went. QuestMobile's autumn 2026 mobile internet report put China's AI-native app MAU at 546 million as of September 2026, up 82.1% year on year. ByteDance's Doubao leads with 419 million MAU, at 72.0 sessions and 132.5 minutes per user per month, while DeepSeek sees 65.9 sessions and 136.7 minutes despite tightened free quotas. CNNIC's 57th report recorded search engine users at 782 million as of December 2025, down 95.76 million year on year, against 602 million generative AI users.
+
+Two opposite strategies. Google welded AI into classic search - AI Overviews, then conversational AI Mode, Gemini 3 as the default Overviews model, then the Gemini 4 family. DataForSEO tracking shows AI Overviews triggering on 51.35% of commercial-intent Google searches in Q3 2026, up from 26.30% in Q4 2025. Baidu instead ran an aggressive overhaul under the slogan "forget search": roughly 70% of mobile result pages carried AI-generated content from October 2025, with AI summaries rolled out nationwide by March 2026.
+
+Cracks in the ad model. Alphabet's Google Search & other revenue growth decelerated through 2026 - 19% in Q1, 17% in Q2, 12% in Q3 - with management citing lower monetization rates in AI Mode. SparkToro research found the share of Google searches sending even one click outward fell 22.9% versus 2024, leaving fewer than one third of searches producing an open-web click.
+
+Agents rewrite the entrance. Search APIs built for agents rather than humans are scaling fast: Tavily raised USD 25 million, Exa USD 85 million and Parallel USD 100 million, while Brave Search API reports hundreds of millions of agentic queries per day at roughly USD 5-8 per thousand queries, returning clean text and Markdown instead of ad-laden pages. On November 18 DeepSeek dropped the separate per-call fee (previously RMB 5 per thousand successful requests) for the Search and Fetch endpoints it launched on October 17, billing only for model tokens.
+
+Takeaway. For the first time, the provider of search capability, the holder of the end-user entrance and the recipient of commercial revenue are separating. An agent can call a search index in the background without the engine ever showing a pixel of advertising. For GEO this means brand content must not only be retrievable by AI but adoptable as an executable fact inside agent workflows - not merely clickable by humans.`,
+    category: 'industry',
+    source: 'NetEase Tech / Luming Finance',
+    date: '2026-11-23',
+    tags: ['AI search', 'Baidu', 'AI agents', 'GEO', 'search API'],
+  },
+  {
+    id: 445,
+    title: `November GEO White Paper: China's Generative AI Users Top 700 Million as 76% Let AI Answer for Them`,
+    summary: `A November 2026 GEO industry white paper cites CNNIC data showing China's generative AI user base passed 700 million in the first half of 2026, with 76.0% of users asking generative AI to answer questions. It argues GEO's real scope is how enterprise information is recognized, used and organized by AI, and that evaluation should focus on traceability rather than publishing volume.`,
+    content: `Demand side. According to CNNIC's Generative AI Application Development Report (2026), reported by People's Daily Online on September 29, 2026, China's generative AI user base exceeded 700 million in the first half of 2026, and 76.0% of users say they let generative AI answer questions. Users no longer just look up material - they ask AI to make judgments, describing needs, adding conditions, demanding comparisons and explanations of why one option beats another.
+
+Defining the discipline. GEO stands for Generative Engine Optimization and concerns how enterprise information is recognized, used and organized by AI: whether the brand entity is clear, product descriptions accurate, cited sources sufficient to support the conclusion, and recommendations aligned with user needs. Its academic origin is the paper "GEO: Generative Engine Optimization", submitted in 2023 and accepted at KDD 2024.
+
+Supply side. GEO services come from AI technology firms, data companies, marketing agencies and search providers, packaged as tool subscriptions, project engagements or full-chain operations. The white paper advises buyers to look past feature lists and ask who executes the work after analysis, and whether those staff can verify sources and handle specialized content.
+
+Evaluation shifts to traceability. The paper argues evaluations should examine how strategy is formed, how tasks are executed, and whether results trace back to original records. It also separates generative AI user scale (adoption) from procurement content, delivery mode and continuity of cooperation (willingness to pay), warning against substituting industry heat for delivery capability.
+
+Industry consensus forming. The second GEO Industry Salon ran in Shenzhen on November 21-22 under the theme "let good brands be correctly recommended by AI", bringing mainstream media, AI platforms and GEO vendors together to move from vendor self-promotion toward cross-platform consensus.
+
+Takeaway. With 76% of users delegating comparison and shortlisting to AI, GEO competition has shifted from "do you have content" to "can AI trace that content to original records and verify it". Auditable fact files, clear entity information and a reproducible citation chain are replacing publishing volume as the entry ticket.`,
+    category: 'industry',
+    source: 'Phoenix Tech (tech.ifeng.com)',
+    date: '2026-11-22',
+    tags: ['GEO', 'generative AI adoption', 'CNNIC', 'white paper', 'AEO'],
+  },
+
+  {
     id: 441,
     title: `Foundation Models Ship in Bulk as Agents Push into High-Value Physical Scenarios`,
     summary: `A dense release week - OpenAI's GPT-6.2 (Astra and Sol), Google's Gemini 4 Neon, Alibaba's Qwen4-Max and Tencent's Hunyuan Hy4 flash - pairs capability gains with steep price cuts, while agents move from office work into manufacturing, city governance and healthcare, and pricing shifts toward multi-layer, scenario-based models.`,
