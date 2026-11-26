@@ -13,6 +13,43 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 447,
+    title: `China's Enterprise Agent Adoption Rate Jumps from 17.3% to 40.3% as 800+ "Digital Employees" Clock 9 Billion Tokens a Day`,
+    summary: `Xinhua reports China's enterprise agent adoption rate rose from 17.3% at the end of 2024 to 40.3% in the first half of 2026, with AI-native app MAU reaching 499 million, up 85.4% year on year. At ZTE's Nanjing base, more than 80 "digital employees" run production planning, order flow and lifecycle management, consuming over 9 billion tokens per day in the supply-chain scenario alone.`,
+    content: `The adoption curve. A survey cited by Xinhua put Chinese enterprise agent adoption at 40.3% in the first half of 2026, up sharply from 17.3% at the end of 2024, while domestic AI-native application MAU reached 499 million in the same period, up 85.4% year on year. The framing in the report is that AI is moving from "can chat" conversational products to "can do the work" agent form.
+
+Inside the factory. At ZTE's Nanjing Binjiang base, more than 100,000 warehouse slots are served by four-way shuttle vehicles, lifts and stackers that continuously dispatch materials to production lines. A warehouse-optimization agent decides which bin goes to which line position and when. With no picking tasks overnight, it re-sequences tomorrow's production orders and moves high-frequency materials closer to the front, cutting monthly picking distance from over 400,000 meters to 160,000. The base runs more than 80 digital employees covering production planning, order flow and full product lifecycle management, consuming over 9 billion tokens per day in the supply-chain scenario alone and still growing.
+
+Consumer and citizen-facing agents. At Mengniu's dairy farms, frontline operators describe cattle symptoms to an agent - "not eating, temperature 39.5C, milk yield down" - and after two rounds of dialogue receive a precise diagnosis. The tool was built by an employee with no programming background who fed authoritative texts and years of experience into Tencent's WorkBuddy agent; diagnosis turnaround at a single farm dropped from 1.5 days to 2 hours. In Wuhan's Qiaokou district, grid workers enter a resident's request and the Baidu agent generates a compliant reply grounded in community policy and business rules, then classifies the request, creates the work order and dispatches it. On the device side, a Nubia agent phone shipped with Doubao's mobile assistant recognized a spoken "order me a car for 6pm" instruction, resolved time and destination, called the ride-hailing service and selected vehicle type and route without the user opening any app.
+
+Why it broke through. The article attributes the surge to three factors: model capability gains at DeepSeek, Zhipu and MiniMax in task understanding, planning, tool use and multi-agent collaboration; rapidly released market demand; and policy support. Academician Wu Hequan described the mechanism as a closed loop of "large model + memory system + tool calling + planning ability" that turns a general model into an agent for a specific task.
+
+Takeaway. The 17.3% to 40.3% move in eighteen months is the fastest enterprise adoption shift in this dataset. For GEO it matters because agents are the consumers of brand facts that never open a page: whether a product spec, service boundary or price band is machine-readable as a discrete fact determines whether an agent can act on it at all.`,
+    category: 'industry',
+    source: 'Xinhua / CAC',
+    date: '2026-11-16',
+    tags: ['AI agents', 'enterprise adoption', 'digital employees', 'GEO', 'China'],
+  },
+  {
+    id: 446,
+    title: `Humanoid Robots Cross into Mass Production: 25,000 Units Shipped in H1 2026, Up 432%, with China Taking 77.9% of the Global Market`,
+    summary: `IDC data shows global humanoid robot shipments reached 25,000 units in the first half of 2026, up 432.1% year on year. China shipped over 19,000 units, up 426.3%, accounting for roughly 77.9% of the global market. November brought a wave of capability and deployment news: Nvidia's GR00T 2 model, Zhiyuan's WITA-Omni embodied multimodal model, Xiaomi's humanoid completing eight-hour production line shifts, and Musk saying Optimus may be rental-only.`,
+    content: `The shipment numbers. IDC put global humanoid robot shipments at 25,000 units for the first half of 2026, a 432.1% year-on-year increase. China shipped more than 19,000 units in the same period, up 426.3%, representing about 77.9% of the global market and acting as the main engine of global growth.
+
+November capability wave. Nvidia released the GR00T 2 model, designed to let robots rehearse fine manipulation in simulation. Zhiyuan shipped WITA-Omni, an embodied full-modality large model, alongside a refreshed Lingxi X2 covering cultural tourism and guided-tour scenarios. Xiaomi's humanoid robot completed an eight-hour production line shift. Apple disclosed HALO, a humanoid robot control system. Boston Dynamics' wheeled Atlas completed a 360-degree rotational jump. Qiyuan Robotics rolled its 10,000th personal robot off the line. On the demand-model side, Musk said Optimus may be offered rental-only rather than sold outright.
+
+Component and adjacent progress. A domestic robot skin was demonstrated sensing forces as weak as 0.0005 newtons. Silicon Ark released three embodied intelligence products targeting a hundred scenarios. A 20-kilogram-class hydrogen-powered unmanned helicopter completed development, and China's first fully automated verification device for embodied-intelligence pressure gauges was developed.
+
+Why it matters for AI search and GEO. Humanoid robots are one of the few hardware categories where buyers research almost entirely through specification comparison - degrees of freedom, payload, battery life, price band, delivery timeline. As shipment volume crosses from thousands to tens of thousands, the number of brands a buyer must compare grows past what any single person can hold, which is precisely the condition under which buyers delegate the shortlist to an AI assistant. Vendors whose parameters are not expressed as clean, citable facts will simply not appear in that shortlist, regardless of how good the hardware is.
+
+Takeaway. A 432% shipment increase in six months turns humanoid robotics from a demo category into a procurement category. The brands that win the next two years may be decided less on the factory floor than in whether their spec sheets survive being read by a model rather than a person.`,
+    category: 'industry',
+    source: 'IDC / IT Times',
+    date: '2026-11-16',
+    tags: ['humanoid robots', 'embodied AI', 'mass production', 'AI hardware', 'GEO'],
+  },
+
+  {
     id: 444,
     title: `Baidu App Loses 104 Million MAU in 12 Months as AI Rewrites the Search Entrance`,
     summary: `Baidu's Q3 2026 results show its app falling from 708 million MAU in September 2025 to 604 million a year later, a 14.7% drop, while online marketing revenue fell 22% and dropped below half of core revenue for the first time in two decades. China's AI-native apps meanwhile reached 546 million MAU, up 82.1% year on year, with Doubao leading at 419 million.`,
