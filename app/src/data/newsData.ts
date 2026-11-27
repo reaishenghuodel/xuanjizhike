@@ -13,6 +13,46 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 448,
+    title: `Anthropic Lists on Nasdaq at $83 a Share in the Largest IPO Ever: $107.3 Billion Raised, $1.5 Trillion Valuation, Revenue Up 12x`,
+    summary: `Anthropic, the maker of Claude, listed on Nasdaq's Global Select Market on November 19 under ticker ANT at $83 per share, above the $70-78 range, opening at $111.50. It expanded the offering to 980 million Class A shares for roughly $81.3 billion in primary proceeds, plus a $26 billion concurrent private placement from Nvidia, Google, AMD and four other tech giants, for a $107.3 billion total that surpasses SpaceX as the largest IPO on record. Revenue for the first three quarters of 2026 reached $33.24 billion, up more than 12x year on year.`,
+    content: `The listing. Anthropic began trading on Nasdaq's Global Select Market on November 19, 2026 under the ticker ANT. The IPO priced at $83 per share, above the $70-78 range, and opened at $111.50 - a 34% premium. The company expanded the offering to 980 million Class A shares, about 7.5% of its roughly 13.1 billion total shares, generating approximately $81.3 billion in primary proceeds.
+
+The record. A $26 billion concurrent private placement from seven technology giants including Nvidia, Google and AMD, taken at the offer price, brought the total deal size to $107.3 billion. That surpasses SpaceX and makes it the largest IPO ever completed, with a fully diluted valuation of about $1.5 trillion.
+
+The demand. Institutional demand reached roughly $400 billion and retail demand close to $100 billion - nearly $500 billion combined, about eight times the original base deal. Altimeter alone subscribed for $5 billion. Underwriters hold a 147 million share greenshoe. Anthropic raised the retail allocation to as much as 20%, well above the 5-10% typical for IPOs, producing an unusual first-day structure: a very small free float, very high retail participation, and multiple times the deal size in pre-market interest.
+
+The financials. Revenue for the first three quarters of 2026 was $33.24 billion, up more than 12x year on year, with $16.96 billion in Q3 alone, up 1,127%. Annualized revenue run rate reached $81 billion as of October 31, up another $10 billion from the $71 billion level at the end of September. Enterprise API and Claude Code - the "recurring" revenue lines - are the growth engine behind these numbers.
+
+Why it matters for GEO. A model vendor reaching a $1.5 trillion public valuation on $81 billion of annualized enterprise revenue is the clearest signal yet that AI assistants are becoming the primary information and work interface enterprises pay for. When the assistant layer is where budgets live, the citation surface inside assistant answers becomes a commercially material asset - which is exactly what GEO addresses.
+
+Takeaway. The largest IPO in history valued a company whose product is an answer engine. For brand teams the implication is structural rather than symbolic: the interface that now carries $81 billion of annualized revenue is also the interface where brand facts are either cited or omitted.`,
+    category: 'industry',
+    source: 'Sohu Finance / Tencent Cloud Developer / First Financial',
+    date: '2026-11-27',
+    tags: ['Anthropic', 'IPO', 'Claude', 'AI valuations', 'answer engines', 'GEO'],
+  },
+  {
+    id: 449,
+    title: `Google Brings "Computer Use" to Gemini on macOS: Agents Now Drive Native Apps, Files and the Web in an Isolated Background Window`,
+    summary: `On November 19 Google announced Computer Use for the macOS Gemini app, letting the assistant execute multi-step tasks across native desktop applications, local files and websites from a natural-language instruction. The agent runs in a separate background window so it does not take over the user's screen, cursor or mouse. The first wave is limited to US English users, with no announced timeline for other markets.`,
+    content: `The capability. Google announced on November 19, 2026 that the macOS version of the Gemini desktop app now supports "Computer Use". Users describe a task in natural language and Gemini performs it by operating native Mac applications, local files and web pages, chaining multiple steps without the user clicking through each one.
+
+The execution model. Unlike screen-sharing automation that hijacks the desktop, Gemini runs these operations in an isolated background window. The user's main screen, cursor and mouse are not occupied, so work can continue in parallel while the agent executes.
+
+The rollout. The feature launched first for US users in English. Google has not announced timing for additional markets or languages, which is consistent with how it has staged other agentic features.
+
+Why this is a different class of agent. Most consumer agents to date have been confined to a chat surface operating over APIs the vendor controls. Computer Use crosses into the local machine - reading files that were never uploaded, driving applications that expose no API, and acting inside authenticated sessions. That expands the addressable task set substantially, and it also means the agent now acts on whatever information is present locally.
+
+The GEO implication. Two shifts follow. First, tasks that previously ended in a browser search now get executed through an agent that may never render a search result page - the assistant answers from what it can read, locally and on the web. Second, brand facts that live only inside a PDF, a desktop-only app or an unindexed page become either machine-accessible or invisible. Content strategy has to assume an agent, not a human, is the reader that decides whether a fact exists.
+
+Takeaway. Agentic desktop control moves the competitive surface from "is my page ranked" to "is my fact reachable by an agent that never opens my page". For enterprises, the practical work is making product and service facts available in structured, machine-readable form wherever the agent might look.`,
+    category: 'industry',
+    source: 'Google / NetEase Tech / Tencent News',
+    date: '2026-11-27',
+    tags: ['Google', 'Gemini', 'computer use', 'AI agents', 'desktop automation', 'GEO'],
+  },
+  {
     id: 447,
     title: `China's Enterprise Agent Adoption Rate Jumps from 17.3% to 40.3% as 800+ "Digital Employees" Clock 9 Billion Tokens a Day`,
     summary: `Xinhua reports China's enterprise agent adoption rate rose from 17.3% at the end of 2024 to 40.3% in the first half of 2026, with AI-native app MAU reaching 499 million, up 85.4% year on year. At ZTE's Nanjing base, more than 80 "digital employees" run production planning, order flow and lifecycle management, consuming over 9 billion tokens per day in the supply-chain scenario alone.`,
