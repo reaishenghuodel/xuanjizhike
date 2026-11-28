@@ -13,6 +13,54 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
 
   {
+    id: 450,
+    title: `Anthropic Options Begin Trading on Cboe Two Days After Nasdaq Debut as Exchange Bets on AI Derivatives Boom`,
+    summary: `Cboe Global Markets listed options on Anthropic stock as soon as Monday, November 23, 2026 - just two business days after the company's November 19 Nasdaq debut under ticker ANT. Cboe derivatives head Rob Hocking expects a new wave of investors and trading activity, with updated exchange rules allowing faster listings for newly public companies.`,
+    content: `The timing. Cboe intended to list options on Anthropic shares as soon as November 23, 2026, only two business days after the company began trading on Nasdaq on November 19 under the ticker ANT. The speed follows updated exchange rules that let newly public companies get derivatives listed faster, giving investors hedging tools and smaller-outlay exposure during the stock's early price-discovery phase.
+
+The deal behind it. Anthropic's IPO of 825 million Class A shares priced on November 18 against an expected range of $70 to $78 per share, with reported oversubscription of at least six times. A separate $26 billion private placement of Class N shares was planned for strategic institutional investors including Google and Microsoft.
+
+The strategic read. Cboe views the Anthropic listing as a potential catalyst for derivatives growth, with global head of derivatives Rob Hocking expecting a new wave of investors and trading activity in the options market. Options arriving within 48 hours of a debut is unusually brisk for a company of this size and signals that AI infrastructure names are being treated by exchanges as core index-scale underlyings rather than speculative one-offs.
+
+Why it matters beyond markets. Liquid derivatives change how capital flows into AI research. Hedging capability lets institutional holders size positions larger and hold them longer, which in turn funds multi-year model and infrastructure programs. For the search and answer-engine market, that means the competitive set - Anthropic, OpenAI, Google, and the Chinese labs - is now backed by public-market capital structures rather than private fundraising cycles alone.`,
+    category: 'industry',
+    source: 'Cboe / edgeX / Forbes Middle East',
+    date: '2026-11-28',
+    tags: ['Anthropic', 'IPO', 'Cboe', 'AI Markets', 'Derivatives'],
+  },
+  {
+    id: 451,
+    title: `Enterprise Marketing Agents Move from Content Generation to Campaign Execution as 2026 AI Marketing Summit Convenes in Shanghai`,
+    summary: `The 2026 AI Marketing Summit opened at Shanghai Tower on November 25 under the theme "AI Delivers." Brands, vendors and ecosystem partners agreed that agent adoption in marketing has moved past single-point content generation and data analysis into consumer insight, campaign execution, user operations and growth review - making the scale-up path the central question.`,
+    content: `The event. The 2026 AI Marketing Summit was held at Shanghai Tower on November 25, 2026, themed "AI Delivers" (AI落地有声), bringing together brand enterprises, industry experts, technology vendors and ecosystem partners.
+
+The shift. In 2026, agent adoption in marketing accelerated from single-point scenarios such as content generation and data analysis into deeper parts of the business chain: consumer insight, campaign execution, user operations and growth review. The evaluation criterion for marketing agents is moving from "can it generate" to "can it be accountable for business outcomes."
+
+The bottleneck. Attendees converged on the view that the constraint on scaling is not model capability but data plumbing, process re-engineering and attribution. Embedding agents into existing marketing workflows so each output is traceable and reviewable emerged as the core requirement for moving from pilot to full deployment.
+
+The GEO implication. As marketing agents generate and distribute brand content at volume, the density and consistency of brand information that AI search engines retrieve becomes the deciding factor in citation probability. GEO has to be designed in parallel with the marketing automation pipeline rather than retrofitted afterward - a point that reframes GEO from a content-publishing exercise into a data-architecture discipline.`,
+    category: 'industry',
+    source: '36Kr / Eastmoney',
+    date: '2026-11-28',
+    tags: ['Marketing Agents', 'Enterprise AI', 'Agent Adoption', 'GEO'],
+  },
+  {
+    id: 452,
+    title: `Kingsoft Q3 2026: AI Applications Scale Into Production, Agent Management Wins Standards Recognition, RMB 27.5 Billion Cash Buffer`,
+    summary: `Kingsoft (03888.HK) reported Q3 2026 revenue of RMB 2.44 billion, up 1% year on year, with operating profit up 40% to RMB 390 million and adjusted net profit attributable to owners up 12% to RMB 300 million. Multiple AI Agent achievements landed during the quarter and cash resources stood at roughly RMB 27.5 billion.`,
+    content: `The numbers. For the quarter ended September 30, 2026, Kingsoft Group reported total revenue up 1% year on year to RMB 2.44 billion, operating profit up 40% to RMB 390 million, and adjusted net profit attributable to owners of RMB 300 million, up 12%. Cash resources at quarter end were approximately RMB 27.5 billion, which the company said funds continued AI product R&D and ecosystem partnerships.
+
+The AI traction. The company continued its AI-driven long-term strategy across its three core businesses - office, gaming and cloud - using Kingsoft Cloud's intelligent compute base to drive application-side AI deployment at scale. Multiple achievements in the AI Agent space landed during the quarter, and its influence in industry standards and governance continued to rise.
+
+The standards angle. In September, the "Artificial Intelligence Office Large Model System Construction Guide" (GB/Z 244-2026) received national standards approval. The company has continued to gain industry recognition in agent management, signaling that office-scenario AI agents are moving from feature layering into a standardized, governable phase.
+
+Why it matters for GEO. Office suites are the highest-frequency agent surface for knowledge workers. Once agent capabilities inside Kingsoft, Microsoft and WPS ecosystems reach scale, the boundary between internal documents and knowledge bases and externally published content gets rewritten. Enterprises will need a unified content-governance policy spanning how internal knowledge is invoked by agents and how external AI search sees the brand's public web presence - effectively expanding the object of GEO from the website to the entire corporate knowledge system.`,
+    category: 'industry',
+    source: 'Xinhua News / Kingsoft Filing',
+    date: '2026-11-28',
+    tags: ['Kingsoft', 'AI Agents', 'Enterprise AI', 'Standards', 'GEO'],
+  },
+  {
     id: 448,
     title: `Anthropic Lists on Nasdaq at $83 a Share in the Largest IPO Ever: $107.3 Billion Raised, $1.5 Trillion Valuation, Revenue Up 12x`,
     summary: `Anthropic, the maker of Claude, listed on Nasdaq's Global Select Market on November 19 under ticker ANT at $83 per share, above the $70-78 range, opening at $111.50. It expanded the offering to 980 million Class A shares for roughly $81.3 billion in primary proceeds, plus a $26 billion concurrent private placement from Nvidia, Google, AMD and four other tech giants, for a $107.3 billion total that surpasses SpaceX as the largest IPO on record. Revenue for the first three quarters of 2026 reached $33.24 billion, up more than 12x year on year.`,
